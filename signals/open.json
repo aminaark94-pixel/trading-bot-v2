@@ -30,21 +30,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-12 01:23:12",
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-12 01:23:12\nEntry: 102.67\nTP: 104.122318\nSL: 101.459735"
-  },
-  {
-    "key": "bot5:ETHUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2574.14,
-    "tp": 2707.574107,
-    "sl": 2522.81919,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-11 21:01:48",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-11 21:01:48\nEntry: 2574.14\nTP: 2707.574107\nSL: 2522.81919"
   }
 ]
