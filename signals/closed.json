@@ -587,5 +587,43 @@
     "result": "TP_HIT",
     "close_price": 105.25,
     "closed_at": "2026-09-11 19:01:23"
+  },
+  {
+    "key": "bot2:SOLUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "SOLUSDT",
+    "direction": "SHORT",
+    "entry": 105.18,
+    "tp": 102.791538,
+    "sl": 106.886044,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 82.64 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-11 19:01:36",
+    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-11 19:01:36\nEntry: 105.18\nTP: 102.791538\nSL: 106.886044",
+    "result": "TP_HIT",
+    "close_price": 102.1,
+    "closed_at": "2026-09-11 21:01:38"
+  },
+  {
+    "key": "bot2:BTCUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 79417.45,
+    "tp": 78227.333466,
+    "sl": 80267.533239,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 78.48 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-11 19:01:29",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-11 19:01:29\nEntry: 79417.45\nTP: 78227.333466\nSL: 80267.533239",
+    "result": "TP_HIT",
+    "close_price": 77957.85,
+    "closed_at": "2026-09-11 21:01:38"
   }
 ]

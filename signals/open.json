@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot5:ETHUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 2574.14,
+    "tp": 2707.574107,
+    "sl": 2522.81919,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-11 21:01:48",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-11 21:01:48\nEntry: 2574.14\nTP: 2707.574107\nSL: 2522.81919"
+  },
+  {
     "key": "bot1:ETHUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -16,22 +32,6 @@
     "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-11 19:49:57\nEntry: 2600.06\nTP: 2689.93279\nSL: 2550.130673"
   },
   {
-    "key": "bot2:SOLUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 105.18,
-    "tp": 102.791538,
-    "sl": 106.886044,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 82.64 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-11 19:01:36",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-11 19:01:36\nEntry: 105.18\nTP: 102.791538\nSL: 106.886044"
-  },
-  {
     "key": "bot2:ETHUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -46,21 +46,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-11 19:01:32",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-11 19:01:32\nEntry: 2635.93\nTP: 2573.324159\nSL: 2680.648457"
-  },
-  {
-    "key": "bot2:BTCUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 79417.45,
-    "tp": 78227.333466,
-    "sl": 80267.533239,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 78.48 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-11 19:01:29",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-11 19:01:29\nEntry: 79417.45\nTP: 78227.333466\nSL: 80267.533239"
   }
 ]
