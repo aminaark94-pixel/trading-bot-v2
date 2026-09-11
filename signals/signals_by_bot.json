@@ -1,7 +1,73 @@
 {
   "bot1": [],
   "bot2": [],
-  "bot3": [],
-  "bot4": [],
+  "bot3": [
+    {
+      "key": "bot3:SOLUSDT",
+      "bot_id": "bot3",
+      "bot_name": "Breakout Sniper",
+      "symbol": "SOLUSDT",
+      "direction": "LONG",
+      "entry": 100.8,
+      "tp": 103.495864,
+      "sl": 99.574608,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "Price broke recent range high/low with ATR volatility expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 17:42:25",
+      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-11 17:42:25\nEntry: 100.8\nTP: 103.495864\nSL: 99.574608"
+    },
+    {
+      "key": "bot3:ETHUSDT",
+      "bot_id": "bot3",
+      "bot_name": "Breakout Sniper",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2488.68,
+      "tp": 2542.39889,
+      "sl": 2464.262323,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "Price broke recent range high/low with ATR volatility expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 17:42:22",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-11 17:42:22\nEntry: 2488.68\nTP: 2542.39889\nSL: 2464.262323"
+    }
+  ],
+  "bot4": [
+    {
+      "key": "bot4:ETHUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2488.68,
+      "tp": 2517.981213,
+      "sl": 2464.262323,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 17:42:22",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-11 17:42:22\nEntry: 2488.68\nTP: 2517.981213\nSL: 2464.262323"
+    },
+    {
+      "key": "bot4:BTCUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 77495.66,
+      "tp": 78170.986835,
+      "sl": 76932.887637,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 17:42:18",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-11 17:42:18\nEntry: 77495.66\nTP: 78170.986835\nSL: 76932.887637"
+    }
+  ],
   "bot5": []
 }
