@@ -1,0 +1,52 @@
+[
+  {
+    "id": "bot1",
+    "name": "Trend Rider",
+    "tagline": "Higher-timeframe trend ke sath hi trade karta hai",
+    "description": "Sirf tab signal deta hai jab 1h aur 4h EMA50/EMA200 dono ek hi direction confirm karein (main trend). Counter-trend setups skip kar deta hai \u2014 goal: kam signals, zyada reliable direction.",
+    "trend_mode": "strict_align",
+    "min_score": 78,
+    "base_rr": 1.8,
+    "prompt_style": "STRATEGY = TREND FOLLOWING. Only take the trade if it agrees with the higher timeframe trend given below. Reject counter-trend setups even if the 15m chart looks tempting."
+  },
+  {
+    "id": "bot2",
+    "name": "Reversal Hunter",
+    "tagline": "Overbought/oversold extremes par reversal dhoondta hai",
+    "description": "RSI extremes (>70 / <30) aur Bollinger Band touches par counter-trend reversal trades leta hai. Tighter SL rakhta hai kyunke reversal setups fail-fast hote hain.",
+    "trend_mode": "counter_allowed",
+    "min_score": 72,
+    "base_rr": 1.4,
+    "prompt_style": "STRATEGY = MEAN REVERSION / REVERSAL. Look specifically for RSI extremes (overbought above 70, oversold below 30) combined with a Bollinger Band touch or rejection. Counter-trend entries against the higher timeframe trend are ALLOWED if the reversal signal is strong, but say so explicitly in the reason."
+  },
+  {
+    "id": "bot3",
+    "name": "Breakout Sniper",
+    "tagline": "Volatility expansion / squeeze breakouts",
+    "description": "ATR expansion aur Bollinger Band squeeze-breakout patterns par focus karta hai. Wider TP rakhta hai kyunke breakouts bade moves dete hain.",
+    "trend_mode": "soft_align",
+    "min_score": 75,
+    "base_rr": 2.2,
+    "prompt_style": "STRATEGY = VOLATILITY BREAKOUT. Look for Bollinger Band squeeze followed by expansion, or a sudden ATR expansion versus recent average, suggesting a breakout move is starting. Prefer wider take-profit targets since breakouts tend to run."
+  },
+  {
+    "id": "bot4",
+    "name": "Scalper Precision",
+    "tagline": "Tight, fast, high-frequency 15m scalps",
+    "description": "Chhote, tez moves par focus \u2014 tight SL/TP. Higher timeframe trend ko sirf ek soft filter ki tarah use karta hai, mostly 15m momentum par decide karta hai.",
+    "trend_mode": "soft_align",
+    "min_score": 70,
+    "base_rr": 1.2,
+    "prompt_style": "STRATEGY = SHORT-TERM SCALP. Focus mainly on 15m momentum, MACD histogram direction and short bursts of volume/price action. Keep TP and SL tight and close to current price \u2014 this is a fast in-and-out trade, not a swing."
+  },
+  {
+    "id": "bot5",
+    "name": "Conservative Swing",
+    "tagline": "Sirf best-of-best setups, strict multi-timeframe alignment",
+    "description": "Sabse zyada selective bot \u2014 high score threshold, strict 1h+4h alignment, wider SL/TP for a proper swing trade. Kam signals, lekin sabse high-conviction.",
+    "trend_mode": "strict_align",
+    "min_score": 85,
+    "base_rr": 2.6,
+    "prompt_style": "STRATEGY = CONSERVATIVE SWING. Be very selective \u2014 only signal if multiple confluences line up (trend + momentum + indicator agreement). It is completely fine to return NONE most of the time. When you do signal, use wider SL/TP suited for a multi-hour swing, not a scalp."
+  }
+]

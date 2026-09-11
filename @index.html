@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI Signals Bot — Cloud Dashboard</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  body { font-family: 'Plus Jakarta Sans', sans-serif; background: #0a0718; color: #c9d1e8; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: #0d0920; }
+  ::-webkit-scrollbar-thumb { background: #2b2057; border-radius: 4px; }
+</style>
+</head>
+<body class="min-h-screen p-3 sm:p-6">
+<div class="max-w-7xl mx-auto">
+
+  <header class="mb-4">
+    <div class="flex items-center gap-3 flex-wrap">
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#00f0ff] to-[#a855f7] flex items-center justify-center text-xl shadow-[0_0_18px_rgba(0,240,255,0.4)]">🤖</div>
+      <div>
+        <h1 class="text-lg sm:text-xl font-extrabold text-white leading-tight">AI Signals Bot <span class="text-[#00f0ff]">· Cloud</span></h1>
+        <p class="text-[11px] text-[#8e82b8]">24/7 autopilot — GitHub Actions engine · data live from repo</p>
+      </div>
+    </div>
+
+    <div class="mt-3 flex flex-col sm:flex-row gap-2 items-stretch sm:items-center">
+      <input id="cfgUser" class="flex-1 min-w-0 bg-[#140e2d] border border-[#2b2057] rounded-lg px-3 py-2 text-xs text-white font-mono outline-none focus:border-[#00f0ff]" placeholder="github-username" />
+      <span class="text-[#8e82b8] hidden sm:block">/</span>
+      <input id="cfgRepo" class="flex-1 min-w-0 bg-[#140e2d] border border-[#2b2057] rounded-lg px-3 py-2 text-xs text-white font-mono outline-none focus:border-[#00f0ff]" placeholder="repo" />
+      <span class="text-[#8e82b8] hidden sm:block">@</span>
+      <input id="cfgBranch" class="w-full sm:w-28 bg-[#140e2d] border border-[#2b2057] rounded-lg px-3 py-2 text-xs text-white font-mono outline-none focus:border-[#00f0ff]" placeholder="branch" />
+      <button onclick="connectFromInputs()" class="px-4 py-2 rounded-lg bg-[#00e676] text-black text-xs font-extrabold hover:brightness-110">🔗 Connect</button>
+      <button id="soundBtn" onclick="toggleSound()" title="Audio Alerts: ON" class="px-3 py-2 rounded-lg bg-[#221845] border border-[#3b2a74] text-sm">🔔</button>
+    </div>
+    <p id="statusLine" class="text-[11px] text-[#8e82b8] font-mono mt-2">⏳ Connecting…</p>
+  </header>
+
+  <nav class="flex gap-1.5 flex-wrap mb-4 bg-[#0d0920] border border-[#221845] rounded-2xl p-1.5">
+    <button id="tab-btn-signals" onclick="switchTab('signals')" class="tabBtn px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold">📈 Signals <span id="tab-count-signals" class="px-1.5 py-0.5 rounded-full text-[10px] font-extrabold bg-[#00e676] text-black">0</span></button>
+    <button id="tab-btn-archive" onclick="switchTab('archive')" class="tabBtn px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold">🗄 TP/SL Archive <span id="tab-count-archive" class="px-1.5 py-0.5 rounded-full text-[10px] font-extrabold bg-[#221845] text-[#c9d1e8]">0</span></button>
+    <button id="tab-btn-report" onclick="switchTab('report')" class="tabBtn px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold">📊 Session Report</button>
+    <button id="tab-btn-compare" onclick="switchTab('compare')" class="tabBtn px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold">🏆 Bot Comparison</button>
+  </nav>
+
+  <main id="view-signals">
+    <div id="signalsEmpty" class="text-center py-16 text-[#8e82b8] text-sm font-mono">⏳ Connecting to GitHub…</div>
+    <div id="signalsGrid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+  </main>
+
+  <section id="view-archive" class="hidden">
+    <div id="archiveEmpty" class="text-center py-16 text-[#8e82b8] text-sm font-mono">No closed trades yet — TP/SL hit hote hi archive yahan build hoga.</div>
+    <div id="archiveGrid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+  </section>
+
+  <section id="view-report" class="hidden">
+    <div id="reportSummary" class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5"></div>
+    <div class="flex items-center justify-between mb-2 flex-wrap gap-2">
+      <h2 class="text-sm font-extrabold text-white">Closed Trades History</h2>
+      <button onclick="exportCSV()" class="px-3 py-1.5 rounded-lg bg-[#221845] border border-[#3b2a74] text-xs font-bold text-white hover:border-[#00f0ff]">⬇ Export CSV</button>
+    </div>
+    <div class="overflow-x-auto bg-[#0d0920] border border-[#221845] rounded-2xl">
+      <table class="w-full text-xs font-mono">
+        <thead class="text-[#8e82b8] border-b border-[#221845]">
+          <tr>
+            <th class="px-3 py-2.5 text-left">Closed At</th>
+            <th class="px-3 py-2.5 text-left">Symbol</th>
+            <th class="px-3 py-2.5 text-left">Bot</th>
+            <th class="px-3 py-2.5 text-left">Model</th>
+            <th class="px-3 py-2.5 text-left">Side</th>
+            <th class="px-3 py-2.5 text-right">Entry</th>
+            <th class="px-3 py-2.5 text-right">TP</th>
+            <th class="px-3 py-2.5 text-right">SL</th>
+            <th class="px-3 py-2.5 text-right">Outcome</th>
+          </tr>
+        </thead>
+        <tbody id="reportTableBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="view-compare" class="hidden">
+    <div id="winnerBotBox" class="mb-4"></div>
+    <div class="overflow-x-auto bg-[#0d0920] border border-[#221845] rounded-2xl">
+      <table class="w-full text-xs font-mono">
+        <thead class="text-[#8e82b8] border-b border-[#221845]">
+          <tr>
+            <th class="px-3 py-2.5 text-left">Bot</th>
+            <th class="px-3 py-2.5 text-left">Strategy</th>
+            <th class="px-3 py-2.5 text-center">Wins</th>
+            <th class="px-3 py-2.5 text-center">Losses</th>
+            <th class="px-3 py-2.5 text-center">Total</th>
+            <th class="px-3 py-2.5 text-right">Win Rate</th>
+          </tr>
+        </thead>
+        <tbody id="compareTableBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="mt-8 text-center text-[10px] text-[#8e82b8]">
+    ⚠️ Educational signals only — NOT financial advice. Demo trades sirf Binance Testnet par (local app.py mode). Trading involves substantial risk.
+  </footer>
+</div>
+
+<div id="botModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+  <div class="max-w-md w-full bg-[#140e2d] border border-[#3b2a74] rounded-3xl p-6">
+    <div class="flex items-start justify-between mb-3">
+      <div>
+        <div class="flex items-center gap-2 flex-wrap">
+          <span id="bdName" class="text-lg font-extrabold text-white font-mono"></span>
+          <span id="bdId" class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-[#221845] text-[#8e82b8] border border-[#3b2a74] font-mono"></span>
+        </div>
+        <p id="bdTag" class="text-xs text-[#8e82b8] mt-1"></p>
+      </div>
+      <button onclick="closeBotModal()" class="p-1.5 rounded-lg bg-[#221845] text-[#8e82b8] hover:text-[#ff1744]">✕</button>
+    </div>
+    <div class="bg-[#0b071e] border border-[#2d215b] rounded-xl p-3.5 mb-4">
+      <div class="text-[10px] font-bold text-[#00f0ff] uppercase tracking-wider mb-1.5">Strategy Explained</div>
+      <p id="bdDesc" class="text-[13px] leading-relaxed text-[#d1d5db]"></p>
+    </div>
+    <div id="bdStats" class="grid grid-cols-3 gap-2 text-center font-mono text-xs"></div>
+  </div>
+</div>
+
+<script>
+// ================= CONFIG =================
+const DEFAULT_CFG = { user: "aminaark94-pixel", repo: "trading-bot", branch: "main" };
+let cfg = loadCfg();
+function loadCfg() { try { return Object.assign({}, DEFAULT_CFG, JSON.parse(localStorage.getItem("cloud_dash_cfg") || "{}")); } catch (e) { return Object.assign({}, DEFAULT_CFG); } }
+function saveCfg() { try { localStorage.setItem("cloud_dash_cfg", JSON.stringify(cfg)); } catch (e) {} }
+
+let state = { bots: [], grouped: {}, open: [], closed: [], stats: null, status: null, loaded: false };
+let prices = {};
+let seenClosed = new Set();
+let firstLoad = false;
+let activeTab = "signals";
+let soundEnabled = true;
+let audioCtx = null;
+
+const BOT_COLORS = { bot1: "#00f0ff", bot2: "#ff9100", bot3: "#a855f7", bot4: "#00e676", bot5: "#ffd600" };
+function botColor(id) { return BOT_COLORS[id] || "#8e82b8"; }
+
+// ================= HELPERS =================
+function esc(v) { return String(v == null ? "" : v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;"); }
+function fmtPrice(v) { const n = parseFloat(v); if (!n || isNaN(n)) return "0.00"; if (n >= 1000) return n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }); if (n >= 1) return n.toFixed(2); return n.toFixed(6); }
+function timeAgo(s) { if (!s) return ""; const t = new Date(s.includes("T") ? s : s.replace(" ", "T")); if (isNaN(t.getTime())) return ""; const ms = Date.now() - t.getTime(); if (ms < 0) return ""; const m = Math.floor(ms / 60000); if (m < 1) return "just now"; if (m < 60) return m + "m ago"; const h = Math.floor(m / 60); if (h < 24) return h + "h " + (m % 60) + "m ago"; return Math.floor(h / 24) + "d ago"; }
+function providerLabel(p) { const s = (p || "").toString(); if (/gemini/i.test(s)) return "GEMINI"; if (/groq/i.test(s)) return "GROQ"; if (/mistral/i.test(s)) return "MISTRAL"; if (/technical/i.test(s)) return "TECHNICAL"; if (/monitor/i.test(s)) return "MONITOR"; return s ? s.toUpperCase() : "ENGINE"; }
+function outcomeLabel(r) { return r === "TP_HIT" ? "TP HIT" : r === "SL_HIT" ? "SL HIT" : r === "EXPIRED" ? "EXPIRED" : (r || ""); }
+function rrOf(entry, tp, sl) { const e = parseFloat(entry), t = parseFloat(tp), s = parseFloat(sl); if (!e || !t || !s) return "—"; const r = Math.abs(t - e) / Math.abs(e - s); return r ? "1:" + r.toFixed(2) : "—"; }
+function healthPct(direction, entry, tp, sl, price) { const e = parseFloat(entry), t = parseFloat(tp), s = parseFloat(sl); if (!e || !t || !s || !price) return null; const total = Math.abs(t - e); if (!total) return null; return direction === "LONG" ? Math.round(((price - e) / total) * 100) : Math.round(((e - price) / total) * 100); }
+
+function rawUrl(path) { return "https://raw.githubusercontent.com/" + cfg.user + "/" + cfg.repo + "/" + cfg.branch + "/" + path + "?t=" + Date.now(); }
+async function fetchJSON(url, ms) {
+  ms = ms || 15000;
+  const c = new AbortController(); const t = setTimeout(() => c.abort(), ms);
+  try { const r = await fetch(url, { cache: "no-store", signal: c.signal }); if (!r.ok) throw new Error("HTTP " + r.status); return await r.json(); }
+  finally { clearTimeout(t); }
+}
+function statusLine(html) { const el = document.getElementById("statusLine"); if (el) el.innerHTML = html; }
+function setTxt(id, v) { const el = document.getElementById(id); if (el) el.innerText = v; }
+
+// ================= DATA =================
+async function loadAll() {
+  statusLine('⏳ Syncing with GitHub…');
+  const safe = (p, d) => fetchJSON(rawUrl(p)).catch(() => d);
+  const results = await Promise.all([
+    safe("signals/bots.json", []),
+    safe("signals/signals_by_bot.json", {}),
+    safe("signals/closed.json", []),
+    safe("signals/stats.json", null),
+    safe("signals/status.json", null),
+  ]);
+  state.bots = Array.isArray(results[0]) ? results[0] : [];
+  state.grouped = (results[1] && typeof results[1] === "object" && !Array.isArray(results[1])) ? results[1] : {};
+  state.closed = Array.isArray(results[2]) ? results[2] : [];
+  state.stats = results[3];
+  state.status = results[4];
+  const map = {};
+  Object.values(state.grouped).forEach(list => { (Array.isArray(list) ? list : []).forEach(s => { if (s && s.key) map[s.key] = s; }); });
+  state.open = Object.values(map);
+  state.loaded = true;
+  announceNewCloses();
+  renderAll();
+  pollPrices();
+  const ai = state.status && state.status.ai_enabled !== undefined ? state.status.ai_enabled : (state.stats && state.stats.ai_enabled !== undefined ? state.stats.ai_enabled : null);
+  const last = state.status ? state.status.last_run : (state.stats ? state.stats.last_run : null);
+  statusLine('🟢 Connected: <b class="text-[#00e676]">' + esc(cfg.user + "/" + cfg.repo + "@" + cfg.branch) + '</b>'
+    + (last ? ' · Last scan: <b class="text-white">' + esc(last) + '</b>' : '')
+    + (ai !== null && ai !== undefined ? ' · AI: <b class="' + (ai ? 'text-[#a855f7]' : 'text-[#8e82b8]') + '">' + (ai ? 'ON' : 'OFF') + '</b>' : '')
+    + ' · <b class="text-white">' + state.open.length + '</b> open · <b class="text-white">' + state.closed.length + '</b> closed');
+}
+
+async function pollPrices() {
+  const symbols = [];
+  state.open.forEach(s => { if (s.symbol && symbols.indexOf(s.symbol) === -1) symbols.push(s.symbol); });
+  if (!symbols.length) { renderSignals(); return; }
+  const res = await Promise.all(symbols.map(sym =>
+    fetchJSON("https://api.binance.com/api/v3/ticker/price?symbol=" + sym, 8000)
+      .then(d => ({ sym: sym, p: parseFloat(d.price) })).catch(() => null)
+  ));
+  res.forEach(r => { if (r && r.p) prices[r.sym] = r.p; });
+  renderSignals();
+}
+
+function announceNewCloses() {
+  if (firstLoad) {
+    state.closed.forEach(c => {
+      const id = c.key || (c.bot_id + ":" + c.symbol + ":" + c.closed_at);
+      if (!seenClosed.has(id)) {
+        toast(c.symbol, c.result, c.bot_name);
+        if (c.result === "TP_HIT") beepHappy(); else if (c.result === "SL_HIT") beepSad();
+      }
+    });
+  }
+  state.closed.forEach(c => seenClosed.add(c.key || (c.bot_id + ":" + c.symbol + ":" + c.closed_at)));
+  firstLoad = true;
+}
+
+// ================= ALERTS =================
+function toast(symbol, outcome, botName) {
+  const isTP = outcome === "TP_HIT"; const isEX = outcome === "EXPIRED";
+  const accent = isTP ? "#00e676" : isEX ? "#8e82b8" : "#ff1744";
+  const icon = isTP ? "🎯" : isEX ? "⌛" : "🛑";
+  const label = isTP ? "TAKE PROFIT HIT" : isEX ? "SIGNAL EXPIRED" : "STOP LOSS HIT";
+  const t = document.createElement("div");
+  t.style.cssText = "position:fixed;top:18px;left:50%;transform:translateX(-50%) translateY(-20px);z-index:10000;opacity:0;pointer-events:none;display:flex;align-items:center;gap:10px;padding:12px 20px;border-radius:16px;background:#140e2d;border:1.5px solid " + accent + ";box-shadow:0 10px 30px rgba(0,0,0,.5);font-family:'JetBrains Mono',monospace;transition:opacity .25s,transform .25s;";
+  t.innerHTML = '<span style="font-size:24px;">' + icon + '</span><div><div style="font-weight:800;font-size:13px;color:' + accent + ';">' + label + '</div><div style="font-size:12px;color:#c9d1e8;"><b style="color:#fff;">' + esc(symbol) + '</b>' + (botName ? ' · ' + esc(botName) : '') + '</div></div>';
+  document.body.appendChild(t);
+  requestAnimationFrame(() => { t.style.opacity = "1"; t.style.transform = "translateX(-50%) translateY(0)"; });
+  setTimeout(() => { t.style.opacity = "0"; t.style.transform = "translateX(-50%) translateY(-20px)"; setTimeout(() => t.remove(), 300); }, 3500);
+}
+function tone(seq, type) {
+  if (!soundEnabled) return;
+  try {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === "suspended") audioCtx.resume();
+    seq.forEach(n => {
+      const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+      o.connect(g); g.connect(audioCtx.destination); o.type = type || "triangle";
+      const st = audioCtx.currentTime + n.at;
+      o.frequency.setValueAtTime(n.f, st);
+      g.gain.setValueAtTime(0.001, st);
+      g.gain.exponentialRampToValueAtTime(0.22, st + 0.03);
+      g.gain.exponentialRampToValueAtTime(0.001, st + n.d);
+      o.start(st); o.stop(st + n.d + 0.05);
+    });
+  } catch (e) {}
+}
+function beepHappy() { tone([{ f: 523.25, at: 0, d: 0.3 }, { f: 659.25, at: 0.09, d: 0.3 }, { f: 783.99, at: 0.18, d: 0.35 }, { f: 1046.5, at: 0.27, d: 0.4 }]); }
+function beepSad() { tone([{ f: 330, at: 0, d: 0.5 }, { f: 180, at: 0.25, d: 0.6 }], "sawtooth"); }
+function toggleSound() { soundEnabled = !soundEnabled; const b = document.getElementById("soundBtn"); b.innerText = soundEnabled ? "🔔" : "🔕"; b.title = "Audio Alerts: " + (soundEnabled ? "ON" : "MUTED"); }
+
+// ================= RENDER =================
+const TAB_ON = ["bg-[#221845]", "text-white"];
+const TAB_OFF = ["text-[#8e82b8]", "hover:text-[#c9d1e8]", "hover:bg-[#181135]"];
+function switchTab(tab) {
+  activeTab = tab;
+  ["signals", "archive", "report", "compare"].forEach(t => {
+    const v = document.getElementById("view-" + t); const b = document.getElementById("tab-btn-" + t);
+    if (!v || !b) return;
+    if (t === tab) { v.classList.remove("hidden"); TAB_ON.forEach(c => b.classList.add(c)); TAB_OFF.forEach(c => b.classList.remove(c)); }
+    else { v.classList.add("hidden"); TAB_ON.forEach(c => b.classList.remove(c)); TAB_OFF.forEach(c => b.classList.add(c)); }
+  });
+  renderAll();
+}
+
+function cardHTML(sig, type) {
+  const isLong = (sig.direction || "LONG") === "LONG";
+  const price = prices[sig.symbol] || 0;
+  const health = price ? healthPct(sig.direction, sig.entry, sig.tp, sig.sl, price) : null;
+  const color = botColor(sig.bot_id);
+  const rr = rrOf(sig.entry, sig.tp, sig.sl);
+  const prov = providerLabel(sig.provider);
+  const provTag = prov === "GROQ" ? "border-[#ff9100]/40 text-[#ff9100] bg-[#ff9100]/10" : prov === "MISTRAL" ? "border-[#a855f7]/40 text-[#a855f7] bg-[#a855f7]/10" : prov === "TECHNICAL" ? "border-[#00e676]/40 text-[#00e676] bg-[#00e676]/10" : "border-[#00f0ff]/40 text-[#00f0ff] bg-[#00f0ff]/10";
+  const healthTxt = health === null ? "—" : (health >= 0 ? "+" + health + "%" : health + "%");
+  const healthCol = health !== null && health < 0 ? "#ff1744" : "#00e676";
+  const barW = health === null ? 50 : Math.max(0, Math.min(100, (health + 100) / 2));
+  const outcome = type === "archive" ? outcomeLabel(sig.result) : "";
+  const outCls = sig.result === "TP_HIT" ? "bg-[#00e676]/20 text-[#00e676]" : sig.result === "SL_HIT" ? "bg-[#ff1744]/20 text-[#ff1744]" : "bg-[#8e82b8]/20 text-[#8e82b8]";
+
+  let h = '<div class="bg-[#140e2d] border border-[#2b2057] rounded-2xl p-5 shadow-[0_10px_25px_rgba(0,0,0,0.4)] flex flex-col gap-3" style="border-top:2px solid ' + color + '">';
+  h += '<div class="flex items-center justify-between flex-wrap gap-2">';
+  h += '<button data-bot="' + esc(sig.bot_id) + '" class="botDetailBtn px-2 py-0.5 rounded text-[10px] font-extrabold border cursor-pointer" style="color:' + color + ';border-color:' + color + '55;background:' + color + '14">🤖 ' + esc(sig.bot_name || sig.bot_id) + '</button>';
+  h += '<span class="px-2 py-0.5 rounded text-[11px] font-extrabold border ' + provTag + '">' + esc(prov) + '</span>';
+  h += '</div>';
+  h += '<div class="flex items-center gap-2 flex-wrap">';
+  h += '<span class="relative flex h-2.5 w-2.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full ' + (isLong ? "bg-[#00e676]" : "bg-[#ff1744]") + ' opacity-75"></span><span class="relative inline-flex rounded-full h-2.5 w-2.5 ' + (isLong ? "bg-[#00e676]" : "bg-[#ff1744]") + '"></span></span>';
+  h += '<span class="text-white font-extrabold text-base font-mono">' + esc(sig.symbol) + '</span>';
+  h += '<span class="px-2 py-0.5 rounded text-[10px] font-extrabold ' + (isLong ? "bg-[#00e676]/15 text-[#00e676] border border-[#00e676]/40" : "bg-[#ff1744]/15 text-[#ff1744] border border-[#ff1744]/40") + '">' + esc(sig.direction) + '</span>';
+  if (outcome) h += '<span class="px-2 py-0.5 rounded text-[10px] font-extrabold ' + outCls + '">' + esc(outcome) + '</span>';
+  h += '</div>';
+  h += '<div class="grid grid-cols-3 gap-2 bg-[#0c081e] p-2.5 rounded-xl border border-[#251b4c] text-center font-mono">';
+  h += '<div><div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">Entry</div><div class="text-xs font-extrabold text-[#ffd600] mt-0.5">' + fmtPrice(sig.entry) + '</div></div>';
+  h += '<div><div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">TP</div><div class="text-xs font-extrabold text-[#00e676] mt-0.5">' + fmtPrice(sig.tp) + '</div></div>';
+  h += '<div><div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">SL</div><div class="text-xs font-extrabold text-[#ff1744] mt-0.5">' + fmtPrice(sig.sl) + '</div></div>';
+  h += '</div>';
+  if (type === "archive") {
+    h += '<div class="flex justify-between text-[11px] font-mono text-[#8e82b8]"><span>Close: <b class="text-white">' + fmtPrice(sig.close_price) + '</b></span><span>' + esc(sig.closed_at || "") + '</span></div>';
+  } else {
+    h += '<div class="space-y-1.5">';
+    h += '<div class="flex justify-between text-[11px] font-mono"><span class="text-[#8e82b8]">Live Bid: <b class="text-white">' + (price ? fmtPrice(price) : "…") + '</b></span><span class="font-bold" style="color:' + healthCol + '">Health: ' + healthTxt + '</span></div>';
+    h += '<div class="h-2 w-full bg-[#080514] rounded-full border border-[#261c4d] overflow-hidden"><div class="h-full ' + (health !== null && health < 0 ? "bg-[#ff1744]" : "bg-[#00e676]") + '" style="width:' + barW + '%"></div></div>';
+    h += '</div>';
+  }
+  h += '<div class="flex items-center justify-between text-xs font-semibold text-[#c9d1e8]"><div>Score: <b class="text-white font-mono">' + (sig.score != null ? sig.score : "—") + '/100</b></div><div>RR: <b class="text-[#ffd600] font-mono">' + rr + '</b></div></div>';
+  h += '<div class="text-[10px] text-[#8e82b8] font-mono">🕒 ' + esc(sig.timestamp || "") + (timeAgo(sig.timestamp) ? ' · ' + timeAgo(sig.timestamp) : "") + '</div>';
+  if (sig.reason) {
+    h += '<div class="bg-[#0b071e] border border-[#2d215b] rounded-xl p-2.5"><div class="text-[10px] font-bold text-[#00f0ff] uppercase tracking-wider mb-1">Signal Rationale</div><p class="text-[11px] leading-relaxed text-[#d1d5db]">' + esc(sig.reason) + '</p></div>';
+  }
+  h += '<div class="grid grid-cols-3 gap-2 pt-1">';
+  h += '<button data-copy="' + esc(sig.key || "") + '" class="copyBtn py-2 rounded-xl text-xs font-extrabold bg-[#00e676] text-black hover:brightness-110">📋 Copy</button>';
+  h += '<a href="https://www.binance.com/en/futures/' + esc(sig.symbol) + '" target="_blank" class="py-2 rounded-xl text-xs font-extrabold bg-[#fbbf24] text-black text-center hover:brightness-110">⚡ Binance</a>';
+  h += '<a href="https://www.tradingview.com/chart/?symbol=BINANCE:' + esc(sig.symbol) + '" target="_blank" class="py-2 rounded-xl text-xs font-extrabold bg-[#221845] text-white border border-[#3b2a74] text-center hover:border-[#00f0ff]">📉 TV</a>';
+  h += '</div></div>';
+  return h;
+}
+
+function renderSignals() {
+  const grid = document.getElementById("signalsGrid"), empty = document.getElementById("signalsEmpty");
+  if (!state.loaded) { grid.innerHTML = ""; empty.classList.remove("hidden"); return; }
+  if (!state.open.length) { grid.innerHTML = ""; empty.classList.remove("hidden"); empty.innerText = "No live signals right now — engine scan chal raha hai (Actions tab se status check karein)."; return; }
+  empty.classList.add("hidden");
+  grid.innerHTML = state.open.map(s => cardHTML(s, "live")).join("");
+}
+function renderArchive() {
+  const grid = document.getElementById("archiveGrid"), empty = document.getElementById("archiveEmpty");
+  if (!state.loaded) { grid.innerHTML = ""; empty.classList.remove("hidden"); return; }
+  if (!state.closed.length) { grid.innerHTML = ""; empty.classList.remove("hidden"); empty.innerText = "No closed trades yet."; return; }
+  empty.classList.add("hidden");
+  grid.innerHTML = state.closed.slice().reverse().map(s => cardHTML(s, "archive")).join("");
+}
+function statCard(label, val, color) { return '<div class="bg-[#140e2d] border border-[#221845] rounded-2xl p-4 text-center"><div class="text-[10px] font-extrabold uppercase tracking-wider text-[#8e82b8]">' + label + '</div><div class="text-2xl font-black font-mono mt-1" style="color:' + color + '">' + val + '</div></div>'; }
+function renderReport() {
+  const tp = state.closed.filter(c => c.result === "TP_HIT").length;
+  const sl = state.closed.filter(c => c.result === "SL_HIT").length;
+  const decided = tp + sl;
+  const rate = decided ? ((tp / decided) * 100).toFixed(1) + "%" : "—";
+  document.getElementById("reportSummary").innerHTML = statCard("Win Rate", rate, "#00e676") + statCard("TP Hits", tp, "#00e676") + statCard("SL Hits", sl, "#ff1744") + statCard("Total Closed", state.closed.length, "#00f0ff");
+  const tb = document.getElementById("reportTableBody");
+  if (!state.closed.length) { tb.innerHTML = '<tr><td colspan="9" class="text-center py-6 text-[#8e82b8]">No closed trades yet.</td></tr>'; return; }
+  tb.innerHTML = state.closed.slice().reverse().map(c => {
+    const col = c.result === "TP_HIT" ? "text-[#00e676]" : c.result === "SL_HIT" ? "text-[#ff1744]" : "text-[#8e82b8]";
+    return '<tr class="hover:bg-[#1a123a]">'
+      + '<td class="px-3 py-2.5 text-[#8e82b8]">' + esc(c.closed_at || "—") + '</td>'
+      + '<td class="px-3 py-2.5 font-bold text-white">' + esc(c.symbol) + '</td>'
+      + '<td class="px-3 py-2.5 font-bold" style="color:' + botColor(c.bot_id) + '">' + esc(c.bot_name || c.bot_id) + '</td>'
+      + '<td class="px-3 py-2.5 text-[#00f0ff]">' + esc(providerLabel(c.provider)) + '</td>'
+      + '<td class="px-3 py-2.5 ' + (c.direction === "LONG" ? "text-[#00e676]" : "text-[#ff1744]") + '">' + esc(c.direction) + '</td>'
+      + '<td class="px-3 py-2.5 text-right text-[#ffd600]">' + fmtPrice(c.entry) + '</td>'
+      + '<td class="px-3 py-2.5 text-right text-[#00e676]">' + fmtPrice(c.tp) + '</td>'
+      + '<td class="px-3 py-2.5 text-right text-[#ff1744]">' + fmtPrice(c.sl) + '</td>'
+      + '<td class="px-3 py-2.5 text-right font-extrabold ' + col + '">' + esc(outcomeLabel(c.result)) + '</td>'
+      + '</tr>';
+  }).join("");
+}
+function renderCompare() {
+  const rows = (state.stats && Array.isArray(state.stats.bots)) ? state.stats.bots : [];
+  const winner = (state.stats && state.stats.winner) ? state.stats.winner : null;
+  const wb = document.getElementById("winnerBotBox");
+  wb.innerHTML = winner
+    ? '<div class="bg-gradient-to-r from-[#ffd600]/15 to-transparent border border-[#ffd600]/40 rounded-2xl p-4 flex items-center gap-3 flex-wrap"><span class="text-3xl">🏆</span><div><div class="text-[10px] font-extrabold uppercase tracking-wider text-[#ffd600]">Session Winner</div><div class="text-base font-extrabold text-white">' + esc(winner.bot_name) + '</div></div><div class="sm:ml-auto text-right font-mono text-sm"><div class="text-[#00e676] font-black">' + winner.win_rate + '%</div><div class="text-[10px] text-[#8e82b8]">' + winner.wins + 'W/' + winner.losses + 'L · ' + winner.total + ' trades</div></div></div>'
+    : "";
+  const botsMap = {}; state.bots.forEach(b => { botsMap[b.id] = b; });
+  const tb = document.getElementById("compareTableBody");
+  tb.innerHTML = rows.length ? rows.map(r => {
+    const b = botsMap[r.bot_id] || {};
+    return '<tr class="hover:bg-[#1a123a]">'
+      + '<td class="px-3 py-2.5 font-bold" style="color:' + botColor(r.bot_id) + '">' + esc(r.bot_name || r.bot_id) + '</td>'
+      + '<td class="px-3 py-2.5 text-[#8e82b8]">' + esc(b.tagline || "") + '</td>'
+      + '<td class="px-3 py-2.5 text-center text-[#00e676]">' + r.wins + '</td>'
+      + '<td class="px-3 py-2.5 text-center text-[#ff1744]">' + r.losses + '</td>'
+      + '<td class="px-3 py-2.5 text-center">' + r.total + '</td>'
+      + '<td class="px-3 py-2.5 text-right font-extrabold text-white">' + r.win_rate + '%</td>'
+      + '</tr>';
+  }).join("") : '<tr><td colspan="6" class="text-center py-6 text-[#8e82b8]">No stats yet — pehli closed trades ke baad yahan comparison banega.</td></tr>';
+}
+function renderAll() { setTxt("tab-count-signals", state.open.length); setTxt("tab-count-archive", state.closed.length); renderSignals(); renderArchive(); renderReport(); renderCompare(); }
+
+// ================= EVENTS =================
+document.addEventListener("click", (e) => {
+  const copy = e.target.closest(".copyBtn");
+  if (copy) {
+    const key = copy.getAttribute("data-copy");
+    const sig = state.open.find(s => s.key === key) || state.closed.find(s => s.key === key);
+    if (sig) {
+      const text = sig.symbol + " " + sig.direction + "\nEntry: " + sig.entry + "\nTP: " + sig.tp + "\nSL: " + sig.sl + "\nTime: " + (sig.timestamp || "");
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => { const o = copy.innerHTML; copy.innerHTML = "✅ Copied"; setTimeout(() => { copy.innerHTML = o; }, 1200); }).catch(() => {});
+    }
+    return;
+  }
+  const bd = e.target.closest(".botDetailBtn");
+  if (bd) showBotDetails(bd.getAttribute("data-bot"));
+});
+function showBotDetails(botId) {
+  const b = state.bots.find(x => x.id === botId);
+  document.getElementById("bdName").innerText = b ? b.name : botId;
+  document.getElementById("bdId").innerText = botId;
+  document.getElementById("bdTag").innerText = b ? (b.tagline || "") : "";
+  document.getElementById("bdDesc").innerText = b ? (b.description || "No details.") : "No details.";
+  const st = (state.stats && Array.isArray(state.stats.bots)) ? state.stats.bots.find(r => r.bot_id === botId) : null;
+  document.getElementById("bdStats").innerHTML = st
+    ? '<div class="bg-[#0c081e] border border-[#251b4c] rounded-xl p-2.5"><div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">Win Rate</div><div class="text-base font-black text-[#00e676] mt-0.5">' + st.win_rate + '%</div></div>'
+      + '<div class="bg-[#0c081e] border border-[#251b4c] rounded-xl p-2.5"><div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">W / L</div><div class="text-base font-black text-white mt-0.5">' + st.wins + ' / ' + st.losses + '</div></div>'
+      + '<div class="bg-[#0c081e] border border-[#251b4c] rounded-xl p-2.5"><div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">Total</div><div class="text-base font-black text-[#00f0ff] mt-0.5">' + st.total + '</div></div>'
+    : '<div class="col-span-3 text-center text-[#8e82b8] py-2">No closed trades yet for this bot.</div>';
+  document.getElementById("botModal").classList.remove("hidden");
+}
+function closeBotModal() { document.getElementById("botModal").classList.add("hidden"); }
+function exportCSV() {
+  const rows = [["closed_at", "symbol", "bot_id", "bot_name", "direction", "entry", "tp", "sl", "close_price", "result"]];
+  state.closed.forEach(c => rows.push([c.closed_at, c.symbol, c.bot_id, c.bot_name, c.direction, c.entry, c.tp, c.sl, c.close_price, c.result]));
+  const csv = rows.map(r => r.map(v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"').join(",")).join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "trading-bot-report.csv"; a.click(); URL.revokeObjectURL(a.href);
+}
+
+// ================= CONNECT =================
+function applyCfgInputs() { document.getElementById("cfgUser").value = cfg.user; document.getElementById("cfgRepo").value = cfg.repo; document.getElementById("cfgBranch").value = cfg.branch; }
+function connectFromInputs() {
+  cfg.user = (document.getElementById("cfgUser").value || DEFAULT_CFG.user).trim();
+  cfg.repo = (document.getElementById("cfgRepo").value || DEFAULT_CFG.repo).trim();
+  cfg.branch = (document.getElementById("cfgBranch").value || DEFAULT_CFG.branch).trim();
+  saveCfg(); seenClosed.clear(); firstLoad = false; loadAll();
+}
+
+// ================= INIT =================
+applyCfgInputs();
+switchTab("signals");
+loadAll();
+setInterval(loadAll, 60000);
+setInterval(() => { if (state.loaded) pollPrices(); }, 30000);
+</script>
+</body>
+</html>

@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ai Signals Bot - Standalone Terminal</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <!-- Lightweight Charts CDN -->
+  <script src="https://unpkg.com/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0a0718;
+      color: #c9d1e8;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0d0920;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2b2057;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #3f2f7d;
+    }
+    @keyframes sadFade {
+      0% { opacity: 0; }
+      20% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    @keyframes sadDrop {
+      0% { transform: translateY(-40px) rotate(0deg); opacity: 0.9; }
+      100% { transform: translateY(100vh) rotate(25deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body class="min-h-screen p-3 sm:p-6 bg-[#0a0718] text-[#c9d1e8] selection:bg-[#ff2a85] selection:text-white">
+
+  <!-- Main Container -->
+  <div class="max-w-7xl mx-auto">
+    
+    <!-- Top Header -->
+    <header class="w-full bg-[#120e29]/95 backdrop-blur-md border border-[#2b2158] rounded-2xl p-3 sm:p-4 mb-6 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        
+        <!-- Left Title -->
+        <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-start">
+          <div class="flex items-center gap-3">
+            <div class="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-[#ff2a85] via-[#a855f7] to-[#00f0ff] p-[2px] shadow-[0_0_16px_rgba(0,240,255,0.4)]">
+              <div class="w-full h-full bg-[#120e29] rounded-[10px] flex items-center justify-center">
+                <svg class="w-5 h-5 text-[#00f0ff]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <span class="absolute -top-1 -right-1 flex h-3 w-3">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00e676] opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-[#00e676]"></span>
+              </span>
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="font-black tracking-wider text-xl text-white bg-gradient-to-r from-white via-[#f3e8ff] to-[#00f0ff] bg-clip-text text-transparent">
+                  Ai Signals Bot
+                </span>
+              </div>
+              <p class="text-[11px] text-[#8e82b8] font-medium hidden sm:block">
+                AI Models: Gemini Pro • Llama 3.3 • Groq Speed • DeepSeek R1
+              </p>
+              <p id="engineUptimeLine" class="text-[11px] text-[#5b5285] font-mono hidden sm:block">
+                ⚙️ Connecting to engine...
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <nav class="flex items-center gap-1.5 sm:gap-2 py-1 px-1 bg-[#0b081b]/90 rounded-xl border border-[#221845] w-full sm:w-auto justify-center">
+          <button onclick="switchTab('main')" id="tab-btn-main" class="relative px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 flex items-center gap-1.5 text-white bg-[#221845] shadow-[0_0_12px_rgba(217,70,239,0.35)]">
+            <span>Main</span>
+            <span id="tab-count-main" class="px-1.5 py-0.2 rounded-full text-[10px] font-extrabold bg-[#ff2a85] text-white">0</span>
+          </button>
+          <button onclick="switchTab('tpsl')" id="tab-btn-tpsl" class="relative px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 flex items-center gap-1.5 text-[#8e82b8] hover:text-[#c9d1e8] hover:bg-[#181135]">
+            <span>TP/SL Archive</span>
+            <span id="tab-count-tpsl" class="px-1.5 py-0.2 rounded-full text-[10px] font-extrabold bg-[#291e52] text-[#8e82b8]">0</span>
+          </button>
+          <button onclick="switchTab('saved')" id="tab-btn-saved" class="relative px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 flex items-center gap-1.5 text-[#8e82b8] hover:text-[#c9d1e8] hover:bg-[#181135]">
+            <span>Saved</span>
+            <span id="tab-count-saved" class="px-1.5 py-0.2 rounded-full text-[10px] font-extrabold bg-[#291e52] text-[#8e82b8]">0</span>
+          </button>
+          <button onclick="switchTab('report')" id="tab-btn-report" class="relative px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 flex items-center gap-1.5 text-[#8e82b8] hover:text-[#c9d1e8] hover:bg-[#181135]">
+            <span>Session Report</span>
+          </button>
+          <button onclick="switchTab('compare')" id="tab-btn-compare" class="relative px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 flex items-center gap-1.5 text-[#8e82b8] hover:text-[#c9d1e8] hover:bg-[#181135]">
+            <span>🏆 Bot Comparison</span>
+          </button>
+          <button onclick="switchTab('botreports')" id="tab-btn-botreports" class="relative px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 flex items-center gap-1.5 text-[#8e82b8] hover:text-[#c9d1e8] hover:bg-[#181135]">
+            <span>📑 Bot Reports</span>
+          </button>
+        </nav>
+
+        <!-- Sound Control Button -->
+        <div class="flex items-center justify-end">
+          <button id="soundToggleBtn" onclick="toggleSound()" class="p-2.5 rounded-xl border border-[#00e676]/50 bg-[#181138] text-[#00e676] hover:bg-[#1f1745] transition-all shadow-[0_0_10px_rgba(0,230,118,0.2)]" title="Audio Alerts: ON">
+            <svg id="soundIcon" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- TAB 1: MAIN SIGNALS VIEW -->
+    <main id="view-main" class="space-y-6">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-white font-extrabold text-lg flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#00e676] animate-pulse"></span>
+            Active Market Signals
+          </h2>
+          <p class="text-xs text-[#8e82b8]">Live Binance USDT Futures auto-ticker & AI validation</p>
+        </div>
+        <button onclick="openNewSignalModal()" class="px-3 py-1.5 rounded-xl text-xs font-extrabold bg-[#221845] hover:bg-[#312363] text-[#00f0ff] border border-[#3b2a74] transition-all flex items-center gap-1.5 shadow-[0_0_10px_rgba(0,240,255,0.15)] cursor-pointer">
+          + Add Signal
+        </button>
+      </div>
+
+      <div id="signalsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5"></div>
+      <div id="mainEmpty" class="hidden text-center py-16 text-[#8e82b8] text-sm">No live signals right now — waiting for the bot...</div>
+    </main>
+
+    <!-- TAB 2: TP / SL ARCHIVE VIEW -->
+    <section id="view-tpsl" class="hidden space-y-6">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-white font-extrabold text-lg flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#ff2a85]"></span>
+            TP / SL Archived Trades
+          </h2>
+          <p class="text-xs text-[#8e82b8]">Trades that reached Take Profit or Stop Loss targets</p>
+        </div>
+      </div>
+      <div id="archiveGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+      <div id="archiveEmpty" class="text-center py-16 text-[#8e82b8] text-sm">No closed trades yet in this session.</div>
+    </section>
+
+    <!-- TAB 3: SAVED SIGNALS VIEW -->
+    <section id="view-saved" class="hidden space-y-6">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-white font-extrabold text-lg flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#ffd600]"></span>
+            Saved Watchlist
+          </h2>
+          <p class="text-xs text-[#8e82b8]">Pinned signals kept for priority execution</p>
+        </div>
+      </div>
+      <div id="savedGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+      <div id="savedEmpty" class="text-center py-16 text-[#8e82b8] text-sm">No saved signals. Click bookmark on any signal card.</div>
+    </section>
+
+    <!-- TAB 4: SESSION REPORT -->
+    <section id="view-report" class="hidden space-y-6">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-white font-extrabold text-lg">Session Analytics Report</h2>
+          <p class="text-xs text-[#8e82b8]">Performance, win rate, and execution log</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="downloadReportCSV()" class="px-3 py-1.5 rounded-xl text-xs font-bold bg-[#00e676]/20 border border-[#00e676]/50 text-[#00e676] hover:bg-[#00e676]/30 transition-all">
+            📥 Export CSV
+          </button>
+          <button onclick="clearOldDataWithBackup()" class="px-3 py-1.5 rounded-xl text-xs font-bold bg-[#ff9100]/15 border border-[#ff9100]/50 text-[#ff9100] hover:bg-[#ff9100]/25 transition-all">
+            🗑️ Clear Old Data (auto-backup)
+          </button>
+        </div>
+      </div>
+      <div id="reportSummary" class="grid grid-cols-1 sm:grid-cols-4 gap-4"></div>
+      <div class="bg-[#140e2d] border border-[#2b2057] rounded-2xl p-4 overflow-x-auto">
+        <table class="w-full text-left text-xs">
+          <thead>
+            <tr class="border-b border-[#251b4c] text-[#8e82b8]">
+              <th class="py-2">Closed (Date & Time)</th>
+              <th class="py-2">Symbol</th>
+              <th class="py-2">Bot</th>
+              <th class="py-2">Model</th>
+              <th class="py-2">Direction</th>
+              <th class="py-2">Entry</th>
+              <th class="py-2">TP</th>
+              <th class="py-2">SL</th>
+              <th class="py-2 text-right">Outcome</th>
+            </tr>
+          </thead>
+          <tbody id="reportTableBody" class="divide-y divide-[#211746] font-mono"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 5: BOT COMPARISON -->
+    <section id="view-compare" class="hidden space-y-6">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-white font-extrabold text-lg flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#ffd600]"></span>
+            Bot Strategy Comparison
+          </h2>
+          <p class="text-xs text-[#8e82b8]">Har bot ki performance side-by-side — konsi strategy sabse acha kaam kar rahi hai</p>
+        </div>
+        <button onclick="fetchBotStats()" class="px-3 py-1.5 rounded-xl text-xs font-bold bg-[#00f0ff]/15 border border-[#00f0ff]/40 text-[#00f0ff] hover:bg-[#00f0ff]/25 transition-all">
+          🔄 Refresh
+        </button>
+      </div>
+
+      <div id="winnerBotBox"></div>
+
+      <div class="bg-[#140e2d] border border-[#2b2057] rounded-2xl p-4 overflow-x-auto">
+        <table class="w-full text-left text-xs">
+          <thead>
+            <tr class="border-b border-[#251b4c] text-[#8e82b8]">
+              <th class="py-2">Bot</th>
+              <th class="py-2">Strategy</th>
+              <th class="py-2 text-center">Wins</th>
+              <th class="py-2 text-center">Losses</th>
+              <th class="py-2 text-center">Total Closed</th>
+              <th class="py-2 text-right">Win Rate</th>
+            </tr>
+          </thead>
+          <tbody id="compareTableBody" class="divide-y divide-[#211746] font-mono"></tbody>
+        </table>
+      </div>
+
+      <div id="compareCardsGrid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+    </section>
+
+    <!-- TAB 6: PER-BOT REPORT -->
+    <section id="view-botreports" class="hidden space-y-6">
+      <div class="flex items-center justify-between mb-2 flex-wrap gap-3">
+        <div>
+          <h2 class="text-white font-extrabold text-lg flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#a855f7]"></span>
+            Per-Bot Full Report
+          </h2>
+          <p class="text-xs text-[#8e82b8]">Har bot ka apna complete closed-trades history, alag alag</p>
+        </div>
+        <button onclick="downloadBotReportCSV()" class="px-3 py-1.5 rounded-xl text-xs font-bold bg-[#00e676]/20 border border-[#00e676]/50 text-[#00e676] hover:bg-[#00e676]/30 transition-all">
+          📥 Export This Bot's CSV
+        </button>
+      </div>
+
+      <div id="botReportPills" class="flex items-center gap-2 flex-wrap"></div>
+
+      <div id="botReportSummary" class="grid grid-cols-1 sm:grid-cols-4 gap-4"></div>
+
+      <div class="bg-[#140e2d] border border-[#2b2057] rounded-2xl p-4 overflow-x-auto">
+        <table class="w-full text-left text-xs">
+          <thead>
+            <tr class="border-b border-[#251b4c] text-[#8e82b8]">
+              <th class="py-2">Closed At</th>
+              <th class="py-2">Symbol</th>
+              <th class="py-2">Direction</th>
+              <th class="py-2">Entry</th>
+              <th class="py-2">TP</th>
+              <th class="py-2">SL</th>
+              <th class="py-2">Close Price</th>
+              <th class="py-2 text-right">Result</th>
+            </tr>
+          </thead>
+          <tbody id="botReportTableBody" class="divide-y divide-[#211746] font-mono"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- CHART MODAL -->
+  <div id="chartModal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-2 sm:p-4">
+    <div class="relative w-full max-w-5xl h-[92vh] max-h-[850px] bg-[#0c081e] border border-[#3b2a74] rounded-3xl p-4 sm:p-6 shadow-[0_25px_60px_rgba(0,0,0,0.85)] flex flex-col justify-between overflow-hidden">
+      
+      <div class="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#ff2a85]/15 via-[#00f0ff]/10 to-transparent pointer-events-none"></div>
+
+      <!-- Modal Header -->
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pb-3 border-b border-[#221845] relative z-10">
+        <div class="flex items-center gap-3">
+          <div id="modalDirBadge" class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#ff2a85] via-[#a855f7] to-[#00f0ff] p-[2px] flex items-center justify-center font-mono font-black text-white text-xs">
+            LONG
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span id="modalSymbol" class="font-extrabold text-lg text-white font-mono">BTCUSDT</span>
+              <span id="modalModelTag" class="text-[#00f0ff] text-xs font-mono bg-[#00f0ff]/10 px-2 py-0.5 rounded border border-[#00f0ff]/30">Gemini Pro</span>
+            </div>
+            <p class="text-[11px] text-[#8e82b8] mt-0.5">
+              Signal Time: <strong id="modalSignalTime" class="text-white font-mono">--:--</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 self-end sm:self-center">
+          <div class="flex items-center gap-1 bg-[#140e2d] p-1 rounded-xl border border-[#2b2057]">
+            <button onclick="changeInterval('1m')" class="interval-btn px-2.5 py-1 rounded-lg text-xs font-mono font-bold bg-[#00f0ff] text-black">1m</button>
+            <button onclick="changeInterval('3m')" class="interval-btn px-2.5 py-1 rounded-lg text-xs font-mono font-bold text-[#8e82b8] hover:text-white">3m</button>
+            <button onclick="changeInterval('5m')" class="interval-btn px-2.5 py-1 rounded-lg text-xs font-mono font-bold text-[#8e82b8] hover:text-white">5m</button>
+            <button onclick="changeInterval('15m')" class="interval-btn px-2.5 py-1 rounded-lg text-xs font-mono font-bold text-[#8e82b8] hover:text-white">15m</button>
+          </div>
+          <button onclick="closeChartModal()" class="p-2 rounded-xl bg-[#1f1745] hover:bg-[#ff1744]/25 text-[#a79ec8] hover:text-[#ff1744] border border-[#342468] transition-all cursor-pointer">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <!-- Price Target Display Box -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 my-2 relative z-10 text-xs font-mono">
+        <div class="bg-[#120e29] border border-[#ffd600]/40 rounded-xl p-2 flex items-center justify-between shadow-[0_0_10px_rgba(255,214,0,0.15)]">
+          <span class="text-[#ffd600] font-bold">🟡 ENTRY</span>
+          <span id="modalEntry" class="font-extrabold text-[#ffd600]">--</span>
+        </div>
+        <div class="bg-[#120e29] border border-[#00e676]/40 rounded-xl p-2 flex items-center justify-between shadow-[0_0_10px_rgba(0,230,118,0.15)]">
+          <span class="text-[#00e676] font-bold">🟢 TP</span>
+          <span id="modalTP" class="font-extrabold text-[#00e676]">--</span>
+        </div>
+        <div class="bg-[#120e29] border border-[#ff1744]/40 rounded-xl p-2 flex items-center justify-between shadow-[0_0_10px_rgba(255,23,68,0.15)]">
+          <span class="text-[#ff1744] font-bold">🔴 SL</span>
+          <span id="modalSL" class="font-extrabold text-[#ff1744]">--</span>
+        </div>
+        <div class="bg-[#120e29] border border-[#00f0ff]/40 rounded-xl p-2 flex items-center justify-between shadow-[0_0_10px_rgba(0,240,255,0.15)]">
+          <span class="text-[#00f0ff] font-bold">⚡ BID</span>
+          <span id="modalBid" class="font-black text-white">--</span>
+        </div>
+      </div>
+
+      <!-- Chart Container -->
+      <div class="relative flex-1 w-full bg-[#0a0718] rounded-2xl border border-[#251b4c] overflow-hidden my-1">
+        <div id="chartContainer" class="w-full h-full"></div>
+      </div>
+
+      <!-- Chart Footer Bar -->
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-2 pt-2 border-t border-[#221845] text-xs font-mono text-[#8e82b8] relative z-10">
+        <div class="flex items-center gap-2">
+          <span id="modalStatusText" class="text-white font-bold">Live Signal Active</span>
+          <span class="text-[#2b2057]">|</span>
+          <span class="text-[#ffd600] flex items-center gap-1">▼ Yellow Arrow = Signal Entry</span>
+        </div>
+        <div>Clock: <strong id="modalClock" class="text-white">--:--:--</strong></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ADD SIGNAL MODAL -->
+  <div id="newSignalModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="relative max-w-md w-full bg-[#140e2d] border border-[#3b2a74] rounded-3xl p-6 shadow-[0_25px_60px_rgba(0,0,0,0.8)] max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="text-base font-extrabold text-white font-mono">Deploy AI Signal</h3>
+        <button onclick="closeNewSignalModal()" class="p-1.5 rounded-lg bg-[#221845] text-[#8e82b8] hover:text-[#ff1744]">✕</button>
+      </div>
+
+      <form id="newSignalForm" onsubmit="handleNewSignalSubmit(event)" class="space-y-3 text-xs">
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-[10px] font-extrabold text-[#8e82b8] uppercase mb-1">Symbol</label>
+            <input type="text" id="formSymbol" value="SOLUSDT" class="w-full bg-[#0b081b] border border-[#2d2159] rounded-xl px-3 py-2 text-white font-mono font-bold uppercase" required />
+          </div>
+          <div>
+            <label class="block text-[10px] font-extrabold text-[#8e82b8] uppercase mb-1">AI Model</label>
+            <select id="formModel" class="w-full bg-[#0b081b] border border-[#2d2159] rounded-xl px-3 py-2 text-white font-bold">
+              <option value="GROQ: Llama-3.3">GROQ: Llama-3.3</option>
+              <option value="GEMINI: 2.5-Flash">GEMINI: 2.5-Flash</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-[10px] font-extrabold text-[#8e82b8] uppercase mb-1">Direction</label>
+            <select id="formDir" class="w-full bg-[#0b081b] border border-[#2d2159] rounded-xl px-3 py-2 text-white font-bold">
+              <option value="LONG">LONG</option>
+              <option value="SHORT">SHORT</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-[10px] font-extrabold text-[#8e82b8] uppercase mb-1">Entry</label>
+            <input type="number" step="any" id="formEntry" value="142.50" class="w-full bg-[#0b081b] border border-[#2d2159] rounded-xl px-3 py-2 text-[#ffd600] font-mono font-bold" required />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-[10px] font-extrabold text-[#8e82b8] uppercase mb-1">Take Profit</label>
+            <input type="number" step="any" id="formTP" value="155.00" class="w-full bg-[#0b081b] border border-[#2d2159] rounded-xl px-3 py-2 text-[#00e676] font-mono font-bold" required />
+          </div>
+          <div>
+            <label class="block text-[10px] font-extrabold text-[#8e82b8] uppercase mb-1">Stop Loss</label>
+            <input type="number" step="any" id="formSL" value="138.00" class="w-full bg-[#0b081b] border border-[#2d2159] rounded-xl px-3 py-2 text-[#ff1744] font-mono font-bold" required />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-[10px] font-extrabold text-[#8e82b8] uppercase mb-1">AI Rationale Note</label>
+          <textarea id="formReason" rows="2" class="w-full bg-[#0b081b] border border-[#2d2159] rounded-xl px-3 py-2 text-white font-mono text-xs">💡 AI Strategy Note: Real-time price consolidation breakout detected on high volume.</textarea>
+        </div>
+
+        <button type="submit" class="w-full py-3 rounded-2xl bg-gradient-to-r from-[#ff2a85] via-[#c026d3] to-[#00f0ff] text-white font-extrabold text-sm shadow-[0_0_20px_rgba(255,42,133,0.4)] hover:brightness-110 transition-all cursor-pointer">
+          Deploy Signal
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- BOT DETAILS MODAL -->
+  <div id="botDetailsModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="relative max-w-lg w-full bg-[#140e2d] border border-[#3b2a74] rounded-3xl p-6 shadow-[0_25px_60px_rgba(0,0,0,0.8)] max-h-[90vh] overflow-y-auto">
+      <div class="flex items-start justify-between mb-3">
+        <div>
+          <div class="flex items-center gap-2">
+            <span id="botDetailName" class="text-lg font-extrabold text-white font-mono">Bot Name</span>
+            <span id="botDetailId" class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-[#221845] text-[#8e82b8] border border-[#3b2a74]">bot1</span>
+          </div>
+          <p id="botDetailTagline" class="text-xs text-[#8e82b8] mt-1">Tagline goes here</p>
+        </div>
+        <button onclick="closeBotDetailsModal()" class="p-1.5 rounded-lg bg-[#221845] text-[#8e82b8] hover:text-[#ff1744]">✕</button>
+      </div>
+      <div class="bg-[#0b071e]/95 border border-[#2d215b] rounded-xl p-3.5 mb-4">
+        <div class="text-[10px] font-bold text-[#00f0ff] uppercase tracking-wider mb-1.5">Strategy Explained</div>
+        <p id="botDetailDescription" class="text-[13px] leading-relaxed text-[#d1d5db]">Description goes here.</p>
+      </div>
+      <div id="botDetailStats" class="grid grid-cols-3 gap-2 text-center font-mono"></div>
+    </div>
+  </div>
+
+  <script>
+    // State Store Engine — starts EMPTY, no dummy/fake signals.
+    // Real signals are pulled from app.py (merged server + 5-bot engine) below.
+    // NOTE: signals/savedSignals are now keyed by a composite "bot_id:symbol" key
+    // (sig.key), NOT just the symbol — because multiple bots can signal the same
+    // symbol at the same time now that there are 5 parallel strategy bots.
+    let signals = {};
+    let savedSignals = {};
+    let closedSignals = [];
+    let activeTab = 'main';
+    let soundEnabled = true;
+    let currentChartSignal = null;
+    let currentInterval = '1m';
+    let chartInstance = null;
+    let seriesInstance = null;
+    let audioCtx = null;
+    let botsConfig = {};       // bot_id -> { id, name, tagline, description, ... } from /bots
+    let botStatsCache = {};    // bot_id -> { wins, losses, total, win_rate } from /stats
+
+    // ====== LIVE DATA SOURCE ======
+    // IMPORTANT: this page is deployed as a STATIC site (no long-running Flask
+    // server behind it). The real data lives in signals/*.json, written every
+    // ~15 minutes by bot_engine.py via a GitHub Actions cron job and committed
+    // straight into this repo. We fetch those files directly (same-origin,
+    // works whether this is hosted on Vercel/GitHub Pages/anywhere that just
+    // serves the repo's static files).
+    //
+    // NOTE: this previously pointed at Flask API routes like `/signals_by_bot`,
+    // `/bots`, `/stats`, `/status`, `/closed` — those only exist if app.py is
+    // actually running as a live server somewhere. On a static deploy they all
+    // 404 silently, which is why the dashboard used to look "frozen" (stuck
+    // showing whatever was last cached in the browser's localStorage) with no
+    // Bot Reports data and stale/dead signals that never cleared.
+    const API_BASE = '';
+    const SIGNALS_BY_BOT_ENDPOINT = `${API_BASE}/signals/signals_by_bot.json`;
+    const BOTS_ENDPOINT = `${API_BASE}/signals/bots.json`;
+    const STATS_ENDPOINT = `${API_BASE}/signals/stats.json`;
+    const CLOSED_ENDPOINT = `${API_BASE}/signals/closed.json`;
+    const STATUS_ENDPOINT = `${API_BASE}/signals/status.json`;
+    // "Take Trade (Demo)" genuinely needs a live server to sign & place a real
+    // (testnet) Binance order - it cannot work from a static JSON file. It will
+    // fail gracefully (see executeTrade()) unless app.py is actually running
+    // somewhere and this is pointed at it.
+    const EXECUTE_TRADE_ENDPOINT = `${API_BASE}/execute_trade`;
+
+    // Cache-buster so CDNs/browsers never serve a stale copy of the JSON files
+    // between GitHub Actions commits.
+    function noCacheUrl(url) {
+      return `${url}?_=${Date.now()}`;
+    }
+
+    // Part 4: per-bot full report state
+    let serverClosedTrades = [];   // full closed-trade history from signals/closed.json
+    let selectedBotReportId = 'bot1';
+    const FALLBACK_BOT_IDS = ['bot1', 'bot2', 'bot3', 'bot4', 'bot5'];
+
+    // Distinct color identity per bot so cards are instantly recognizable.
+    const BOT_COLORS = {
+      bot1: { text: '#00f0ff', bg: 'bg-[#00f0ff]/15', border: 'border-[#00f0ff]/40' },
+      bot2: { text: '#ff9100', bg: 'bg-[#ff9100]/15', border: 'border-[#ff9100]/40' },
+      bot3: { text: '#a855f7', bg: 'bg-[#a855f7]/15', border: 'border-[#a855f7]/40' },
+      bot4: { text: '#00e676', bg: 'bg-[#00e676]/15', border: 'border-[#00e676]/40' },
+      bot5: { text: '#ffd600', bg: 'bg-[#ffd600]/15', border: 'border-[#ffd600]/40' },
+      manual: { text: '#8e82b8', bg: 'bg-[#8e82b8]/15', border: 'border-[#8e82b8]/40' },
+      external: { text: '#8e82b8', bg: 'bg-[#8e82b8]/15', border: 'border-[#8e82b8]/40' },
+    };
+    function getBotColor(botId) {
+      return BOT_COLORS[botId] || BOT_COLORS.manual;
+    }
+
+    async function fetchBotsConfig() {
+      try {
+        const res = await fetch(noCacheUrl(BOTS_ENDPOINT), { cache: 'no-store' });
+        if (!res.ok) return;
+        const list = await res.json();
+        botsConfig = {};
+        list.forEach(b => { botsConfig[b.id] = b; });
+        renderComparison();
+      } catch (e) {}
+    }
+
+    async function fetchBotStats() {
+      try {
+        const res = await fetch(noCacheUrl(STATS_ENDPOINT), { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+        botStatsCache = {};
+        (data.bots || []).forEach(s => { botStatsCache[s.bot_id] = s; });
+        botStatsCache.__winner = data.winner || null;
+        renderComparison();
+      } catch (e) {}
+    }
+
+    async function fetchEngineStatus() {
+      const line = document.getElementById('engineUptimeLine');
+      if (!line) return;
+      try {
+        const res = await fetch(noCacheUrl(STATUS_ENDPOINT), { cache: 'no-store' });
+        if (!res.ok) throw new Error('bad status');
+        const s = await res.json();
+        const hrs = Math.floor(s.uptime_seconds / 3600);
+        const mins = Math.floor((s.uptime_seconds % 3600) / 60);
+        const uptimeStr = hrs > 0 ? `${hrs}h ${mins}m` : `${mins}m`;
+        line.innerHTML = `⚙️ Engine last ran <b class="text-[#00e676]">${s.last_run || s.started_at}</b> (up ${uptimeStr}) · ${s.open_signals} open · ${s.closed_trades} closed`;
+      } catch (e) {
+        line.innerHTML = `⚠️ <span class="text-[#ff9100]">Can't reach signals/status.json — check the GitHub Actions workflow is running.</span>`;
+      }
+    }
+
+    async function fetchServerClosed() {
+      try {
+        const res = await fetch(noCacheUrl(CLOSED_ENDPOINT), { cache: 'no-store' });
+        if (!res.ok) return;
+        const raw = await res.json();
+        // signals/closed.json is stored oldest->newest; show newest first.
+        serverClosedTrades = Array.isArray(raw) ? [...raw].reverse() : [];
+        if (activeTab === 'botreports') renderBotReport();
+      } catch (e) {}
+    }
+
+    // app.py posts field names "provider" (Gemini/Groq/Mistral) and "reason" (AI explanation) —
+    // normalize those into what the card renderer expects, and compute a real risk:reward
+    // ratio from entry/tp/sl instead of ever faking one.
+    function normalizeSignal(raw) {
+      const entry = parseFloat(raw.entry) || 0;
+      const tp = parseFloat(raw.tp) || 0;
+      const sl = parseFloat(raw.sl) || 0;
+      const riskDist = Math.abs(entry - sl);
+      const rewardDist = Math.abs(tp - entry);
+      const rr = riskDist > 0 ? `1:${(rewardDist / riskDist).toFixed(1)}` : '—';
+
+      const providerRaw = (raw.provider || '').toString();
+      let providerLabel = 'AI Engine';
+      if (/gemini/i.test(providerRaw)) providerLabel = 'GEMINI';
+      else if (/groq/i.test(providerRaw)) providerLabel = 'GROQ';
+      else if (/mistral/i.test(providerRaw)) providerLabel = 'MISTRAL';
+      else if (providerRaw) providerLabel = providerRaw.toUpperCase();
+
+      return {
+        key: raw.key || `${raw.bot_id || 'manual'}:${raw.symbol}`,
+        symbol: raw.symbol,
+        botId: raw.bot_id || 'manual',
+        botName: raw.bot_name || 'Manual',
+        bot: providerLabel, // AI provider (Gemini/Groq/Mistral) — kept separate from bot strategy name
+        direction: (raw.direction || 'LONG').toUpperCase(),
+        entry, tp, sl,
+        score: raw.score !== undefined ? raw.score : 80,
+        rr,
+        note: raw.reason ? `💡 <b>AI Rationale:</b> ${raw.reason}` : '💡 Waiting for AI rationale...',
+        timestamp: raw.timestamp || ''
+      };
+    }
+
+    async function fetchSignals() {
+      try {
+        const res = await fetch(noCacheUrl(SIGNALS_BY_BOT_ENDPOINT), { cache: 'no-store' });
+        if (!res.ok) return; // backend hiccup -> keep showing last known-good signals
+        const grouped = await res.json();
+        if (!grouped || typeof grouped !== 'object') return;
+
+        // Flatten { bot1: [...], bot2: [...] } into a single key-indexed map
+        const incomingByKey = {};
+        Object.values(grouped).forEach(list => {
+          (list || []).forEach(raw => {
+            const norm = normalizeSignal(raw);
+            incomingByKey[norm.key] = norm;
+          });
+        });
+
+        // Merge incoming signals, without wiping already-tracked live fields
+        Object.keys(incomingByKey).forEach(key => {
+          const incoming = incomingByKey[key];
+          if (savedSignals[key] || closedSignals.find(c => c.key === key)) return; // don't resurrect saved/closed
+          if (signals[key]) {
+            signals[key] = {
+              ...signals[key],
+              ...incoming,
+              currentPrice: signals[key].currentPrice,
+              health: signals[key].health,
+              progress: signals[key].progress
+            };
+          } else {
+            signals[key] = incoming;
+          }
+        });
+
+        // Remove signals the engine no longer lists as active (won't touch saved/closed)
+        Object.keys(signals).forEach(key => {
+          if (!incomingByKey[key]) delete signals[key];
+        });
+
+        persistState();
+        renderAll();
+      } catch (e) {
+        // network/parse error -> keep last known-good signals, don't clear the UI
+      }
+    }
+
+    function persistState() {
+      try {
+        localStorage.setItem('ai_signals_state', JSON.stringify({ signals, savedSignals, closedSignals }));
+      } catch (e) {}
+    }
+
+    function restoreState() {
+      try {
+        const raw = localStorage.getItem('ai_signals_state');
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          signals = parsed.signals || {};
+          savedSignals = parsed.savedSignals || {};
+          closedSignals = parsed.closedSignals || [];
+          migrateLegacyEntries();
+        }
+      } catch (e) {}
+    }
+
+    // Entries saved/closed BEFORE the 5-bot update didn't carry botId/botName/full-timestamp.
+    // Tag them clearly as "Legacy" instead of showing a blank badge or a bare "--".
+    function migrateLegacyEntries() {
+      const fix = (obj, sym) => {
+        if (!obj.key) obj.key = `legacy:${sym}`;
+        if (!obj.botId) obj.botId = 'legacy';
+        if (!obj.botName) obj.botName = 'Legacy (pre-update)';
+        if (!obj.timestamp) obj.timestamp = 'Unknown (before bot-tracking)';
+        return obj;
+      };
+      Object.keys(signals).forEach(k => { signals[k] = fix(signals[k], signals[k].symbol || k); });
+      Object.keys(savedSignals).forEach(k => { savedSignals[k] = fix(savedSignals[k], savedSignals[k].symbol || k); });
+      closedSignals.forEach(s => fix(s, s.symbol));
+    }
+
+    // Real-time Health Dynamic Calculation Logic
+    function calculateTradeHealth(direction, entry, tp, sl, currentPrice) {
+      if (!currentPrice || currentPrice <= 0) return 0;
+
+      let health = 0;
+      const isLong = direction.toUpperCase() === 'LONG';
+
+      if (isLong) {
+        if (currentPrice >= entry) {
+          const tpDistance = tp - entry;
+          if (tpDistance <= 0) return 100;
+          health = ((currentPrice - entry) / tpDistance) * 100;
+        } else {
+          const slDistance = entry - sl;
+          if (slDistance <= 0) return -100;
+          health = -((entry - currentPrice) / slDistance) * 100;
+        }
+      } else { // SHORT
+        if (currentPrice <= entry) {
+          const tpDistance = entry - tp;
+          if (tpDistance <= 0) return 100;
+          health = ((entry - currentPrice) / tpDistance) * 100;
+        } else {
+          const slDistance = sl - entry;
+          if (slDistance <= 0) return -100;
+          health = -((currentPrice - entry) / slDistance) * 100;
+        }
+      }
+
+      return Math.min(Math.max(Math.round(health), -100), 100);
+    }
+
+    // Audio Alert Beeps
+    function playBeep(type) {
+      if (!soundEnabled) return;
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        if (type === 'tp') {
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(587.33, audioCtx.currentTime);
+          osc.frequency.setValueAtTime(880, audioCtx.currentTime + 0.1);
+          gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+          osc.start();
+          osc.stop(audioCtx.currentTime + 0.4);
+        } else {
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(300, audioCtx.currentTime);
+          osc.frequency.setValueAtTime(150, audioCtx.currentTime + 0.15);
+          gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+          osc.start();
+          osc.stop(audioCtx.currentTime + 0.4);
+        }
+      } catch(e) {}
+    }
+
+    // Happy chime + confetti popper on TP
+    function playHappySound() {
+      if (!soundEnabled) return;
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const notes = [523.25, 659.25, 783.99, 1046.50]; // C5 E5 G5 C6 — happy ascending chord
+        notes.forEach((freq, i) => {
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+          osc.connect(gain); gain.connect(audioCtx.destination);
+          osc.type = 'triangle';
+          const start = audioCtx.currentTime + i * 0.09;
+          osc.frequency.setValueAtTime(freq, start);
+          gain.gain.setValueAtTime(0.001, start);
+          gain.gain.exponentialRampToValueAtTime(0.28, start + 0.03);
+          gain.gain.exponentialRampToValueAtTime(0.001, start + 0.35);
+          osc.start(start);
+          osc.stop(start + 0.4);
+        });
+      } catch (e) {}
+    }
+
+    function playPartyPopper() {
+      try {
+        confetti({ particleCount: 100, spread: 80, origin: { y: 0.6 }, colors: ['#00e676', '#ffd600', '#00f0ff'] });
+        confetti({ particleCount: 60, angle: 60, spread: 60, origin: { x: 0 } });
+        confetti({ particleCount: 60, angle: 120, spread: 60, origin: { x: 1 } });
+      } catch (e) {}
+    }
+
+    // Sad "trombone slide" tone — a continuous descending pitch bend + a buzzier
+    // sawtooth wave, deliberately different in shape/timbre from the happy chime
+    // (which uses discrete ascending triangle notes) so TP vs SL is instantly
+    // recognizable by ear alone.
+    function playSadSound() {
+      if (!soundEnabled) return;
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.type = 'sawtooth';
+        const start = audioCtx.currentTime;
+        osc.frequency.setValueAtTime(330, start);           // starts mid
+        osc.frequency.exponentialRampToValueAtTime(110, start + 0.9); // slides down — "womp womp"
+        gain.gain.setValueAtTime(0.0001, start);
+        gain.gain.exponentialRampToValueAtTime(0.18, start + 0.05);
+        gain.gain.setValueAtTime(0.18, start + 0.55);
+        gain.gain.exponentialRampToValueAtTime(0.0001, start + 1.0);
+        osc.start(start);
+        osc.stop(start + 1.0);
+
+        // second lower drone underneath for extra "thud"
+        const osc2 = audioCtx.createOscillator();
+        const gain2 = audioCtx.createGain();
+        osc2.connect(gain2); gain2.connect(audioCtx.destination);
+        osc2.type = 'sine';
+        osc2.frequency.setValueAtTime(110, start);
+        gain2.gain.setValueAtTime(0.0001, start);
+        gain2.gain.exponentialRampToValueAtTime(0.12, start + 0.05);
+        gain2.gain.exponentialRampToValueAtTime(0.0001, start + 0.7);
+        osc2.start(start);
+        osc2.stop(start + 0.7);
+      } catch (e) {}
+    }
+
+    function showSadAnimation() {
+      const overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;inset:0;z-index:9999;pointer-events:none;background:radial-gradient(circle, rgba(255,23,68,0) 0%, rgba(255,23,68,0.18) 100%);animation:sadFade 1.6s ease-out forwards;';
+      document.body.appendChild(overlay);
+      setTimeout(() => overlay.remove(), 1700);
+
+      for (let i = 0; i < 14; i++) {
+        const drop = document.createElement('div');
+        drop.textContent = Math.random() > 0.5 ? '💔' : '📉';
+        drop.style.cssText = `position:fixed;top:-40px;left:${Math.random() * 100}vw;font-size:${18 + Math.random() * 16}px;z-index:9999;pointer-events:none;animation:sadDrop ${1.2 + Math.random() * 0.8}s ease-in forwards;animation-delay:${Math.random() * 0.3}s;opacity:0.9;`;
+        document.body.appendChild(drop);
+        setTimeout(() => drop.remove(), 2200);
+      }
+    }
+
+    // Temporary top-center popup announcing a TP or SL hit by name — auto-dismisses.
+    function showTradeToast(symbol, outcome, botName) {
+      const isTP = outcome === 'TP_HIT';
+      const isExec = outcome === 'EXECUTED';
+      const accent = isExec ? '#a855f7' : (isTP ? '#00e676' : '#ff1744');
+      const bgGrad = isExec ? 'linear-gradient(90deg,#1f0a33,#2c0e47)' : (isTP ? 'linear-gradient(90deg,#062a1c,#0a3d27)' : 'linear-gradient(90deg,#2a0610,#3d0a17)');
+      const icon = isExec ? '⚡' : (isTP ? '🎯' : '🛑');
+      const label = isExec ? 'TRADE EXECUTED (TESTNET)' : (isTP ? 'TAKE PROFIT HIT' : 'STOP LOSS HIT');
+      const toast = document.createElement('div');
+      toast.style.cssText = `
+        position:fixed; top:18px; left:50%; transform:translateX(-50%) translateY(-20px);
+        z-index:10000; opacity:0; pointer-events:none;
+        display:flex; align-items:center; gap:10px;
+        padding:12px 20px; border-radius:16px;
+        background:${bgGrad};
+        border:1.5px solid ${accent};
+        box-shadow:0 10px 30px rgba(0,0,0,0.5), 0 0 25px ${accent}55;
+        font-family: 'JetBrains Mono', monospace;
+        transition: opacity .25s ease, transform .25s ease;
+      `;
+      toast.innerHTML = `
+        <span style="font-size:26px;">${icon}</span>
+        <div>
+          <div style="font-weight:800; font-size:14px; color:${accent};">
+            ${label}
+          </div>
+          <div style="font-size:12px; color:#c9d1e8;">
+            <b style="color:#fff;">${symbol}</b>${botName ? ` · ${botName}` : ''}
+          </div>
+        </div>
+      `;
+      document.body.appendChild(toast);
+      requestAnimationFrame(() => {
+        toast.style.opacity = '1';
+        toast.style.transform = 'translateX(-50%) translateY(0)';
+      });
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateX(-50%) translateY(-20px)';
+        setTimeout(() => toast.remove(), 300);
+      }, 3200);
+    }
+
+    function toggleSound() {
+      soundEnabled = !soundEnabled;
+      const btn = document.getElementById('soundToggleBtn');
+      if (soundEnabled) {
+        btn.className = 'p-2.5 rounded-xl border border-[#00e676]/50 bg-[#181138] text-[#00e676] hover:bg-[#1f1745] transition-all shadow-[0_0_10px_rgba(0,230,118,0.2)]';
+        btn.title = 'Audio Alerts: ON';
+      } else {
+        btn.className = 'p-2.5 rounded-xl border border-[#ff1744]/50 bg-[#181138] text-[#ff1744] hover:bg-[#1f1745] transition-all';
+        btn.title = 'Audio Alerts: MUTED';
+      }
+    }
+
+    function switchTab(tab) {
+      activeTab = tab;
+      ['main', 'tpsl', 'saved', 'report', 'compare', 'botreports'].forEach(t => {
+        const view = document.getElementById('view-' + t);
+        const btn = document.getElementById('tab-btn-' + t);
+        if (t === tab) {
+          view.classList.remove('hidden');
+          btn.className = 'relative px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 flex items-center gap-1.5 text-white bg-[#221845] shadow-[0_0_12px_rgba(217,70,239,0.35)]';
+        } else {
+          view.classList.add('hidden');
+          btn.className = 'relative px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 flex items-center gap-1.5 text-[#8e82b8] hover:text-[#c9d1e8] hover:bg-[#181135]';
+        }
+      });
+      renderAll();
+      if (tab === 'botreports') { renderBotReport(); fetchServerClosed(); }
+      if (tab === 'compare') { renderComparison(); fetchBotStats(); }
+    }
+
+    function formatPrice(val) {
+      if (!val) return '0.00';
+      if (val >= 1000) return val.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      if (val >= 1) return val.toFixed(2);
+      return val.toFixed(4);
+    }
+
+    // Turns "2026-08-24 10:09:54" (server format, always Karachi wall-clock
+    // time - see karachi_now_str() in app.py) into "3m ago" / "2h ago" etc.
+    // We explicitly treat the string as PKT (UTC+5) instead of letting the
+    // browser guess its own local timezone, so every viewer sees the same
+    // relative age regardless of what timezone their device is set to.
+    function getRelativeAge(timestampStr) {
+      if (!timestampStr || typeof timestampStr !== 'string') return '';
+      const m = timestampStr.match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2}):(\d{2})/);
+      if (!m) return '';
+      const [, y, mo, d, h, mi, s] = m.map(Number);
+      // Construct as UTC then subtract 5h to get the true UTC instant for a PKT wall-clock time.
+      const utcMs = Date.UTC(y, mo - 1, d, h, mi, s) - (5 * 60 * 60 * 1000);
+      const diffMs = Date.now() - utcMs;
+      if (isNaN(diffMs) || diffMs < 0) return '';
+      const mins = Math.floor(diffMs / 60000);
+      if (mins < 1) return 'just now';
+      if (mins < 60) return `${mins}m ago`;
+      const hrs = Math.floor(mins / 60);
+      if (hrs < 24) return `${hrs}h ${mins % 60}m ago`;
+      const days = Math.floor(hrs / 24);
+      return `${days}d ago`;
+    }
+
+    // ====== COPY SIGNAL TO CLIPBOARD ======
+    function copySignal(key, type, btnEl) {
+      let sig;
+      if (type === 'live') sig = signals[key];
+      else if (type === 'saved') sig = savedSignals[key];
+      else if (type === 'archive') sig = closedSignals.find(s => s.key === key);
+      if (!sig) return;
+
+      const text = `${sig.symbol} ${sig.direction}
+Entry: ${formatPrice(sig.entry)}
+TP: ${formatPrice(sig.tp)}
+SL: ${formatPrice(sig.sl)}
+Time: ${sig.timestamp || 'Unknown'} (PKT)`;
+
+      const showCopied = () => {
+        if (!btnEl) return;
+        const original = btnEl.innerHTML;
+        btnEl.innerHTML = '✅ Copied';
+        setTimeout(() => { btnEl.innerHTML = original; }, 1200);
+      };
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(showCopied).catch(() => fallbackCopy(text, showCopied));
+      } else {
+        fallbackCopy(text, showCopied);
+      }
+    }
+
+    function fallbackCopy(text, cb) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      try { document.execCommand('copy'); if (cb) cb(); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+
+    // Card Renderer with Dynamic Health Integration
+    function createCardHTML(sig, type) {
+      const isLong = sig.direction === 'LONG';
+      const progress = sig.progress !== undefined ? Math.max(0, Math.min(100, sig.progress)) : 50;
+
+      const currentHealth = typeof sig.health === 'number' ? sig.health : 0;
+      const healthText = currentHealth >= 0 ? `+${currentHealth}%` : `${currentHealth}%`;
+      const healthColor = currentHealth >= 0 ? '#00e676' : '#ff1744';
+      const relativeAge = getRelativeAge(sig.timestamp);
+
+      let modelTag = 'bg-[#00f0ff]/15 text-[#00f0ff] border-[#00f0ff]/40';
+      if (sig.bot && sig.bot.includes('GROQ')) {
+        modelTag = 'bg-[#ff9100]/15 text-[#ff9100] border-[#ff9100]/40';
+      } else if (sig.bot && sig.bot.includes('MISTRAL')) {
+        modelTag = 'bg-[#a855f7]/15 text-[#a855f7] border-[#a855f7]/40';
+      }
+
+      const botColor = getBotColor(sig.botId);
+      const botBadge = `<button onclick="openBotDetails('${sig.botId}')" class="px-2 py-0.5 rounded text-[10px] font-extrabold border ${botColor.bg} ${botColor.border} cursor-pointer hover:brightness-110 transition-all" style="color:${botColor.text}" title="View bot details">🤖 ${sig.botName || 'Bot'}</button>`;
+
+      return `
+        <div class="relative bg-[#140e2d] border border-[#2b2057] rounded-2xl p-5 shadow-[0_10px_25px_rgba(0,0,0,0.4)] flex flex-col justify-between gap-3" style="border-top: 2px solid ${botColor.text}">
+
+          <div class="flex items-center justify-start flex-wrap gap-2">
+            ${botBadge}
+            <div class="flex items-center gap-2">
+              ${type === 'live' ? `<button onclick="saveSignal('${sig.key}')" class="p-1 rounded bg-[#221845] text-[#8e82b8] hover:text-[#00f0ff]" title="Save">📌</button>` : ''}
+              ${type === 'saved' ? `<button onclick="unsaveSignal('${sig.key}')" class="px-2 py-0.5 rounded bg-[#00f0ff]/15 text-[#00f0ff] text-[10px] font-bold">Unsave</button>` : ''}
+              <button onclick="deleteSignal('${sig.key}', '${type}')" class="p-1 rounded bg-[#221845] text-[#8e82b8] hover:text-[#ff1744]" title="Delete">🗑️</button>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="relative flex h-2.5 w-2.5">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full ${isLong ? 'bg-[#00e676]' : 'bg-[#ff1744]'} opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2.5 w-2.5 ${isLong ? 'bg-[#00e676]' : 'bg-[#ff1744]'}"></span>
+              </span>
+              <span class="text-white font-extrabold text-base font-mono">${sig.symbol}</span>
+              <span class="px-2 py-0.5 rounded text-[10px] font-extrabold ${isLong ? 'bg-[#00e676]/15 text-[#00e676] border border-[#00e676]/40' : 'bg-[#ff1744]/15 text-[#ff1744] border border-[#ff1744]/40'}">${sig.direction}</span>
+              ${sig.outcome ? `<span class="px-2 py-0.5 rounded text-[10px] font-extrabold ${sig.outcome === 'TP HIT' ? 'bg-[#00e676]/20 text-[#00e676]' : 'bg-[#ff1744]/20 text-[#ff1744]'}">${sig.outcome}</span>` : ''}
+            </div>
+
+            <span class="px-2 py-0.5 rounded text-[11px] font-extrabold border ${modelTag}">${sig.bot || 'AI Engine'}</span>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 bg-[#0c081e] p-2.5 rounded-xl border border-[#251b4c] text-center font-mono">
+            <div>
+              <div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">ENTRY</div>
+              <div class="text-xs font-extrabold text-[#ffd600] mt-0.5">${formatPrice(sig.entry)}</div>
+            </div>
+            <div>
+              <div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">TP</div>
+              <div class="text-xs font-extrabold text-[#00e676] mt-0.5">${formatPrice(sig.tp)}</div>
+            </div>
+            <div>
+              <div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">SL</div>
+              <div class="text-xs font-extrabold text-[#ff1744] mt-0.5">${formatPrice(sig.sl)}</div>
+            </div>
+          </div>
+
+          <div class="space-y-1.5">
+            <div class="flex justify-between items-center text-[11px] font-mono">
+              <span class="text-[#8e82b8]">Live Bid: <strong class="text-white">${formatPrice(sig.currentPrice || sig.entry)}</strong></span>
+              <span class="font-bold text-xs" style="color: ${progress >= 50 ? '#00e676' : '#ff1744'}">Progress: ${progress.toFixed(0)}%</span>
+            </div>
+            <div class="h-2.5 w-full bg-[#080514] rounded-full p-0.5 border border-[#261c4d] overflow-hidden">
+              <div class="h-full rounded-full transition-all duration-500 ${progress >= 50 ? 'bg-gradient-to-r from-[#00f0ff] to-[#00e676]' : 'bg-gradient-to-r from-[#ff1744] to-[#ff9100]'}" style="width: ${progress}%"></div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between text-xs font-semibold text-[#c9d1e8]">
+            <div>Score: <strong class="text-white font-mono">${sig.score || 88}/100</strong></div>
+            <div>Health: <strong class="font-mono" style="color: ${healthColor}">${healthText}</strong></div>
+            <div>RR: <strong class="text-[#ffd600] font-mono">${sig.rr || '1:2.0'}</strong></div>
+          </div>
+
+          <div class="text-[10px] text-[#8e82b8] font-mono flex items-center gap-1">
+            🕒 ${sig.timestamp || 'Unknown'} PKT${relativeAge ? ` <span class="text-[#5b5285]">· ${relativeAge}</span>` : ''}
+          </div>
+
+          <!-- Dynamic AI Reasoning Box -->
+          <div class="bg-[#0b071e]/95 border border-[#2d215b] rounded-xl p-2.5 flex flex-col gap-1 shadow-inner">
+            <div class="text-[10px] font-bold text-[#00f0ff] uppercase tracking-wider">AI Signal Rationale</div>
+            <p class="text-[11px] leading-relaxed text-[#d1d5db] font-normal bg-[#070414]/70 p-2 rounded-lg border border-[#1e153f]">
+              ${sig.note || '💡 Analyzing realtime indicator convergence and volatility breakout.'}
+            </p>
+          </div>
+
+          <div class="grid grid-cols-4 gap-2 pt-1">
+            <button onclick="copySignal('${sig.key}', '${type}', this)" class="py-2 px-2 rounded-xl text-xs font-extrabold bg-[#00e676] text-black shadow-[0_0_12px_rgba(0,230,118,0.35)] hover:brightness-110 transition-all text-center cursor-pointer" title="Copy coin, direction, entry, TP, SL and time">
+              📋 Copy
+            </button>
+            <button onclick="openChartModal('${sig.key}', '${type}')" class="py-2 px-2 rounded-xl text-xs font-extrabold bg-[#00f0ff] text-black shadow-[0_0_12px_rgba(0,240,255,0.35)] hover:brightness-110 transition-all text-center cursor-pointer">
+              📊 Chart
+            </button>
+            <a href="https://www.binance.com/en/futures/${sig.symbol}" target="_blank" class="py-2 px-2 rounded-xl text-xs font-extrabold bg-[#fbbf24] text-black shadow-[0_0_10px_rgba(251,191,36,0.3)] hover:brightness-110 transition-all text-center">
+              ⚡ Binance
+            </a>
+            <a href="https://www.tradingview.com/chart/?symbol=BINANCE:${sig.symbol}" target="_blank" class="py-2 px-2 rounded-xl text-xs font-extrabold bg-[#221845] hover:bg-[#2e205d] text-white border border-[#3b2a74] transition-all text-center">
+              📉 TV
+            </a>
+          </div>
+
+          ${type === 'live' ? `
+          <button id="tradeBtn-${sig.key}" onclick="executeTrade('${sig.key}')" class="w-full py-2.5 rounded-xl text-xs font-extrabold bg-gradient-to-r from-[#a855f7] to-[#00f0ff] text-black shadow-[0_0_14px_rgba(168,85,247,0.35)] hover:brightness-110 transition-all text-center cursor-pointer">
+            ⚡ Take Trade (Binance Testnet Demo)
+          </button>` : ''}
+
+        </div>
+      `;
+    }
+
+    function renderAll() {
+      const liveList = Object.values(signals);
+      const savedList = Object.values(savedSignals);
+      document.getElementById('tab-count-main').innerText = liveList.length;
+      document.getElementById('tab-count-tpsl').innerText = closedSignals.length;
+      document.getElementById('tab-count-saved').innerText = savedList.length;
+
+      const mainEmpty = document.getElementById('mainEmpty');
+      if (liveList.length === 0) {
+        mainEmpty.classList.remove('hidden');
+        document.getElementById('signalsGrid').innerHTML = '';
+      } else {
+        mainEmpty.classList.add('hidden');
+        document.getElementById('signalsGrid').innerHTML = liveList.map(s => createCardHTML(s, 'live')).join('');
+      }
+
+      const aGrid = document.getElementById('archiveGrid');
+      const aEmpty = document.getElementById('archiveEmpty');
+      if (closedSignals.length === 0) {
+        aEmpty.classList.remove('hidden');
+        aGrid.innerHTML = '';
+      } else {
+        aEmpty.classList.add('hidden');
+        aGrid.innerHTML = closedSignals.map(s => createCardHTML(s, 'archive')).join('');
+      }
+
+      const sGrid = document.getElementById('savedGrid');
+      const sEmpty = document.getElementById('savedEmpty');
+      if (savedList.length === 0) {
+        sEmpty.classList.remove('hidden');
+        sGrid.innerHTML = '';
+      } else {
+        sEmpty.classList.add('hidden');
+        sGrid.innerHTML = savedList.map(s => createCardHTML(s, 'saved')).join('');
+      }
+
+      renderReport();
+    }
+
+    function renderReport() {
+      const total = closedSignals.length;
+      const tp = closedSignals.filter(s => s.outcome === 'TP HIT').length;
+      const sl = closedSignals.filter(s => s.outcome === 'SL HIT').length;
+      const rate = total > 0 ? ((tp / total) * 100).toFixed(1) : '0.0';
+
+      document.getElementById('reportSummary').innerHTML = `
+        <div class="bg-[#140e2d] border border-[#2b2057] p-4 rounded-2xl text-center">
+          <div class="text-xs text-[#8e82b8]">Win Rate</div>
+          <div class="text-2xl font-black text-[#00e676] font-mono mt-1">${rate}%</div>
+        </div>
+        <div class="bg-[#140e2d] border border-[#2b2057] p-4 rounded-2xl text-center">
+          <div class="text-xs text-[#8e82b8]">Take Profit Hits</div>
+          <div class="text-2xl font-black text-white font-mono mt-1">${tp}</div>
+        </div>
+        <div class="bg-[#140e2d] border border-[#2b2057] p-4 rounded-2xl text-center">
+          <div class="text-xs text-[#8e82b8]">Stop Loss Hits</div>
+          <div class="text-2xl font-black text-[#ff1744] font-mono mt-1">${sl}</div>
+        </div>
+        <div class="bg-[#140e2d] border border-[#2b2057] p-4 rounded-2xl text-center">
+          <div class="text-xs text-[#8e82b8]">Total Executed</div>
+          <div class="text-2xl font-black text-[#00f0ff] font-mono mt-1">${total}</div>
+        </div>
+      `;
+
+      const tbody = document.getElementById('reportTableBody');
+      if (closedSignals.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="9" class="text-center py-6 text-[#8e82b8]">No closed trades logged yet.</td></tr>`;
+      } else {
+        tbody.innerHTML = closedSignals.map(s => `
+          <tr class="hover:bg-[#1a123a]">
+            <td class="py-2.5 text-[#8e82b8]">${s.closedAt || '--'}</td>
+            <td class="py-2.5 font-bold text-white">${s.symbol}</td>
+            <td class="py-2.5 font-bold" style="color:${getBotColor(s.botId).text}">${s.botId === 'legacy' ? '<span class="italic text-[#5b5285]" title="Trade closed before per-bot tracking was added">Legacy</span>' : (s.botName || 'Unknown')}</td>
+            <td class="py-2.5 text-[#00f0ff]">${s.bot}</td>
+            <td class="py-2.5 ${s.direction === 'LONG' ? 'text-[#00e676]' : 'text-[#ff1744]'}">${s.direction}</td>
+            <td class="py-2.5 text-[#ffd600]">${formatPrice(s.entry)}</td>
+            <td class="py-2.5 text-[#00e676]">${formatPrice(s.tp)}</td>
+            <td class="py-2.5 text-[#ff1744]">${formatPrice(s.sl)}</td>
+            <td class="py-2.5 text-right font-extrabold ${s.outcome === 'TP HIT' ? 'text-[#00e676]' : 'text-[#ff1744]'}">${s.outcome}</td>
+          </tr>
+        `).join('');
+      }
+    }
+
+    function renderComparison() {
+      const winnerBox = document.getElementById('winnerBotBox');
+      const tbody = document.getElementById('compareTableBody');
+      const cardsGrid = document.getElementById('compareCardsGrid');
+      if (!winnerBox || !tbody || !cardsGrid) return;
+
+      const botIds = Object.keys(botsConfig).length ? Object.keys(botsConfig) : FALLBACK_BOT_IDS;
+      const rows = botIds.map(id => {
+        const cfg = botsConfig[id];
+        const stats = botStatsCache[id] || { wins: 0, losses: 0, total: 0, win_rate: 0 };
+        return { id, name: cfg ? cfg.name : id, tagline: cfg ? cfg.tagline : '', ...stats };
+      });
+
+      const winner = botStatsCache.__winner;
+      if (winner && winner.total > 0) {
+        const wColor = getBotColor(winner.bot_id);
+        winnerBox.innerHTML = `
+          <div class="bg-gradient-to-r from-[#ffd600]/15 via-[#140e2d] to-[#140e2d] border border-[#ffd600]/50 rounded-2xl p-5 flex items-center justify-between gap-4 shadow-[0_0_25px_rgba(255,214,0,0.12)]">
+            <div class="flex items-center gap-3">
+              <span class="text-3xl">🏆</span>
+              <div>
+                <div class="text-[11px] font-bold text-[#ffd600] uppercase tracking-wider">Current Winner Bot</div>
+                <div class="text-xl font-black text-white font-mono cursor-pointer hover:underline" onclick="openBotDetails('${winner.bot_id}')">${winner.bot_name}</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 font-mono text-center">
+              <div>
+                <div class="text-[10px] text-[#8e82b8] uppercase">Win Rate</div>
+                <div class="text-lg font-black text-[#00e676]">${winner.win_rate}%</div>
+              </div>
+              <div>
+                <div class="text-[10px] text-[#8e82b8] uppercase">Record</div>
+                <div class="text-lg font-black text-white">${winner.wins}-${winner.losses}</div>
+              </div>
+            </div>
+          </div>`;
+      } else {
+        winnerBox.innerHTML = `
+          <div class="bg-[#140e2d] border border-[#2b2057] rounded-2xl p-5 text-center text-sm text-[#8e82b8]">
+            🏆 Abhi tak koi bhi bot ka trade close nahi hua — winner declare hone ke liye kam se kam ek TP/SL hit chahiye.
+          </div>`;
+      }
+
+      const sorted = [...rows].sort((a, b) => (b.win_rate - a.win_rate) || (b.total - a.total));
+      tbody.innerHTML = sorted.map(r => {
+        const color = getBotColor(r.id);
+        return `
+          <tr class="hover:bg-[#1a123a] cursor-pointer" onclick="openBotDetails('${r.id}')">
+            <td class="py-2.5 font-bold" style="color:${color.text}">🤖 ${r.name}</td>
+            <td class="py-2.5 text-[#8e82b8] font-sans">${r.tagline}</td>
+            <td class="py-2.5 text-center text-[#00e676]">${r.wins}</td>
+            <td class="py-2.5 text-center text-[#ff1744]">${r.losses}</td>
+            <td class="py-2.5 text-center text-white">${r.total}</td>
+            <td class="py-2.5 text-right font-extrabold ${r.win_rate >= 50 ? 'text-[#00e676]' : 'text-[#ff9100]'}">${r.total > 0 ? r.win_rate + '%' : '—'}</td>
+          </tr>`;
+      }).join('');
+
+      cardsGrid.innerHTML = sorted.map(r => {
+        const color = getBotColor(r.id);
+        return `
+          <div class="bg-[#140e2d] border border-[#2b2057] rounded-2xl p-4 cursor-pointer hover:border-[${color.text}] transition-all" style="border-top:2px solid ${color.text}" onclick="openBotDetails('${r.id}')">
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-extrabold text-white font-mono">${r.name}</span>
+              <span class="text-lg font-black" style="color:${color.text}">${r.total > 0 ? r.win_rate + '%' : '—'}</span>
+            </div>
+            <p class="text-[11px] text-[#8e82b8] mb-2">${r.tagline}</p>
+            <div class="h-2 w-full bg-[#080514] rounded-full overflow-hidden border border-[#261c4d]">
+              <div class="h-full rounded-full" style="width:${r.win_rate}%; background:${color.text}"></div>
+            </div>
+            <div class="flex justify-between text-[10px] text-[#8e82b8] mt-2 font-mono">
+              <span>${r.wins}W / ${r.losses}L</span>
+              <span>${r.total} closed</span>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    // ====== PART 4: PER-BOT FULL REPORT ======
+    function selectBotReport(botId) {
+      selectedBotReportId = botId;
+      renderBotReport();
+    }
+
+    function renderBotReportPills() {
+      const pillsBox = document.getElementById('botReportPills');
+      if (!pillsBox) return;
+      const botIds = Object.keys(botsConfig).length ? Object.keys(botsConfig) : FALLBACK_BOT_IDS;
+
+      pillsBox.innerHTML = botIds.map(id => {
+        const cfg = botsConfig[id];
+        const color = getBotColor(id);
+        const isActive = id === selectedBotReportId;
+        const activeStyle = isActive
+          ? `background:${color.text}; color:#0a0718;`
+          : `background:#181138; color:${color.text}; border:1px solid ${color.border.replace('border-[', '').replace(']', '')};`;
+        return `<button onclick="selectBotReport('${id}')" class="px-3 py-1.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer" style="${activeStyle}">
+          🤖 ${cfg ? cfg.name : id}
+        </button>`;
+      }).join('');
+    }
+
+    function renderBotReport() {
+      renderBotReportPills();
+
+      const botId = selectedBotReportId;
+      const cfg = botsConfig[botId];
+      const trades = serverClosedTrades.filter(t => t.bot_id === botId);
+      const total = trades.length;
+      const wins = trades.filter(t => t.result === 'TP_HIT').length;
+      const losses = trades.filter(t => t.result === 'SL_HIT').length;
+      const rate = total > 0 ? ((wins / total) * 100).toFixed(1) : '0.0';
+
+      const summaryBox = document.getElementById('botReportSummary');
+      if (summaryBox) {
+        summaryBox.innerHTML = `
+          <div class="bg-[#140e2d] border border-[#2b2057] p-4 rounded-2xl text-center">
+            <div class="text-xs text-[#8e82b8]">${cfg ? cfg.name : botId} Win Rate</div>
+            <div class="text-2xl font-black text-[#00e676] font-mono mt-1">${rate}%</div>
+          </div>
+          <div class="bg-[#140e2d] border border-[#2b2057] p-4 rounded-2xl text-center">
+            <div class="text-xs text-[#8e82b8]">Take Profit Hits</div>
+            <div class="text-2xl font-black text-white font-mono mt-1">${wins}</div>
+          </div>
+          <div class="bg-[#140e2d] border border-[#2b2057] p-4 rounded-2xl text-center">
+            <div class="text-xs text-[#8e82b8]">Stop Loss Hits</div>
+            <div class="text-2xl font-black text-[#ff1744] font-mono mt-1">${losses}</div>
+          </div>
+          <div class="bg-[#140e2d] border border-[#2b2057] p-4 rounded-2xl text-center">
+            <div class="text-xs text-[#8e82b8]">Total Closed</div>
+            <div class="text-2xl font-black text-[#00f0ff] font-mono mt-1">${total}</div>
+          </div>
+        `;
+      }
+
+      const tbody = document.getElementById('botReportTableBody');
+      if (tbody) {
+        if (trades.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="8" class="text-center py-6 text-[#8e82b8]">Is bot ka abhi tak koi closed trade nahi hai.</td></tr>`;
+        } else {
+          tbody.innerHTML = trades.map(t => `
+            <tr class="hover:bg-[#1a123a]">
+              <td class="py-2.5 text-[#8e82b8]">${t.closed_at || '--'}</td>
+              <td class="py-2.5 font-bold text-white">${t.symbol}</td>
+              <td class="py-2.5 ${t.direction === 'LONG' ? 'text-[#00e676]' : 'text-[#ff1744]'}">${t.direction}</td>
+              <td class="py-2.5 text-[#ffd600]">${formatPrice(t.entry)}</td>
+              <td class="py-2.5 text-[#00e676]">${formatPrice(t.tp)}</td>
+              <td class="py-2.5 text-[#ff1744]">${formatPrice(t.sl)}</td>
+              <td class="py-2.5 text-white">${formatPrice(t.close_price)}</td>
+              <td class="py-2.5 text-right font-extrabold ${t.result === 'TP_HIT' ? 'text-[#00e676]' : 'text-[#ff1744]'}">${t.result === 'TP_HIT' ? 'TP HIT' : (t.result === 'EXPIRED' ? 'EXPIRED' : 'SL HIT')}</td>
+            </tr>
+          `).join('');
+        }
+      }
+    }
+
+    function downloadBotReportCSV() {
+      const trades = serverClosedTrades.filter(t => t.bot_id === selectedBotReportId);
+      if (trades.length === 0) {
+        alert('Is bot ke liye abhi export karne ko koi closed trade nahi hai.');
+        return;
+      }
+      const cfg = botsConfig[selectedBotReportId];
+      const headers = ['ClosedAt', 'Symbol', 'Direction', 'Entry', 'TP', 'SL', 'ClosePrice', 'Result'];
+      const rows = trades.map(t => [t.closed_at || '', t.symbol, t.direction, t.entry, t.tp, t.sl, t.close_price, t.result]);
+      const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${cfg ? cfg.name.replace(/\s+/g, '_') : selectedBotReportId}_report_${new Date().toISOString().slice(0, 10)}.csv`;
+      a.click();
+    }
+
+    // Backs up EVERYTHING currently in the browser (live signals, saved signals,
+    // closed-trade history) as a downloadable .json file, then wipes local state
+    // so the dashboard starts clean. This only clears the BROWSER's local copy —
+    // it does not touch signals/*.json in the repo, so the real bot keeps running
+    // unaffected; the next fetch will just repopulate from the live data.
+    function clearOldDataWithBackup() {
+      const totalEntries = Object.keys(signals).length + Object.keys(savedSignals).length + closedSignals.length;
+      if (totalEntries === 0) {
+        alert('Koi local data hi nahi hai clear karne ko.');
+        return;
+      }
+      if (!confirm(`Ye ${totalEntries} entries (live + saved + closed) ko backup karke browser se clear kar dega.\n\nServer-side signals/*.json data affected nahi hoga.\n\nContinue?`)) {
+        return;
+      }
+
+      const backup = {
+        exportedAt: new Date().toISOString(),
+        signals,
+        savedSignals,
+        closedSignals
+      };
+      const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `ai_signals_backup_${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+
+      signals = {};
+      savedSignals = {};
+      closedSignals = [];
+      persistState();
+      renderAll();
+      alert('Backup download ho gaya aur browser data clear ho gaya. Naye signals ab fresh generate hone shuru honge.');
+    }
+
+    function downloadReportCSV() {
+      if (closedSignals.length === 0) {
+        alert('No closed signals to export yet.');
+        return;
+      }
+      const headers = ['ClosedAt', 'Symbol', 'Bot', 'Model', 'Direction', 'Entry', 'TP', 'SL', 'Outcome'];
+      const rows = closedSignals.map(s => [s.closedAt || '', s.symbol, s.botName || '', s.bot, s.direction, s.entry, s.tp, s.sl, s.outcome]);
+      const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `ai_signals_report_${new Date().toISOString().slice(0, 10)}.csv`;
+      a.click();
+    }
+
+    function saveSignal(key) {
+      if (signals[key]) {
+        savedSignals[key] = { ...signals[key] };
+        delete signals[key];
+        persistState();
+        renderAll();
+      }
+    }
+
+    function unsaveSignal(key) {
+      if (savedSignals[key]) {
+        signals[key] = { ...savedSignals[key] };
+        delete savedSignals[key];
+        persistState();
+        renderAll();
+      }
+    }
+
+    function deleteSignal(key, type) {
+      if (type === 'live') delete signals[key];
+      else if (type === 'saved') delete savedSignals[key];
+      else if (type === 'archive') closedSignals = closedSignals.filter(s => s.key !== key);
+      persistState();
+      renderAll();
+    }
+
+    // ====== "TAKE TRADE (DEMO)" — one-click Binance Futures TESTNET execution ======
+    async function executeTrade(key) {
+      const s = signals[key];
+      if (!s) return;
+
+      const btn = document.getElementById(`tradeBtn-${key}`);
+      const confirmMsg =
+        `${s.symbol} ${s.direction} — Binance TESTNET par (fake money) execute karna hai?\n\n` +
+        `• Entry: current market price par (suggested entry ${formatPrice(s.entry)} miss ho chuki hai)\n` +
+        `• TP: ${formatPrice(s.tp)} (exactly wahi rahega)\n` +
+        `• SL: agar risk > reward ban raha ho to automatically tighten kiya jayega, warna wahi rahega\n` +
+        `• Leverage: 1x (lowest) · Quantity: exchange ki smallest legal size\n\n` +
+        `Continue?`;
+      if (!confirm(confirmMsg)) return;
+
+      if (btn) { btn.disabled = true; btn.style.opacity = '0.5'; btn.innerText = '⏳ Executing...'; }
+
+      try {
+        const res = await fetch(EXECUTE_TRADE_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ symbol: s.symbol, direction: s.direction, entry: s.entry, tp: s.tp, sl: s.sl })
+        });
+        const result = await res.json();
+
+        if (!res.ok || result.status === 'error') {
+          alert(`❌ Trade execute nahi hui:\n${result.message || 'Unknown error'}\n\nNote: this button needs app.py running as a LIVE server somewhere - it can't work against the static signals/*.json files this dashboard normally reads.`);
+          if (btn) { btn.disabled = false; btn.style.opacity = '1'; btn.innerText = '⚡ Take Trade (Binance Testnet Demo)'; }
+          return;
+        }
+
+        const slNote = result.sl_adjusted ? ' (SL auto-adjusted to cap risk ≤ reward)' : '';
+        showTradeToast(s.symbol, 'EXECUTED', s.botName);
+        if (btn) {
+          btn.innerText = `✅ Executed @ ${formatPrice(result.executed_entry)} · qty ${result.quantity}`;
+          btn.classList.remove('from-[#a855f7]', 'to-[#00f0ff]');
+          btn.classList.add('bg-[#00e676]');
+        }
+        console.log(`✅ Demo trade live: ${s.symbol} ${s.direction} entry=${result.executed_entry} tp=${result.tp} sl=${result.sl}${slNote}`);
+      } catch (e) {
+        alert(`❌ Trade execute nahi hui — no live server reachable at ${EXECUTE_TRADE_ENDPOINT}.\nThis feature only works when app.py is running live somewhere, not on the static dashboard.\n${e}`);
+        if (btn) { btn.disabled = false; btn.style.opacity = '1'; btn.innerText = '⚡ Take Trade (Binance Testnet Demo)'; }
+      }
+    }
+
+    function simulateTrigger(key, price) {
+      const s = signals[key] || savedSignals[key];
+      if (!s) return;
+      const isTP = price === s.tp;
+      const outcome = isTP ? 'TP HIT' : 'SL HIT';
+
+      showTradeToast(s.symbol, isTP ? 'TP_HIT' : 'SL_HIT', s.botName);
+
+      if (isTP) {
+        playPartyPopper();
+        playHappySound();
+      } else {
+        showSadAnimation();
+        playSadSound();
+      }
+
+      closedSignals.unshift({
+        ...s,
+        closedAt: new Date().toLocaleString(),
+        outcome: outcome
+      });
+
+      delete signals[key];
+      delete savedSignals[key];
+      persistState();
+      renderAll();
+      fetchBotStats(); // refresh per-bot win/loss now that a trade closed
+    }
+
+    // Real Binance Live Ticker Poller + Health Calculator
+    async function pollBinancePrices() {
+      const activeKeys = Object.keys(signals);
+      if (activeKeys.length === 0) return;
+
+      try {
+        const res = await fetch('https://api.binance.com/api/v3/ticker/bookTicker');
+        const data = await res.json();
+        const priceMap = {};
+        data.forEach(item => { priceMap[item.symbol] = parseFloat(item.bidPrice); });
+
+        let changed = false;
+        activeKeys.forEach(key => {
+          const s = signals[key];
+          const sym = s.symbol;
+          if (priceMap[sym]) {
+            const curPrice = priceMap[sym];
+            s.currentPrice = curPrice;
+
+            // Recalculate Health
+            s.health = calculateTradeHealth(s.direction, s.entry, s.tp, s.sl, curPrice);
+
+            // Recalculate Progress Track Bar
+            let prog = 50;
+            if (s.direction === 'LONG') {
+              if (curPrice >= s.entry) {
+                const span = Math.max(0.00001, s.tp - s.entry);
+                prog = 50 + ((curPrice - s.entry) / span) * 50;
+              } else {
+                const span = Math.max(0.00001, s.entry - s.sl);
+                prog = 50 - ((s.entry - curPrice) / span) * 50;
+              }
+              if (curPrice >= s.tp) simulateTrigger(key, s.tp);
+              else if (curPrice <= s.sl) simulateTrigger(key, s.sl);
+            } else {
+              if (curPrice <= s.entry) {
+                const span = Math.max(0.00001, s.entry - s.tp);
+                prog = 50 + ((s.entry - curPrice) / span) * 50;
+              } else {
+                const span = Math.max(0.00001, s.sl - s.entry);
+                prog = 50 - ((curPrice - s.entry) / span) * 50;
+              }
+              if (curPrice <= s.tp) simulateTrigger(key, s.tp);
+              else if (curPrice >= s.sl) simulateTrigger(key, s.sl);
+            }
+            s.progress = Math.max(0, Math.min(100, prog));
+            changed = true;
+          }
+        });
+
+        if (changed && activeTab === 'main') renderAll();
+      } catch(e) {}
+    }
+
+    setInterval(pollBinancePrices, 3000);
+
+    // Chart Modal Logic
+    function openChartModal(key, type) {
+      const sig = signals[key] || savedSignals[key] || closedSignals.find(s => s.key === key);
+      if (!sig) return;
+      currentChartSignal = sig;
+
+      document.getElementById('modalSymbol').innerText = sig.symbol;
+      document.getElementById('modalModelTag').innerText = `${sig.botName || 'Bot'} · ${sig.bot || 'AI Engine'}`;
+      document.getElementById('modalDirBadge').innerText = sig.direction;
+      document.getElementById('modalEntry').innerText = formatPrice(sig.entry);
+      document.getElementById('modalTP').innerText = formatPrice(sig.tp);
+      document.getElementById('modalSL').innerText = formatPrice(sig.sl);
+      document.getElementById('modalBid').innerText = formatPrice(sig.currentPrice || sig.entry);
+
+      document.getElementById('chartModal').classList.remove('hidden');
+      initChart(sig);
+    }
+
+    function closeChartModal() {
+      document.getElementById('chartModal').classList.add('hidden');
+      if (chartInstance) {
+        chartInstance.remove();
+        chartInstance = null;
+      }
+    }
+
+    function changeInterval(iv) {
+      currentInterval = iv;
+      document.querySelectorAll('.interval-btn').forEach(b => {
+        if (b.innerText === iv) {
+          b.className = 'interval-btn px-2.5 py-1 rounded-lg text-xs font-mono font-bold bg-[#00f0ff] text-black';
+        } else {
+          b.className = 'interval-btn px-2.5 py-1 rounded-lg text-xs font-mono font-bold text-[#8e82b8] hover:text-white';
+        }
+      });
+      if (currentChartSignal) initChart(currentChartSignal);
+    }
+
+    async function initChart(sig) {
+      const container = document.getElementById('chartContainer');
+      container.innerHTML = '';
+      if (chartInstance) chartInstance.remove();
+
+      chartInstance = LightweightCharts.createChart(container, {
+        layout: { background: { color: '#0a0718' }, textColor: '#c9d1e8' },
+        grid: { vertLines: { color: '#1a1338' }, horzLines: { color: '#1a1338' } },
+        rightPriceScale: { borderColor: '#2b2057' },
+        timeScale: { borderColor: '#2b2057', timeVisible: true }
+      });
+
+      seriesInstance = chartInstance.addCandlestickSeries({
+        upColor: '#00e676', downColor: '#ff1744',
+        borderUpColor: '#00e676', borderDownColor: '#ff1744',
+        wickUpColor: '#00e676', wickDownColor: '#ff1744'
+      });
+
+      // Entry Price Line (Yellow)
+      seriesInstance.createPriceLine({
+        price: sig.entry,
+        color: '#ffd600',
+        lineWidth: 2,
+        lineStyle: LightweightCharts.LineStyle.Solid,
+        axisLabelVisible: true,
+        title: `ENTRY: ${formatPrice(sig.entry)}`
+      });
+
+      // Take Profit Line (Green)
+      seriesInstance.createPriceLine({
+        price: sig.tp,
+        color: '#00e676',
+        lineWidth: 2,
+        lineStyle: LightweightCharts.LineStyle.Solid,
+        axisLabelVisible: true,
+        title: `TP: ${formatPrice(sig.tp)}`
+      });
+
+      // Stop Loss Line (Red)
+      seriesInstance.createPriceLine({
+        price: sig.sl,
+        color: '#ff1744',
+        lineWidth: 2,
+        lineStyle: LightweightCharts.LineStyle.Solid,
+        axisLabelVisible: true,
+        title: `SL: ${formatPrice(sig.sl)}`
+      });
+
+      try {
+        const res = await fetch(`https://api.binance.com/api/v3/klines?symbol=${sig.symbol}&interval=${currentInterval}&limit=100`);
+        const data = await res.json();
+        if (Array.isArray(data)) {
+          const candles = data.map(d => ({
+            time: Math.floor(d[0] / 1000),
+            open: parseFloat(d[1]),
+            high: parseFloat(d[2]),
+            low: parseFloat(d[3]),
+            close: parseFloat(d[4])
+          }));
+          seriesInstance.setData(candles);
+
+          const targetIndex = Math.max(0, candles.length - 12);
+          const sigCandle = candles[targetIndex];
+          document.getElementById('modalSignalTime').innerText = new Date(sigCandle.time * 1000).toLocaleTimeString();
+
+          // Arrow indicator preserved cleanly
+          seriesInstance.setMarkers([
+            {
+              time: sigCandle.time,
+              position: 'aboveBar',
+              color: '#ffd600',
+              shape: 'arrowDown',
+              text: `▼ ENTRY @ ${formatPrice(sig.entry)}`,
+              size: 2
+            }
+          ]);
+
+          chartInstance.timeScale().fitContent();
+        }
+      } catch(e) {}
+    }
+
+    function openNewSignalModal() {
+      document.getElementById('newSignalModal').classList.remove('hidden');
+    }
+    function closeNewSignalModal() {
+      document.getElementById('newSignalModal').classList.add('hidden');
+    }
+    function handleNewSignalSubmit(e) {
+      e.preventDefault();
+      const sym = document.getElementById('formSymbol').value.toUpperCase().trim();
+      const bot = document.getElementById('formModel').value;
+      const dir = document.getElementById('formDir').value;
+      const entry = parseFloat(document.getElementById('formEntry').value);
+      const tp = parseFloat(document.getElementById('formTP').value);
+      const sl = parseFloat(document.getElementById('formSL').value);
+      const aiReason = document.getElementById('formReason').value;
+      const key = `manual:${sym}`;
+
+      signals[key] = {
+        key: key,
+        symbol: sym,
+        botId: 'manual',
+        botName: 'Manual',
+        bot: bot,
+        direction: dir,
+        entry: entry,
+        tp: tp,
+        sl: sl,
+        score: 90,
+        health: 0,
+        rr: '1:2.0',
+        progress: 50,
+        note: aiReason
+      };
+
+      closeNewSignalModal();
+      persistState();
+      renderAll();
+    }
+
+    // ====== BOT DETAILS MODAL ======
+    function openBotDetails(botId) {
+      const cfg = botsConfig[botId];
+      const stats = botStatsCache[botId];
+      document.getElementById('botDetailName').innerText = cfg ? cfg.name : (botId === 'manual' ? 'Manual Entry' : botId);
+      document.getElementById('botDetailId').innerText = botId;
+      document.getElementById('botDetailTagline').innerText = cfg ? cfg.tagline : 'Manually added signal — not from a strategy bot.';
+      document.getElementById('botDetailDescription').innerText = cfg ? cfg.description : 'This signal was added manually via the "+ Add Signal" button, not generated by one of the 5 strategy bots.';
+
+      const statsBox = document.getElementById('botDetailStats');
+      if (stats) {
+        statsBox.innerHTML = `
+          <div class="bg-[#0c081e] border border-[#251b4c] rounded-xl p-2.5">
+            <div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">Win Rate</div>
+            <div class="text-lg font-black text-[#00e676] mt-0.5">${stats.win_rate}%</div>
+          </div>
+          <div class="bg-[#0c081e] border border-[#251b4c] rounded-xl p-2.5">
+            <div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">Wins / Losses</div>
+            <div class="text-lg font-black text-white mt-0.5">${stats.wins}/${stats.losses}</div>
+          </div>
+          <div class="bg-[#0c081e] border border-[#251b4c] rounded-xl p-2.5">
+            <div class="text-[9px] font-extrabold text-[#8e82b8] uppercase">Total Trades</div>
+            <div class="text-lg font-black text-[#00f0ff] mt-0.5">${stats.total}</div>
+          </div>
+        `;
+      } else {
+        statsBox.innerHTML = `<div class="col-span-3 text-center text-xs text-[#8e82b8] py-2">No closed trades yet for this bot.</div>`;
+      }
+
+      document.getElementById('botDetailsModal').classList.remove('hidden');
+    }
+    function closeBotDetailsModal() {
+      document.getElementById('botDetailsModal').classList.add('hidden');
+    }
+
+    setInterval(() => {
+      const d = new Date();
+      const clk = document.getElementById('modalClock');
+      if (clk) clk.innerText = d.toLocaleTimeString();
+    }, 1000);
+
+    // Show last known-good state instantly (survives refresh), then pull fresh data
+    restoreState();
+    renderAll();
+    fetchBotsConfig();
+    fetchBotStats();
+    fetchServerClosed();
+    fetchEngineStatus();
+    fetchSignals();
+    setInterval(fetchSignals, 20000);
+    setInterval(fetchBotStats, 30000);
+    setInterval(fetchServerClosed, 30000);
+    setInterval(fetchEngineStatus, 30000);
+  </script>
+</body>
+</html>

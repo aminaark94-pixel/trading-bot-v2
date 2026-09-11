@@ -1,0 +1,51 @@
+name: Run Trading Bot
+
+on:
+  schedule:
+    # Har 15 minute (GitHub kabhi kabhi 5-20 min delay bhi kar deta hai)
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}   # Actions tab se manually bhi trigger kar sakte ho
+
+concurrency:
+  group: trading-bot-engine
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot engine (one autopilot cycle)
+        run: python bot_engine.py
+        env:
+          TZ: Asia/Karachi
+          AI_ENABLED: ${{ secrets.AI_ENABLED }}
+          GEMINI_KEYS: ${{ secrets.GEMINI_KEYS }}
+          GROQ_KEYS: ${{ secrets.GROQ_KEYS }}
+          MISTRAL_KEYS: ${{ secrets.MISTRAL_KEYS }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SIGNAL_MAX_AGE_HOURS: "72"
+          MAX_OPEN_PER_BOT: "3"
+          SCAN_BUDGET_SECONDS: "900"
+
+      - name: Commit and push updated signals
+        run: |
+          git config user.name "trading-bot[actions]"
+          git config user.email "actions@users.noreply.github.com"
+          git add signals/ config/ 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: update signals $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+          git push
