@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot2:ETHUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2551.9,
+    "tp": 2504.460303,
+    "sl": 2585.785498,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 80.28 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-11 18:49:33",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-11 18:49:33\nEntry: 2551.9\nTP: 2504.460303\nSL: 2585.785498"
+  },
+  {
     "key": "bot2:SOLUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -14,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-11 17:53:31",
     "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-11 17:53:31\nEntry: 101.77\nTP: 99.972335\nSL: 103.054046"
-  },
-  {
-    "key": "bot2:ETHUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2511.46,
-    "tp": 2475.314286,
-    "sl": 2537.278368,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 75.61 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-11 17:53:29",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-11 17:53:29\nEntry: 2511.46\nTP: 2475.314286\nSL: 2537.278368"
   },
   {
     "key": "bot2:BTCUSDT",
@@ -62,53 +62,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-11 17:42:25",
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-11 17:42:25\nEntry: 100.8\nTP: 103.495864\nSL: 99.574608"
-  },
-  {
-    "key": "bot4:ETHUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2488.68,
-    "tp": 2517.981213,
-    "sl": 2464.262323,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-11 17:42:22",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-11 17:42:22\nEntry: 2488.68\nTP: 2517.981213\nSL: 2464.262323"
-  },
-  {
-    "key": "bot3:ETHUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2488.68,
-    "tp": 2542.39889,
-    "sl": 2464.262323,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-11 17:42:22",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-11 17:42:22\nEntry: 2488.68\nTP: 2542.39889\nSL: 2464.262323"
-  },
-  {
-    "key": "bot4:BTCUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 77495.66,
-    "tp": 78170.986835,
-    "sl": 76932.887637,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-11 17:42:18",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-11 17:42:18\nEntry: 77495.66\nTP: 78170.986835\nSL: 76932.887637"
   }
 ]
