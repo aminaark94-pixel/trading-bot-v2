@@ -1,5 +1,22 @@
 {
-  "bot1": [],
+  "bot1": [
+    {
+      "key": "bot1:ETHUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2600.06,
+      "tp": 2689.93279,
+      "sl": 2550.130673,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 73.38).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 19:49:57",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-11 19:49:57\nEntry: 2600.06\nTP: 2689.93279\nSL: 2550.130673"
+    }
+  ],
   "bot2": [
     {
       "key": "bot2:SOLUSDT",
