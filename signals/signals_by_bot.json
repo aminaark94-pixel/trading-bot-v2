@@ -1,6 +1,55 @@
 {
   "bot1": [],
-  "bot2": [],
+  "bot2": [
+    {
+      "key": "bot2:SOLUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "SOLUSDT",
+      "direction": "SHORT",
+      "entry": 101.77,
+      "tp": 99.972335,
+      "sl": 103.054046,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 74.01 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 17:53:31",
+      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-11 17:53:31\nEntry: 101.77\nTP: 99.972335\nSL: 103.054046"
+    },
+    {
+      "key": "bot2:ETHUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "ETHUSDT",
+      "direction": "SHORT",
+      "entry": 2511.46,
+      "tp": 2475.314286,
+      "sl": 2537.278368,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 75.61 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 17:53:29",
+      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-11 17:53:29\nEntry: 2511.46\nTP: 2475.314286\nSL: 2537.278368"
+    },
+    {
+      "key": "bot2:BTCUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "entry": 78037.82,
+      "tp": 77188.219837,
+      "sl": 78644.67726,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 73.33 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 17:53:25",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-11 17:53:25\nEntry: 78037.82\nTP: 77188.219837\nSL: 78644.67726"
+    }
+  ],
   "bot3": [
     {
       "key": "bot3:SOLUSDT",
