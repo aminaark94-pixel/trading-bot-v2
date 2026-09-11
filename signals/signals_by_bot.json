@@ -4,6 +4,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "bot4:BTCUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 77417.6,
+      "tp": 77656.775185,
+      "sl": 77218.287346,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-11 13:24:37",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-11 13:24:37\nEntry: 77417.6\nTP: 77656.775185\nSL: 77218.287346"
+    },
+    {
       "key": "bot4:SOLUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
