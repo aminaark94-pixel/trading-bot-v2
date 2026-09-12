@@ -1,6 +1,10 @@
 {
 "testnet": false,
-"symbols": ["BTC/USDT", "ETH/USDT", "SOL/USDT"],
+"symbols": 
+
+$$"BTC/USDT", "ETH/USDT", "SOL/USDT"$$
+
+,
 "timeframe": "15m",
 "ohlcv_limit": 100,
 "trade_allocation_usdt": 50.0,
@@ -78,9 +82,21 @@
 "Triple_Supertrend": {
 "enabled": true,
 "timeframe": "15m",
-"st1": [12, 3.0],
-"st2": [10, 2.0],
-"st3": [11, 1.0],
+"st1": 
+
+$$12, 3.0$$
+
+,
+"st2": 
+
+$$10, 2.0$$
+
+,
+"st3": 
+
+$$11, 1.0$$
+
+,
 "min_rr": 1.0,
 "target_rr": 1.5
 },
@@ -99,8 +115,16 @@
 "higher_timeframe": "1h",
 "ema_fast": 12,
 "ema_slow": 26,
-"rsi_long_range": [28, 42],
-"rsi_short_range": [58, 72],
+"rsi_long_range": 
+
+$$28, 42$$
+
+,
+"rsi_short_range": 
+
+$$58, 72$$
+
+,
 "min_score": 70,
 "atr_sl_multiplier": 2.2,
 "atr_tp_multiplier": 2.5
