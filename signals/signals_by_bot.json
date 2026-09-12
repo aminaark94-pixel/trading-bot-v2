@@ -1,6 +1,23 @@
 {
   "bot1": [],
-  "bot2": [],
+  "bot2": [
+    {
+      "key": "bot2:BTCUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 77165.18,
+      "tp": 77277.770257,
+      "sl": 77084.758388,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 27.8 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-12 23:22:44",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-12 23:22:44\nEntry: 77165.18\nTP: 77277.770257\nSL: 77084.758388"
+    }
+  ],
   "bot3": [],
   "bot4": [
     {
