@@ -3,7 +3,7 @@
     "id": "bot1",
     "name": "Trend Rider",
     "tagline": "Higher-timeframe trend ke sath hi trade karta hai",
-    "description": "Sirf tab signal deta hai jab 1h aur 4h EMA50/EMA200 dono ek hi direction confirm karein (main trend). Counter-trend setups skip kar deta hai — goal: kam signals, zyada reliable direction.",
+    "description": "Sirf tab signal deta hai jab 1h aur 4h EMA50/EMA200 dono ek hi direction confirm karein (main trend). Counter-trend setups skip kar deta hai \u2014 goal: kam signals, zyada reliable direction.",
     "trend_mode": "strict_align",
     "min_score": 78,
     "base_rr": 1.8,
@@ -33,27 +33,27 @@
     "id": "bot4",
     "name": "Scalper Precision",
     "tagline": "Tight, fast, high-frequency 15m scalps",
-    "description": "Chhote, tez moves par focus — tight SL/TP. Higher timeframe trend ko sirf ek soft filter ki tarah use karta hai, mostly 15m momentum par decide karta hai.",
+    "description": "Chhote, tez moves par focus \u2014 tight SL/TP. Higher timeframe trend ko sirf ek soft filter ki tarah use karta hai, mostly 15m momentum par decide karta hai.",
     "trend_mode": "soft_align",
     "min_score": 70,
     "base_rr": 1.2,
-    "prompt_style": "STRATEGY = SHORT-TERM SCALP. Focus mainly on 15m momentum, MACD histogram direction and short bursts of volume/price action. Keep TP and SL tight and close to current price — this is a fast in-and-out trade, not a swing."
+    "prompt_style": "STRATEGY = SHORT-TERM SCALP. Focus mainly on 15m momentum, MACD histogram direction and short bursts of volume/price action. Keep TP and SL tight and close to current price \u2014 this is a fast in-and-out trade, not a swing."
   },
   {
     "id": "bot5",
     "name": "Conservative Swing",
     "tagline": "Sirf best-of-best setups, strict multi-timeframe alignment",
-    "description": "Sabse zyada selective bot — high score threshold, strict 1h+4h alignment, wider SL/TP for a proper swing trade. Kam signals, lekin sabse high-conviction.",
+    "description": "Sabse zyada selective bot \u2014 high score threshold, strict 1h+4h alignment, wider SL/TP for a proper swing trade. Kam signals, lekin sabse high-conviction.",
     "trend_mode": "strict_align",
     "min_score": 85,
     "base_rr": 2.6,
-    "prompt_style": "STRATEGY = CONSERVATIVE SWING. Be very selective — only signal if multiple confluences line up (trend + momentum + indicator agreement). It is completely fine to return NONE most of the time. When you do signal, use wider SL/TP suited for a multi-hour swing, not a scalp."
+    "prompt_style": "STRATEGY = CONSERVATIVE SWING. Be very selective \u2014 only signal if multiple confluences line up (trend + momentum + indicator agreement). It is completely fine to return NONE most of the time. When you do signal, use wider SL/TP suited for a multi-hour swing, not a scalp."
   },
   {
     "id": "bot6",
     "name": "Pullback Hunter (Bot C)",
     "tagline": "1H trend ke sath RSI pullback entries, volume-confirmed",
-    "description": "Pehle 1H EMA20/EMA50 se confirm karta hai ke ek clear trend chal raha hai (kam se kam 0.4% gap). Phir us trend ke direction mein RSI pullback zone (overextended dip/rally, lekin full reversal nahi) dhoondta hai. Entry sirf tab leta hai jab volume pehle contract kare aur phir entry candle par expand ho — taake ye ek hi random candle na ho balke asli continuation move ho.",
+    "description": "Pehle 1H EMA20/EMA50 se confirm karta hai ke ek clear trend chal raha hai (kam se kam 0.4% gap). Phir us trend ke direction mein RSI pullback zone (overextended dip/rally, lekin full reversal nahi) dhoondta hai. Entry sirf tab leta hai jab volume pehle contract kare aur phir entry candle par expand ho \u2014 taake ye ek hi random candle na ho balke asli continuation move ho.",
     "trend_mode": "soft_align",
     "min_score": 74,
     "base_rr": 1.6,
@@ -61,69 +61,9 @@
   },
   {
     "id": "bot7",
-    "name": "Volume Surge Scalper",
-    "tagline": "High volume breakout aur momentum surges",
-    "description": "Jab volume sudden 2.5x surge hota hai aur price key support/resistance area ko strong candle body ke sath breakout karta hai tab rapid momentum entry leta hai.",
-    "trend_mode": "soft_align",
-    "min_score": 76,
-    "base_rr": 1.8,
-    "prompt_style": "STRATEGY = VOLUME SURGE SCALPER. Look for a sudden spike in volume (>2.5x 20-period volume average) combined with a decisive candle close breaking out of immediate support/resistance."
-  },
-  {
-    "id": "bot8",
-    "name": "ICT SMC Liquidity Hunter",
-    "tagline": "Liquidity sweep aur market structure reversal setups",
-    "description": "Recent 20-period high/low liquidity areas ke sweep hone par entry dhoondta hai. Key structure level cross hone par jab price immediate reverse hota hai tab institutional orderflow ke sath trade leta hai.",
-    "trend_mode": "counter_allowed",
-    "min_score": 65,
-    "base_rr": 2.0,
-    "prompt_style": "STRATEGY = ICT SMART MONEY CONCEPTS. Look for recent liquidity pool sweeps (highs/lows of recent candles) followed by instant structural rejection/bounce. Require high risk-reward ratio."
-  },
-  {
-    "id": "bot9",
-    "name": "Supertrend + Kumo Cloud",
-    "tagline": "Ichimoku Kumo Cloud confirmation ke sath Supertrend flip entries",
-    "description": "Supertrend (10/3) ka trend flip check karta hai sirf tab jab price Ichimoku Cloud (Span A/B) ke clear favor mein ho (Bullish: Price > Cloud top, Bearish: Price < Cloud bottom).",
-    "trend_mode": "strict_align",
-    "min_score": 60,
-    "base_rr": 1.5,
-    "prompt_style": "STRATEGY = SUPERTREND KUMO CLOUD. Only enter long if price is clear of Ichimoku Kumo Cloud top and Supertrend flips green. Only enter short if price is below Kumo Cloud bottom and Supertrend flips red."
-  },
-  {
-    "id": "bot10",
-    "name": "Triple Supertrend Confluence",
-    "tagline": "3 multi-period Supertrend alignment for maximum trend strength",
-    "description": "Teen alag Supertrend settings (12/3, 10/2, 11/1) analyze karta hai. Entry sirf tab multi-confluence par trigger hoti hai jab teeno Supertrend ek hi direction confirm karein.",
-    "trend_mode": "strict_align",
-    "min_score": 70,
-    "base_rr": 1.5,
-    "prompt_style": "STRATEGY = TRIPLE SUPERTREND. Require full alignment across 3 Supertrend variations (12/3, 10/2, 11/1). Do not take trades if any of the three Supertrends disagree."
-  },
-  {
-    "id": "bot11",
-    "name": "Trendline Breakout",
-    "tagline": "20-period high/low breakout with volume confirmation",
-    "description": "Jab price 20-candle high ya low breaks karta hai 1.5x volume expansion aur high BB width ke sath, tab momentum breakout directional trade trigger hoti hai.",
-    "trend_mode": "soft_align",
-    "min_score": 65,
-    "base_rr": 2.0,
-    "prompt_style": "STRATEGY = TRENDLINE BREAKOUT. Monitor price breaking 20-period extremes with volume >1.5x average. Enter aggressively in the direction of the expansion."
-  },
-  {
-    "id": "bot12",
-    "name": "Pullback Pro (Bot C v3)",
-    "tagline": "Fast 5m/15m multi-timeframe aggressive pullback entries",
-    "description": "Higher timeframe 1h trend confirmation (12/26 EMA) ke baad 5m timeframe par tight RSI pullbacks (28-42 Long / 58-72 Short) aur volume contraction-expansion sequences par entry dhoondta hai.",
-    "trend_mode": "strict_align",
-    "min_score": 70,
-    "base_rr": 1.8,
-    "prompt_style": "STRATEGY = PULLBACK PRO (BOT C V3). Confirm 1h and 15m trend alignment first, then execute on 5m RSI pullbacks into EMA20 zones with strict structural stop loss."
-  },
-  {
-    "id": "bot13",
     "name": "EMA Crossover (Algo Arena)",
     "tagline": "12/26 EMA crossover, ATR risk mechanics, BBW + choppy-BTC filters",
-    "description": "Algo Arena V4 ka pehla strategy module — 12 aur 26-period EMA crossover par signal deta hai (15m chart). Har signal 'Core System' risk rules follow karta hai: ATR x 1.5 stop-loss, ATR x 3.0 take-profit (fixed 1:2 R:R, jo minimum 2.0 R:R requirement se match karta hai), Bollinger Band Width >= 0.3 volatility filter, aur ek choppy-BTC gate jo skip kar deta hai jab BTC ke last 10x 1m candles ka move 1% se kam ho (dead/ranging market).",
+    "description": "Algo Arena V4 ka pehla strategy module \u2014 12 aur 26-period EMA crossover par signal deta hai (15m chart). Har signal 'Core System' risk rules follow karta hai: ATR x 1.5 stop-loss, ATR x 3.0 take-profit (fixed 1:2 R:R, jo minimum 2.0 R:R requirement se match karta hai), Bollinger Band Width >= 0.3 volatility filter, aur ek choppy-BTC gate jo skip kar deta hai jab BTC ke last 10x 1m candles ka move 1% se kam ho (dead/ranging market).",
     "trend_mode": "soft_align",
     "min_score": 65,
     "base_rr": 2.0,
