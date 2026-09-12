@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot4:ETHUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2532.07,
+    "tp": 2525.270597,
+    "sl": 2537.736169,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-12 16:20:18",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-12 16:20:18\nEntry: 2532.07\nTP: 2525.270597\nSL: 2537.736169"
+  },
+  {
     "key": "bot1:ETHUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
