@@ -4,16 +4,16 @@
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
     "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2532.07,
-    "tp": 2525.270597,
-    "sl": 2537.736169,
+    "direction": "LONG",
+    "entry": 2540.03,
+    "tp": 2550.397145,
+    "sl": 2531.390713,
     "score": 72,
     "provider": "Technical",
     "reason": "MACD line just crossed its signal line (fast momentum flip).",
     "status": "waiting_entry",
-    "timestamp": "2026-09-12 16:20:18",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-12 16:20:18\nEntry: 2532.07\nTP: 2525.270597\nSL: 2537.736169"
+    "timestamp": "2026-09-12 18:20:41",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-12 18:20:41\nEntry: 2540.03\nTP: 2550.397145\nSL: 2531.390713"
   },
   {
     "key": "bot1:ETHUSDT",
@@ -46,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-12 13:48:11",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-12 13:48:11\nEntry: 2534.39\nTP: 2525.931876\nSL: 2540.431517"
-  },
-  {
-    "key": "bot5:ETHUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2520.82,
-    "tp": 2537.741355,
-    "sl": 2514.311787,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-12 11:50:57",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-12 11:50:57\nEntry: 2520.82\nTP: 2537.741355\nSL: 2514.311787"
   },
   {
     "key": "bot4:BTCUSDT",
