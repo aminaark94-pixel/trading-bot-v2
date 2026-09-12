@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot1:NEARUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 2.375,
+    "tp": 2.411471,
+    "sl": 2.354738,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 58.37).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 04:46:51",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-13 04:46:51\nEntry: 2.375\nTP: 2.411471\nSL: 2.354738"
+  },
+  {
+    "key": "bot5:NEARUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 2.375,
+    "tp": 2.42768,
+    "sl": 2.354738,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 04:46:51",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-13 04:46:51\nEntry: 2.375\nTP: 2.42768\nSL: 2.354738"
+  },
+  {
     "key": "bot4:SOLUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
