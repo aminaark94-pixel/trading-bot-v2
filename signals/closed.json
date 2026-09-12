@@ -682,5 +682,24 @@
     "result": "SL_HIT",
     "close_price": 2509.81,
     "closed_at": "2026-09-12 03:01:20"
+  },
+  {
+    "key": "bot1:ETHUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 2520.82,
+    "tp": 2532.534784,
+    "sl": 2514.311787,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 59.89).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-12 11:50:55",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-12 11:50:55\nEntry: 2520.82\nTP: 2532.534784\nSL: 2514.311787",
+    "result": "TP_HIT",
+    "close_price": 2534.62,
+    "closed_at": "2026-09-12 13:48:04"
   }
 ]
