@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot6:FETUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "FETUSDT",
+    "direction": "LONG",
+    "entry": 0.1673,
+    "tp": 0.168824,
+    "sl": 0.166348,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+0.53% EMA20/50 gap) + RSI 49.22 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 04:56:51",
+    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-13 04:56:51\nEntry: 0.1673\nTP: 0.168824\nSL: 0.166348"
+  },
+  {
     "key": "bot1:NEARUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
