@@ -53,5 +53,6 @@
       "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-12 02:01:22\nEntry: 77336.01\nTP: 77874.02002\nSL: 76887.668317"
     }
   ],
-  "bot5": []
+  "bot5": [],
+  "bot6": []
 }

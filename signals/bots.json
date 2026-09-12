@@ -48,5 +48,15 @@
     "min_score": 85,
     "base_rr": 2.6,
     "prompt_style": "STRATEGY = CONSERVATIVE SWING. Be very selective \u2014 only signal if multiple confluences line up (trend + momentum + indicator agreement). It is completely fine to return NONE most of the time. When you do signal, use wider SL/TP suited for a multi-hour swing, not a scalp."
+  },
+  {
+    "id": "bot6",
+    "name": "Pullback Hunter (Bot C)",
+    "tagline": "1H trend ke sath RSI pullback entries, volume-confirmed",
+    "description": "Pehle 1H EMA20/EMA50 se confirm karta hai ke ek clear trend chal raha hai (kam se kam 0.4% gap). Phir us trend ke direction mein RSI pullback zone (overextended dip/rally, lekin full reversal nahi) dhoondta hai. Entry sirf tab leta hai jab volume pehle contract kare aur phir entry candle par expand ho \u2014 taake ye ek hi random candle na ho balke asli continuation move ho.",
+    "trend_mode": "soft_align",
+    "min_score": 74,
+    "base_rr": 1.6,
+    "prompt_style": "STRATEGY = TREND PULLBACK (Bot C). Confirm a clearly trending 1h EMA20/EMA50 alignment first, then look for a shallow RSI pullback in that direction (not a full reversal), confirmed by a volume contraction candle followed by a volume expansion candle before entry."
   }
 ]
