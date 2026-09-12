@@ -853,5 +853,24 @@
     "result": "SL_HIT",
     "close_price": 101.33,
     "closed_at": "2026-09-13 00:46:02"
+  },
+  {
+    "key": "bot2:SOLUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 101.33,
+    "tp": 101.74034,
+    "sl": 101.036901,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 24.37 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 00:46:14",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-13 00:46:14\nEntry: 101.33\nTP: 101.74034\nSL: 101.036901",
+    "result": "TP_HIT",
+    "close_price": 101.76,
+    "closed_at": "2026-09-13 03:20:49"
   }
 ]
