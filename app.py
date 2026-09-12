@@ -290,7 +290,7 @@ def place_demo_trade(symbol, direction, ai_entry, ai_tp, ai_sl):
 
 
 # =====================================================================
-# BOT STRATEGY CONFIGS  (Bot 1 -> Bot 5)
+# BOT STRATEGY CONFIGS  (Bot 1 -> Bot 6)
 # =====================================================================
 BOT_CONFIGS = [
     {
@@ -379,6 +379,27 @@ BOT_CONFIGS = [
             "confluences line up (trend + momentum + indicator agreement). It is completely "
             "fine to return NONE most of the time. When you do signal, use wider SL/TP suited "
             "for a multi-hour swing, not a scalp."
+        ),
+    },
+    {
+        "id": "bot6",
+        "name": "Pullback Hunter (Bot C)",
+        "tagline": "1H trend ke sath RSI pullback entries, volume-confirmed",
+        "description": (
+            "Pehle 1H EMA20/EMA50 se confirm karta hai ke ek clear trend chal raha hai "
+            "(kam se kam 0.4% gap). Phir us trend ke direction mein RSI pullback zone "
+            "(overextended dip/rally, lekin full reversal nahi) dhoondta hai. Entry sirf "
+            "tab leta hai jab volume pehle contract kare aur phir entry candle par expand "
+            "ho — taake ye ek hi random candle na ho balke asli continuation move ho."
+        ),
+        "trend_mode": "soft_align",
+        "min_score": 74,
+        "base_rr": 1.6,               # keeps R:R >= 1:1.5 as requested
+        "prompt_style": (
+            "STRATEGY = TREND PULLBACK (Bot C). Confirm a clearly trending 1h EMA20/EMA50 "
+            "alignment first, then look for a shallow RSI pullback in that direction (not a "
+            "full reversal), confirmed by a volume contraction candle followed by a volume "
+            "expansion candle before entry."
         ),
     },
 ]
@@ -1092,12 +1113,75 @@ def eval_tech_bot5_conservative_swing(symbol, closes, highs, lows, trend_info, b
             "reason": "Trend + EMA + MACD + RSI all confluent — high-conviction swing setup.", "provider": "Technical"}
 
 
+def eval_tech_bot6_pullback_hunter(symbol, closes, highs, lows, trend_info, bot_cfg):
+    """Pullback Hunter (Bot C): confirm a clearly trending 1h EMA20/EMA50, then
+    look for a shallow RSI pullback in that direction, confirmed by a volume
+    contraction candle followed by an expansion candle on the 15m chart
+    (Strategy H: Trend Pullback Engine, from the strategy cheat sheet)."""
+    atr = calc_atr(highs, lows, closes)
+    rsi = calc_rsi(closes)
+    if rsi is None or atr is None or len(closes) < 22:
+        return None
+
+    # ---- 1H trend filter: EMA20 vs EMA50 must differ by > 0.4% to count as "trending" ----
+    kl_1h = cached_fetch_klines(symbol, "1h", limit=60)
+    if not kl_1h or len(kl_1h) < 55:
+        return None
+    closes_1h = [float(k[4]) for k in kl_1h]
+    ema_fast_1h = _ema_series(closes_1h, 20)[-1]
+    ema_slow_1h = _ema_series(closes_1h, 50)[-1]
+    if ema_fast_1h is None or ema_slow_1h is None or ema_slow_1h == 0:
+        return None
+    diff_pct = (ema_fast_1h - ema_slow_1h) / ema_slow_1h * 100
+    if diff_pct > 0.4:
+        h1_bias = "UP"
+    elif diff_pct < -0.4:
+        h1_bias = "DOWN"
+    else:
+        return None  # not trending enough for a pullback-continuation setup
+
+    # ---- volume contraction -> expansion confirmation (15m) ----
+    kl_15m = cached_fetch_klines(symbol, "15m", limit=100)
+    if not kl_15m or len(kl_15m) < 5:
+        return None
+    volumes = [float(k[5]) for k in kl_15m]
+    opens = [float(k[1]) for k in kl_15m]
+    vol_contraction = volumes[-2] < volumes[-3]
+    vol_expansion = volumes[-1] > volumes[-2] * 1.1
+    if not (vol_contraction and vol_expansion):
+        return None
+
+    entry = closes[-1]
+    last_bullish = closes[-1] > opens[-1]
+    last_bearish = closes[-1] < opens[-1]
+
+    # ---- RSI pullback zones (Strategy H spec) ----
+    if h1_bias == "UP" and 28 <= rsi <= 55 and last_bullish:
+        direction = "LONG"
+    elif h1_bias == "DOWN" and 45 <= rsi <= 72 and last_bearish:
+        direction = "SHORT"
+    else:
+        return None
+
+    tp, sl = _tp_sl_from_atr(entry, atr, bot_cfg["base_rr"], direction)
+    score = 80 if (rsi < 35 or rsi > 65) else 76
+    return {
+        "signal": direction, "score": score, "entry": entry, "tp": tp, "sl": sl,
+        "reason": (
+            f"1H trend {h1_bias} ({diff_pct:+.2f}% EMA20/50 gap) + RSI {rsi} pullback zone, "
+            f"confirmed by 15m volume contraction->expansion."
+        ),
+        "provider": "Technical",
+    }
+
+
 TECHNICAL_EVALUATORS = {
     "bot1": eval_tech_bot1_trend_rider,
     "bot2": eval_tech_bot2_reversal_hunter,
     "bot3": eval_tech_bot3_breakout_sniper,
     "bot4": eval_tech_bot4_scalper,
     "bot5": eval_tech_bot5_conservative_swing,
+    "bot6": eval_tech_bot6_pullback_hunter,
 }
 
 
@@ -1443,12 +1527,12 @@ def get_closed():
 
 
 # =====================================================================
-# ENTRYPOINT — starts Flask + 5 bot threads + 1 monitor thread
+# ENTRYPOINT — starts Flask + bot threads + 1 monitor thread
 # =====================================================================
 if __name__ == '__main__':
     port = int(os.getenv("PORT", SERVER_PORT))
     print("==================================================")
-    print("🚀 AI SIGNALS BOT — MERGED SERVER + 5-BOT ENGINE")
+    print("🚀 AI SIGNALS BOT — MERGED SERVER + MULTI-BOT ENGINE")
     print(f"🔗 Dashboard: http://127.0.0.1:{port}/")
     print(f"🧠 AI Mode: {'ON (Gemini -> Groq -> Mistral)' if AI_ENABLED else 'OFF (technical rules only)'}")
     if AI_ENABLED:
