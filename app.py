@@ -402,6 +402,28 @@ BOT_CONFIGS = [
             "expansion candle before entry."
         ),
     },
+    {
+        "id": "bot7",
+        "name": "EMA Crossover (Algo Arena)",
+        "tagline": "12/26 EMA crossover, ATR risk mechanics, BBW + choppy-BTC filters",
+        "description": (
+            "Algo Arena V4 ka pehla strategy module — 12 aur 26-period EMA crossover "
+            "par signal deta hai (15m chart). Har signal 'Core System' risk rules follow "
+            "karta hai: ATR x 1.5 stop-loss, ATR x 3.0 take-profit (fixed 1:2 R:R, jo "
+            "minimum 2.0 R:R requirement se match karta hai), Bollinger Band Width >= 0.3 "
+            "volatility filter, aur ek choppy-BTC gate jo skip kar deta hai jab BTC ke "
+            "last 10x 1m candles ka move 1% se kam ho (dead/ranging market)."
+        ),
+        "trend_mode": "soft_align",
+        "min_score": 65,
+        "base_rr": 2.0,
+        "prompt_style": (
+            "STRATEGY = EMA CROSSOVER (Algo Arena core strategy #1). Signal when the "
+            "12-period EMA crosses the 26-period EMA on the 15m chart. Require Bollinger "
+            "Band Width >= 0.3 and a real (non-choppy) BTC market. Use ATR x1.5 for SL "
+            "and ATR x3.0 for TP -> fixed 1:2 risk:reward."
+        ),
+    },
 ]
 BOT_BY_ID = {b["id"]: b for b in BOT_CONFIGS}
 
@@ -1175,6 +1197,79 @@ def eval_tech_bot6_pullback_hunter(symbol, closes, highs, lows, trend_info, bot_
     }
 
 
+def eval_tech_bot7_ema_crossover(symbol, closes, highs, lows, trend_info, bot_cfg):
+    """EMA Crossover (Algo Arena V4 - Strategy #1): 12/26 EMA cross on the 15m
+    chart. Applies the 'Core System' risk mechanics from the strategy spec:
+    ATR-based SL/TP (1.5x ATR risk, 3x ATR reward -> fixed 2:1 R:R), a
+    Bollinger Band Width >= 0.3 volatility filter, and a 'choppy BTC' gate
+    that skips every signal when BTC's own last 10x 1m candles moved < 1%
+    (dead/ranging market)."""
+    if len(closes) < 30:
+        return None
+
+    ema12 = _ema_series(closes, 12)
+    ema26 = _ema_series(closes, 26)
+    if len(ema12) < 3 or None in (ema12[-3], ema26[-3], ema12[-1], ema26[-1]):
+        return None
+    prev12, prev26, curr12, curr26 = ema12[-3], ema26[-3], ema12[-1], ema26[-1]
+
+    if prev12 <= prev26 and curr12 > curr26:
+        direction = "LONG"
+    elif prev12 >= prev26 and curr12 < curr26:
+        direction = "SHORT"
+    else:
+        return None
+
+    entry = closes[-1]
+    atr = calc_atr(highs, lows, closes)
+    if not atr or atr <= 0:
+        return None
+
+    # ---- Bollinger Band Width filter (Core System: MIN_BBW = 0.3) ----
+    bb_upper, bb_mid, bb_lower = calc_bollinger(closes)
+    if not bb_mid or bb_mid <= 0:
+        return None
+    bbw = (bb_upper - bb_lower) / bb_mid
+    if bbw < 0.3:
+        return None
+
+    # ---- Choppy BTC filter (Core System: BTC 1m move % < 1.0% over 10 periods) ----
+    btc_1m = cached_fetch_klines("BTCUSDT", "1m", limit=15)
+    if btc_1m and len(btc_1m) >= 11:
+        last10_closes = [float(k[4]) for k in btc_1m[-11:-1]]
+        btc_high, btc_low = max(last10_closes), min(last10_closes)
+        if btc_low > 0 and ((btc_high - btc_low) / btc_low * 100) < 1.0:
+            return None  # BTC is choppy -> skip this cycle entirely
+
+    # ---- volume-spike confidence (mirrors the original strategy's confidence score) ----
+    kl_15m = cached_fetch_klines(symbol, "15m", limit=100)
+    volumes = [float(k[5]) for k in kl_15m] if kl_15m else None
+    if not volumes or len(volumes) < 25:
+        return None
+    avg_vol = sum(volumes[-20:-5]) / 15
+    vol_spike = volumes[-1] / avg_vol if avg_vol > 0 else 1
+    score = min(85, round(60 + vol_spike * 8))
+    if score < bot_cfg["min_score"]:
+        return None
+
+    # ---- ATR-based SL/TP: 1.5x ATR risk, 3x ATR reward -> fixed 1:2 R:R ----
+    sl_dist = atr * 1.5
+    tp_dist = atr * 3.0
+    if direction == "LONG":
+        sl, tp = round(entry - sl_dist, 6), round(entry + tp_dist, 6)
+    else:
+        sl, tp = round(entry + sl_dist, 6), round(entry - tp_dist, 6)
+
+    return {
+        "signal": direction, "score": score, "entry": entry, "tp": tp, "sl": sl,
+        "reason": (
+            f"EMA12/26 crossed {direction.lower()} on 15m | Vol spike {vol_spike:.1f}x | "
+            f"BBW {bbw:.3f} | ATR x1.5 SL / x3.0 TP (fixed 1:2 R:R)."
+        ),
+        "provider": "Technical",
+    }
+
+
 TECHNICAL_EVALUATORS = {
     "bot1": eval_tech_bot1_trend_rider,
     "bot2": eval_tech_bot2_reversal_hunter,
@@ -1182,6 +1277,7 @@ TECHNICAL_EVALUATORS = {
     "bot4": eval_tech_bot4_scalper,
     "bot5": eval_tech_bot5_conservative_swing,
     "bot6": eval_tech_bot6_pullback_hunter,
+    "bot7": eval_tech_bot7_ema_crossover,
 }
 
 
