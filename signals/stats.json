@@ -47,6 +47,14 @@
       "losses": 0,
       "total": 0,
       "win_rate": 0.0
+    },
+    {
+      "bot_id": "bot7",
+      "bot_name": "EMA Crossover (Algo Arena)",
+      "wins": 0,
+      "losses": 0,
+      "total": 0,
+      "win_rate": 0.0
     }
   ],
   "winner": {
@@ -57,7 +65,7 @@
     "total": 3,
     "win_rate": 66.7
   },
-  "last_run": "2026-09-12T21:33:04.167574+00:00",
+  "last_run": "2026-09-12T21:47:00.586793+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

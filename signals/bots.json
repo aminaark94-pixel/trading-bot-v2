@@ -58,5 +58,15 @@
     "min_score": 74,
     "base_rr": 1.6,
     "prompt_style": "STRATEGY = TREND PULLBACK (Bot C). Confirm a clearly trending 1h EMA20/EMA50 alignment first, then look for a shallow RSI pullback in that direction (not a full reversal), confirmed by a volume contraction candle followed by a volume expansion candle before entry."
+  },
+  {
+    "id": "bot7",
+    "name": "EMA Crossover (Algo Arena)",
+    "tagline": "12/26 EMA crossover, ATR risk mechanics, BBW + choppy-BTC filters",
+    "description": "Algo Arena V4 ka pehla strategy module \u2014 12 aur 26-period EMA crossover par signal deta hai (15m chart). Har signal 'Core System' risk rules follow karta hai: ATR x 1.5 stop-loss, ATR x 3.0 take-profit (fixed 1:2 R:R, jo minimum 2.0 R:R requirement se match karta hai), Bollinger Band Width >= 0.3 volatility filter, aur ek choppy-BTC gate jo skip kar deta hai jab BTC ke last 10x 1m candles ka move 1% se kam ho (dead/ranging market).",
+    "trend_mode": "soft_align",
+    "min_score": 65,
+    "base_rr": 2.0,
+    "prompt_style": "STRATEGY = EMA CROSSOVER (Algo Arena core strategy #1). Signal when the 12-period EMA crosses the 26-period EMA on the 15m chart. Require Bollinger Band Width >= 0.3 and a real (non-choppy) BTC market. Use ATR x1.5 for SL and ATR x3.0 for TP -> fixed 1:2 risk:reward."
   }
 ]
