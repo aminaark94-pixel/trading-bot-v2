@@ -1,1 +1,86 @@
- { "id": "bot1", "name": "Trend Rider", "tagline": "Higher-timeframe trend ke sath hi trade karta hai", "description": "Sirf tab signal deta hai jab 1h aur 4h EMA50/EMA200 dono ek hi direction confirm karein (main trend). Counter-trend setups skip kar deta hai — goal: kam signals, zyada reliable direction.", "trend_mode": "strict_align", "min_score": 78, "base_rr": 1.8, "prompt_style": "STRATEGY = TREND FOLLOWING. Only take the trade if it agrees with the higher timeframe trend given below. Reject counter-trend setups even if the 15m chart looks tempting." }, { "id": "bot2", "name": "Reversal Hunter", "tagline": "Overbought/oversold extremes par reversal dhoondta hai", "description": "RSI extremes (>70 / <30) aur Bollinger Band touches par counter-trend reversal trades leta hai. Tighter SL rakhta hai kyunke reversal setups fail-fast hote hain.", "trend_mode": "counter_allowed", "min_score": 72, "base_rr": 1.4, "prompt_style": "STRATEGY = MEAN REVERSION / REVERSAL. Look specifically for RSI extremes (overbought above 70, oversold below 30) combined with a Bollinger Band touch or rejection. Counter-trend entries against the higher timeframe trend are ALLOWED if the reversal signal is strong, but say so explicitly in the reason." }, { "id": "bot3", "name": "Breakout Sniper", "tagline": "Volatility expansion / squeeze breakouts", "description": "ATR expansion aur Bollinger Band squeeze-breakout patterns par focus karta hai. Wider TP rakhta hai kyunke breakouts bade moves dete hain.", "trend_mode": "soft_align", "min_score": 75, "base_rr": 2.2, "prompt_style": "STRATEGY = VOLATILITY BREAKOUT. Look for Bollinger Band squeeze followed by expansion, or a sudden ATR expansion versus recent average, suggesting a breakout move is starting. Prefer wider take-profit targets since breakouts tend to run." }, { "id": "bot4", "name": "Scalper Precision", "tagline": "Tight, fast, high-frequency 15m scalps", "description": "Chhote, tez moves par focus — tight SL/TP. Higher timeframe trend ko sirf ek soft filter ki tarah use karta hai, mostly 15m momentum par decide karta hai.", "trend_mode": "soft_align", "min_score": 70, "base_rr": 1.2, "prompt_style": "STRATEGY = SHORT-TERM SCALP. Focus mainly on 15m momentum, MACD histogram direction and short bursts of volume/price action. Keep TP and SL tight and close to current price — this is a fast in-and-out trade, not a swing." }, { "id": "bot5", "name": "Conservative Swing", "tagline": "Sirf best-of-best setups, strict multi-timeframe alignment", "description": "Sabse zyada selective bot — high score threshold, strict 1h+4h alignment, wider SL/TP for a proper swing trade. Kam signals, lekin sabse high-conviction.", "trend_mode": "strict_align", "min_score": 85, "base_rr": 2.6, "prompt_style": "STRATEGY = CONSERVATIVE SWING. Be very selective — only signal if multiple confluences line up (trend + momentum + indicator agreement). It is completely fine to return NONE most of the time. When you do signal, use wider SL/TP suited for a multi-hour swing, not a scalp." }, { "id": "bot6", "name": "Pullback Hunter (Bot C)", "tagline": "1H trend ke sath RSI pullback entries, volume-confirmed", "description": "Pehle 1H EMA20/EMA50 se confirm karta hai ke ek clear trend chal raha hai (kam se kam 0.4\% gap). Phir us trend ke direction mein RSI pullback zone (overextended dip/rally, lekin full reversal nahi) dhoondta hai. Entry sirf tab leta hai jab volume pehle contract kare aur phir entry candle par expand ho — taake ye ek hi random candle na ho balke asli continuation move ho.", "trend_mode": "soft_align", "min_score": 74, "base_rr": 1.6, "prompt_style": "STRATEGY = TREND PULLBACK (Bot C). Confirm a clearly trending 1h EMA20/EMA50 alignment first, then look for a shallow RSI pullback in that direction (not a full reversal), confirmed by a volume contraction candle followed by a volume expansion candle before entry." }, { "id": "bot7", "name": "Volume Surge Scalper", "tagline": "High volume breakout aur momentum surges", "description": "Jab volume sudden 2.5x surge hota hai aur price key support/resistance area ko strong candle body ke sath breakout karta hai tab rapid momentum entry leta hai.", "trend_mode": "soft_align", "min_score": 76, "base_rr": 1.8, "prompt_style": "STRATEGY = VOLUME SURGE SCALPER. Look for a sudden spike in volume (>2.5x 20-period volume average) combined with a decisive candle close breaking out of immediate support/resistance." }, { "id": "bot8", "name": "ICT SMC Liquidity Hunter", "tagline": "Liquidity sweep aur market structure reversal setups", "description": "Recent 20-period high/low liquidity areas ke sweep hone par entry dhoondta hai. Key structure level cross hone par jab price immediate reverse hota hai tab institutional orderflow ke sath trade leta hai.", "trend_mode": "counter_allowed", "min_score": 65, "base_rr": 2.0, "prompt_style": "STRATEGY = ICT SMART MONEY CONCEPTS. Look for recent liquidity pool sweeps (highs/lows of recent candles) followed by instant structural rejection/bounce. Require high risk-reward ratio." }, { "id": "bot9", "name": "Supertrend + Kumo Cloud", "tagline": "Ichimoku Kumo Cloud confirmation ke sath Supertrend flip entries", "description": "Supertrend (10/3) ka trend flip check karta hai sirf tab jab price Ichimoku Cloud (Span A/B) ke clear favor mein ho (Bullish: Price > Cloud top, Bearish: Price < Cloud bottom).", "trend_mode": "strict_align", "min_score": 60, "base_rr": 1.5, "prompt_style": "STRATEGY = SUPERTREND KUMO CLOUD. Only enter long if price is clear of Ichimoku Kumo Cloud top and Supertrend flips green. Only enter short if price is below Kumo Cloud bottom and Supertrend flips red." }, { "id": "bot10", "name": "Triple Supertrend Confluence", "tagline": "3 multi-period Supertrend alignment for maximum trend strength", "description": "Teen alag Supertrend settings (12/3, 10/2, 11/1) analyze karta hai. Entry sirf tab multi-confluence par trigger hoti hai jab teeno Supertrend ek hi direction confirm karein.", "trend_mode": "strict_align", "min_score": 70, "base_rr": 1.5, "prompt_style": "STRATEGY = TRIPLE SUPERTREND. Require full alignment across 3 Supertrend variations (12/3, 10/2, 11/1). Do not take trades if any of the three Supertrends disagree." }, { "id": "bot11", "name": "Trendline Breakout", "tagline": "20-period high/low breakout with volume confirmation", "description": "Jab price 20-candle high ya low breaks karta hai 1.5x volume expansion aur high BB width ke sath, tab momentum breakout directional trade trigger hoti hai.", "trend_mode": "soft_align", "min_score": 65, "base_rr": 2.0, "prompt_style": "STRATEGY = TRENDLINE BREAKOUT. Monitor price breaking 20-period extremes with volume >1.5x average. Enter aggressively in the direction of the expansion." }, { "id": "bot12", "name": "Pullback Pro (Bot C v3)", "tagline": "Fast 5m/15m multi-timeframe aggressive pullback entries", "description": "Higher timeframe 1h trend confirmation (12/26 EMA) ke baad 5m timeframe par tight RSI pullbacks (28-42 Long / 58-72 Short) aur volume contraction-expansion sequences par entry dhoondta hai.", "trend_mode": "strict_align", "min_score": 70, "base_rr": 1.8, "prompt_style": "STRATEGY = PULLBACK PRO (BOT C V3). Confirm 1h and 15m trend alignment first, then execute on 5m RSI pullbacks into EMA20 zones with strict structural stop loss." } 
+[
+{
+"id": "bot1",
+"name": "Trend Rider",
+"strategy": "Higher-timeframe trend ke sath hi trade karta hai",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot2",
+"name": "Reversal Hunter",
+"strategy": "Overbought/oversold extremes par reversal dhoondta hai",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot3",
+"name": "Breakout Sniper",
+"strategy": "Volatility expansion / squeeze breakouts",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot4",
+"name": "Scalper Precision",
+"strategy": "Tight, fast, high-frequency 15m scalps",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot5",
+"name": "Conservative Swing",
+"strategy": "Sirf best-of-best setups, strict multi-timeframe alignment",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot6",
+"name": "Pullback Hunter (Bot C)",
+"strategy": "1H trend ke sath RSI pullback entries, volume-confirmed",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot7",
+"name": "EMA Crossover (Algo Arena)",
+"strategy": "12/26 EMA crossover, ATR risk mechanics, BBW + choppy-BTC filters",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot8",
+"name": "ICT SMC Liquidity Hunter",
+"strategy": "Order blocks, liquidity sweeps, structural market shifts",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot9",
+"name": "Supertrend + Kumo Cloud",
+"strategy": "Supertrend trend shifts confirmed by Ichimoku Cloud boundaries",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot10",
+"name": "Triple Supertrend",
+"strategy": "Triple multi-period Supertrend alignment for high-probability trends",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot11",
+"name": "Trendline Breakout",
+"strategy": "20-period volume-backed trendline breakouts with BBW expansion filter",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+},
+{
+"id": "bot12",
+"name": "Pullback Pro V3",
+"strategy": "Aggressive multi-timeframe 5m/1h trend pullback scalping with ATR stops",
+"status": "active",
+"pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
+}
+]
