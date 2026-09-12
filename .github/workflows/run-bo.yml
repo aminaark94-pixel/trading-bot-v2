@@ -1,0 +1,31 @@
+name: Run Bot Engine Once
+
+on:
+  workflow_dispatch: # Allows you to trigger this manually from the GitHub UI
+
+jobs:
+  run-bot:
+    runs-size: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x' # Replaces with your preferred Python version
+
+      - name: Install dependencies (Optional)
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Bot Engine
+        run: python bot_engine.py
+
+      - name: Commit and Push JSON changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@://github.com"
+          git add signals/stats.json signals/open.json
+          git commit -m "Initialize slots for bot8 through bot12" || echo "No changes to commit"
+          git push
