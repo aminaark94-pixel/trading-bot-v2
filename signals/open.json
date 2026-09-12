@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot5:ETHUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 2537.98,
+    "tp": 2560.735983,
+    "sl": 2529.227699,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-12 18:32:15",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-12 18:32:15\nEntry: 2537.98\nTP: 2560.735983\nSL: 2529.227699"
+  },
+  {
     "key": "bot4:ETHUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
