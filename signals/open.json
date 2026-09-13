@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot4:POLUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "POLUSDT",
+    "direction": "SHORT",
+    "entry": 0.09668,
+    "tp": 0.095796,
+    "sl": 0.097417,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 21:49:05",
+    "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-13 21:49:05\nEntry: 0.09668\nTP: 0.095796\nSL: 0.097417"
+  },
+  {
     "key": "bot12:ETHUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
