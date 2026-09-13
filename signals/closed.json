@@ -1708,5 +1708,24 @@
     "result": "SL_HIT",
     "close_price": 11.542,
     "closed_at": "2026-09-13 10:33:06"
+  },
+  {
+    "key": "bot2:DOTUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "DOTUSDT",
+    "direction": "LONG",
+    "entry": 1.008,
+    "tp": 1.015526,
+    "sl": 1.002624,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 29.01 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 09:02:07",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-13 09:02:07\nEntry: 1.008\nTP: 1.015526\nSL: 1.002624",
+    "result": "TP_HIT",
+    "close_price": 1.016,
+    "closed_at": "2026-09-13 11:01:23"
   }
 ]

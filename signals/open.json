@@ -128,22 +128,6 @@
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-13 09:22:36\nEntry: 101.64\nTP: 101.950835\nSL: 101.432777"
   },
   {
-    "key": "bot2:DOTUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 1.008,
-    "tp": 1.015526,
-    "sl": 1.002624,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 29.01 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 09:02:07",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-13 09:02:07\nEntry: 1.008\nTP: 1.015526\nSL: 1.002624"
-  },
-  {
     "key": "bot9:BNBUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
