@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot11:STXUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2697,
+    "tp": 0.274376,
+    "sl": 0.267575,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 3.4x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 05:56:28",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-13 05:56:28\nEntry: 0.2697\nTP: 0.274376\nSL: 0.267575"
+  },
+  {
+    "key": "bot12:BNBUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 727.94,
+    "tp": 726.891237,
+    "sl": 728.639175,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.59 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 05:55:23",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-13 05:55:23\nEntry: 727.94\nTP: 726.891237\nSL: 728.639175"
+  },
+  {
     "key": "bot12:APTUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
