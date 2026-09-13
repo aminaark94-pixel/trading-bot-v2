@@ -3019,5 +3019,43 @@
     "result": "SL_HIT",
     "close_price": 76780.5,
     "closed_at": "2026-09-13 16:46:33"
+  },
+  {
+    "key": "bot12:STXUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2702,
+    "tp": 0.27207,
+    "sl": 0.268954,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.71 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 16:22:36",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-13 16:22:36\nEntry: 0.2702\nTP: 0.27207\nSL: 0.268954",
+    "result": "TP_HIT",
+    "close_price": 0.2731,
+    "closed_at": "2026-09-13 17:25:37"
+  },
+  {
+    "key": "bot9:BTCUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 76688.01,
+    "tp": 76439.314148,
+    "sl": 76826.174362,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 28.9 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 16:01:16",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-13 16:01:16\nEntry: 76688.01\nTP: 76439.314148\nSL: 76826.174362",
+    "result": "SL_HIT",
+    "close_price": 76845.32,
+    "closed_at": "2026-09-13 17:25:37"
   }
 ]

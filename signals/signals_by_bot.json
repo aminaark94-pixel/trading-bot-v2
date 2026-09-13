@@ -1,6 +1,23 @@
 {
   "bot1": [],
-  "bot2": [],
+  "bot2": [
+    {
+      "key": "bot2:FILUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 0.833,
+      "tp": 0.815724,
+      "sl": 0.84534,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 71.99 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 17:27:12",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-13 17:27:12\nEntry: 0.833\nTP: 0.815724\nSL: 0.84534"
+    }
+  ],
   "bot3": [],
   "bot4": [
     {
@@ -74,6 +91,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "bot8:TIAUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "TIAUSDT",
+      "direction": "SHORT",
+      "entry": 0.3529,
+      "tp": 0.34512,
+      "sl": 0.356789,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 17:27:03",
+      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-13 17:27:03\nEntry: 0.3529\nTP: 0.34512\nSL: 0.356789"
+    },
+    {
       "key": "bot8:RENDERUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -108,20 +141,20 @@
   ],
   "bot9": [
     {
-      "key": "bot9:BTCUSDT",
+      "key": "bot9:BNBUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BTCUSDT",
+      "symbol": "BNBUSDT",
       "direction": "SHORT",
-      "entry": 76688.01,
-      "tp": 76439.314148,
-      "sl": 76826.174362,
+      "entry": 716.88,
+      "tp": 712.556097,
+      "sl": 719.282168,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 28.9 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 37.98 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-13 16:01:16",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-13 16:01:16\nEntry: 76688.01\nTP: 76439.314148\nSL: 76826.174362"
+      "timestamp": "2026-09-13 17:26:03",
+      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-13 17:26:03\nEntry: 716.88\nTP: 712.556097\nSL: 719.282168"
     },
     {
       "key": "bot9:ETHUSDT",
@@ -208,6 +241,22 @@
   ],
   "bot11": [
     {
+      "key": "bot11:FILUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "FILUSDT",
+      "direction": "LONG",
+      "entry": 0.833,
+      "tp": 0.860149,
+      "sl": 0.82066,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.1x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 17:27:12",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-13 17:27:12\nEntry: 0.833\nTP: 0.860149\nSL: 0.82066"
+    },
+    {
       "key": "bot11:SOLUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -242,20 +291,20 @@
   ],
   "bot12": [
     {
-      "key": "bot12:STXUSDT",
+      "key": "bot12:BTCUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.2702,
-      "tp": 0.27207,
-      "sl": 0.268954,
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "entry": 76847.66,
+      "tp": 76704.291558,
+      "sl": 76943.23896,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.71 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.23 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-13 16:22:36",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-13 16:22:36\nEntry: 0.2702\nTP: 0.27207\nSL: 0.268954"
+      "timestamp": "2026-09-13 17:26:06",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-13 17:26:06\nEntry: 76847.66\nTP: 76704.291558\nSL: 76943.23896"
     },
     {
       "key": "bot12:UNIUSDT",
