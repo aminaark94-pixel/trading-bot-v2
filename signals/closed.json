@@ -3817,5 +3817,43 @@
     "result": "SL_HIT",
     "close_price": 720.75,
     "closed_at": "2026-09-13 21:34:25"
+  },
+  {
+    "key": "bot4:LINKUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "LINKUSDT",
+    "direction": "LONG",
+    "entry": 11.275,
+    "tp": 11.361523,
+    "sl": 11.202898,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 18:47:16",
+    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-13 18:47:16\nEntry: 11.275\nTP: 11.361523\nSL: 11.202898",
+    "result": "TP_HIT",
+    "close_price": 11.37,
+    "closed_at": "2026-09-13 22:01:10"
+  },
+  {
+    "key": "bot10:LINKUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "LINKUSDT",
+    "direction": "SHORT",
+    "entry": 11.299,
+    "tp": 11.198173,
+    "sl": 11.349413,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 16:47:09",
+    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-13 16:47:09\nEntry: 11.299\nTP: 11.198173\nSL: 11.349413",
+    "result": "SL_HIT",
+    "close_price": 11.37,
+    "closed_at": "2026-09-13 22:01:10"
   }
 ]
