@@ -4121,5 +4121,24 @@
     "result": "SL_HIT",
     "close_price": 0.2719,
     "closed_at": "2026-09-14 02:02:45"
+  },
+  {
+    "key": "bot12:BTCUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 77255.23,
+    "tp": 77050.429585,
+    "sl": 77391.763609,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.78 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 21:22:35",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-13 21:22:35\nEntry: 77255.23\nTP: 77050.429585\nSL: 77391.763609",
+    "result": "SL_HIT",
+    "close_price": 77395.99,
+    "closed_at": "2026-09-14 02:21:42"
   }
 ]
