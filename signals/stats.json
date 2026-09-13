@@ -68,8 +68,8 @@
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "wins": 0,
-      "losses": 2,
-      "total": 2,
+      "losses": 3,
+      "total": 3,
       "win_rate": 0.0
     },
     {
@@ -105,7 +105,7 @@
     "total": 3,
     "win_rate": 66.7
   },
-  "last_run": "2026-09-13T02:35:45.894663+00:00",
+  "last_run": "2026-09-13T02:49:53.731555+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

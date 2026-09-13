@@ -287,22 +287,6 @@
       "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-13 06:22:09\nEntry: 0.7293\nTP: 0.735675\nSL: 0.725758"
     },
     {
-      "key": "bot9:AVAXUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "AVAXUSDT",
-      "direction": "SHORT",
-      "entry": 7.393,
-      "tp": 7.352343,
-      "sl": 7.415587,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 48.13 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 06:22:05",
-      "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-13 06:22:05\nEntry: 7.393\nTP: 7.352343\nSL: 7.415587"
-    },
-    {
       "key": "bot9:ETHUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
