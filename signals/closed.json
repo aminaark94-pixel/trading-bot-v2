@@ -3114,5 +3114,24 @@
     "result": "SL_HIT",
     "close_price": 53.51,
     "closed_at": "2026-09-13 17:50:33"
+  },
+  {
+    "key": "bot4:DOTUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "DOTUSDT",
+    "direction": "SHORT",
+    "entry": 1.005,
+    "tp": 0.997125,
+    "sl": 1.011562,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 13:36:20",
+    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-13 13:36:20\nEntry: 1.005\nTP: 0.997125\nSL: 1.011562",
+    "result": "SL_HIT",
+    "close_price": 1.012,
+    "closed_at": "2026-09-13 18:01:14"
   }
 ]

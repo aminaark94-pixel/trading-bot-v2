@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot1:INJUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 5.871,
+    "tp": 5.965755,
+    "sl": 5.818358,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 55.17).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 18:02:42",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-13 18:02:42\nEntry: 5.871\nTP: 5.965755\nSL: 5.818358"
+  },
+  {
+    "key": "bot5:INJUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 5.871,
+    "tp": 6.007868,
+    "sl": 5.818358,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 18:02:41",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-13 18:02:41\nEntry: 5.871\nTP: 6.007868\nSL: 5.818358"
+  },
+  {
     "key": "bot12:DOTUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -222,22 +254,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-13 15:01:20",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 15:01:20\nEntry: 2485.8\nTP: 2469.566866\nSL: 2494.818408"
-  },
-  {
-    "key": "bot4:DOTUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "DOTUSDT",
-    "direction": "SHORT",
-    "entry": 1.005,
-    "tp": 0.997125,
-    "sl": 1.011562,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 13:36:20",
-    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-13 13:36:20\nEntry: 1.005\nTP: 0.997125\nSL: 1.011562"
   },
   {
     "key": "bot8:SUIUSDT",
