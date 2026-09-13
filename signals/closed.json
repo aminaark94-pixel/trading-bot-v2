@@ -3133,5 +3133,43 @@
     "result": "SL_HIT",
     "close_price": 1.012,
     "closed_at": "2026-09-13 18:01:14"
+  },
+  {
+    "key": "bot12:UNIUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "UNIUSDT",
+    "direction": "SHORT",
+    "entry": 6.271,
+    "tp": 6.224915,
+    "sl": 6.301723,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.98 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 16:22:13",
+    "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-13 16:22:13\nEntry: 6.271\nTP: 6.224915\nSL: 6.301723",
+    "result": "TP_HIT",
+    "close_price": 6.221,
+    "closed_at": "2026-09-13 18:32:11"
+  },
+  {
+    "key": "bot9:ETHUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2485.8,
+    "tp": 2469.566866,
+    "sl": 2494.818408,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 24.46 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 15:01:20",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 15:01:20\nEntry: 2485.8\nTP: 2469.566866\nSL: 2494.818408",
+    "result": "TP_HIT",
+    "close_price": 2469.26,
+    "closed_at": "2026-09-13 18:32:11"
   }
 ]
