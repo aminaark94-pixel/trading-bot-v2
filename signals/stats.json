@@ -67,10 +67,10 @@
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "wins": 9,
+      "wins": 10,
       "losses": 14,
-      "total": 23,
-      "win_rate": 39.1
+      "total": 24,
+      "win_rate": 41.7
     },
     {
       "bot_id": "bot10",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 14,
-      "losses": 26,
-      "total": 40,
-      "win_rate": 35.0
+      "losses": 28,
+      "total": 42,
+      "win_rate": 33.3
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 4,
     "win_rate": 75.0
   },
-  "last_run": "2026-09-13T18:37:34.799381+00:00",
+  "last_run": "2026-09-13T18:51:06.645202+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
