@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot12:POLUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "POLUSDT",
+    "direction": "LONG",
+    "entry": 0.096,
+    "tp": 0.096293,
+    "sl": 0.095805,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.62 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 13:02:19",
+    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 13:02:19\nEntry: 0.096\nTP: 0.096293\nSL: 0.095805"
+  },
+  {
+    "key": "bot8:ADAUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.2063,
+    "tp": 0.208145,
+    "sl": 0.205378,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 13:01:46",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-13 13:01:46\nEntry: 0.2063\nTP: 0.208145\nSL: 0.205378"
+  },
+  {
     "key": "bot12:STXUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
