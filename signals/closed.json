@@ -2943,5 +2943,43 @@
     "result": "SL_HIT",
     "close_price": 2.281,
     "closed_at": "2026-09-13 16:02:23"
+  },
+  {
+    "key": "bot12:UNIUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 6.22,
+    "tp": 6.271271,
+    "sl": 6.18582,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 33.02 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 13:56:37",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-13 13:56:37\nEntry: 6.22\nTP: 6.271271\nSL: 6.18582",
+    "result": "TP_HIT",
+    "close_price": 6.272,
+    "closed_at": "2026-09-13 16:21:02"
+  },
+  {
+    "key": "bot12:STXUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2725,
+    "tp": 0.274746,
+    "sl": 0.271003,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.28 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 13:37:02",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-13 13:37:02\nEntry: 0.2725\nTP: 0.274746\nSL: 0.271003",
+    "result": "SL_HIT",
+    "close_price": 0.2702,
+    "closed_at": "2026-09-13 16:21:02"
   }
 ]
