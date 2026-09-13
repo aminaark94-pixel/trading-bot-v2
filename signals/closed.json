@@ -3000,5 +3000,24 @@
     "result": "TP_HIT",
     "close_price": 0.3509,
     "closed_at": "2026-09-13 16:32:59"
+  },
+  {
+    "key": "bot10:BTCUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 76609.89,
+    "tp": 76294.319205,
+    "sl": 76767.675398,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 16:21:26",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-13 16:21:26\nEntry: 76609.89\nTP: 76294.319205\nSL: 76767.675398",
+    "result": "SL_HIT",
+    "close_price": 76780.5,
+    "closed_at": "2026-09-13 16:46:33"
   }
 ]
