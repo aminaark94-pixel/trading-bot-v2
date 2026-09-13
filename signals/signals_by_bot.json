@@ -2,22 +2,6 @@
   "bot1": [],
   "bot2": [
     {
-      "key": "bot2:ETHUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2495.13,
-      "tp": 2505.160759,
-      "sl": 2487.965172,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 23.1 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 13:55:42",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-13 13:55:42\nEntry: 2495.13\nTP: 2505.160759\nSL: 2487.965172"
-    },
-    {
       "key": "bot2:NEARUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -34,25 +18,24 @@
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-13 12:34:29\nEntry: 2.302\nTP: 2.328578\nSL: 2.283016"
     }
   ],
-  "bot3": [
-    {
-      "key": "bot3:ETHUSDT",
-      "bot_id": "bot3",
-      "bot_name": "Breakout Sniper",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2501.33,
-      "tp": 2487.573297,
-      "sl": 2507.583047,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "Price broke recent range high/low with ATR volatility expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 13:35:46",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 13:35:46\nEntry: 2501.33\nTP: 2487.573297\nSL: 2507.583047"
-    }
-  ],
+  "bot3": [],
   "bot4": [
+    {
+      "key": "bot4:APTUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "APTUSDT",
+      "direction": "LONG",
+      "entry": 0.589,
+      "tp": 0.595433,
+      "sl": 0.583639,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 15:01:44",
+      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-13 15:01:44\nEntry: 0.589\nTP: 0.595433\nSL: 0.583639"
+    },
     {
       "key": "bot4:NEARUSDT",
       "bot_id": "bot4",
@@ -87,7 +70,24 @@
     }
   ],
   "bot5": [],
-  "bot6": [],
+  "bot6": [
+    {
+      "key": "bot6:LTCUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 53.83,
+      "tp": 54.307118,
+      "sl": 53.531802,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend UP (+0.40% EMA20/50 gap) + RSI 48.65 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 15:01:53",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-13 15:01:53\nEntry: 53.83\nTP: 54.307118\nSL: 53.531802"
+    }
+  ],
   "bot7": [],
   "bot8": [
     {
@@ -141,6 +141,22 @@
   ],
   "bot9": [
     {
+      "key": "bot9:ETHUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "ETHUSDT",
+      "direction": "SHORT",
+      "entry": 2485.8,
+      "tp": 2469.566866,
+      "sl": 2494.818408,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 24.46 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 15:01:20",
+      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 15:01:20\nEntry: 2485.8\nTP: 2469.566866\nSL: 2494.818408"
+    },
+    {
       "key": "bot9:SOLUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -155,22 +171,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-13 13:35:57",
       "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-13 13:35:57\nEntry: 100.22\nTP: 99.537869\nSL: 100.598962"
-    },
-    {
-      "key": "bot9:ETHUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2501.33,
-      "tp": 2490.074515,
-      "sl": 2507.583047,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 23.6 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 13:35:55",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 13:35:55\nEntry: 2501.33\nTP: 2490.074515\nSL: 2507.583047"
     },
     {
       "key": "bot9:BTCUSDT",
@@ -196,15 +196,15 @@
       "bot_name": "Triple Supertrend",
       "symbol": "BNBUSDT",
       "direction": "SHORT",
-      "entry": 719.87,
-      "tp": 716.677631,
-      "sl": 721.466185,
+      "entry": 716.4,
+      "tp": 712.411038,
+      "sl": 718.394481,
       "score": 82,
       "provider": "Technical",
       "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-13 13:36:00",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-13 13:36:00\nEntry: 719.87\nTP: 716.677631\nSL: 721.466185"
+      "timestamp": "2026-09-13 15:01:24",
+      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-13 15:01:24\nEntry: 716.4\nTP: 712.411038\nSL: 718.394481"
     },
     {
       "key": "bot10:SOLUSDT",
@@ -255,22 +255,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-13 13:36:00",
       "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-13 13:36:00\nEntry: 100.22\nTP: 99.386285\nSL: 100.598962"
-    },
-    {
-      "key": "bot11:ETHUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2501.33,
-      "tp": 2487.573297,
-      "sl": 2507.583047,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 6.6x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 13:35:58",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 13:35:58\nEntry: 2501.33\nTP: 2487.573297\nSL: 2507.583047"
     },
     {
       "key": "bot11:NEARUSDT",
