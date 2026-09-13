@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot12:DOTUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "DOTUSDT",
+    "direction": "SHORT",
+    "entry": 1.01,
+    "tp": 1.002409,
+    "sl": 1.01506,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.62 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 17:51:25",
+    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-13 17:51:25\nEntry: 1.01\nTP: 1.002409\nSL: 1.01506"
+  },
+  {
     "key": "bot5:POLUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -80,22 +96,6 @@
     "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-13 17:27:03\nEntry: 0.3529\nTP: 0.34512\nSL: 0.356789"
   },
   {
-    "key": "bot12:BTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 76847.66,
-    "tp": 76704.291558,
-    "sl": 76943.23896,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.23 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 17:26:06",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-13 17:26:06\nEntry: 76847.66\nTP: 76704.291558\nSL: 76943.23896"
-  },
-  {
     "key": "bot9:BNBUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -174,22 +174,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-13 15:48:42",
     "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-13 15:48:42\nEntry: 53.6\nTP: 53.870932\nSL: 53.419379"
-  },
-  {
-    "key": "bot6:LTCUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 53.83,
-    "tp": 54.307118,
-    "sl": 53.531802,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend UP (+0.40% EMA20/50 gap) + RSI 48.65 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 15:01:53",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-13 15:01:53\nEntry: 53.83\nTP: 54.307118\nSL: 53.531802"
   },
   {
     "key": "bot4:APTUSDT",
