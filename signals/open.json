@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot12:ICPUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "ICPUSDT",
+    "direction": "SHORT",
+    "entry": 2.734,
+    "tp": 2.696685,
+    "sl": 2.758878,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.11 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 20:22:32",
+    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-13 20:22:32\nEntry: 2.734\nTP: 2.696685\nSL: 2.758878"
+  },
+  {
     "key": "bot9:LTCUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -80,22 +96,6 @@
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-13 19:47:22\nEntry: 2.317\nTP: 2.366214\nSL: 2.289658"
   },
   {
-    "key": "bot12:XRPUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "XRPUSDT",
-    "direction": "SHORT",
-    "entry": 1.3524,
-    "tp": 1.34521,
-    "sl": 1.357194,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 71.53 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 19:47:04",
-    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-13 19:47:04\nEntry: 1.3524\nTP: 1.34521\nSL: 1.357194"
-  },
-  {
     "key": "bot5:ETHUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -142,22 +142,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-13 19:34:29",
     "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-13 19:34:29\nEntry: 6.099\nTP: 6.265838\nSL: 6.006312"
-  },
-  {
-    "key": "bot2:FILUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "FILUSDT",
-    "direction": "SHORT",
-    "entry": 0.9055,
-    "tp": 0.876866,
-    "sl": 0.925952,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 90.23 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 19:22:19",
-    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-13 19:22:19\nEntry: 0.9055\nTP: 0.876866\nSL: 0.925952"
   },
   {
     "key": "bot11:FILUSDT",
