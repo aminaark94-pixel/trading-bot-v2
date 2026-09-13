@@ -3171,5 +3171,43 @@
     "result": "TP_HIT",
     "close_price": 2469.26,
     "closed_at": "2026-09-13 18:32:11"
+  },
+  {
+    "key": "bot1:INJUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 5.871,
+    "tp": 5.965755,
+    "sl": 5.818358,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 55.17).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 18:02:42",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-13 18:02:42\nEntry: 5.871\nTP: 5.965755\nSL: 5.818358",
+    "result": "TP_HIT",
+    "close_price": 5.974,
+    "closed_at": "2026-09-13 18:46:26"
+  },
+  {
+    "key": "bot2:FILUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "FILUSDT",
+    "direction": "SHORT",
+    "entry": 0.833,
+    "tp": 0.815724,
+    "sl": 0.84534,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 71.99 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 17:27:12",
+    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-13 17:27:12\nEntry: 0.833\nTP: 0.815724\nSL: 0.84534",
+    "result": "SL_HIT",
+    "close_price": 0.8469,
+    "closed_at": "2026-09-13 18:46:26"
   }
 ]
