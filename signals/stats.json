@@ -12,9 +12,9 @@
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "wins": 11,
-      "losses": 13,
-      "total": 24,
-      "win_rate": 45.8
+      "losses": 14,
+      "total": 25,
+      "win_rate": 44.0
     },
     {
       "bot_id": "bot3",
@@ -60,25 +60,25 @@
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
       "wins": 2,
-      "losses": 3,
-      "total": 5,
-      "win_rate": 40.0
+      "losses": 4,
+      "total": 6,
+      "win_rate": 33.3
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "wins": 7,
+      "wins": 8,
       "losses": 9,
-      "total": 16,
-      "win_rate": 43.8
+      "total": 17,
+      "win_rate": 47.1
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "wins": 6,
+      "wins": 7,
       "losses": 10,
-      "total": 16,
-      "win_rate": 37.5
+      "total": 17,
+      "win_rate": 41.2
     },
     {
       "bot_id": "bot11",
@@ -105,7 +105,7 @@
     "total": 4,
     "win_rate": 75.0
   },
-  "last_run": "2026-09-13T10:49:33.386468+00:00",
+  "last_run": "2026-09-13T11:02:31.494400+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
