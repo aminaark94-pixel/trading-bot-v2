@@ -3950,5 +3950,24 @@
     "result": "SL_HIT",
     "close_price": 2.811,
     "closed_at": "2026-09-13 22:32:39"
+  },
+  {
+    "key": "bot5:POLUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "POLUSDT",
+    "direction": "LONG",
+    "entry": 0.09577,
+    "tp": 0.097449,
+    "sl": 0.095123,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 17:39:22",
+    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 17:39:22\nEntry: 0.09577\nTP: 0.097449\nSL: 0.095123",
+    "result": "TP_HIT",
+    "close_price": 0.09755,
+    "closed_at": "2026-09-13 23:01:08"
   }
 ]

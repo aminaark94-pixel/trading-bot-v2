@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot5:POLUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "POLUSDT",
+    "direction": "LONG",
+    "entry": 0.09751,
+    "tp": 0.098961,
+    "sl": 0.096952,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 23:02:17",
+    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 23:02:17\nEntry: 0.09751\nTP: 0.098961\nSL: 0.096952"
+  },
+  {
+    "key": "bot6:BCHUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 224.1,
+    "tp": 221.827339,
+    "sl": 225.520413,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend DOWN (-0.93% EMA20/50 gap) + RSI 49.03 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 23:02:14",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-13 23:02:14\nEntry: 224.1\nTP: 221.827339\nSL: 225.520413"
+  },
+  {
     "key": "bot12:XRPUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -382,21 +414,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-13 19:21:24",
     "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-13 19:21:24\nEntry: 719.31\nTP: 713.725487\nSL: 722.102256"
-  },
-  {
-    "key": "bot5:POLUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.09577,
-    "tp": 0.097449,
-    "sl": 0.095123,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 17:39:22",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 17:39:22\nEntry: 0.09577\nTP: 0.097449\nSL: 0.095123"
   }
 ]
