@@ -4083,5 +4083,24 @@
     "result": "TP_HIT",
     "close_price": 100.96,
     "closed_at": "2026-09-14 00:31:27"
+  },
+  {
+    "key": "bot12:ETHUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2509.06,
+    "tp": 2504.370867,
+    "sl": 2512.186089,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 64.13 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 23:49:45",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 23:49:45\nEntry: 2509.06\nTP: 2504.370867\nSL: 2512.186089",
+    "result": "SL_HIT",
+    "close_price": 2512.5,
+    "closed_at": "2026-09-14 01:46:12"
   }
 ]
