@@ -100,22 +100,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-13 18:47:16",
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-13 18:47:16\nEntry: 11.275\nTP: 11.361523\nSL: 11.202898"
-    },
-    {
-      "key": "bot4:STXUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.2702,
-      "tp": 0.265972,
-      "sl": 0.273724,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 18:22:13",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-13 18:22:13\nEntry: 0.2702\nTP: 0.265972\nSL: 0.273724"
     }
   ],
   "bot5": [
@@ -322,6 +306,22 @@
   ],
   "bot11": [
     {
+      "key": "bot11:STXUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.2751,
+      "tp": 0.281827,
+      "sl": 0.272042,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.2x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 21:23:35",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-13 21:23:35\nEntry: 0.2751\nTP: 0.281827\nSL: 0.272042"
+    },
+    {
       "key": "bot11:NEARUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -339,6 +339,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "bot12:BTCUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "entry": 77255.23,
+      "tp": 77050.429585,
+      "sl": 77391.763609,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.78 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 21:22:35",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-13 21:22:35\nEntry: 77255.23\nTP: 77050.429585\nSL: 77391.763609"
+    },
     {
       "key": "bot12:ICPUSDT",
       "bot_id": "bot12",
@@ -370,22 +386,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-13 19:21:32",
       "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-13 19:21:32\nEntry: 719.31\nTP: 717.174835\nSL: 720.733443"
-    },
-    {
-      "key": "bot12:ETHUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2488.91,
-      "tp": 2478.33361,
-      "sl": 2495.960926,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 67.14 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 19:21:27",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 19:21:27\nEntry: 2488.91\nTP: 2478.33361\nSL: 2495.960926"
     }
   ]
 }
