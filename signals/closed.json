@@ -2981,5 +2981,24 @@
     "result": "SL_HIT",
     "close_price": 0.2702,
     "closed_at": "2026-09-13 16:21:02"
+  },
+  {
+    "key": "bot8:TIAUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.3454,
+    "tp": 0.350869,
+    "sl": 0.342666,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 13:36:56",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-13 13:36:56\nEntry: 0.3454\nTP: 0.350869\nSL: 0.342666",
+    "result": "TP_HIT",
+    "close_price": 0.3509,
+    "closed_at": "2026-09-13 16:32:59"
   }
 ]
