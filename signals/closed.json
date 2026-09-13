@@ -4729,5 +4729,43 @@
     "result": "SL_HIT",
     "close_price": 0.0961,
     "closed_at": "2026-09-14 03:21:31"
+  },
+  {
+    "key": "bot12:FILUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.9567,
+    "tp": 0.984401,
+    "sl": 0.938232,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.36 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 03:23:22",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-14 03:23:22\nEntry: 0.9567\nTP: 0.984401\nSL: 0.938232",
+    "result": "SL_HIT",
+    "close_price": 0.9377,
+    "closed_at": "2026-09-14 04:34:21"
+  },
+  {
+    "key": "bot12:ICPUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 2.735,
+    "tp": 2.772855,
+    "sl": 2.709763,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 29.85 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 03:22:58",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-14 03:22:58\nEntry: 2.735\nTP: 2.772855\nSL: 2.709763",
+    "result": "TP_HIT",
+    "close_price": 2.774,
+    "closed_at": "2026-09-14 04:34:21"
   }
 ]
