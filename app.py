@@ -290,7 +290,7 @@ def place_demo_trade(symbol, direction, ai_entry, ai_tp, ai_sl):
 
 
 # =====================================================================
-# BOT STRATEGY CONFIGS  (Bot 1 -> Bot 6)
+# BOT STRATEGY CONFIGS  (Bot 1 -> Bot 12)
 # =====================================================================
 BOT_CONFIGS = [
     {
@@ -422,6 +422,94 @@ BOT_CONFIGS = [
             "12-period EMA crosses the 26-period EMA on the 15m chart. Require Bollinger "
             "Band Width >= 0.3 and a real (non-choppy) BTC market. Use ATR x1.5 for SL "
             "and ATR x3.0 for TP -> fixed 1:2 risk:reward."
+        ),
+    },
+    {
+        "id": "bot8",
+        "name": "ICT SMC Liquidity Hunter",
+        "tagline": "Order blocks, liquidity sweeps, structural market shifts",
+        "description": (
+            "Recent swing high/low ke bahar liquidity sweep dhoondta hai (stop-hunt wick), "
+            "phir price ke wapas range mein rejection karne par entry leta hai — ICT/Smart "
+            "Money Concepts style liquidity grab + structural shift."
+        ),
+        "trend_mode": "counter_allowed",
+        "min_score": 74,
+        "base_rr": 2.0,
+        "prompt_style": (
+            "STRATEGY = ICT / SMART MONEY CONCEPTS. Look for a liquidity sweep beyond a "
+            "recent swing high/low followed by a rejection back into range (stop-hunt then "
+            "reversal), signalling a structural shift."
+        ),
+    },
+    {
+        "id": "bot9",
+        "name": "Supertrend + Kumo Cloud",
+        "tagline": "Supertrend trend shifts confirmed by Ichimoku Cloud boundaries",
+        "description": (
+            "EMA20/EMA50 alignment ko Supertrend-style flip ki tarah use karta hai, RSI se "
+            "confirm karta hai — Ichimoku Cloud boundary logic ka simplified version."
+        ),
+        "trend_mode": "soft_align",
+        "min_score": 72,
+        "base_rr": 1.8,
+        "prompt_style": (
+            "STRATEGY = SUPERTREND + ICHIMOKU CLOUD. Signal on a Supertrend-style directional "
+            "flip that is confirmed by price being on the correct side of the Cloud boundary "
+            "(EMA20 vs EMA50 proxy) and RSI momentum agreeing."
+        ),
+    },
+    {
+        "id": "bot10",
+        "name": "Triple Supertrend",
+        "tagline": "Triple multi-period Supertrend alignment for high-probability trends",
+        "description": (
+            "Teen alag EMA periods (9/21/50) ek hi direction mein align hone par hi signal "
+            "deta hai — jitni zyada supertrend lines align hongi utna high-probability trend."
+        ),
+        "trend_mode": "strict_align",
+        "min_score": 80,
+        "base_rr": 2.0,
+        "prompt_style": (
+            "STRATEGY = TRIPLE SUPERTREND. Only signal when three different-period trend "
+            "lines (fast/medium/slow) are all aligned in the same direction — the more "
+            "confluence, the higher the conviction."
+        ),
+    },
+    {
+        "id": "bot11",
+        "name": "Trendline Breakout",
+        "tagline": "20-period volume-backed trendline breakouts with BBW expansion filter",
+        "description": (
+            "Pichle 20 candles ki range (resistance/support) ke bahar breakout hone par, "
+            "sath mein volume spike (1.5x+ average) confirm kar ke entry leta hai."
+        ),
+        "trend_mode": "soft_align",
+        "min_score": 75,
+        "base_rr": 2.2,
+        "prompt_style": (
+            "STRATEGY = TRENDLINE / RANGE BREAKOUT. Look for price breaking a 20-period "
+            "range high or low with a volume spike of 1.5x+ the recent average, confirming "
+            "real breakout momentum rather than a fakeout."
+        ),
+    },
+    {
+        "id": "bot12",
+        "name": "Pullback Pro V3",
+        "tagline": "Aggressive multi-timeframe 5m/1h trend pullback scalping with ATR stops",
+        "description": (
+            "1h EMA12/26 trend confirm kar ke, 5m timeframe par aggressive RSI pullback "
+            "(28-42 long / 58-72 short zone) par entry leta hai — Bot 6 se zyada frequent "
+            "lekin tighter-managed scalp version."
+        ),
+        "trend_mode": "soft_align",
+        "min_score": 70,
+        "base_rr": 1.5,
+        "prompt_style": (
+            "STRATEGY = AGGRESSIVE PULLBACK SCALP (V3). Confirm the 1h EMA12/26 trend, then "
+            "look for an aggressive RSI pullback on the 5m chart in that direction. More "
+            "frequent than a swing bot, but still requires the pullback zone and 1h trend "
+            "agreement before entering."
         ),
     },
 ]
@@ -1270,6 +1358,151 @@ def eval_tech_bot7_ema_crossover(symbol, closes, highs, lows, trend_info, bot_cf
     }
 
 
+def eval_tech_bot8_ict_smc(symbol, closes, highs, lows, trend_info, bot_cfg):
+    """ICT SMC Liquidity Hunter: price sweeps beyond a recent swing high/low
+    (stop-hunt wick) and then rejects back into range — a simplified
+    liquidity-sweep + structural-shift setup."""
+    if len(closes) < 12:
+        return None
+    atr = calc_atr(highs, lows, closes)
+    if not atr or atr <= 0:
+        return None
+    entry = closes[-1]
+    recent_low = min(lows[-11:-1])
+    recent_high = max(highs[-11:-1])
+    # swept below recent low but closed back above it -> bullish liquidity grab
+    if lows[-1] < recent_low and closes[-1] > recent_low:
+        direction = "LONG"
+    # swept above recent high but closed back below it -> bearish liquidity grab
+    elif highs[-1] > recent_high and closes[-1] < recent_high:
+        direction = "SHORT"
+    else:
+        return None
+    tp, sl = _tp_sl_from_atr(entry, atr, bot_cfg["base_rr"], direction)
+    return {
+        "signal": direction, "score": 76, "entry": entry, "tp": tp, "sl": sl,
+        "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+        "provider": "Technical",
+    }
+
+
+def eval_tech_bot9_supertrend_kumo(symbol, closes, highs, lows, trend_info, bot_cfg):
+    """Supertrend + Kumo Cloud: EMA20/EMA50 used as a Supertrend/Cloud-boundary
+    proxy, confirmed by RSI momentum agreeing with the flip direction."""
+    rsi, macd, macd_sig, macd_hist, bb_u, bb_m, bb_l, atr, ema9, ema21 = _tech_common(closes, highs, lows)
+    ema20 = _ema_series(closes, 20)[-1]
+    ema50 = _ema_series(closes, 50)[-1]
+    if None in (rsi, ema20, ema50, atr):
+        return None
+    entry = closes[-1]
+    if entry > ema20 > ema50 and rsi > 50:
+        direction = "LONG"
+    elif entry < ema20 < ema50 and rsi < 50:
+        direction = "SHORT"
+    else:
+        return None
+    tp, sl = _tp_sl_from_atr(entry, atr, bot_cfg["base_rr"], direction)
+    return {
+        "signal": direction, "score": 75, "entry": entry, "tp": tp, "sl": sl,
+        "reason": f"Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI {rsi} confirming momentum.",
+        "provider": "Technical",
+    }
+
+
+def eval_tech_bot10_triple_supertrend(symbol, closes, highs, lows, trend_info, bot_cfg):
+    """Triple Supertrend: three EMA periods (9/21/50) must all align in the
+    same direction — the more confluence, the higher the conviction."""
+    atr = calc_atr(highs, lows, closes)
+    ema9 = _ema_series(closes, 9)[-1]
+    ema21 = _ema_series(closes, 21)[-1]
+    ema50 = _ema_series(closes, 50)[-1]
+    if None in (ema9, ema21, ema50, atr):
+        return None
+    entry = closes[-1]
+    if entry > ema9 > ema21 > ema50:
+        direction = "LONG"
+    elif entry < ema9 < ema21 < ema50:
+        direction = "SHORT"
+    else:
+        return None
+    tp, sl = _tp_sl_from_atr(entry, atr, bot_cfg["base_rr"], direction)
+    return {
+        "signal": direction, "score": 82, "entry": entry, "tp": tp, "sl": sl,
+        "reason": "Price + EMA9 + EMA21 + EMA50 all aligned — triple trend confluence.",
+        "provider": "Technical",
+    }
+
+
+def eval_tech_bot11_trendline_breakout(symbol, closes, highs, lows, trend_info, bot_cfg):
+    """Trendline Breakout: price breaks a 20-period range high/low with a
+    1.5x+ volume spike, confirming a real breakout rather than a fakeout."""
+    if len(closes) < 25:
+        return None
+    atr = calc_atr(highs, lows, closes)
+    if not atr or atr <= 0:
+        return None
+    kl_15m = cached_fetch_klines(symbol, "15m", limit=100)
+    volumes = [float(k[5]) for k in kl_15m] if kl_15m else None
+    if not volumes or len(volumes) < 21:
+        return None
+    entry = closes[-1]
+    resistance = max(highs[-21:-1])
+    support = min(lows[-21:-1])
+    avg_vol = sum(volumes[-21:-1]) / 20
+    vol_spike = volumes[-1] / avg_vol if avg_vol > 0 else 1
+    if entry > resistance and vol_spike >= 1.5:
+        direction = "LONG"
+    elif entry < support and vol_spike >= 1.5:
+        direction = "SHORT"
+    else:
+        return None
+    tp, sl = _tp_sl_from_atr(entry, atr, bot_cfg["base_rr"], direction)
+    return {
+        "signal": direction, "score": 78, "entry": entry, "tp": tp, "sl": sl,
+        "reason": f"20-period range breakout with {vol_spike:.1f}x volume spike.",
+        "provider": "Technical",
+    }
+
+
+def eval_tech_bot12_pullback_pro_v3(symbol, closes, highs, lows, trend_info, bot_cfg):
+    """Pullback Pro V3: confirm the 1h EMA12/26 trend, then look for an
+    aggressive RSI pullback (28-42 long / 58-72 short) on the 5m chart —
+    a faster, more frequent cousin of Bot 6's pullback logic."""
+    kl_1h = cached_fetch_klines(symbol, "1h", limit=60)
+    if not kl_1h or len(kl_1h) < 30:
+        return None
+    closes_1h = [float(k[4]) for k in kl_1h]
+    ema12_1h = _ema_series(closes_1h, 12)[-1]
+    ema26_1h = _ema_series(closes_1h, 26)[-1]
+    if ema12_1h is None or ema26_1h is None:
+        return None
+
+    kl_5m = cached_fetch_klines(symbol, "5m", limit=100)
+    if not kl_5m or len(kl_5m) < 30:
+        return None
+    closes_5m = [float(k[4]) for k in kl_5m]
+    highs_5m = [float(k[2]) for k in kl_5m]
+    lows_5m = [float(k[3]) for k in kl_5m]
+    rsi_5m = calc_rsi(closes_5m)
+    atr_5m = calc_atr(highs_5m, lows_5m, closes_5m)
+    if rsi_5m is None or atr_5m is None:
+        return None
+
+    entry = closes_5m[-1]
+    if ema12_1h > ema26_1h and 28 <= rsi_5m <= 42:
+        direction = "LONG"
+    elif ema12_1h < ema26_1h and 58 <= rsi_5m <= 72:
+        direction = "SHORT"
+    else:
+        return None
+    tp, sl = _tp_sl_from_atr(entry, atr_5m, bot_cfg["base_rr"], direction)
+    return {
+        "signal": direction, "score": 74, "entry": entry, "tp": tp, "sl": sl,
+        "reason": f"1h EMA12/26 trend confirmed + 5m RSI {rsi_5m} aggressive pullback zone.",
+        "provider": "Technical",
+    }
+
+
 TECHNICAL_EVALUATORS = {
     "bot1": eval_tech_bot1_trend_rider,
     "bot2": eval_tech_bot2_reversal_hunter,
@@ -1278,6 +1511,11 @@ TECHNICAL_EVALUATORS = {
     "bot5": eval_tech_bot5_conservative_swing,
     "bot6": eval_tech_bot6_pullback_hunter,
     "bot7": eval_tech_bot7_ema_crossover,
+    "bot8": eval_tech_bot8_ict_smc,
+    "bot9": eval_tech_bot9_supertrend_kumo,
+    "bot10": eval_tech_bot10_triple_supertrend,
+    "bot11": eval_tech_bot11_trendline_breakout,
+    "bot12": eval_tech_bot12_pullback_pro_v3,
 }
 
 
