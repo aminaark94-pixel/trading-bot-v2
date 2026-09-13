@@ -1518,5 +1518,43 @@
     "result": "TP_HIT",
     "close_price": 7.396,
     "closed_at": "2026-09-13 09:02:56"
+  },
+  {
+    "key": "bot2:TIAUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.3464,
+    "tp": 0.349535,
+    "sl": 0.34416,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 29.94 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 08:36:17",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-13 08:36:17\nEntry: 0.3464\nTP: 0.349535\nSL: 0.34416",
+    "result": "TP_HIT",
+    "close_price": 0.3497,
+    "closed_at": "2026-09-13 09:34:23"
+  },
+  {
+    "key": "bot4:TIAUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "TIAUSDT",
+    "direction": "SHORT",
+    "entry": 0.3479,
+    "tp": 0.3454,
+    "sl": 0.349984,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 07:23:49",
+    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-13 07:23:49\nEntry: 0.3479\nTP: 0.3454\nSL: 0.349984",
+    "result": "SL_HIT",
+    "close_price": 0.3503,
+    "closed_at": "2026-09-13 09:35:52"
   }
 ]
