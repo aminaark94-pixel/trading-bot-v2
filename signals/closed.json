@@ -1556,5 +1556,43 @@
     "result": "SL_HIT",
     "close_price": 0.3503,
     "closed_at": "2026-09-13 09:35:52"
+  },
+  {
+    "key": "bot11:FILUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.8215,
+    "tp": 0.833152,
+    "sl": 0.816203,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 2.8x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 09:35:47",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-13 09:35:47\nEntry: 0.8215\nTP: 0.833152\nSL: 0.816203",
+    "result": "SL_HIT",
+    "close_price": 0.8146,
+    "closed_at": "2026-09-13 09:47:52"
+  },
+  {
+    "key": "bot2:FILUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "FILUSDT",
+    "direction": "SHORT",
+    "entry": 0.8215,
+    "tp": 0.814085,
+    "sl": 0.826797,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 82.15 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 09:35:45",
+    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-13 09:35:45\nEntry: 0.8215\nTP: 0.814085\nSL: 0.826797",
+    "result": "TP_HIT",
+    "close_price": 0.8131,
+    "closed_at": "2026-09-13 09:49:36"
   }
 ]
