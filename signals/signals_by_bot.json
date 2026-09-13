@@ -19,6 +19,22 @@
   ],
   "bot2": [
     {
+      "key": "bot2:NEARUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 2.302,
+      "tp": 2.328578,
+      "sl": 2.283016,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 20.92 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 12:34:29",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-13 12:34:29\nEntry: 2.302\nTP: 2.328578\nSL: 2.283016"
+    },
+    {
       "key": "bot2:BNBUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -33,22 +49,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-13 12:01:48",
       "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-13 12:01:48\nEntry: 722.29\nTP: 724.263548\nSL: 720.880322"
-    },
-    {
-      "key": "bot2:ICPUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 2.703,
-      "tp": 2.724332,
-      "sl": 2.687763,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 28.14 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 10:02:27",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-13 10:02:27\nEntry: 2.703\nTP: 2.724332\nSL: 2.687763"
     },
     {
       "key": "bot2:STXUSDT",
@@ -323,6 +323,22 @@
   ],
   "bot11": [
     {
+      "key": "bot11:ICPUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "ICPUSDT",
+      "direction": "SHORT",
+      "entry": 2.686,
+      "tp": 2.650872,
+      "sl": 2.701967,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 6.8x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 12:34:47",
+      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-13 12:34:47\nEntry: 2.686\nTP: 2.650872\nSL: 2.701967"
+    },
+    {
       "key": "bot11:NEARUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -371,22 +387,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-13 12:21:25",
       "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-13 12:21:25\nEntry: 1.3615\nTP: 1.363878\nSL: 1.359914"
-    },
-    {
-      "key": "bot12:DOTUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "DOTUSDT",
-      "direction": "SHORT",
-      "entry": 1.019,
-      "tp": 1.014176,
-      "sl": 1.022216,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.75 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 12:02:16",
-      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-13 12:02:16\nEntry: 1.019\nTP: 1.014176\nSL: 1.022216"
     },
     {
       "key": "bot12:SOLUSDT",
