@@ -369,24 +369,7 @@
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 19:21:56\nEntry: 0.09681\nTP: 0.098195\nSL: 0.096117"
     }
   ],
-  "bot11": [
-    {
-      "key": "bot11:STXUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.2751,
-      "tp": 0.281827,
-      "sl": 0.272042,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.2x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 21:23:35",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-13 21:23:35\nEntry: 0.2751\nTP: 0.281827\nSL: 0.272042"
-    }
-  ],
+  "bot11": [],
   "bot12": [
     {
       "key": "bot12:ETHUSDT",
