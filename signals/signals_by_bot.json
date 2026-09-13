@@ -65,26 +65,26 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-13 19:22:10",
       "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-13 19:22:10\nEntry: 6.125\nTP: 5.992626\nSL: 6.219554"
-    },
-    {
-      "key": "bot2:ICPUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "ICPUSDT",
-      "direction": "SHORT",
-      "entry": 2.736,
-      "tp": 2.695663,
-      "sl": 2.764812,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 71.86 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 19:22:00",
-      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-13 19:22:00\nEntry: 2.736\nTP: 2.695663\nSL: 2.764812"
     }
   ],
   "bot3": [],
   "bot4": [
+    {
+      "key": "bot4:BCHUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 223.8,
+      "tp": 221.626067,
+      "sl": 225.611612,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 20:47:25",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-13 20:47:25\nEntry: 223.8\nTP: 221.626067\nSL: 225.611612"
+    },
     {
       "key": "bot4:LINKUSDT",
       "bot_id": "bot4",
@@ -322,22 +322,6 @@
   ],
   "bot11": [
     {
-      "key": "bot11:FILUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "FILUSDT",
-      "direction": "LONG",
-      "entry": 0.9055,
-      "tp": 0.950496,
-      "sl": 0.885047,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 4.6x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 19:22:19",
-      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-13 19:22:19\nEntry: 0.9055\nTP: 0.950496\nSL: 0.885047"
-    },
-    {
       "key": "bot11:NEARUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -361,15 +345,15 @@
       "bot_name": "Pullback Pro V3",
       "symbol": "ICPUSDT",
       "direction": "SHORT",
-      "entry": 2.734,
-      "tp": 2.696685,
-      "sl": 2.758878,
+      "entry": 2.776,
+      "tp": 2.733152,
+      "sl": 2.804565,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.11 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 69.12 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-13 20:22:32",
-      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-13 20:22:32\nEntry: 2.734\nTP: 2.696685\nSL: 2.758878"
+      "timestamp": "2026-09-13 20:47:36",
+      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-13 20:47:36\nEntry: 2.776\nTP: 2.733152\nSL: 2.804565"
     },
     {
       "key": "bot12:BNBUSDT",
