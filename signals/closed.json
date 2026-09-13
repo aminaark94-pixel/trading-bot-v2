@@ -3722,5 +3722,43 @@
     "result": "TP_HIT",
     "close_price": 0.9522,
     "closed_at": "2026-09-13 20:47:58"
+  },
+  {
+    "key": "bot5:NEARUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 2.317,
+    "tp": 2.388088,
+    "sl": 2.289658,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 19:47:22",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-13 19:47:22\nEntry: 2.317\nTP: 2.388088\nSL: 2.289658",
+    "result": "SL_HIT",
+    "close_price": 2.289,
+    "closed_at": "2026-09-13 21:01:07"
+  },
+  {
+    "key": "bot1:NEARUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 2.317,
+    "tp": 2.366214,
+    "sl": 2.289658,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 54.09).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 19:47:22",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-13 19:47:22\nEntry: 2.317\nTP: 2.366214\nSL: 2.289658",
+    "result": "SL_HIT",
+    "close_price": 2.289,
+    "closed_at": "2026-09-13 21:01:07"
   }
 ]
