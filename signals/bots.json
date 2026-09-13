@@ -68,5 +68,55 @@
     "min_score": 65,
     "base_rr": 2.0,
     "prompt_style": "STRATEGY = EMA CROSSOVER (Algo Arena core strategy #1). Signal when the 12-period EMA crosses the 26-period EMA on the 15m chart. Require Bollinger Band Width >= 0.3 and a real (non-choppy) BTC market. Use ATR x1.5 for SL and ATR x3.0 for TP -> fixed 1:2 risk:reward."
+  },
+  {
+    "id": "bot8",
+    "name": "ICT SMC Liquidity Hunter",
+    "tagline": "Order blocks, liquidity sweeps, structural market shifts",
+    "description": "Recent swing high/low ke bahar liquidity sweep dhoondta hai (stop-hunt wick), phir price ke wapas range mein rejection karne par entry leta hai \u2014 ICT/Smart Money Concepts style liquidity grab + structural shift.",
+    "trend_mode": "counter_allowed",
+    "min_score": 74,
+    "base_rr": 2.0,
+    "prompt_style": "STRATEGY = ICT / SMART MONEY CONCEPTS. Look for a liquidity sweep beyond a recent swing high/low followed by a rejection back into range (stop-hunt then reversal), signalling a structural shift."
+  },
+  {
+    "id": "bot9",
+    "name": "Supertrend + Kumo Cloud",
+    "tagline": "Supertrend trend shifts confirmed by Ichimoku Cloud boundaries",
+    "description": "EMA20/EMA50 alignment ko Supertrend-style flip ki tarah use karta hai, RSI se confirm karta hai \u2014 Ichimoku Cloud boundary logic ka simplified version.",
+    "trend_mode": "soft_align",
+    "min_score": 72,
+    "base_rr": 1.8,
+    "prompt_style": "STRATEGY = SUPERTREND + ICHIMOKU CLOUD. Signal on a Supertrend-style directional flip that is confirmed by price being on the correct side of the Cloud boundary (EMA20 vs EMA50 proxy) and RSI momentum agreeing."
+  },
+  {
+    "id": "bot10",
+    "name": "Triple Supertrend",
+    "tagline": "Triple multi-period Supertrend alignment for high-probability trends",
+    "description": "Teen alag EMA periods (9/21/50) ek hi direction mein align hone par hi signal deta hai \u2014 jitni zyada supertrend lines align hongi utna high-probability trend.",
+    "trend_mode": "strict_align",
+    "min_score": 80,
+    "base_rr": 2.0,
+    "prompt_style": "STRATEGY = TRIPLE SUPERTREND. Only signal when three different-period trend lines (fast/medium/slow) are all aligned in the same direction \u2014 the more confluence, the higher the conviction."
+  },
+  {
+    "id": "bot11",
+    "name": "Trendline Breakout",
+    "tagline": "20-period volume-backed trendline breakouts with BBW expansion filter",
+    "description": "Pichle 20 candles ki range (resistance/support) ke bahar breakout hone par, sath mein volume spike (1.5x+ average) confirm kar ke entry leta hai.",
+    "trend_mode": "soft_align",
+    "min_score": 75,
+    "base_rr": 2.2,
+    "prompt_style": "STRATEGY = TRENDLINE / RANGE BREAKOUT. Look for price breaking a 20-period range high or low with a volume spike of 1.5x+ the recent average, confirming real breakout momentum rather than a fakeout."
+  },
+  {
+    "id": "bot12",
+    "name": "Pullback Pro V3",
+    "tagline": "Aggressive multi-timeframe 5m/1h trend pullback scalping with ATR stops",
+    "description": "1h EMA12/26 trend confirm kar ke, 5m timeframe par aggressive RSI pullback (28-42 long / 58-72 short zone) par entry leta hai \u2014 Bot 6 se zyada frequent lekin tighter-managed scalp version.",
+    "trend_mode": "soft_align",
+    "min_score": 70,
+    "base_rr": 1.5,
+    "prompt_style": "STRATEGY = AGGRESSIVE PULLBACK SCALP (V3). Confirm the 1h EMA12/26 trend, then look for an aggressive RSI pullback on the 5m chart in that direction. More frequent than a swing bot, but still requires the pullback zone and 1h trend agreement before entering."
   }
 ]
