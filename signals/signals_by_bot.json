@@ -118,22 +118,6 @@
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 22:21:16\nEntry: 0.0974\nTP: 0.098365\nSL: 0.096597"
     },
     {
-      "key": "bot4:RENDERUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "RENDERUSDT",
-      "direction": "LONG",
-      "entry": 1.391,
-      "tp": 1.405259,
-      "sl": 1.379117,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 22:02:27",
-      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-13 22:02:27\nEntry: 1.391\nTP: 1.405259\nSL: 1.379117"
-    },
-    {
       "key": "bot4:BCHUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -221,6 +205,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "bot8:BNBUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "BNBUSDT",
+      "direction": "SHORT",
+      "entry": 722.25,
+      "tp": 718.654565,
+      "sl": 724.047718,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 00:01:35",
+      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-14 00:01:35\nEntry: 722.25\nTP: 718.654565\nSL: 724.047718"
+    },
+    {
       "key": "bot8:ADAUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -251,22 +251,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-13 22:20:41",
       "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-13 22:20:41\nEntry: 0.08453\nTP: 0.083493\nSL: 0.085048"
-    },
-    {
-      "key": "bot8:BNBUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 719.31,
-      "tp": 713.725487,
-      "sl": 722.102256,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 19:21:24",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-13 19:21:24\nEntry: 719.31\nTP: 713.725487\nSL: 722.102256"
     }
   ],
   "bot9": [
