@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot4:UNIUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "UNIUSDT",
+    "direction": "SHORT",
+    "entry": 6.277,
+    "tp": 6.19899,
+    "sl": 6.342008,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 00:20:23",
+    "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-14 00:20:23\nEntry: 6.277\nTP: 6.19899\nSL: 6.342008"
+  },
+  {
     "key": "bot8:BNBUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
