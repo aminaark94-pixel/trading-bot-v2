@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot1:INJUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 6.099,
+    "tp": 6.265838,
+    "sl": 6.006312,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 74.99).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 19:34:29",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-13 19:34:29\nEntry: 6.099\nTP: 6.265838\nSL: 6.006312"
+  },
+  {
     "key": "bot2:FILUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -318,22 +334,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-13 13:35:58",
     "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-13 13:35:58\nEntry: 100.22\nTP: 99.462077\nSL: 100.598962"
-  },
-  {
-    "key": "bot9:SOLUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 100.22,
-    "tp": 99.537869,
-    "sl": 100.598962,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 16.67 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 13:35:57",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-13 13:35:57\nEntry: 100.22\nTP: 99.537869\nSL: 100.598962"
   },
   {
     "key": "bot11:NEARUSDT",
