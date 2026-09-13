@@ -4140,5 +4140,24 @@
     "result": "SL_HIT",
     "close_price": 77395.99,
     "closed_at": "2026-09-14 02:21:42"
+  },
+  {
+    "key": "bot5:STXUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2731,
+    "tp": 0.280219,
+    "sl": 0.270362,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 21:02:24",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-13 21:02:24\nEntry: 0.2731\nTP: 0.280219\nSL: 0.270362",
+    "result": "SL_HIT",
+    "close_price": 0.2703,
+    "closed_at": "2026-09-14 02:46:05"
   }
 ]

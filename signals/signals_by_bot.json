@@ -168,22 +168,6 @@
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 23:02:17\nEntry: 0.09751\nTP: 0.098961\nSL: 0.096952"
     },
     {
-      "key": "bot5:STXUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.2731,
-      "tp": 0.280219,
-      "sl": 0.270362,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 21:02:24",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-13 21:02:24\nEntry: 0.2731\nTP: 0.280219\nSL: 0.270362"
-    },
-    {
       "key": "bot5:ETHUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
@@ -369,7 +353,24 @@
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 19:21:56\nEntry: 0.09681\nTP: 0.098195\nSL: 0.096117"
     }
   ],
-  "bot11": [],
+  "bot11": [
+    {
+      "key": "bot11:STXUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "STXUSDT",
+      "direction": "SHORT",
+      "entry": 0.27,
+      "tp": 0.266315,
+      "sl": 0.271676,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 3.2x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 02:47:44",
+      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-14 02:47:44\nEntry: 0.27\nTP: 0.266315\nSL: 0.271676"
+    }
+  ],
   "bot12": [
     {
       "key": "bot12:SOLUSDT",
