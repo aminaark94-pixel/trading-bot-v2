@@ -1,5 +1,22 @@
 {
-  "bot1": [],
+  "bot1": [
+    {
+      "key": "bot1:POLUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.09577,
+      "tp": 0.096932,
+      "sl": 0.095123,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 51.1).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 17:39:22",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 17:39:22\nEntry: 0.09577\nTP: 0.096932\nSL: 0.095123"
+    }
+  ],
   "bot2": [
     {
       "key": "bot2:FILUSDT",
@@ -20,22 +37,6 @@
   ],
   "bot3": [],
   "bot4": [
-    {
-      "key": "bot4:NEARUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "NEARUSDT",
-      "direction": "SHORT",
-      "entry": 2.286,
-      "tp": 2.257198,
-      "sl": 2.310001,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-13 16:01:41",
-      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-13 16:01:41\nEntry: 2.286\nTP: 2.257198\nSL: 2.310001"
-    },
     {
       "key": "bot4:APTUSDT",
       "bot_id": "bot4",
@@ -69,7 +70,24 @@
       "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-13 13:36:20\nEntry: 1.005\nTP: 0.997125\nSL: 1.011562"
     }
   ],
-  "bot5": [],
+  "bot5": [
+    {
+      "key": "bot5:POLUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.09577,
+      "tp": 0.097449,
+      "sl": 0.095123,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-13 17:39:22",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 17:39:22\nEntry: 0.09577\nTP: 0.097449\nSL: 0.095123"
+    }
+  ],
   "bot6": [
     {
       "key": "bot6:LTCUSDT",

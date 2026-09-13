@@ -3057,5 +3057,24 @@
     "result": "SL_HIT",
     "close_price": 76845.32,
     "closed_at": "2026-09-13 17:25:37"
+  },
+  {
+    "key": "bot4:NEARUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 2.286,
+    "tp": 2.257198,
+    "sl": 2.310001,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-13 16:01:41",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-13 16:01:41\nEntry: 2.286\nTP: 2.257198\nSL: 2.310001",
+    "result": "SL_HIT",
+    "close_price": 2.314,
+    "closed_at": "2026-09-13 17:39:56"
   }
 ]
