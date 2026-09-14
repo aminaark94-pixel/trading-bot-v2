@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot4:TIAUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "TIAUSDT",
+    "direction": "SHORT",
+    "entry": 0.3569,
+    "tp": 0.353368,
+    "sl": 0.359843,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 10:02:43",
+    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-14 10:02:43\nEntry: 0.3569\nTP: 0.353368\nSL: 0.359843"
+  },
+  {
+    "key": "bot4:FETUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "FETUSDT",
+    "direction": "SHORT",
+    "entry": 0.1698,
+    "tp": 0.167845,
+    "sl": 0.171429,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 10:02:32",
+    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-14 10:02:32\nEntry: 0.1698\nTP: 0.167845\nSL: 0.171429"
+  },
+  {
     "key": "bot12:DOGEUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
