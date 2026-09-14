@@ -51,6 +51,22 @@
   ],
   "bot2": [
     {
+      "key": "bot2:STXUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "STXUSDT",
+      "direction": "SHORT",
+      "entry": 0.272,
+      "tp": 0.26935,
+      "sl": 0.273893,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 74.75 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 15:25:05",
+      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-14 15:25:05\nEntry: 0.272\nTP: 0.26935\nSL: 0.273893"
+    },
+    {
       "key": "bot2:XRPUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -357,6 +373,22 @@
   ],
   "bot12": [
     {
+      "key": "bot12:POLUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "POLUSDT",
+      "direction": "SHORT",
+      "entry": 0.09684,
+      "tp": 0.096271,
+      "sl": 0.09722,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.46 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 15:24:42",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-14 15:24:42\nEntry: 0.09684\nTP: 0.096271\nSL: 0.09722"
+    },
+    {
       "key": "bot12:BCHUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -371,22 +403,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 14:52:35",
       "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-14 14:52:35\nEntry: 223.6\nTP: 222.286484\nSL: 224.475677"
-    },
-    {
-      "key": "bot12:LTCUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "LTCUSDT",
-      "direction": "SHORT",
-      "entry": 54.09,
-      "tp": 53.839589,
-      "sl": 54.256941,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.18 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 14:52:32",
-      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-14 14:52:32\nEntry: 54.09\nTP: 53.839589\nSL: 54.256941"
     },
     {
       "key": "bot12:APTUSDT",

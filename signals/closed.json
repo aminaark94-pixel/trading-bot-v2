@@ -6116,5 +6116,24 @@
     "result": "TP_HIT",
     "close_price": 2532.53,
     "closed_at": "2026-09-14 14:53:12"
+  },
+  {
+    "key": "bot12:LTCUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 54.09,
+    "tp": 53.839589,
+    "sl": 54.256941,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.18 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 14:52:32",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-14 14:52:32\nEntry: 54.09\nTP: 53.839589\nSL: 54.256941",
+    "result": "TP_HIT",
+    "close_price": 53.77,
+    "closed_at": "2026-09-14 15:23:35"
   }
 ]
