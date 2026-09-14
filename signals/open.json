@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot4:RENDERUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.394,
+    "tp": 1.381699,
+    "sl": 1.404251,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 12:26:06",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-14 12:26:06\nEntry: 1.394\nTP: 1.381699\nSL: 1.404251"
+  },
+  {
+    "key": "bot4:DOTUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "DOTUSDT",
+    "direction": "SHORT",
+    "entry": 1.021,
+    "tp": 1.011872,
+    "sl": 1.028606,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 12:25:38",
+    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-14 12:25:38\nEntry: 1.021\nTP: 1.011872\nSL: 1.028606"
+  },
+  {
     "key": "bot6:INJUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -110,22 +142,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-14 08:51:11",
     "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-14 08:51:11\nEntry: 77512.25\nTP: 78094.841023\nSL: 77188.58832"
-  },
-  {
-    "key": "bot4:FILUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "FILUSDT",
-    "direction": "SHORT",
-    "entry": 0.9686,
-    "tp": 0.925699,
-    "sl": 1.004351,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 08:38:56",
-    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-14 08:38:56\nEntry: 0.9686\nTP: 0.925699\nSL: 1.004351"
   },
   {
     "key": "bot6:APTUSDT",

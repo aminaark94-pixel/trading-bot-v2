@@ -5698,5 +5698,24 @@
     "result": "SL_HIT",
     "close_price": 0.3601,
     "closed_at": "2026-09-14 12:05:40"
+  },
+  {
+    "key": "bot4:FILUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "FILUSDT",
+    "direction": "SHORT",
+    "entry": 0.9686,
+    "tp": 0.925699,
+    "sl": 1.004351,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 08:38:56",
+    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-14 08:38:56\nEntry: 0.9686\nTP: 0.925699\nSL: 1.004351",
+    "result": "SL_HIT",
+    "close_price": 1.0045,
+    "closed_at": "2026-09-14 12:24:40"
   }
 ]
