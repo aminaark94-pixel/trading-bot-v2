@@ -5755,5 +5755,24 @@
     "result": "SL_HIT",
     "close_price": 2526.19,
     "closed_at": "2026-09-14 13:25:17"
+  },
+  {
+    "key": "bot10:FETUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "FETUSDT",
+    "direction": "LONG",
+    "entry": 0.1713,
+    "tp": 0.175719,
+    "sl": 0.169091,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 07:24:32",
+    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-14 07:24:32\nEntry: 0.1713\nTP: 0.175719\nSL: 0.169091",
+    "result": "SL_HIT",
+    "close_price": 0.1687,
+    "closed_at": "2026-09-14 13:51:27"
   }
 ]

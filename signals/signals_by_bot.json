@@ -321,20 +321,20 @@
   ],
   "bot10": [
     {
-      "key": "bot10:FETUSDT",
+      "key": "bot10:SUIUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "symbol": "FETUSDT",
+      "symbol": "SUIUSDT",
       "direction": "LONG",
-      "entry": 0.1713,
-      "tp": 0.175719,
-      "sl": 0.169091,
+      "entry": 0.7244,
+      "tp": 0.736148,
+      "sl": 0.718526,
       "score": 82,
       "provider": "Technical",
       "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 07:24:32",
-      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-14 07:24:32\nEntry: 0.1713\nTP: 0.175719\nSL: 0.169091"
+      "timestamp": "2026-09-14 13:52:11",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-14 13:52:11\nEntry: 0.7244\nTP: 0.736148\nSL: 0.718526"
     },
     {
       "key": "bot10:FILUSDT",

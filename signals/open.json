@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot10:SUIUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 0.7244,
+    "tp": 0.736148,
+    "sl": 0.718526,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 13:52:11",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-14 13:52:11\nEntry: 0.7244\nTP: 0.736148\nSL: 0.718526"
+  },
+  {
     "key": "bot12:STXUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -270,22 +286,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-14 07:35:53",
     "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-14 07:35:53\nEntry: 2504.19\nTP: 2541.907009\nSL: 2489.683458"
-  },
-  {
-    "key": "bot10:FETUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "FETUSDT",
-    "direction": "LONG",
-    "entry": 0.1713,
-    "tp": 0.175719,
-    "sl": 0.169091,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 07:24:32",
-    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-14 07:24:32\nEntry: 0.1713\nTP: 0.175719\nSL: 0.169091"
   },
   {
     "key": "bot1:ETHUSDT",
