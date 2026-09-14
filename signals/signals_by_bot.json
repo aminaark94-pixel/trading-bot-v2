@@ -202,6 +202,22 @@
   ],
   "bot6": [
     {
+      "key": "bot6:ICPUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.764,
+      "tp": 2.803223,
+      "sl": 2.739485,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend UP (+0.56% EMA20/50 gap) + RSI 41.38 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 15:36:44",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-14 15:36:44\nEntry: 2.764\nTP: 2.803223\nSL: 2.739485"
+    },
+    {
       "key": "bot6:APTUSDT",
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
@@ -354,6 +370,22 @@
     }
   ],
   "bot11": [
+    {
+      "key": "bot11:STXUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.2726,
+      "tp": 0.276676,
+      "sl": 0.270748,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.7x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 15:37:00",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-14 15:37:00\nEntry: 0.2726\nTP: 0.276676\nSL: 0.270748"
+    },
     {
       "key": "bot11:NEARUSDT",
       "bot_id": "bot11",
