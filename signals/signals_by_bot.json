@@ -303,6 +303,22 @@
   ],
   "bot9": [
     {
+      "key": "bot9:XRPUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "XRPUSDT",
+      "direction": "LONG",
+      "entry": 1.3995,
+      "tp": 1.41729,
+      "sl": 1.389617,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 62.0 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 16:51:22",
+      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-14 16:51:22\nEntry: 1.3995\nTP: 1.41729\nSL: 1.389617"
+    },
+    {
       "key": "bot9:SOLUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -317,22 +333,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 15:03:06",
       "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-14 15:03:06\nEntry: 101.76\nTP: 102.723147\nSL: 101.224919"
-    },
-    {
-      "key": "bot9:BTCUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 78042.0,
-      "tp": 78562.265144,
-      "sl": 77752.963809,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.77 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 15:03:04",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-14 15:03:04\nEntry: 78042.0\nTP: 78562.265144\nSL: 77752.963809"
     },
     {
       "key": "bot9:ETHUSDT",
@@ -402,6 +402,22 @@
     }
   ],
   "bot11": [
+    {
+      "key": "bot11:AVAXUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 7.44,
+      "tp": 7.535383,
+      "sl": 7.396644,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.7x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 16:51:33",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-14 16:51:33\nEntry: 7.44\nTP: 7.535383\nSL: 7.396644"
+    },
     {
       "key": "bot11:STXUSDT",
       "bot_id": "bot11",

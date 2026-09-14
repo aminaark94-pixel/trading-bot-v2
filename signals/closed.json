@@ -6173,5 +6173,24 @@
     "result": "SL_HIT",
     "close_price": 77828.44,
     "closed_at": "2026-09-14 16:03:28"
+  },
+  {
+    "key": "bot9:BTCUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 78042.0,
+    "tp": 78562.265144,
+    "sl": 77752.963809,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.77 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 15:03:04",
+    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-14 15:03:04\nEntry: 78042.0\nTP: 78562.265144\nSL: 77752.963809",
+    "result": "SL_HIT",
+    "close_price": 77752.01,
+    "closed_at": "2026-09-14 16:50:50"
   }
 ]
