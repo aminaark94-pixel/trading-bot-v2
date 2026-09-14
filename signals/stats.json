@@ -11,10 +11,10 @@
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 23,
+      "wins": 24,
       "losses": 27,
-      "total": 50,
-      "win_rate": 46.0
+      "total": 51,
+      "win_rate": 47.1
     },
     {
       "bot_id": "bot3",
@@ -27,10 +27,10 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 24,
+      "wins": 25,
       "losses": 32,
-      "total": 56,
-      "win_rate": 42.9
+      "total": 57,
+      "win_rate": 43.9
     },
     {
       "bot_id": "bot5",
@@ -105,7 +105,7 @@
     "total": 4,
     "win_rate": 75.0
   },
-  "last_run": "2026-09-14T21:36:36.102020+00:00",
+  "last_run": "2026-09-14T21:51:15.547172+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
