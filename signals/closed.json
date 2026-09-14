@@ -5489,5 +5489,24 @@
     "result": "SL_HIT",
     "close_price": 0.1692,
     "closed_at": "2026-09-14 10:22:22"
+  },
+  {
+    "key": "bot11:TIAUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.3599,
+    "tp": 0.368325,
+    "sl": 0.356071,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 1.7x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 07:24:43",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-14 07:24:43\nEntry: 0.3599\nTP: 0.368325\nSL: 0.356071",
+    "result": "SL_HIT",
+    "close_price": 0.356,
+    "closed_at": "2026-09-14 10:34:49"
   }
 ]

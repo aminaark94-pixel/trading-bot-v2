@@ -433,22 +433,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 08:24:46",
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-14 08:24:46\nEntry: 2.387\nTP: 2.449353\nSL: 2.358658"
-    },
-    {
-      "key": "bot11:TIAUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.3599,
-      "tp": 0.368325,
-      "sl": 0.356071,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.7x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 07:24:43",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-14 07:24:43\nEntry: 0.3599\nTP: 0.368325\nSL: 0.356071"
     }
   ],
   "bot12": [
