@@ -6192,5 +6192,24 @@
     "result": "SL_HIT",
     "close_price": 77752.01,
     "closed_at": "2026-09-14 16:50:50"
+  },
+  {
+    "key": "bot4:APTUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.594,
+    "tp": 0.600199,
+    "sl": 0.588834,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 15:03:27",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-14 15:03:27\nEntry: 0.594\nTP: 0.600199\nSL: 0.588834",
+    "result": "SL_HIT",
+    "close_price": 0.588,
+    "closed_at": "2026-09-14 17:01:42"
   }
 ]
