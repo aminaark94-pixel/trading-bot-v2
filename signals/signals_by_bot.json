@@ -86,6 +86,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "bot4:BNBUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BNBUSDT",
+      "direction": "SHORT",
+      "entry": 715.71,
+      "tp": 712.307069,
+      "sl": 718.545775,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 06:22:17",
+      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-14 06:22:17\nEntry: 715.71\nTP: 712.307069\nSL: 718.545775"
+    },
+    {
       "key": "bot4:DOTUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -100,22 +116,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 05:53:38",
       "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-14 05:53:38\nEntry: 1.011\nTP: 1.023223\nSL: 1.000813"
-    },
-    {
-      "key": "bot4:BNBUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "BNBUSDT",
-      "direction": "LONG",
-      "entry": 719.3,
-      "tp": 723.0408,
-      "sl": 716.182666,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 05:53:14",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-14 05:53:14\nEntry: 719.3\nTP: 723.0408\nSL: 716.182666"
     },
     {
       "key": "bot4:ICPUSDT",

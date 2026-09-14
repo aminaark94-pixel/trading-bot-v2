@@ -4862,5 +4862,24 @@
     "result": "TP_HIT",
     "close_price": 0.1681,
     "closed_at": "2026-09-14 06:02:02"
+  },
+  {
+    "key": "bot4:BNBUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "BNBUSDT",
+    "direction": "LONG",
+    "entry": 719.3,
+    "tp": 723.0408,
+    "sl": 716.182666,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 05:53:14",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-14 05:53:14\nEntry: 719.3\nTP: 723.0408\nSL: 716.182666",
+    "result": "SL_HIT",
+    "close_price": 715.75,
+    "closed_at": "2026-09-14 06:21:54"
   }
 ]
