@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot4:ETHUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2553.5,
+    "tp": 2521.624482,
+    "sl": 2580.062931,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 02:35:12",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 02:35:12\nEntry: 2553.5\nTP: 2521.624482\nSL: 2580.062931"
+  },
+  {
     "key": "bot10:SOLUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -176,22 +192,6 @@
     "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-15 02:01:31\nEntry: 2561.97\nTP: 2607.340707\nSL: 2536.764052"
   },
   {
-    "key": "bot12:FILUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9456,
-    "tp": 0.958877,
-    "sl": 0.93675,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.51 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 01:50:48",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-15 01:50:48\nEntry: 0.9456\nTP: 0.958877\nSL: 0.93675"
-  },
-  {
     "key": "bot4:LTCUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -318,22 +318,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 00:35:43",
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-15 00:35:43\nEntry: 1.4584\nTP: 1.496491\nSL: 1.439355"
-  },
-  {
-    "key": "bot4:FILUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9602,
-    "tp": 0.986442,
-    "sl": 0.938332,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 23:54:58",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-14 23:54:58\nEntry: 0.9602\nTP: 0.986442\nSL: 0.938332"
   },
   {
     "key": "bot2:BTCUSDT",
