@@ -86,6 +86,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "bot4:APTUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "APTUSDT",
+      "direction": "LONG",
+      "entry": 0.591,
+      "tp": 0.60013,
+      "sl": 0.583391,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 18:27:33",
+      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-14 18:27:33\nEntry: 0.591\nTP: 0.60013\nSL: 0.583391"
+    },
+    {
       "key": "bot4:UNIUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
