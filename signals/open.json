@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot6:INJUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 6.139,
+    "tp": 6.254243,
+    "sl": 6.066973,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+1.25% EMA20/50 gap) + RSI 52.03 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 12:05:25",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-14 12:05:25\nEntry: 6.139\nTP: 6.254243\nSL: 6.066973"
+  },
+  {
     "key": "bot4:LTCUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -78,38 +94,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-14 10:22:54",
     "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-14 10:22:54\nEntry: 2512.95\nTP: 2533.277179\nSL: 2501.657122"
-  },
-  {
-    "key": "bot4:TIAUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "TIAUSDT",
-    "direction": "SHORT",
-    "entry": 0.3569,
-    "tp": 0.353368,
-    "sl": 0.359843,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 10:02:43",
-    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-14 10:02:43\nEntry: 0.3569\nTP: 0.353368\nSL: 0.359843"
-  },
-  {
-    "key": "bot11:INJUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 6.191,
-    "tp": 6.358647,
-    "sl": 6.114797,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.6x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 08:52:13",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-14 08:52:13\nEntry: 6.191\nTP: 6.358647\nSL: 6.114797"
   },
   {
     "key": "bot9:BTCUSDT",
@@ -206,22 +190,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-14 08:24:24",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-14 08:24:24\nEntry: 2516.76\nTP: 2504.636309\nSL: 2524.842461"
-  },
-  {
-    "key": "bot2:XRPUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "XRPUSDT",
-    "direction": "SHORT",
-    "entry": 1.3746,
-    "tp": 1.359388,
-    "sl": 1.385466,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 70.87 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 08:24:22",
-    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-14 08:24:22\nEntry: 1.3746\nTP: 1.359388\nSL: 1.385466"
   },
   {
     "key": "bot8:DOGEUSDT",
