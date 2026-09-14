@@ -5337,5 +5337,43 @@
     "result": "TP_HIT",
     "close_price": 1.024,
     "closed_at": "2026-09-14 07:37:12"
+  },
+  {
+    "key": "bot12:ETHUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2504.16,
+    "tp": 2490.379585,
+    "sl": 2513.346943,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 64.85 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 07:23:53",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-14 07:23:53\nEntry: 2504.16\nTP: 2490.379585\nSL: 2513.346943",
+    "result": "SL_HIT",
+    "close_price": 2514.42,
+    "closed_at": "2026-09-14 08:02:46"
+  },
+  {
+    "key": "bot12:BTCUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 77420.49,
+    "tp": 77107.43067,
+    "sl": 77629.19622,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 68.5 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 07:23:51",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-14 07:23:51\nEntry: 77420.49\nTP: 77107.43067\nSL: 77629.19622",
+    "result": "SL_HIT",
+    "close_price": 77694.23,
+    "closed_at": "2026-09-14 08:02:46"
   }
 ]
