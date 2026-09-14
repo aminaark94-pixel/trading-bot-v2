@@ -353,22 +353,6 @@
   ],
   "bot10": [
     {
-      "key": "bot10:BTCUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 78106.0,
-      "tp": 78644.25208,
-      "sl": 77836.87396,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 14:51:54",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-14 14:51:54\nEntry: 78106.0\nTP: 78644.25208\nSL: 77836.87396"
-    },
-    {
       "key": "bot10:SUIUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -436,6 +420,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "bot12:ETHUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2512.82,
+      "tp": 2521.299001,
+      "sl": 2507.167333,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.87 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 16:02:26",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-14 16:02:26\nEntry: 2512.82\nTP: 2521.299001\nSL: 2507.167333"
+    },
     {
       "key": "bot12:POLUSDT",
       "bot_id": "bot12",
