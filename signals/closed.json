@@ -7009,5 +7009,24 @@
     "result": "SL_HIT",
     "close_price": 6.427,
     "closed_at": "2026-09-14 22:21:22"
+  },
+  {
+    "key": "bot2:NEARUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 2.532,
+    "tp": 2.454452,
+    "sl": 2.587392,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 79.52 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 22:22:17",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-14 22:22:17\nEntry: 2.532\nTP: 2.454452\nSL: 2.587392",
+    "result": "SL_HIT",
+    "close_price": 2.59,
+    "closed_at": "2026-09-14 23:01:17"
   }
 ]

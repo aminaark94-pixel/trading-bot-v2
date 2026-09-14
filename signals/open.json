@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot2:NEARUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 2.589,
+    "tp": 2.529545,
+    "sl": 2.631468,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 84.79 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 23:02:11",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-14 23:02:11\nEntry: 2.589\nTP: 2.529545\nSL: 2.631468"
+  },
+  {
     "key": "bot11:TIAUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -30,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-14 22:22:28",
     "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-14 22:22:28\nEntry: 225.6\nTP: 221.972535\nSL: 227.867166"
-  },
-  {
-    "key": "bot2:NEARUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "NEARUSDT",
-    "direction": "SHORT",
-    "entry": 2.532,
-    "tp": 2.454452,
-    "sl": 2.587392,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 79.52 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 22:22:17",
-    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-14 22:22:17\nEntry: 2.532\nTP: 2.454452\nSL: 2.587392"
   },
   {
     "key": "bot8:XRPUSDT",

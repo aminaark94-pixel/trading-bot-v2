@@ -1,8 +1,8 @@
 {
   "started_at": "2026-09-04T14:58:41.460344+00:00",
-  "last_run": "2026-09-14T17:51:35.436585+00:00",
-  "uptime_seconds": 874373,
+  "last_run": "2026-09-14T18:03:10.424665+00:00",
+  "uptime_seconds": 875068,
   "open_signals": 27,
-  "closed_trades": 369,
+  "closed_trades": 370,
   "ai_enabled": false
 }
