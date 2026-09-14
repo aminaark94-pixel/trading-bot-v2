@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot10:SOLUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 101.72,
+    "tp": 102.695258,
+    "sl": 101.232371,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 16:24:12",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-14 16:24:12\nEntry: 101.72\nTP: 102.695258\nSL: 101.232371"
+  },
+  {
     "key": "bot12:ETHUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
