@@ -288,20 +288,20 @@
   ],
   "bot10": [
     {
-      "key": "bot10:SOLUSDT",
+      "key": "bot10:ETHUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "symbol": "SOLUSDT",
+      "symbol": "ETHUSDT",
       "direction": "LONG",
-      "entry": 101.78,
-      "tp": 103.639643,
-      "sl": 100.850179,
+      "entry": 2540.67,
+      "tp": 2570.599881,
+      "sl": 2525.70506,
       "score": 82,
       "provider": "Technical",
       "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 20:28:02",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-14 20:28:02\nEntry: 101.78\nTP: 103.639643\nSL: 100.850179"
+      "timestamp": "2026-09-14 23:39:58",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-14 23:39:58\nEntry: 2540.67\nTP: 2570.599881\nSL: 2525.70506"
     },
     {
       "key": "bot10:BTCUSDT",

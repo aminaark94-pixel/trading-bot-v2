@@ -7104,5 +7104,24 @@
     "result": "TP_HIT",
     "close_price": 0.601,
     "closed_at": "2026-09-14 23:27:34"
+  },
+  {
+    "key": "bot10:SOLUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 101.78,
+    "tp": 103.639643,
+    "sl": 100.850179,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 20:28:02",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-14 20:28:02\nEntry: 101.78\nTP: 103.639643\nSL: 100.850179",
+    "result": "TP_HIT",
+    "close_price": 103.64,
+    "closed_at": "2026-09-14 23:39:30"
   }
 ]
