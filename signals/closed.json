@@ -7541,5 +7541,43 @@
     "result": "TP_HIT",
     "close_price": 0.171,
     "closed_at": "2026-09-15 01:24:27"
+  },
+  {
+    "key": "bot4:FETUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "FETUSDT",
+    "direction": "SHORT",
+    "entry": 0.1692,
+    "tp": 0.166747,
+    "sl": 0.171244,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 00:36:25",
+    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-15 00:36:25\nEntry: 0.1692\nTP: 0.166747\nSL: 0.171244",
+    "result": "SL_HIT",
+    "close_price": 0.1713,
+    "closed_at": "2026-09-15 01:34:35"
+  },
+  {
+    "key": "bot9:SOLUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 102.99,
+    "tp": 104.683664,
+    "sl": 102.049076,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 71.06 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 22:21:48",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-14 22:21:48\nEntry: 102.99\nTP: 104.683664\nSL: 102.049076",
+    "result": "TP_HIT",
+    "close_price": 104.69,
+    "closed_at": "2026-09-15 01:34:35"
   }
 ]
