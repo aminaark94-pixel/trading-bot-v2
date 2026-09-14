@@ -59,10 +59,10 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 11,
+      "wins": 12,
       "losses": 13,
-      "total": 24,
-      "win_rate": 45.8
+      "total": 25,
+      "win_rate": 48.0
     },
     {
       "bot_id": "bot9",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 38,
-      "losses": 50,
-      "total": 88,
-      "win_rate": 43.2
+      "losses": 52,
+      "total": 90,
+      "win_rate": 42.2
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 4,
     "win_rate": 75.0
   },
-  "last_run": "2026-09-14T21:51:15.547172+00:00",
+  "last_run": "2026-09-14T22:02:44.779364+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
