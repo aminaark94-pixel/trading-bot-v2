@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot8:FETUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "FETUSDT",
+    "direction": "LONG",
+    "entry": 0.1633,
+    "tp": 0.167958,
+    "sl": 0.160971,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 04:32:40",
+    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-15 04:32:40\nEntry: 0.1633\nTP: 0.167958\nSL: 0.160971"
+  },
+  {
     "key": "bot2:FETUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -270,22 +286,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 02:49:54",
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-15 02:49:54\nEntry: 103.28\nTP: 104.074212\nSL: 102.750525"
-  },
-  {
-    "key": "bot4:ETHUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2553.5,
-    "tp": 2521.624482,
-    "sl": 2580.062931,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 02:35:12",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 02:35:12\nEntry: 2553.5\nTP: 2521.624482\nSL: 2580.062931"
   },
   {
     "key": "bot11:STXUSDT",
