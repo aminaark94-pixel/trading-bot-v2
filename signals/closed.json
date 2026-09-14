@@ -6667,5 +6667,43 @@
     "result": "SL_HIT",
     "close_price": 722.31,
     "closed_at": "2026-09-14 19:03:37"
+  },
+  {
+    "key": "bot6:APTUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "APTUSDT",
+    "direction": "SHORT",
+    "entry": 0.597,
+    "tp": 0.58662,
+    "sl": 0.603487,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend DOWN (-0.70% EMA20/50 gap) + RSI 52.35 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 08:38:13",
+    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-14 08:38:13\nEntry: 0.597\nTP: 0.58662\nSL: 0.603487",
+    "result": "TP_HIT",
+    "close_price": 0.586,
+    "closed_at": "2026-09-14 20:03:46"
+  },
+  {
+    "key": "bot10:SUIUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 0.7244,
+    "tp": 0.736148,
+    "sl": 0.718526,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 13:52:11",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-14 13:52:11\nEntry: 0.7244\nTP: 0.736148\nSL: 0.718526",
+    "result": "SL_HIT",
+    "close_price": 0.7173,
+    "closed_at": "2026-09-14 20:05:23"
   }
 ]
