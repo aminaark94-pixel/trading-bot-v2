@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot2:ADAUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "ADAUSDT",
+    "direction": "SHORT",
+    "entry": 0.2106,
+    "tp": 0.208135,
+    "sl": 0.212361,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 72.01 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 12:51:37",
+    "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-14 12:51:37\nEntry: 0.2106\nTP: 0.208135\nSL: 0.212361"
+  },
+  {
+    "key": "bot4:BTCUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 77849.99,
+    "tp": 78180.277121,
+    "sl": 77574.750733,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 12:51:19",
+    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-14 12:51:19\nEntry: 77849.99\nTP: 78180.277121\nSL: 77574.750733"
+  },
+  {
     "key": "bot4:RENDERUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
