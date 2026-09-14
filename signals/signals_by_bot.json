@@ -303,22 +303,6 @@
       "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-14 18:04:43\nEntry: 7.438\nTP: 7.569267\nSL: 7.365073"
     },
     {
-      "key": "bot9:BNBUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 718.89,
-      "tp": 712.901064,
-      "sl": 722.217186,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 30.93 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 18:04:36",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-14 18:04:36\nEntry: 718.89\nTP: 712.901064\nSL: 722.217186"
-    },
-    {
       "key": "bot9:XRPUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -336,22 +320,6 @@
     }
   ],
   "bot10": [
-    {
-      "key": "bot10:BNBUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 718.89,
-      "tp": 712.235627,
-      "sl": 722.217186,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 18:04:38",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-14 18:04:38\nEntry: 718.89\nTP: 712.235627\nSL: 722.217186"
-    },
     {
       "key": "bot10:SUIUSDT",
       "bot_id": "bot10",
@@ -436,22 +404,6 @@
     }
   ],
   "bot12": [
-    {
-      "key": "bot12:SOLUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 101.08,
-      "tp": 101.75623,
-      "sl": 100.629181,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.85 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 18:04:40",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-14 18:04:40\nEntry: 101.08\nTP: 101.75623\nSL: 100.629181"
-    },
     {
       "key": "bot12:ETHUSDT",
       "bot_id": "bot12",
