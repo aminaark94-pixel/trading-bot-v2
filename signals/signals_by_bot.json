@@ -255,6 +255,22 @@
   ],
   "bot9": [
     {
+      "key": "bot9:BTCUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 77512.25,
+      "tp": 78094.841023,
+      "sl": 77188.58832,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 59.0 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 08:51:11",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-14 08:51:11\nEntry: 77512.25\nTP: 78094.841023\nSL: 77188.58832"
+    },
+    {
       "key": "bot9:FETUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -285,22 +301,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 07:36:29",
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-14 07:36:29\nEntry: 2.353\nTP: 2.403903\nSL: 2.324721"
-    },
-    {
-      "key": "bot9:ICPUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 2.854,
-      "tp": 2.923328,
-      "sl": 2.815485,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 68.52 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 07:24:26",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-14 07:24:26\nEntry: 2.854\nTP: 2.923328\nSL: 2.815485"
     }
   ],
   "bot10": [
@@ -355,6 +355,22 @@
   ],
   "bot11": [
     {
+      "key": "bot11:INJUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 6.191,
+      "tp": 6.358647,
+      "sl": 6.114797,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.6x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 08:52:13",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-14 08:52:13\nEntry: 6.191\nTP: 6.358647\nSL: 6.114797"
+    },
+    {
       "key": "bot11:NEARUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -385,40 +401,24 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 07:24:43",
       "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-14 07:24:43\nEntry: 0.3599\nTP: 0.368325\nSL: 0.356071"
-    },
-    {
-      "key": "bot11:ICPUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 2.854,
-      "tp": 2.938734,
-      "sl": 2.815485,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.6x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 07:24:30",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-14 07:24:30\nEntry: 2.854\nTP: 2.938734\nSL: 2.815485"
     }
   ],
   "bot12": [
     {
-      "key": "bot12:BNBUSDT",
+      "key": "bot12:NEARUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "BNBUSDT",
+      "symbol": "NEARUSDT",
       "direction": "SHORT",
-      "entry": 724.33,
-      "tp": 721.598639,
-      "sl": 726.150907,
+      "entry": 2.38,
+      "tp": 2.359673,
+      "sl": 2.393551,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.57 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 68.24 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 08:24:29",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-14 08:24:29\nEntry: 724.33\nTP: 721.598639\nSL: 726.150907"
+      "timestamp": "2026-09-14 08:51:44",
+      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-14 08:51:44\nEntry: 2.38\nTP: 2.359673\nSL: 2.393551"
     },
     {
       "key": "bot12:SOLUSDT",
