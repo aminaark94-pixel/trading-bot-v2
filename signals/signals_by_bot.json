@@ -51,6 +51,22 @@
   ],
   "bot2": [
     {
+      "key": "bot2:BTCUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "entry": 79118.58,
+      "tp": 78595.329766,
+      "sl": 79492.330167,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 71.73 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 23:26:05",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-14 23:26:05\nEntry: 79118.58\nTP: 78595.329766\nSL: 79492.330167"
+    },
+    {
       "key": "bot2:NEARUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -81,59 +97,10 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 22:21:47",
       "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-14 22:21:47\nEntry: 102.99\nTP: 101.672706\nSL: 103.930924"
-    },
-    {
-      "key": "bot2:XRPUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "XRPUSDT",
-      "direction": "SHORT",
-      "entry": 1.4215,
-      "tp": 1.397555,
-      "sl": 1.438603,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 71.97 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 21:52:48",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-14 21:52:48\nEntry: 1.4215\nTP: 1.397555\nSL: 1.438603"
     }
   ],
   "bot3": [],
-  "bot4": [
-    {
-      "key": "bot4:XRPUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "XRPUSDT",
-      "direction": "LONG",
-      "entry": 1.4171,
-      "tp": 1.437087,
-      "sl": 1.400445,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 21:24:01",
-      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-14 21:24:01\nEntry: 1.4171\nTP: 1.437087\nSL: 1.400445"
-    },
-    {
-      "key": "bot4:APTUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "APTUSDT",
-      "direction": "LONG",
-      "entry": 0.591,
-      "tp": 0.60013,
-      "sl": 0.583391,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 18:27:33",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-14 18:27:33\nEntry: 0.591\nTP: 0.60013\nSL: 0.583391"
-    }
-  ],
+  "bot4": [],
   "bot5": [
     {
       "key": "bot5:POLUSDT",
@@ -221,20 +188,20 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "bot8:XRPUSDT",
+      "key": "bot8:ETHUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "XRPUSDT",
+      "symbol": "ETHUSDT",
       "direction": "SHORT",
-      "entry": 1.4216,
-      "tp": 1.388718,
-      "sl": 1.438042,
+      "entry": 2535.98,
+      "tp": 2504.922839,
+      "sl": 2551.50858,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 22:21:55",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-14 22:21:55\nEntry: 1.4216\nTP: 1.388718\nSL: 1.438042"
+      "timestamp": "2026-09-14 23:26:14",
+      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-14 23:26:14\nEntry: 2535.98\nTP: 2504.922839\nSL: 2551.50858"
     },
     {
       "key": "bot8:FILUSDT",
@@ -370,6 +337,22 @@
     }
   ],
   "bot11": [
+    {
+      "key": "bot11:XRPUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "XRPUSDT",
+      "direction": "LONG",
+      "entry": 1.4495,
+      "tp": 1.480322,
+      "sl": 1.43549,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.8x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 23:26:24",
+      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-14 23:26:24\nEntry: 1.4495\nTP: 1.480322\nSL: 1.43549"
+    },
     {
       "key": "bot11:TIAUSDT",
       "bot_id": "bot11",
