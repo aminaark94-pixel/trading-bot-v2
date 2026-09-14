@@ -6705,5 +6705,24 @@
     "result": "SL_HIT",
     "close_price": 0.7173,
     "closed_at": "2026-09-14 20:05:23"
+  },
+  {
+    "key": "bot2:XRPUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "XRPUSDT",
+    "direction": "SHORT",
+    "entry": 1.3971,
+    "tp": 1.384676,
+    "sl": 1.405974,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 74.21 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 14:51:59",
+    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-14 14:51:59\nEntry: 1.3971\nTP: 1.384676\nSL: 1.405974",
+    "result": "SL_HIT",
+    "close_price": 1.4066,
+    "closed_at": "2026-09-14 20:53:42"
   }
 ]

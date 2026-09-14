@@ -352,22 +352,6 @@
     "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-14 14:52:38\nEntry: 6.358\nTP: 6.225598\nSL: 6.424201"
   },
   {
-    "key": "bot2:XRPUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "XRPUSDT",
-    "direction": "SHORT",
-    "entry": 1.3971,
-    "tp": 1.384676,
-    "sl": 1.405974,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 74.21 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 14:51:59",
-    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-14 14:51:59\nEntry: 1.3971\nTP: 1.384676\nSL: 1.405974"
-  },
-  {
     "key": "bot11:NEARUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
