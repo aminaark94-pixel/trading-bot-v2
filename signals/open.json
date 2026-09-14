@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot4:ICPUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 2.792,
+    "tp": 2.84057,
+    "sl": 2.751525,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 05:31:54",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-14 05:31:54\nEntry: 2.792\nTP: 2.84057\nSL: 2.751525"
+  },
+  {
     "key": "bot6:INJUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
