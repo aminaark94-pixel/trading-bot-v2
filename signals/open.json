@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot9:SOLUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 101.16,
+    "tp": 102.046842,
+    "sl": 100.66731,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 59.25 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 11:01:59",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-14 11:01:59\nEntry: 101.16\nTP: 102.046842\nSL: 100.66731"
+  },
+  {
     "key": "bot6:LINKUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -254,22 +270,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-14 08:24:22",
     "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-14 08:24:22\nEntry: 1.3746\nTP: 1.359388\nSL: 1.385466"
-  },
-  {
-    "key": "bot9:NEARUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "NEARUSDT",
-    "direction": "LONG",
-    "entry": 2.353,
-    "tp": 2.403903,
-    "sl": 2.324721,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 62.54 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 07:36:29",
-    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-14 07:36:29\nEntry: 2.353\nTP: 2.403903\nSL: 2.324721"
   },
   {
     "key": "bot8:DOGEUSDT",

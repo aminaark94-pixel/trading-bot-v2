@@ -5508,5 +5508,24 @@
     "result": "SL_HIT",
     "close_price": 0.356,
     "closed_at": "2026-09-14 10:34:49"
+  },
+  {
+    "key": "bot9:NEARUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 2.353,
+    "tp": 2.403903,
+    "sl": 2.324721,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 62.54 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 07:36:29",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-14 07:36:29\nEntry: 2.353\nTP: 2.403903\nSL: 2.324721",
+    "result": "TP_HIT",
+    "close_price": 2.408,
+    "closed_at": "2026-09-14 11:01:32"
   }
 ]
