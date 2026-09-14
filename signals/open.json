@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot5:STXUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2693,
+    "tp": 0.27531,
+    "sl": 0.266989,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 00:24:30",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-15 00:24:30\nEntry: 0.2693\nTP: 0.27531\nSL: 0.266989"
+  },
+  {
+    "key": "bot4:LTCUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 53.88,
+    "tp": 53.427767,
+    "sl": 54.256861,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 00:24:00",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-15 00:24:00\nEntry: 53.88\nTP: 53.427767\nSL: 54.256861"
+  },
+  {
     "key": "bot4:FILUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -350,22 +382,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-14 15:52:16",
     "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-14 15:52:16\nEntry: 1.0104\nTP: 0.955716\nSL: 1.037742"
-  },
-  {
-    "key": "bot5:ETHUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2504.19,
-    "tp": 2541.907009,
-    "sl": 2489.683458,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 07:35:53",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-14 07:35:53\nEntry: 2504.19\nTP: 2541.907009\nSL: 2489.683458"
   },
   {
     "key": "bot10:FILUSDT",

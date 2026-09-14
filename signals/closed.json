@@ -7123,5 +7123,24 @@
     "result": "TP_HIT",
     "close_price": 103.64,
     "closed_at": "2026-09-14 23:39:30"
+  },
+  {
+    "key": "bot5:ETHUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 2504.19,
+    "tp": 2541.907009,
+    "sl": 2489.683458,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 07:35:53",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-14 07:35:53\nEntry: 2504.19\nTP: 2541.907009\nSL: 2489.683458",
+    "result": "TP_HIT",
+    "close_price": 2542.0,
+    "closed_at": "2026-09-15 00:22:51"
   }
 ]
