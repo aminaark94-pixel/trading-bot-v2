@@ -70,6 +70,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "bot4:LTCUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 54.26,
+      "tp": 54.636677,
+      "sl": 53.946102,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 11:47:25",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-14 11:47:25\nEntry: 54.26\nTP: 54.636677\nSL: 53.946102"
+    },
+    {
       "key": "bot4:TIAUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -84,22 +100,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 10:02:43",
       "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-14 10:02:43\nEntry: 0.3569\nTP: 0.353368\nSL: 0.359843"
-    },
-    {
-      "key": "bot4:FETUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "FETUSDT",
-      "direction": "SHORT",
-      "entry": 0.1698,
-      "tp": 0.167845,
-      "sl": 0.171429,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 10:02:32",
-      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-14 10:02:32\nEntry: 0.1698\nTP: 0.167845\nSL: 0.171429"
     },
     {
       "key": "bot4:FILUSDT",
@@ -169,22 +169,6 @@
     }
   ],
   "bot6": [
-    {
-      "key": "bot6:LINKUSDT",
-      "bot_id": "bot6",
-      "bot_name": "Pullback Hunter (Bot C)",
-      "symbol": "LINKUSDT",
-      "direction": "SHORT",
-      "entry": 11.375,
-      "tp": 11.258422,
-      "sl": 11.447861,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "1H trend DOWN (-0.62% EMA20/50 gap) + RSI 53.84 pullback zone, confirmed by 15m volume contraction->expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 10:23:15",
-      "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-14 10:23:15\nEntry: 11.375\nTP: 11.258422\nSL: 11.447861"
-    },
     {
       "key": "bot6:APTUSDT",
       "bot_id": "bot6",
@@ -410,15 +394,15 @@
       "bot_name": "Pullback Pro V3",
       "symbol": "DOGEUSDT",
       "direction": "SHORT",
-      "entry": 0.08413,
-      "tp": 0.083734,
-      "sl": 0.084394,
+      "entry": 0.08445,
+      "tp": 0.084099,
+      "sl": 0.084684,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.72 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.01 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 09:24:55",
-      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-14 09:24:55\nEntry: 0.08413\nTP: 0.083734\nSL: 0.084394"
+      "timestamp": "2026-09-14 11:47:09",
+      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-14 11:47:09\nEntry: 0.08445\nTP: 0.084099\nSL: 0.084684"
     },
     {
       "key": "bot12:SOLUSDT",
@@ -426,15 +410,15 @@
       "bot_name": "Pullback Pro V3",
       "symbol": "SOLUSDT",
       "direction": "SHORT",
-      "entry": 101.23,
-      "tp": 100.692648,
-      "sl": 101.588234,
+      "entry": 101.61,
+      "tp": 101.174222,
+      "sl": 101.900519,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 66.54 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.43 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 08:24:27",
-      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-14 08:24:27\nEntry: 101.23\nTP: 100.692648\nSL: 101.588234"
+      "timestamp": "2026-09-14 11:46:59",
+      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-14 11:46:59\nEntry: 101.61\nTP: 101.174222\nSL: 101.900519"
     },
     {
       "key": "bot12:ETHUSDT",
