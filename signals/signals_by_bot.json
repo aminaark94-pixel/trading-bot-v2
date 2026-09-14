@@ -100,7 +100,24 @@
     }
   ],
   "bot3": [],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "bot4:FILUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 0.9686,
+      "tp": 0.925699,
+      "sl": 1.004351,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 08:38:56",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-14 08:38:56\nEntry: 0.9686\nTP: 0.925699\nSL: 1.004351"
+    }
+  ],
   "bot5": [
     {
       "key": "bot5:ETHUSDT",
@@ -151,7 +168,40 @@
       "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-14 05:54:16\nEntry: 0.9829\nTP: 1.060755\nSL: 0.952956"
     }
   ],
-  "bot6": [],
+  "bot6": [
+    {
+      "key": "bot6:APTUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "APTUSDT",
+      "direction": "SHORT",
+      "entry": 0.597,
+      "tp": 0.58662,
+      "sl": 0.603487,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-0.70% EMA20/50 gap) + RSI 52.35 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 08:38:13",
+      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-14 08:38:13\nEntry: 0.597\nTP: 0.58662\nSL: 0.603487"
+    },
+    {
+      "key": "bot6:DOGEUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "DOGEUSDT",
+      "direction": "SHORT",
+      "entry": 0.08395,
+      "tp": 0.083019,
+      "sl": 0.084532,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-0.54% EMA20/50 gap) + RSI 59.23 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 08:37:45",
+      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-14 08:37:45\nEntry: 0.08395\nTP: 0.083019\nSL: 0.084532"
+    }
+  ],
   "bot7": [],
   "bot8": [
     {
