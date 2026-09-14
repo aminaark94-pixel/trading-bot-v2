@@ -86,6 +86,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "bot4:BTCUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 78274.35,
+      "tp": 78813.598026,
+      "sl": 77824.976645,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-14 18:51:37",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-14 18:51:37\nEntry: 78274.35\nTP: 78813.598026\nSL: 77824.976645"
+    },
+    {
       "key": "bot4:LTCUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -116,40 +132,24 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 18:27:33",
       "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-14 18:27:33\nEntry: 0.591\nTP: 0.60013\nSL: 0.583391"
-    },
-    {
-      "key": "bot4:UNIUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "UNIUSDT",
-      "direction": "LONG",
-      "entry": 6.309,
-      "tp": 6.396499,
-      "sl": 6.236084,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 17:30:47",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-14 17:30:47\nEntry: 6.309\nTP: 6.396499\nSL: 6.236084"
     }
   ],
   "bot5": [
     {
-      "key": "bot5:BCHUSDT",
+      "key": "bot5:POLUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 221.5,
-      "tp": 216.299928,
-      "sl": 223.500028,
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.09815,
+      "tp": 0.100872,
+      "sl": 0.097104,
       "score": 87,
       "provider": "Technical",
       "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 18:05:03",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-14 18:05:03\nEntry: 221.5\nTP: 216.299928\nSL: 223.500028"
+      "timestamp": "2026-09-14 18:52:25",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-14 18:52:25\nEntry: 0.09815\nTP: 0.100872\nSL: 0.097104"
     },
     {
       "key": "bot5:ETHUSDT",

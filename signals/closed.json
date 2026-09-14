@@ -6572,5 +6572,43 @@
     "result": "TP_HIT",
     "close_price": 78193.08,
     "closed_at": "2026-09-14 18:38:36"
+  },
+  {
+    "key": "bot5:BCHUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 221.5,
+    "tp": 216.299928,
+    "sl": 223.500028,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 18:05:03",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-14 18:05:03\nEntry: 221.5\nTP: 216.299928\nSL: 223.500028",
+    "result": "SL_HIT",
+    "close_price": 223.9,
+    "closed_at": "2026-09-14 18:51:18"
+  },
+  {
+    "key": "bot4:UNIUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 6.309,
+    "tp": 6.396499,
+    "sl": 6.236084,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 17:30:47",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-14 17:30:47\nEntry: 6.309\nTP: 6.396499\nSL: 6.236084",
+    "result": "TP_HIT",
+    "close_price": 6.421,
+    "closed_at": "2026-09-14 18:51:18"
   }
 ]
