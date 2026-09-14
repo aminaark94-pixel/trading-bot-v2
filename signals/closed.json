@@ -5527,5 +5527,43 @@
     "result": "TP_HIT",
     "close_price": 2.408,
     "closed_at": "2026-09-14 11:01:32"
+  },
+  {
+    "key": "bot2:UNIUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "UNIUSDT",
+    "direction": "SHORT",
+    "entry": 6.43,
+    "tp": 6.318498,
+    "sl": 6.509644,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 73.02 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 08:25:03",
+    "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-14 08:25:03\nEntry: 6.43\nTP: 6.318498\nSL: 6.509644",
+    "result": "TP_HIT",
+    "close_price": 6.294,
+    "closed_at": "2026-09-14 11:30:02"
+  },
+  {
+    "key": "bot2:NEARUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 2.387,
+    "tp": 2.34732,
+    "sl": 2.415342,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 70.66 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 08:24:46",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-14 08:24:46\nEntry: 2.387\nTP: 2.34732\nSL: 2.415342",
+    "result": "SL_HIT",
+    "close_price": 2.433,
+    "closed_at": "2026-09-14 11:30:02"
   }
 ]

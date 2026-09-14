@@ -11,10 +11,10 @@
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 17,
-      "losses": 20,
-      "total": 37,
-      "win_rate": 45.9
+      "wins": 18,
+      "losses": 21,
+      "total": 39,
+      "win_rate": 46.2
     },
     {
       "bot_id": "bot3",
@@ -105,7 +105,7 @@
     "total": 4,
     "win_rate": 75.0
   },
-  "last_run": "2026-09-14T06:03:26.999051+00:00",
+  "last_run": "2026-09-14T06:32:08.282542+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
