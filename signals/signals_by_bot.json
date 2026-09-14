@@ -1,20 +1,20 @@
 {
   "bot1": [
     {
-      "key": "bot1:STXUSDT",
+      "key": "bot1:BCHUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.2724,
-      "tp": 0.276391,
-      "sl": 0.270182,
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 222.5,
+      "tp": 219.077921,
+      "sl": 224.401155,
       "score": 80,
       "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 65.97).",
+      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 46.1).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 17:31:02",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-14 17:31:02\nEntry: 0.2724\nTP: 0.276391\nSL: 0.270182"
+      "timestamp": "2026-09-14 17:46:44",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-14 17:46:44\nEntry: 222.5\nTP: 219.077921\nSL: 224.401155"
     },
     {
       "key": "bot1:INJUSDT",
@@ -50,22 +50,6 @@
     }
   ],
   "bot2": [
-    {
-      "key": "bot2:STXUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.272,
-      "tp": 0.26935,
-      "sl": 0.273893,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 74.75 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 15:25:05",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-14 15:25:05\nEntry: 0.272\nTP: 0.26935\nSL: 0.273893"
-    },
     {
       "key": "bot2:XRPUSDT",
       "bot_id": "bot2",
@@ -116,22 +100,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 17:30:47",
       "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-14 17:30:47\nEntry: 6.309\nTP: 6.396499\nSL: 6.236084"
-    },
-    {
-      "key": "bot4:ADAUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "ADAUSDT",
-      "direction": "LONG",
-      "entry": 0.2115,
-      "tp": 0.213624,
-      "sl": 0.20973,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 14:52:07",
-      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-14 14:52:07\nEntry: 0.2115\nTP: 0.213624\nSL: 0.20973"
     },
     {
       "key": "bot4:RENDERUSDT",
@@ -201,22 +169,6 @@
     }
   ],
   "bot6": [
-    {
-      "key": "bot6:ICPUSDT",
-      "bot_id": "bot6",
-      "bot_name": "Pullback Hunter (Bot C)",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 2.764,
-      "tp": 2.803223,
-      "sl": 2.739485,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "1H trend UP (+0.56% EMA20/50 gap) + RSI 41.38 pullback zone, confirmed by 15m volume contraction->expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 15:36:44",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-14 15:36:44\nEntry: 2.764\nTP: 2.803223\nSL: 2.739485"
-    },
     {
       "key": "bot6:APTUSDT",
       "bot_id": "bot6",
@@ -401,22 +353,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-14 16:51:33",
       "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-14 16:51:33\nEntry: 7.44\nTP: 7.535383\nSL: 7.396644"
-    },
-    {
-      "key": "bot11:STXUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.2726,
-      "tp": 0.276676,
-      "sl": 0.270748,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.7x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-14 15:37:00",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-14 15:37:00\nEntry: 0.2726\nTP: 0.276676\nSL: 0.270748"
     },
     {
       "key": "bot11:NEARUSDT",
