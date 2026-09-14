@@ -405,20 +405,20 @@
   ],
   "bot12": [
     {
-      "key": "bot12:NEARUSDT",
+      "key": "bot12:DOGEUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "NEARUSDT",
+      "symbol": "DOGEUSDT",
       "direction": "SHORT",
-      "entry": 2.38,
-      "tp": 2.359673,
-      "sl": 2.393551,
+      "entry": 0.08413,
+      "tp": 0.083734,
+      "sl": 0.084394,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 68.24 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.72 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-14 08:51:44",
-      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-14 08:51:44\nEntry: 2.38\nTP: 2.359673\nSL: 2.393551"
+      "timestamp": "2026-09-14 09:24:55",
+      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-14 09:24:55\nEntry: 0.08413\nTP: 0.083734\nSL: 0.084394"
     },
     {
       "key": "bot12:SOLUSDT",
