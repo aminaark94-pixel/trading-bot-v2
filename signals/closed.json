@@ -5470,5 +5470,24 @@
     "result": "SL_HIT",
     "close_price": 2.399,
     "closed_at": "2026-09-14 09:24:16"
+  },
+  {
+    "key": "bot9:FETUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "FETUSDT",
+    "direction": "LONG",
+    "entry": 0.1715,
+    "tp": 0.175472,
+    "sl": 0.169294,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.76 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 07:36:50",
+    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-14 07:36:50\nEntry: 0.1715\nTP: 0.175472\nSL: 0.169294",
+    "result": "SL_HIT",
+    "close_price": 0.1692,
+    "closed_at": "2026-09-14 10:22:22"
   }
 ]
