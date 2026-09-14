@@ -6135,5 +6135,24 @@
     "result": "TP_HIT",
     "close_price": 53.77,
     "closed_at": "2026-09-14 15:23:35"
+  },
+  {
+    "key": "bot12:APTUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "APTUSDT",
+    "direction": "SHORT",
+    "entry": 0.596,
+    "tp": 0.59107,
+    "sl": 0.599286,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.27 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 14:52:30",
+    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-14 14:52:30\nEntry: 0.596\nTP: 0.59107\nSL: 0.599286",
+    "result": "TP_HIT",
+    "close_price": 0.591,
+    "closed_at": "2026-09-14 15:52:20"
   }
 ]
