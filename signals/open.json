@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot6:INJUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 5.92,
+    "tp": 6.050106,
+    "sl": 5.838684,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+0.52% EMA20/50 gap) + RSI 36.01 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 05:02:53",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-14 05:02:53\nEntry: 5.92\nTP: 6.050106\nSL: 5.838684"
+  },
+  {
     "key": "bot12:POLUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
