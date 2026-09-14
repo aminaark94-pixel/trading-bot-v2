@@ -5717,5 +5717,24 @@
     "result": "SL_HIT",
     "close_price": 1.0045,
     "closed_at": "2026-09-14 12:24:40"
+  },
+  {
+    "key": "bot4:LTCUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "LTCUSDT",
+    "direction": "LONG",
+    "entry": 54.26,
+    "tp": 54.636677,
+    "sl": 53.946102,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-14 11:47:25",
+    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-14 11:47:25\nEntry: 54.26\nTP: 54.636677\nSL: 53.946102",
+    "result": "SL_HIT",
+    "close_price": 53.83,
+    "closed_at": "2026-09-14 12:38:38"
   }
 ]
