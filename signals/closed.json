@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot11:SOLUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 100.22,
-    "tp": 99.386285,
-    "sl": 100.598962,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 3.4x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 13:36:00",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-13 13:36:00\nEntry: 100.22\nTP: 99.386285\nSL: 100.598962",
-    "result": "SL_HIT",
-    "close_price": 100.78,
-    "closed_at": "2026-09-13 19:46:28"
-  },
-  {
     "key": "bot10:SOLUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.974,
     "closed_at": "2026-09-15 19:52:33"
+  },
+  {
+    "key": "bot4:APTUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "APTUSDT",
+    "direction": "SHORT",
+    "entry": 0.561,
+    "tp": 0.550488,
+    "sl": 0.56976,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 19:51:50",
+    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-15 19:51:50\nEntry: 0.561\nTP: 0.550488\nSL: 0.56976",
+    "result": "SL_HIT",
+    "close_price": 0.57,
+    "closed_at": "2026-09-15 20:03:58"
   }
 ]

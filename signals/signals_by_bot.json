@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "bot1:SUIUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "SUIUSDT",
+      "direction": "SHORT",
+      "entry": 0.6989,
+      "tp": 0.681434,
+      "sl": 0.708604,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 33.44).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 20:03:11",
+      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-15 20:03:11\nEntry: 0.6989\nTP: 0.681434\nSL: 0.708604"
+    },
+    {
       "key": "bot1:BCHUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -133,22 +149,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 19:52:09",
       "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-15 19:52:09\nEntry: 0.1542\nTP: 0.151245\nSL: 0.156662"
-    },
-    {
-      "key": "bot4:APTUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "APTUSDT",
-      "direction": "SHORT",
-      "entry": 0.561,
-      "tp": 0.550488,
-      "sl": 0.56976,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 19:51:50",
-      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-15 19:51:50\nEntry: 0.561\nTP: 0.550488\nSL: 0.56976"
     }
   ],
   "bot5": [
