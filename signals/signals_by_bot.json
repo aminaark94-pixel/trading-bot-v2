@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "bot1:POLUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.09759,
+      "tp": 0.099737,
+      "sl": 0.096398,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 56.25).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 21:02:11",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-15 21:02:11\nEntry: 0.09759\nTP: 0.099737\nSL: 0.096398"
+    },
+    {
       "key": "bot1:SUIUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -168,6 +184,22 @@
     }
   ],
   "bot5": [
+    {
+      "key": "bot5:POLUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.09759,
+      "tp": 0.100691,
+      "sl": 0.096398,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 21:02:11",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-15 21:02:11\nEntry: 0.09759\nTP: 0.100691\nSL: 0.096398"
+    },
     {
       "key": "bot5:SUIUSDT",
       "bot_id": "bot5",
@@ -421,6 +453,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "bot12:BTCUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "entry": 76568.01,
+      "tp": 76057.577286,
+      "sl": 76908.298476,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.52 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 21:01:49",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 21:01:49\nEntry: 76568.01\nTP: 76057.577286\nSL: 76908.298476"
+    },
     {
       "key": "bot12:UNIUSDT",
       "bot_id": "bot12",
