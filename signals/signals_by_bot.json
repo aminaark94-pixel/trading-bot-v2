@@ -67,22 +67,6 @@
       "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-15 16:35:36\nEntry: 0.572\nTP: 0.579054\nSL: 0.566962"
     },
     {
-      "key": "bot2:BTCUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 76948.91,
-      "tp": 77295.741739,
-      "sl": 76701.173044,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 24.64 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 12:52:29",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-15 12:52:29\nEntry: 76948.91\nTP: 77295.741739\nSL: 76701.173044"
-    },
-    {
       "key": "bot2:DOTUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -100,6 +84,22 @@
     }
   ],
   "bot3": [
+    {
+      "key": "bot3:ETHUSDT",
+      "bot_id": "bot3",
+      "bot_name": "Breakout Sniper",
+      "symbol": "ETHUSDT",
+      "direction": "SHORT",
+      "entry": 2465.24,
+      "tp": 2431.872803,
+      "sl": 2480.406907,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "Price broke recent range high/low with ATR volatility expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 18:36:01",
+      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 18:36:01\nEntry: 2465.24\nTP: 2431.872803\nSL: 2480.406907"
+    },
     {
       "key": "bot3:APTUSDT",
       "bot_id": "bot3",
@@ -135,6 +135,22 @@
   ],
   "bot4": [
     {
+      "key": "bot4:INJUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "INJUSDT",
+      "direction": "SHORT",
+      "entry": 5.872,
+      "tp": 5.785878,
+      "sl": 5.943767,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 18:37:02",
+      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-15 18:37:02\nEntry: 5.872\nTP: 5.785878\nSL: 5.943767"
+    },
+    {
       "key": "bot4:STXUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -149,22 +165,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 17:28:57",
       "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-15 17:28:57\nEntry: 0.2591\nTP: 0.261059\nSL: 0.257468"
-    },
-    {
-      "key": "bot4:BTCUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 76967.86,
-      "tp": 77244.332706,
-      "sl": 76737.466078,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 14:40:07",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-15 14:40:07\nEntry: 76967.86\nTP: 77244.332706\nSL: 76737.466078"
     }
   ],
   "bot5": [
@@ -219,6 +219,38 @@
   ],
   "bot6": [
     {
+      "key": "bot6:DOTUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "DOTUSDT",
+      "direction": "SHORT",
+      "entry": 0.989,
+      "tp": 0.973231,
+      "sl": 0.998856,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-0.86% EMA20/50 gap) + RSI 46.12 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 18:36:32",
+      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-15 18:36:32\nEntry: 0.989\nTP: 0.973231\nSL: 0.998856"
+    },
+    {
+      "key": "bot6:DOGEUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "DOGEUSDT",
+      "direction": "SHORT",
+      "entry": 0.08272,
+      "tp": 0.081815,
+      "sl": 0.083286,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-0.45% EMA20/50 gap) + RSI 47.17 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 18:36:15",
+      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-15 18:36:15\nEntry: 0.08272\nTP: 0.081815\nSL: 0.083286"
+    },
+    {
       "key": "bot6:NEARUSDT",
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
@@ -237,6 +269,22 @@
   ],
   "bot7": [],
   "bot8": [
+    {
+      "key": "bot8:UNIUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 6.656,
+      "tp": 6.936762,
+      "sl": 6.515619,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 18:36:48",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 18:36:48\nEntry: 6.656\nTP: 6.936762\nSL: 6.515619"
+    },
     {
       "key": "bot8:LTCUSDT",
       "bot_id": "bot8",
@@ -271,38 +319,6 @@
     }
   ],
   "bot9": [
-    {
-      "key": "bot9:ETHUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2479.42,
-      "tp": 2456.18335,
-      "sl": 2492.329249,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 46.9 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 18:24:38",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 18:24:38\nEntry: 2479.42\nTP: 2456.18335\nSL: 2492.329249"
-    },
-    {
-      "key": "bot9:BTCUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 77116.01,
-      "tp": 76723.307315,
-      "sl": 77334.178158,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 45.11 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 15:50:00",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 15:50:00\nEntry: 77116.01\nTP: 76723.307315\nSL: 77334.178158"
-    },
     {
       "key": "bot9:SOLUSDT",
       "bot_id": "bot9",
@@ -352,22 +368,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 18:03:13",
       "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-15 18:03:13\nEntry: 0.989\nTP: 0.968993\nSL: 0.999004"
-    },
-    {
-      "key": "bot10:BTCUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 77156.38,
-      "tp": 76657.421731,
-      "sl": 77405.859135,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 12:38:05",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 12:38:05\nEntry: 77156.38\nTP: 76657.421731\nSL: 77405.859135"
     }
   ],
   "bot11": [
@@ -388,22 +388,6 @@
       "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-15 16:35:36\nEntry: 0.572\nTP: 0.560915\nSL: 0.577038"
     },
     {
-      "key": "bot11:BTCUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 77156.38,
-      "tp": 76607.525904,
-      "sl": 77405.859135,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.5x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 12:38:07",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 12:38:07\nEntry: 77156.38\nTP: 76607.525904\nSL: 77405.859135"
-    },
-    {
       "key": "bot11:BNBUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -422,52 +406,20 @@
   ],
   "bot12": [
     {
-      "key": "bot12:BNBUSDT",
+      "key": "bot12:UNIUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 720.71,
-      "tp": 718.08375,
-      "sl": 722.460833,
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 6.654,
+      "tp": 6.778112,
+      "sl": 6.571259,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.88 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.09 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-15 18:24:46",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-15 18:24:46\nEntry: 720.71\nTP: 718.08375\nSL: 722.460833"
-    },
-    {
-      "key": "bot12:BTCUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 77125.13,
-      "tp": 76858.649418,
-      "sl": 77302.783722,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.5 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 17:54:23",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 17:54:23\nEntry: 77125.13\nTP: 76858.649418\nSL: 77302.783722"
-    },
-    {
-      "key": "bot12:SOLUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "SOLUSDT",
-      "direction": "SHORT",
-      "entry": 101.05,
-      "tp": 100.604885,
-      "sl": 101.346744,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.67 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 17:28:06",
-      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-15 17:28:06\nEntry: 101.05\nTP: 100.604885\nSL: 101.346744"
+      "timestamp": "2026-09-15 18:36:51",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 18:36:51\nEntry: 6.654\nTP: 6.778112\nSL: 6.571259"
     }
   ]
 }
