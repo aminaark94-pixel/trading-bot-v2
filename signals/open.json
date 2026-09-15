@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot8:BTCUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 75406.47,
+    "tp": 76543.031887,
+    "sl": 74838.189057,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 03:01:47",
+    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-16 03:01:47\nEntry: 75406.47\nTP: 76543.031887\nSL: 74838.189057"
+  },
+  {
+    "key": "bot4:ETHUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2388.73,
+    "tp": 2361.046669,
+    "sl": 2411.799443,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 03:01:45",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-16 03:01:45\nEntry: 2388.73\nTP: 2361.046669\nSL: 2411.799443"
+  },
+  {
     "key": "bot4:TIAUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -46,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-16 01:23:09",
     "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-16 01:23:09\nEntry: 2.458\nTP: 2.511457\nSL: 2.419818"
-  },
-  {
-    "key": "bot4:LTCUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 51.71,
-    "tp": 52.40876,
-    "sl": 51.127701,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 00:34:46",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-16 00:34:46\nEntry: 51.71\nTP: 52.40876\nSL: 51.127701"
   },
   {
     "key": "bot1:SUIUSDT",
@@ -302,22 +318,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 23:37:47",
     "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-15 23:37:47\nEntry: 1.324\nTP: 1.295167\nSL: 1.340019"
-  },
-  {
-    "key": "bot8:UNIUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 6.379,
-    "tp": 6.649321,
-    "sl": 6.243839,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 23:37:38",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 23:37:38\nEntry: 6.379\nTP: 6.649321\nSL: 6.243839"
   },
   {
     "key": "bot11:FILUSDT",
