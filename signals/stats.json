@@ -44,9 +44,9 @@
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
       "wins": 9,
-      "losses": 11,
-      "total": 20,
-      "win_rate": 45.0
+      "losses": 12,
+      "total": 21,
+      "win_rate": 42.9
     },
     {
       "bot_id": "bot7",
@@ -91,10 +91,10 @@
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 38,
+      "wins": 39,
       "losses": 59,
-      "total": 97,
-      "win_rate": 39.2
+      "total": 98,
+      "win_rate": 39.8
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 4,
     "win_rate": 75.0
   },
-  "last_run": "2026-09-15T02:05:26.649658+00:00",
+  "last_run": "2026-09-15T02:26:50.406732+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
