@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot4:LINKUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "LINKUSDT",
+    "direction": "SHORT",
+    "entry": 11.534,
+    "tp": 11.449854,
+    "sl": 11.604122,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 08:02:32",
+    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-15 08:02:32\nEntry: 11.534\nTP: 11.449854\nSL: 11.604122"
+  },
+  {
     "key": "bot4:STXUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -46,38 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 07:37:08",
     "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-15 07:37:08\nEntry: 77875.88\nTP: 78071.28989\nSL: 77745.60674"
-  },
-  {
-    "key": "bot12:TIAUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.3546,
-    "tp": 0.357156,
-    "sl": 0.352896,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.19 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 07:26:21",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-15 07:26:21\nEntry: 0.3546\nTP: 0.357156\nSL: 0.352896"
-  },
-  {
-    "key": "bot6:ADAUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "ADAUSDT",
-    "direction": "LONG",
-    "entry": 0.2087,
-    "tp": 0.211362,
-    "sl": 0.207036,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend UP (+0.58% EMA20/50 gap) + RSI 42.27 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 06:25:56",
-    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-15 06:25:56\nEntry: 0.2087\nTP: 0.211362\nSL: 0.207036"
   },
   {
     "key": "bot2:DOTUSDT",
