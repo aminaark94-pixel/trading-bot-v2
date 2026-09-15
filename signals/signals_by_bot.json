@@ -153,6 +153,22 @@
   ],
   "bot5": [
     {
+      "key": "bot5:SUIUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "SUIUSDT",
+      "direction": "SHORT",
+      "entry": 0.7112,
+      "tp": 0.698385,
+      "sl": 0.716129,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 10:51:38",
+      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-15 10:51:38\nEntry: 0.7112\nTP: 0.698385\nSL: 0.716129"
+    },
+    {
       "key": "bot5:BCHUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
@@ -169,7 +185,24 @@
       "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-15 03:37:11\nEntry: 225.2\nTP: 220.507951\nSL: 227.004634"
     }
   ],
-  "bot6": [],
+  "bot6": [
+    {
+      "key": "bot6:AVAXUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 7.522,
+      "tp": 7.595596,
+      "sl": 7.476002,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend UP (+0.96% EMA20/50 gap) + RSI 44.99 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 10:51:33",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-15 10:51:33\nEntry: 7.522\nTP: 7.595596\nSL: 7.476002"
+    }
+  ],
   "bot7": [],
   "bot8": [
     {
@@ -237,22 +270,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 10:37:02",
       "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-15 10:37:02\nEntry: 100.89\nTP: 100.023006\nSL: 101.371663"
-    },
-    {
-      "key": "bot9:ETHUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2483.62,
-      "tp": 2461.817757,
-      "sl": 2495.732358,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 26.95 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 10:24:02",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 10:24:02\nEntry: 2483.62\nTP: 2461.817757\nSL: 2495.732358"
     },
     {
       "key": "bot9:BTCUSDT",
@@ -373,6 +390,22 @@
   ],
   "bot12": [
     {
+      "key": "bot12:DOTUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "DOTUSDT",
+      "direction": "SHORT",
+      "entry": 0.995,
+      "tp": 0.98838,
+      "sl": 0.999413,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.88 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 10:51:47",
+      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-15 10:51:47\nEntry: 0.995\nTP: 0.98838\nSL: 0.999413"
+    },
+    {
       "key": "bot12:NEARUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -387,22 +420,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 10:24:35",
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-15 10:24:35\nEntry: 2.423\nTP: 2.444739\nSL: 2.408507"
-    },
-    {
-      "key": "bot12:AVAXUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 7.476,
-      "tp": 7.513285,
-      "sl": 7.451143,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.14 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 10:24:24",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-15 10:24:24\nEntry: 7.476\nTP: 7.513285\nSL: 7.451143"
     },
     {
       "key": "bot12:XRPUSDT",
