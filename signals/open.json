@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot4:BTCUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 76474.0,
+    "tp": 77129.667402,
+    "sl": 75927.610499,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 20:50:14",
+    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-15 20:50:14\nEntry: 76474.0\nTP: 77129.667402\nSL: 75927.610499"
+  },
+  {
     "key": "bot4:NEARUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -222,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 19:51:16",
     "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-15 19:51:16\nEntry: 2405.81\nTP: 2438.818064\nSL: 2382.232812"
-  },
-  {
-    "key": "bot2:BTCUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 75740.01,
-    "tp": 76468.898856,
-    "sl": 75219.375102,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 18.67 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 19:51:12",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-15 19:51:12\nEntry: 75740.01\nTP: 76468.898856\nSL: 75219.375102"
   },
   {
     "key": "bot11:BTCUSDT",
