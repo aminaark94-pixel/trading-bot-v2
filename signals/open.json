@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot12:NEARUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 2.382,
+    "tp": 2.34518,
+    "sl": 2.406547,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.84 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 21:24:46",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-15 21:24:46\nEntry: 2.382\nTP: 2.34518\nSL: 2.406547"
+  },
+  {
     "key": "bot1:POLUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
