@@ -171,6 +171,22 @@
   ],
   "bot6": [
     {
+      "key": "bot6:TIAUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.357,
+      "tp": 0.361555,
+      "sl": 0.354153,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend UP (+0.63% EMA20/50 gap) + RSI 43.65 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 06:37:28",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-15 06:37:28\nEntry: 0.357\nTP: 0.361555\nSL: 0.354153"
+    },
+    {
       "key": "bot6:ADAUSDT",
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
