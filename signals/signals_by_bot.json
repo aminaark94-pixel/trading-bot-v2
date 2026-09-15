@@ -33,7 +33,24 @@
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-15 21:02:11\nEntry: 0.09759\nTP: 0.099737\nSL: 0.096398"
     }
   ],
-  "bot2": [],
+  "bot2": [
+    {
+      "key": "bot2:FILUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "FILUSDT",
+      "direction": "LONG",
+      "entry": 0.8308,
+      "tp": 0.847281,
+      "sl": 0.819028,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 22.24 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 23:25:29",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-15 23:25:29\nEntry: 0.8308\nTP: 0.847281\nSL: 0.819028"
+    }
+  ],
   "bot3": [
     {
       "key": "bot3:INJUSDT",
@@ -237,22 +254,6 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "bot8:FILUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "FILUSDT",
-      "direction": "LONG",
-      "entry": 0.859,
-      "tp": 0.887188,
-      "sl": 0.844906,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 19:52:27",
-      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-15 19:52:27\nEntry: 0.859\nTP: 0.887188\nSL: 0.844906"
-    },
-    {
       "key": "bot8:APTUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -370,6 +371,22 @@
     }
   ],
   "bot11": [
+    {
+      "key": "bot11:FILUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 0.8308,
+      "tp": 0.804902,
+      "sl": 0.842572,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.7x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 23:25:29",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-15 23:25:29\nEntry: 0.8308\nTP: 0.804902\nSL: 0.842572"
+    },
     {
       "key": "bot11:APTUSDT",
       "bot_id": "bot11",
