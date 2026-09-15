@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot8:STXUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2605,
+    "tp": 0.263791,
+    "sl": 0.258854,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 12:05:53",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-15 12:05:53\nEntry: 0.2605\nTP: 0.263791\nSL: 0.258854"
+  },
+  {
     "key": "bot12:LINKUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -46,22 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 11:02:16",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 11:02:16\nEntry: 2498.81\nTP: 2478.026561\nSL: 2510.356355"
-  },
-  {
-    "key": "bot9:BTCUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 77710.01,
-    "tp": 77287.889575,
-    "sl": 77944.521347,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 43.45 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 11:02:14",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 11:02:14\nEntry: 77710.01\nTP: 77287.889575\nSL: 77944.521347"
   },
   {
     "key": "bot12:DOTUSDT",
@@ -174,22 +174,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 09:52:50",
     "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 09:52:50\nEntry: 6.643\nTP: 6.770516\nSL: 6.536737"
-  },
-  {
-    "key": "bot8:BTCUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 77558.26,
-    "tp": 78020.363125,
-    "sl": 77327.208437,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 09:37:08",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-15 09:37:08\nEntry: 77558.26\nTP: 78020.363125\nSL: 77327.208437"
   },
   {
     "key": "bot2:ICPUSDT",
