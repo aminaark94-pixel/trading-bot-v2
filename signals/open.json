@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot12:POLUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "POLUSDT",
+    "direction": "SHORT",
+    "entry": 0.09716,
+    "tp": 0.096339,
+    "sl": 0.097707,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.92 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 17:02:31",
+    "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-15 17:02:31\nEntry: 0.09716\nTP: 0.096339\nSL: 0.097707"
+  },
+  {
     "key": "bot8:AVAXUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
