@@ -233,22 +233,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 18:36:15",
       "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-15 18:36:15\nEntry: 0.08272\nTP: 0.081815\nSL: 0.083286"
-    },
-    {
-      "key": "bot6:NEARUSDT",
-      "bot_id": "bot6",
-      "bot_name": "Pullback Hunter (Bot C)",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 2.385,
-      "tp": 2.431488,
-      "sl": 2.355945,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "1H trend UP (+1.61% EMA20/50 gap) + RSI 38.92 pullback zone, confirmed by 15m volume contraction->expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 13:54:55",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-15 13:54:55\nEntry: 2.385\nTP: 2.431488\nSL: 2.355945"
     }
   ],
   "bot7": [],
@@ -403,22 +387,6 @@
     }
   ],
   "bot11": [
-    {
-      "key": "bot11:STXUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.2561,
-      "tp": 0.251168,
-      "sl": 0.258342,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.5x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 18:52:20",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-15 18:52:20\nEntry: 0.2561\nTP: 0.251168\nSL: 0.258342"
-    },
     {
       "key": "bot11:APTUSDT",
       "bot_id": "bot11",
