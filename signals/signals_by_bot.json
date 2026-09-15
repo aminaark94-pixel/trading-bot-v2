@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "bot1:SUIUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "SUIUSDT",
+      "direction": "SHORT",
+      "entry": 0.7034,
+      "tp": 0.694598,
+      "sl": 0.70829,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 28.87).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 13:02:44",
+      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-15 13:02:44\nEntry: 0.7034\nTP: 0.694598\nSL: 0.70829"
+    },
+    {
       "key": "bot1:BCHUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -15,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 12:53:09",
       "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-15 12:53:09\nEntry: 220.8\nTP: 218.778056\nSL: 221.923302"
-    },
-    {
-      "key": "bot1:SUIUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "SUIUSDT",
-      "direction": "SHORT",
-      "entry": 0.7136,
-      "tp": 0.704793,
-      "sl": 0.718493,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 30.59).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 09:25:36",
-      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-15 09:25:36\nEntry: 0.7136\nTP: 0.704793\nSL: 0.718493"
     }
   ],
   "bot2": [
@@ -167,27 +167,27 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 10:51:38",
       "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-15 10:51:38\nEntry: 0.7112\nTP: 0.698385\nSL: 0.716129"
-    },
-    {
-      "key": "bot5:BCHUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 225.2,
-      "tp": 220.507951,
-      "sl": 227.004634,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 03:37:11",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-15 03:37:11\nEntry: 225.2\nTP: 220.507951\nSL: 227.004634"
     }
   ],
   "bot6": [],
   "bot7": [],
   "bot8": [
+    {
+      "key": "bot8:ICPUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.58,
+      "tp": 2.629134,
+      "sl": 2.555433,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 13:03:08",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-15 13:03:08\nEntry: 2.58\nTP: 2.629134\nSL: 2.555433"
+    },
     {
       "key": "bot8:STXUSDT",
       "bot_id": "bot8",
@@ -223,6 +223,22 @@
   ],
   "bot9": [
     {
+      "key": "bot9:BTCUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "entry": 76856.28,
+      "tp": 76415.670799,
+      "sl": 77101.062889,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 22.97 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 13:02:27",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 13:02:27\nEntry: 76856.28\nTP: 76415.670799\nSL: 77101.062889"
+    },
+    {
       "key": "bot9:SOLUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -253,25 +269,25 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 12:52:39",
       "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 12:52:39\nEntry: 2473.84\nTP: 2453.357144\nSL: 2485.219365"
-    },
-    {
-      "key": "bot9:BTCUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 77308.32,
-      "tp": 76878.870226,
-      "sl": 77546.903208,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 33.62 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 12:26:16",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 12:26:16\nEntry: 77308.32\nTP: 76878.870226\nSL: 77546.903208"
     }
   ],
   "bot10": [
+    {
+      "key": "bot10:BNBUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "BNBUSDT",
+      "direction": "SHORT",
+      "entry": 714.69,
+      "tp": 709.820289,
+      "sl": 717.124856,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 13:02:31",
+      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-15 13:02:31\nEntry: 714.69\nTP: 709.820289\nSL: 717.124856"
+    },
     {
       "key": "bot10:SOLUSDT",
       "bot_id": "bot10",
@@ -303,22 +319,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 12:38:05",
       "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 12:38:05\nEntry: 77156.38\nTP: 76657.421731\nSL: 77405.859135"
-    },
-    {
-      "key": "bot10:LTCUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "LTCUSDT",
-      "direction": "SHORT",
-      "entry": 53.34,
-      "tp": 52.529333,
-      "sl": 53.745334,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 04:02:11",
-      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-15 04:02:11\nEntry: 53.34\nTP: 52.529333\nSL: 53.745334"
     }
   ],
   "bot11": [
