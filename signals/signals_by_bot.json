@@ -185,22 +185,6 @@
       "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-15 17:27:59\nEntry: 1.4061\nTP: 1.436052\nSL: 1.394579"
     },
     {
-      "key": "bot5:POLUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "POLUSDT",
-      "direction": "LONG",
-      "entry": 0.09673,
-      "tp": 0.098048,
-      "sl": 0.096223,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 14:40:49",
-      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-15 14:40:49\nEntry: 0.09673\nTP: 0.098048\nSL: 0.096223"
-    },
-    {
       "key": "bot5:SUIUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
