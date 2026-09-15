@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot9:POLUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.09681,
-    "tp": 0.098056,
-    "sl": 0.096117,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 68.24 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 19:21:56",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 19:21:56\nEntry: 0.09681\nTP: 0.098056\nSL: 0.096117",
-    "result": "SL_HIT",
-    "close_price": 0.0961,
-    "closed_at": "2026-09-14 03:21:31"
-  },
-  {
     "key": "bot12:FILUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.2662,
     "closed_at": "2026-09-16 01:22:06"
+  },
+  {
+    "key": "bot4:BNBUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "BNBUSDT",
+    "direction": "LONG",
+    "entry": 720.94,
+    "tp": 728.441675,
+    "sl": 714.688603,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 00:22:04",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-16 00:22:04\nEntry: 720.94\nTP: 728.441675\nSL: 714.688603",
+    "result": "SL_HIT",
+    "close_price": 712.59,
+    "closed_at": "2026-09-16 01:33:34"
   }
 ]
