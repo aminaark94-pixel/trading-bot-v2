@@ -103,38 +103,6 @@
   ],
   "bot4": [
     {
-      "key": "bot4:RENDERUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "RENDERUSDT",
-      "direction": "LONG",
-      "entry": 1.389,
-      "tp": 1.401668,
-      "sl": 1.378443,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 06:26:34",
-      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-15 06:26:34\nEntry: 1.389\nTP: 1.401668\nSL: 1.378443"
-    },
-    {
-      "key": "bot4:UNIUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "UNIUSDT",
-      "direction": "LONG",
-      "entry": 6.7,
-      "tp": 6.831151,
-      "sl": 6.590707,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 05:54:17",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 05:54:17\nEntry: 6.7\nTP: 6.831151\nSL: 6.590707"
-    },
-    {
       "key": "bot4:POLUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -406,6 +374,22 @@
   ],
   "bot12": [
     {
+      "key": "bot12:BTCUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 77875.88,
+      "tp": 78071.28989,
+      "sl": 77745.60674,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.95 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 07:37:08",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-15 07:37:08\nEntry: 77875.88\nTP: 78071.28989\nSL: 77745.60674"
+    },
+    {
       "key": "bot12:TIAUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -436,22 +420,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-15 05:31:37",
       "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-15 05:31:37\nEntry: 2511.54\nTP: 2523.615976\nSL: 2503.489349"
-    },
-    {
-      "key": "bot12:SOLUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 102.55,
-      "tp": 103.020037,
-      "sl": 102.236641,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.04 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 04:48:04",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-15 04:48:04\nEntry: 102.55\nTP: 103.020037\nSL: 102.236641"
     }
   ]
 }
