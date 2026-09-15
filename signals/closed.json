@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot10:POLUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.09681,
-    "tp": 0.098195,
-    "sl": 0.096117,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 19:21:56",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-13 19:21:56\nEntry: 0.09681\nTP: 0.098195\nSL: 0.096117",
-    "result": "SL_HIT",
-    "close_price": 0.0961,
-    "closed_at": "2026-09-14 03:21:31"
-  },
-  {
     "key": "bot9:POLUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 2415.04,
     "closed_at": "2026-09-16 00:23:29"
+  },
+  {
+    "key": "bot2:XRPUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "XRPUSDT",
+    "direction": "LONG",
+    "entry": 1.3026,
+    "tp": 1.342557,
+    "sl": 1.274059,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 21.31 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 23:51:54",
+    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-15 23:51:54\nEntry: 1.3026\nTP: 1.342557\nSL: 1.274059",
+    "result": "SL_HIT",
+    "close_price": 1.2662,
+    "closed_at": "2026-09-16 01:22:06"
   }
 ]
