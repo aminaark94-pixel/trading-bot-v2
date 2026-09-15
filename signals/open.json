@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot8:AVAXUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 7.463,
+    "tp": 7.535285,
+    "sl": 7.426857,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 16:48:36",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-15 16:48:36\nEntry: 7.463\nTP: 7.535285\nSL: 7.426857"
+  },
+  {
     "key": "bot8:BCHUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -256,22 +272,6 @@
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-15 13:54:55\nEntry: 2.385\nTP: 2.431488\nSL: 2.355945"
   },
   {
-    "key": "bot6:AVAXUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 7.505,
-    "tp": 7.5725,
-    "sl": 7.462813,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend UP (+0.85% EMA20/50 gap) + RSI 48.9 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 13:54:41",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-15 13:54:41\nEntry: 7.505\nTP: 7.5725\nSL: 7.462813"
-  },
-  {
     "key": "bot6:XRPUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -286,22 +286,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 13:54:33",
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-15 13:54:33\nEntry: 1.3935\nTP: 1.408188\nSL: 1.38432"
-  },
-  {
-    "key": "bot8:ICPUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.58,
-    "tp": 2.629134,
-    "sl": 2.555433,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 13:03:08",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-15 13:03:08\nEntry: 2.58\nTP: 2.629134\nSL: 2.555433"
   },
   {
     "key": "bot2:BTCUSDT",
