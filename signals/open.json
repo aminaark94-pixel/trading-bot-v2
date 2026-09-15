@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot9:LINKUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "LINKUSDT",
+    "direction": "SHORT",
+    "entry": 11.397,
+    "tp": 11.298825,
+    "sl": 11.451541,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 45.65 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 16:02:27",
+    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-15 16:02:27\nEntry: 11.397\nTP: 11.298825\nSL: 11.451541"
+  },
+  {
     "key": "bot12:ETHUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -222,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 13:03:08",
     "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-15 13:03:08\nEntry: 2.58\nTP: 2.629134\nSL: 2.555433"
-  },
-  {
-    "key": "bot9:ETHUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2473.84,
-    "tp": 2453.357144,
-    "sl": 2485.219365,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 29.01 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 12:52:39",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 12:52:39\nEntry: 2473.84\nTP: 2453.357144\nSL: 2485.219365"
   },
   {
     "key": "bot2:BTCUSDT",
