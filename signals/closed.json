@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot1:ETHUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2534.4,
-    "tp": 2545.274731,
-    "sl": 2528.358483,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 74.93).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-12 13:48:11",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-12 13:48:11\nEntry: 2534.4\nTP: 2545.274731\nSL: 2528.358483",
-    "result": "SL_HIT",
-    "close_price": 2527.76,
-    "closed_at": "2026-09-12 22:31:51"
-  },
-  {
     "key": "bot2:BTCUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 2513.85,
     "closed_at": "2026-09-15 05:02:39"
+  },
+  {
+    "key": "bot6:FILUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.9374,
+    "tp": 0.968949,
+    "sl": 0.917682,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+5.79% EMA20/50 gap) + RSI 35.55 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 02:50:55",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-15 02:50:55\nEntry: 0.9374\nTP: 0.968949\nSL: 0.917682",
+    "result": "SL_HIT",
+    "close_price": 0.9112,
+    "closed_at": "2026-09-15 05:31:02"
   }
 ]
