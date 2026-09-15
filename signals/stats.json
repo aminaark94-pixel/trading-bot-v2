@@ -19,18 +19,18 @@
     {
       "bot_id": "bot3",
       "bot_name": "Breakout Sniper",
-      "wins": 5,
+      "wins": 6,
       "losses": 2,
-      "total": 7,
-      "win_rate": 71.4
+      "total": 8,
+      "win_rate": 75.0
     },
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 36,
-      "losses": 51,
-      "total": 87,
-      "win_rate": 41.4
+      "losses": 52,
+      "total": 88,
+      "win_rate": 40.9
     },
     {
       "bot_id": "bot5",
@@ -83,10 +83,10 @@
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 13,
+      "wins": 14,
       "losses": 22,
-      "total": 35,
-      "win_rate": 37.1
+      "total": 36,
+      "win_rate": 38.9
     },
     {
       "bot_id": "bot12",
@@ -100,12 +100,12 @@
   "winner": {
     "bot_id": "bot3",
     "bot_name": "Breakout Sniper",
-    "wins": 5,
+    "wins": 6,
     "losses": 2,
-    "total": 7,
-    "win_rate": 71.4
+    "total": 8,
+    "win_rate": 75.0
   },
-  "last_run": "2026-09-15T22:03:14.712956+00:00",
+  "last_run": "2026-09-15T22:23:25.550900+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

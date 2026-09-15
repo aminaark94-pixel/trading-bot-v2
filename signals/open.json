@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot11:STXUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "STXUSDT",
+    "direction": "SHORT",
+    "entry": 0.2332,
+    "tp": 0.225277,
+    "sl": 0.236802,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 3.0x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 03:23:06",
+    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-16 03:23:06\nEntry: 0.2332\nTP: 0.225277\nSL: 0.236802"
+  },
+  {
     "key": "bot8:BTCUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -30,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-16 03:01:45",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-16 03:01:45\nEntry: 2388.73\nTP: 2361.046669\nSL: 2411.799443"
-  },
-  {
-    "key": "bot4:TIAUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.33,
-    "tp": 0.336922,
-    "sl": 0.324232,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 01:50:24",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-16 01:50:24\nEntry: 0.33\nTP: 0.336922\nSL: 0.324232"
   },
   {
     "key": "bot4:UNIUSDT",
@@ -366,37 +366,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 19:52:16",
     "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-15 19:52:16\nEntry: 5.603\nTP: 5.354923\nSL: 5.715761"
-  },
-  {
-    "key": "bot11:BNBUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 720.65,
-    "tp": 711.220207,
-    "sl": 724.93627,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 3.9x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 03:50:12",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-15 03:50:12\nEntry: 720.65\nTP: 711.220207\nSL: 724.93627"
-  },
-  {
-    "key": "bot3:BNBUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 720.65,
-    "tp": 711.220207,
-    "sl": 724.93627,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 03:50:04",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-15 03:50:04\nEntry: 720.65\nTP: 711.220207\nSL: 724.93627"
   }
 ]
