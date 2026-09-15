@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot11:ETHUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2501.33,
-    "tp": 2487.573297,
-    "sl": 2507.583047,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 6.6x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 13:35:58",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-13 13:35:58\nEntry: 2501.33\nTP: 2487.573297\nSL: 2507.583047",
-    "result": "TP_HIT",
-    "close_price": 2485.85,
-    "closed_at": "2026-09-13 15:00:59"
-  },
-  {
     "key": "bot9:ETHUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.08298,
     "closed_at": "2026-09-15 17:55:29"
+  },
+  {
+    "key": "bot1:XRPUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "XRPUSDT",
+    "direction": "LONG",
+    "entry": 1.4061,
+    "tp": 1.426836,
+    "sl": 1.394579,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 54.58).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 17:27:59",
+    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-15 17:27:59\nEntry: 1.4061\nTP: 1.426836\nSL: 1.394579",
+    "result": "TP_HIT",
+    "close_price": 1.4329,
+    "closed_at": "2026-09-15 18:04:02"
   }
 ]
