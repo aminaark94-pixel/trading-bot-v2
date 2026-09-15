@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot10:LINKUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "LINKUSDT",
+    "direction": "SHORT",
+    "entry": 11.375,
+    "tp": 11.252324,
+    "sl": 11.436338,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 15:03:31",
+    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-15 15:03:31\nEntry: 11.375\nTP: 11.252324\nSL: 11.436338"
+  },
+  {
+    "key": "bot9:SOLUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SOLUSDT",
+    "direction": "SHORT",
+    "entry": 100.79,
+    "tp": 100.016191,
+    "sl": 101.219894,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 42.68 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 15:03:13",
+    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-15 15:03:13\nEntry: 100.79\nTP: 100.016191\nSL: 101.219894"
+  },
+  {
     "key": "bot12:ADAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
