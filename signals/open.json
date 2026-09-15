@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot8:BCHUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 224.3,
+    "tp": 220.26345,
+    "sl": 226.318274,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 19:02:19",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-15 19:02:19\nEntry: 224.3\nTP: 220.26345\nSL: 226.318274"
+  },
+  {
+    "key": "bot8:APTUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "APTUSDT",
+    "direction": "SHORT",
+    "entry": 0.576,
+    "tp": 0.561517,
+    "sl": 0.583241,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 19:02:16",
+    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-15 19:02:16\nEntry: 0.576\nTP: 0.561517\nSL: 0.583241"
+  },
+  {
     "key": "bot11:STXUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -206,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-15 18:37:02",
     "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-15 18:37:02\nEntry: 5.872\nTP: 5.785878\nSL: 5.943767"
-  },
-  {
-    "key": "bot8:UNIUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 6.656,
-    "tp": 6.936762,
-    "sl": 6.515619,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 18:36:48",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 18:36:48\nEntry: 6.656\nTP: 6.936762\nSL: 6.515619"
   },
   {
     "key": "bot6:DOTUSDT",

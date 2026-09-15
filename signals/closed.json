@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot1:INJUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 5.871,
-    "tp": 5.965755,
-    "sl": 5.818358,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 55.17).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-13 18:02:42",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-13 18:02:42\nEntry: 5.871\nTP: 5.965755\nSL: 5.818358",
-    "result": "TP_HIT",
-    "close_price": 5.974,
-    "closed_at": "2026-09-13 18:46:26"
-  },
-  {
     "key": "bot2:FILUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 99.92,
     "closed_at": "2026-09-15 18:50:51"
+  },
+  {
+    "key": "bot8:UNIUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 6.656,
+    "tp": 6.936762,
+    "sl": 6.515619,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 18:36:48",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 18:36:48\nEntry: 6.656\nTP: 6.936762\nSL: 6.515619",
+    "result": "SL_HIT",
+    "close_price": 6.491,
+    "closed_at": "2026-09-15 19:01:14"
   }
 ]
