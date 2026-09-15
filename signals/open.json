@@ -1,19 +1,35 @@
 [
   {
-    "key": "bot4:STXUSDT",
+    "key": "bot4:RENDERUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.2634,
-    "tp": 0.260911,
-    "sl": 0.265475,
+    "symbol": "RENDERUSDT",
+    "direction": "LONG",
+    "entry": 1.389,
+    "tp": 1.401668,
+    "sl": 1.378443,
     "score": 72,
     "provider": "Technical",
     "reason": "MACD line just crossed its signal line (fast momentum flip).",
     "status": "waiting_entry",
-    "timestamp": "2026-09-15 06:03:44",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-15 06:03:44\nEntry: 0.2634\nTP: 0.260911\nSL: 0.265475"
+    "timestamp": "2026-09-15 06:26:34",
+    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-15 06:26:34\nEntry: 1.389\nTP: 1.401668\nSL: 1.378443"
+  },
+  {
+    "key": "bot6:ADAUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.2087,
+    "tp": 0.211362,
+    "sl": 0.207036,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+0.58% EMA20/50 gap) + RSI 42.27 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 06:25:56",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-15 06:25:56\nEntry: 0.2087\nTP: 0.211362\nSL: 0.207036"
   },
   {
     "key": "bot2:DOTUSDT",
