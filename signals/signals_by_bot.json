@@ -222,38 +222,6 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "bot8:XRPUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "XRPUSDT",
-      "direction": "SHORT",
-      "entry": 1.4061,
-      "tp": 1.38306,
-      "sl": 1.41762,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 17:28:01",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-15 17:28:01\nEntry: 1.4061\nTP: 1.38306\nSL: 1.41762"
-    },
-    {
-      "key": "bot8:BCHUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "BCHUSDT",
-      "direction": "LONG",
-      "entry": 221.3,
-      "tp": 223.092545,
-      "sl": 220.403728,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 16:35:44",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-15 16:35:44\nEntry: 221.3\nTP: 223.092545\nSL: 220.403728"
-    },
-    {
       "key": "bot8:SOLUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -321,38 +289,6 @@
     }
   ],
   "bot10": [
-    {
-      "key": "bot10:LINKUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "LINKUSDT",
-      "direction": "SHORT",
-      "entry": 11.375,
-      "tp": 11.252324,
-      "sl": 11.436338,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 15:03:31",
-      "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-15 15:03:31\nEntry: 11.375\nTP: 11.252324\nSL: 11.436338"
-    },
-    {
-      "key": "bot10:DOGEUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "DOGEUSDT",
-      "direction": "SHORT",
-      "entry": 0.0826,
-      "tp": 0.081859,
-      "sl": 0.082971,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 14:04:07",
-      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-15 14:04:07\nEntry: 0.0826\nTP: 0.081859\nSL: 0.082971"
-    },
     {
       "key": "bot10:BTCUSDT",
       "bot_id": "bot10",
@@ -422,20 +358,20 @@
   ],
   "bot12": [
     {
-      "key": "bot12:BCHUSDT",
+      "key": "bot12:BTCUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "BCHUSDT",
+      "symbol": "BTCUSDT",
       "direction": "SHORT",
-      "entry": 222.8,
-      "tp": 221.798816,
-      "sl": 223.467456,
+      "entry": 77125.13,
+      "tp": 76858.649418,
+      "sl": 77302.783722,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 64.07 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.5 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-15 17:28:37",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-15 17:28:37\nEntry: 222.8\nTP: 221.798816\nSL: 223.467456"
+      "timestamp": "2026-09-15 17:54:23",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 17:54:23\nEntry: 77125.13\nTP: 76858.649418\nSL: 77302.783722"
     },
     {
       "key": "bot12:LINKUSDT",
