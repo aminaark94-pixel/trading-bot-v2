@@ -135,6 +135,22 @@
   ],
   "bot4": [
     {
+      "key": "bot4:ICPUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.553,
+      "tp": 2.591193,
+      "sl": 2.521172,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 20:23:34",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-15 20:23:34\nEntry: 2.553\nTP: 2.591193\nSL: 2.521172"
+    },
+    {
       "key": "bot4:FETUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -152,6 +168,22 @@
     }
   ],
   "bot5": [
+    {
+      "key": "bot5:SUIUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "SUIUSDT",
+      "direction": "SHORT",
+      "entry": 0.7025,
+      "tp": 0.677054,
+      "sl": 0.712287,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 20:23:14",
+      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-15 20:23:14\nEntry: 0.7025\nTP: 0.677054\nSL: 0.712287"
+    },
     {
       "key": "bot5:BCHUSDT",
       "bot_id": "bot5",
@@ -388,5 +420,22 @@
       "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-15 03:50:12\nEntry: 720.65\nTP: 711.220207\nSL: 724.93627"
     }
   ],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "bot12:UNIUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 6.32,
+      "tp": 6.474305,
+      "sl": 6.21713,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.64 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 20:23:39",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 20:23:39\nEntry: 6.32\nTP: 6.474305\nSL: 6.21713"
+    }
+  ]
 }
