@@ -135,6 +135,38 @@
   ],
   "bot4": [
     {
+      "key": "bot4:TIAUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.33,
+      "tp": 0.336922,
+      "sl": 0.324232,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 01:50:24",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-16 01:50:24\nEntry: 0.33\nTP: 0.336922\nSL: 0.324232"
+    },
+    {
+      "key": "bot4:UNIUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "UNIUSDT",
+      "direction": "SHORT",
+      "entry": 6.328,
+      "tp": 6.151817,
+      "sl": 6.474819,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 01:50:09",
+      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-16 01:50:09\nEntry: 6.328\nTP: 6.151817\nSL: 6.474819"
+    },
+    {
       "key": "bot4:LTCUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
