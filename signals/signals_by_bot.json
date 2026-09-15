@@ -85,7 +85,40 @@
       "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-15 03:50:04\nEntry: 720.65\nTP: 711.220207\nSL: 724.93627"
     }
   ],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "bot4:UNIUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 6.7,
+      "tp": 6.831151,
+      "sl": 6.590707,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 05:54:17",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 05:54:17\nEntry: 6.7\nTP: 6.831151\nSL: 6.590707"
+    },
+    {
+      "key": "bot4:POLUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.09691,
+      "tp": 0.097645,
+      "sl": 0.096297,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-15 05:54:15",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-15 05:54:15\nEntry: 0.09691\nTP: 0.097645\nSL: 0.096297"
+    }
+  ],
   "bot5": [
     {
       "key": "bot5:BCHUSDT",
