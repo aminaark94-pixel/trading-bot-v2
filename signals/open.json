@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot6:LINKUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "LINKUSDT",
+    "direction": "LONG",
+    "entry": 11.55,
+    "tp": 11.670379,
+    "sl": 11.474763,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+0.51% EMA20/50 gap) + RSI 46.12 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 08:37:35",
+    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-15 08:37:35\nEntry: 11.55\nTP: 11.670379\nSL: 11.474763"
+  },
+  {
+    "key": "bot6:AVAXUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 7.557,
+    "tp": 7.636322,
+    "sl": 7.507424,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+0.99% EMA20/50 gap) + RSI 47.25 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-15 08:37:31",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-15 08:37:31\nEntry: 7.557\nTP: 7.636322\nSL: 7.507424"
+  },
+  {
     "key": "bot4:APTUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
