@@ -201,6 +201,22 @@
   ],
   "bot5": [
     {
+      "key": "bot5:BCHUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 217.8,
+      "tp": 209.087744,
+      "sl": 221.150868,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 00:02:10",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 00:02:10\nEntry: 217.8\nTP: 209.087744\nSL: 221.150868"
+    },
+    {
       "key": "bot5:SUIUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
