@@ -519,7 +519,7 @@ BOT_BY_ID = {b["id"]: b for b in BOT_CONFIGS}
 # SHARED STATE  (thread-safe)
 # =====================================================================
 _state_lock = threading.Lock()
-signals_store = {}     # key: f"{bot_id}:{symbol}" -> signal dict (OPEN signals)
+signals_store = {}     # key: symbol -> signal dict (OPEN signals, ONE per symbol total across all bots)
 closed_store = []      # list of closed signal dicts (TP/SL hit)
 bot_stats = {b["id"]: {"wins": 0, "losses": 0, "total": 0} for b in BOT_CONFIGS}
 
@@ -1520,16 +1520,179 @@ TECHNICAL_EVALUATORS = {
 
 
 # =====================================================================
+# SUPABASE PERSISTENCE — plain REST calls (PostgREST) via `requests`,
+# no extra SDK dependency needed. Fixes the "memory loss on Render free
+# tier" problem: Render's free plan spins the container down after
+# inactivity and wipes RAM, so signals_store / closed_store / bot_stats
+# living only in memory disappeared on every restart. Now every write
+# also goes to Supabase, and on startup we reload everything from there.
+#
+# Tables (already created in the linked Supabase project):
+#   open_signals   (PK = symbol)  -> enforces ONE open signal per symbol,
+#                                    across ALL bots, at the database level
+#   closed_signals (PK = id, auto)
+#   bot_stats      (PK = bot_id)
+# =====================================================================
+SUPABASE_URL = os.getenv("SUPABASE_URL", "").strip().rstrip("/")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY", "").strip()
+SUPABASE_ENABLED = bool(SUPABASE_URL and SUPABASE_KEY)
+
+
+def _supabase_request(method, table, params=None, json_body=None, extra_headers=None):
+    """Thin PostgREST wrapper. Returns parsed JSON on success, None on failure
+    (every caller treats a failed DB write as non-fatal — in-memory state is
+    still updated either way, so the bots never stop working just because
+    Supabase is unreachable)."""
+    if not SUPABASE_ENABLED:
+        return None
+    url = f"{SUPABASE_URL}/rest/v1/{table}"
+    headers = {
+        "apikey": SUPABASE_KEY,
+        "Authorization": f"Bearer {SUPABASE_KEY}",
+        "Content-Type": "application/json",
+    }
+    if extra_headers:
+        headers.update(extra_headers)
+    try:
+        res = requests.request(method, url, headers=headers, params=params, json=json_body, timeout=10)
+        if res.status_code >= 400:
+            print(f"⚠️ [SUPABASE {method} {table}] {res.status_code}: {res.text[:300]}")
+            return None
+        if not res.text:
+            return None
+        return res.json()
+    except Exception as e:
+        print(f"⚠️ [SUPABASE {method} {table} FAILED] {e}")
+        return None
+
+
+def supabase_upsert_open_signal(sig):
+    """Insert/replace the open row for this symbol. Prefer=resolution=merge-duplicates
+    makes this an upsert keyed on the `symbol` primary key."""
+    body = {
+        "symbol": sig["symbol"],
+        "bot_id": sig["bot_id"],
+        "bot_name": sig["bot_name"],
+        "direction": sig["direction"],
+        "entry": sig["entry"],
+        "tp": sig["tp"],
+        "sl": sig["sl"],
+        "score": sig.get("score"),
+        "reason": sig.get("reason"),
+    }
+    _supabase_request(
+        "POST", "open_signals", json_body=body,
+        extra_headers={"Prefer": "resolution=merge-duplicates,return=minimal"},
+    )
+
+
+def supabase_delete_open_signal(symbol):
+    _supabase_request("DELETE", "open_signals", params={"symbol": f"eq.{symbol}"},
+                       extra_headers={"Prefer": "return=minimal"})
+
+
+def supabase_insert_closed_signal(closed):
+    body = {
+        "symbol": closed["symbol"],
+        "bot_id": closed["bot_id"],
+        "bot_name": closed["bot_name"],
+        "direction": closed["direction"],
+        "entry": closed["entry"],
+        "tp": closed["tp"],
+        "sl": closed["sl"],
+        "exit_price": closed.get("close_price"),
+        "result": closed["result"],
+        "score": closed.get("score"),
+        "reason": closed.get("reason"),
+        "opened_at": closed.get("opened_at"),
+    }
+    _supabase_request("POST", "closed_signals", json_body=body,
+                       extra_headers={"Prefer": "return=minimal"})
+
+
+def supabase_upsert_bot_stats(bot_id, bot_name, stats):
+    body = {
+        "bot_id": bot_id,
+        "bot_name": bot_name,
+        "wins": stats["wins"],
+        "losses": stats["losses"],
+        "total": stats["total"],
+    }
+    _supabase_request(
+        "POST", "bot_stats", json_body=body,
+        extra_headers={"Prefer": "resolution=merge-duplicates,return=minimal"},
+    )
+
+
+def load_state_from_supabase():
+    """Called once at startup — restores open signals + bot stats from
+    Supabase so a Render free-tier restart doesn't wipe the bots' memory.
+    closed_signals history is NOT reloaded into RAM (it can grow large);
+    it stays queryable straight from Supabase / the /closed endpoint
+    still serves whatever accumulates in this process afterwards."""
+    if not SUPABASE_ENABLED:
+        print("ℹ️ [SUPABASE] SUPABASE_URL / SUPABASE_KEY not set — running with in-memory state only "
+              "(signals will be lost on restart). See .env.example.")
+        return
+
+    rows = _supabase_request("GET", "open_signals", params={"select": "*"})
+    if rows:
+        with _state_lock:
+            for r in rows:
+                symbol = r["symbol"]
+                timestamp = karachi_now_str()
+                signals_store[symbol] = {
+                    "key": symbol,
+                    "bot_id": r["bot_id"],
+                    "bot_name": r["bot_name"],
+                    "symbol": symbol,
+                    "direction": r["direction"],
+                    "entry": float(r["entry"]),
+                    "tp": float(r["tp"]),
+                    "sl": float(r["sl"]),
+                    "score": r.get("score"),
+                    "provider": "Restored",
+                    "reason": r.get("reason", ""),
+                    "status": "waiting_entry",
+                    "timestamp": r.get("opened_at", timestamp),
+                    "copy_payload": (
+                        f"Coin: {symbol}\nSide: {str(r['direction']).upper()}\n"
+                        f"Entry: {r['entry']}\nTP: {r['tp']}\nSL: {r['sl']}"
+                    ),
+                }
+        print(f"✅ [SUPABASE] Restored {len(rows)} open signal(s) from previous run.")
+
+    stat_rows = _supabase_request("GET", "bot_stats", params={"select": "*"})
+    if stat_rows:
+        with _state_lock:
+            for r in stat_rows:
+                bot_stats[r["bot_id"]] = {
+                    "wins": r.get("wins", 0),
+                    "losses": r.get("losses", 0),
+                    "total": r.get("total", 0),
+                }
+        print(f"✅ [SUPABASE] Restored stats for {len(stat_rows)} bot(s) from previous run.")
+
+
+# =====================================================================
 # SIGNAL SUBMISSION (in-process now, no HTTP hop needed between
 # bot threads and the server since they share the same process)
+#
+# ONE OPEN SIGNAL PER SYMBOL, TOTAL — across ALL bots, not per bot.
+# As long as ANY bot has an open signal on a symbol, no other bot may
+# open a new one on that same symbol until the first one closes
+# (TP/SL hit). Enforced both in-memory (signals_store keyed by symbol
+# alone) and in Supabase (open_signals.symbol is the primary key).
 # =====================================================================
 def submit_signal(bot_cfg, symbol, direction, entry, tp, sl, score, provider, reason):
-    key = f"{bot_cfg['id']}:{symbol}"
     timestamp = karachi_now_str()
     copy_payload = f"Coin: {symbol}\nSide: {direction.upper()}\nTime: {timestamp}\nEntry: {entry}\nTP: {tp}\nSL: {sl}"
     with _state_lock:
-        signals_store[key] = {
-            "key": key,
+        if symbol in signals_store:
+            # another bot beat us to it between the pre-check and now — skip silently
+            return False
+        sig = {
+            "key": symbol,
             "bot_id": bot_cfg["id"],
             "bot_name": bot_cfg["name"],
             "symbol": symbol,
@@ -1544,7 +1707,15 @@ def submit_signal(bot_cfg, symbol, direction, entry, tp, sl, score, provider, re
             "timestamp": timestamp,
             "copy_payload": copy_payload,
         }
+        signals_store[symbol] = sig
+    supabase_upsert_open_signal(sig)
     post_discord_signal(bot_cfg, symbol, direction, entry, tp, sl, score, provider, reason)
+    return True
+
+
+def symbol_has_open_signal(symbol):
+    with _state_lock:
+        return symbol in signals_store
 
 
 # =====================================================================
@@ -1559,6 +1730,14 @@ def run_bot_engine(bot_cfg):
         for symbol in coins:
             time_str = datetime.now(PKT).strftime('%H:%M:%S')
             print(f"[{time_str}] 🔍 [{bot_cfg['id'].upper()}] Scanning {symbol}...")
+
+            # ---- global one-signal-per-symbol gate: skip entirely if ANY bot
+            # already has an open signal on this symbol (saves an API/AI call) ----
+            if symbol_has_open_signal(symbol):
+                print(f"⏭️ [{bot_cfg['id'].upper()}][{symbol}] Skipped — another bot already has an "
+                      f"open signal on this symbol.")
+                time.sleep(1)
+                continue
 
             try:
                 kl_15m = cached_fetch_klines(symbol, "15m", limit=100)
@@ -1640,7 +1819,19 @@ def run_bot_engine(bot_cfg):
                         sl = round(entry + sl_dist, 6)
 
                 reason = ai_out.get('reason', '')
-                submit_signal(bot_cfg, symbol, sig, entry, tp, sl, score, provider, reason)
+
+                # final re-check right before writing — another bot's thread may have
+                # opened a signal on this same symbol while we were analyzing it
+                if symbol_has_open_signal(symbol):
+                    print(f"⏭️ [{bot_cfg['id'].upper()}][{symbol}] Skipped at the last moment — another "
+                          f"bot opened a signal on this symbol first.")
+                    time.sleep(1)
+                    continue
+
+                submitted = submit_signal(bot_cfg, symbol, sig, entry, tp, sl, score, provider, reason)
+                if not submitted:
+                    time.sleep(1)
+                    continue
 
                 print("--------------------------------------------------")
                 print(f"✅ [{bot_cfg['id'].upper()}] {bot_cfg['name']} SIGNAL | Provider: {provider.upper()}")
@@ -1718,6 +1909,11 @@ def run_position_monitor():
                                 stats["wins"] += 1
                             else:
                                 stats["losses"] += 1
+                            stats_snapshot = dict(stats)
+                    if closed:
+                        supabase_delete_open_signal(closed["symbol"])
+                        supabase_insert_closed_signal(closed)
+                        supabase_upsert_bot_stats(closed["bot_id"], closed["bot_name"], stats_snapshot)
                     print(f"🏁 [{sig['bot_id'].upper()}] {sig['symbol']} closed -> {hit} @ {price}")
 
         except Exception as e:
@@ -1740,7 +1936,8 @@ def home():
 @app.route('/signal', methods=['POST'])
 def receive_signal_external():
     """Kept for backward-compat / external submissions. In-process bots
-    use submit_signal() directly (faster, no HTTP round-trip)."""
+    use submit_signal() directly (faster, no HTTP round-trip). Same
+    one-signal-per-symbol rule applies here too."""
     try:
         data = request.json
         if not data or 'symbol' not in data:
@@ -1748,16 +1945,17 @@ def receive_signal_external():
         bot_id = data.get('bot_id', 'external')
         bot_name = data.get('bot_name', 'External')
         symbol = data['symbol']
-        key = f"{bot_id}:{symbol}"
         direction = data.get('direction', 'LONG')
         entry = data.get('entry', 0)
         tp = data.get('tp', 0)
         sl = data.get('sl', 0)
-        timestamp = data.get('timestamp', '')
+        timestamp = data.get('timestamp', '') or karachi_now_str()
         copy_payload = f"Coin: {symbol}\nSide: {str(direction).upper()}\nTime: {timestamp}\nEntry: {entry}\nTP: {tp}\nSL: {sl}"
         with _state_lock:
-            signals_store[key] = {
-                "key": key,
+            if symbol in signals_store:
+                return jsonify({"status": "skipped", "message": f"{symbol} already has an open signal"}), 200
+            sig = {
+                "key": symbol,
                 "bot_id": bot_id,
                 "bot_name": bot_name,
                 "symbol": symbol,
@@ -1772,6 +1970,8 @@ def receive_signal_external():
                 "timestamp": timestamp,
                 "copy_payload": copy_payload,
             }
+            signals_store[symbol] = sig
+        supabase_upsert_open_signal(sig)
         return jsonify({"status": "success", "message": "Signal Received"}), 200
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
@@ -1851,6 +2051,7 @@ def get_status():
         "uptime_seconds": int(uptime_seconds),
         "open_signals": len(signals_store),
         "closed_trades": len(closed_store),
+        "supabase_connected": SUPABASE_ENABLED,
     })
 
 
@@ -1872,8 +2073,11 @@ if __name__ == '__main__':
     if AI_ENABLED:
         print(f"🔑 Loaded: {len(GEMINI_KEYS)} Gemini | {len(GROQ_KEYS)} Groq | {len(MISTRAL_KEYS)} Mistral Keys")
     print(f"📣 Discord webhook: {'configured' if DISCORD_WEBHOOK_URL else 'not set'}")
+    print(f"🗄️  Supabase persistence: {'ON' if SUPABASE_ENABLED else 'OFF (see .env.example)'}")
     print(f"🤖 Bots: {', '.join(b['name'] for b in BOT_CONFIGS)}")
     print("==================================================\n")
+
+    load_state_from_supabase()
 
     for cfg in BOT_CONFIGS:
         t = threading.Thread(target=run_bot_engine, args=(cfg,), daemon=True)
