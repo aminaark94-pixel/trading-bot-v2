@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot12:LTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "LTCUSDT",
-    "direction": "SHORT",
-    "entry": 54.09,
-    "tp": 53.839589,
-    "sl": 54.256941,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.18 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 14:52:32",
-    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-14 14:52:32\nEntry: 54.09\nTP: 53.839589\nSL: 54.256941",
-    "result": "TP_HIT",
-    "close_price": 53.77,
-    "closed_at": "2026-09-14 15:23:35"
-  },
-  {
     "key": "bot12:APTUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 216.1,
     "closed_at": "2026-09-16 21:01:45"
+  },
+  {
+    "key": "bot1:BCHUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 218.2,
+    "tp": 215.753695,
+    "sl": 219.559058,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 40.37).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 13:25:45",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 13:25:45\nEntry: 218.2\nTP: 215.753695\nSL: 219.559058",
+    "result": "TP_HIT",
+    "close_price": 215.5,
+    "closed_at": "2026-09-16 22:22:25"
   }
 ]
