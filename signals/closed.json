@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot10:APTUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "APTUSDT",
-    "direction": "SHORT",
-    "entry": 0.588,
-    "tp": 0.578079,
-    "sl": 0.592961,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 14:26:22",
-    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-14 14:26:22\nEntry: 0.588\nTP: 0.578079\nSL: 0.592961",
-    "result": "SL_HIT",
-    "close_price": 0.595,
-    "closed_at": "2026-09-14 14:51:22"
-  },
-  {
     "key": "bot11:DOTUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.3281,
     "closed_at": "2026-09-16 17:28:24"
+  },
+  {
+    "key": "bot4:LTCUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "LTCUSDT",
+    "direction": "LONG",
+    "entry": 50.85,
+    "tp": 51.154184,
+    "sl": 50.596514,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 16:50:35",
+    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-16 16:50:35\nEntry: 50.85\nTP: 51.154184\nSL: 50.596514",
+    "result": "SL_HIT",
+    "close_price": 50.56,
+    "closed_at": "2026-09-16 17:43:05"
   }
 ]
