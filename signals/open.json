@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot8:BNBUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 712.01,
+    "tp": 704.623289,
+    "sl": 715.703356,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 23:01:40",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 23:01:40\nEntry: 712.01\nTP: 704.623289\nSL: 715.703356"
+  },
+  {
     "key": "bot1:BCHUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
