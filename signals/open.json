@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot6:AVAXUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "AVAXUSDT",
+    "direction": "SHORT",
+    "entry": 7.258,
+    "tp": 7.160693,
+    "sl": 7.318817,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend DOWN (-1.28% EMA20/50 gap) + RSI 47.08 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 20:23:56",
+    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-16 20:23:56\nEntry: 7.258\nTP: 7.160693\nSL: 7.318817"
+  },
+  {
     "key": "bot2:UNIUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
