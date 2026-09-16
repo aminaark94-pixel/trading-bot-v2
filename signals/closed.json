@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot12:BNBUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 724.33,
-    "tp": 721.598639,
-    "sl": 726.150907,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.57 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 08:24:29",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-14 08:24:29\nEntry: 724.33\nTP: 721.598639\nSL: 726.150907",
-    "result": "TP_HIT",
-    "close_price": 721.52,
-    "closed_at": "2026-09-14 08:50:42"
-  },
-  {
     "key": "bot11:ICPUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.534,
     "closed_at": "2026-09-16 12:23:52"
+  },
+  {
+    "key": "bot11:ICPUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 2.521,
+    "tp": 2.570203,
+    "sl": 2.498635,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 10.6x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 09:24:27",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-16 09:24:27\nEntry: 2.521\nTP: 2.570203\nSL: 2.498635",
+    "result": "SL_HIT",
+    "close_price": 2.494,
+    "closed_at": "2026-09-16 13:01:27"
   }
 ]

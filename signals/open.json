@@ -80,22 +80,6 @@
     "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-16 11:29:33\nEntry: 0.538\nTP: 0.525826\nSL: 0.543534"
   },
   {
-    "key": "bot11:ICPUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.521,
-    "tp": 2.570203,
-    "sl": 2.498635,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 10.6x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 09:24:27",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-16 09:24:27\nEntry: 2.521\nTP: 2.570203\nSL: 2.498635"
-  },
-  {
     "key": "bot8:DOGEUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
