@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:FETUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "FETUSDT",
-    "direction": "SHORT",
-    "entry": 0.1698,
-    "tp": 0.167845,
-    "sl": 0.171429,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 10:02:32",
-    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-14 10:02:32\nEntry: 0.1698\nTP: 0.167845\nSL: 0.171429",
-    "result": "SL_HIT",
-    "close_price": 0.1717,
-    "closed_at": "2026-09-14 11:46:20"
-  },
-  {
     "key": "bot12:DOGEUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.302,
     "closed_at": "2026-09-16 15:49:51"
+  },
+  {
+    "key": "bot11:POLUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "POLUSDT",
+    "direction": "LONG",
+    "entry": 0.09626,
+    "tp": 0.098976,
+    "sl": 0.095025,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 2.0x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 15:25:00",
+    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-16 15:25:00\nEntry: 0.09626\nTP: 0.098976\nSL: 0.095025",
+    "result": "SL_HIT",
+    "close_price": 0.09376,
+    "closed_at": "2026-09-16 16:23:11"
   }
 ]
