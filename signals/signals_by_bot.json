@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "bot1:UNIUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 6.427,
+      "tp": 6.601523,
+      "sl": 6.330043,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 60.14).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 09:24:23",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-16 09:24:23\nEntry: 6.427\nTP: 6.601523\nSL: 6.330043"
+    },
+    {
       "key": "bot1:SUIUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -34,22 +50,6 @@
     }
   ],
   "bot2": [
-    {
-      "key": "bot2:ICPUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 2.458,
-      "tp": 2.511457,
-      "sl": 2.419818,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 28.62 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 01:23:09",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-16 01:23:09\nEntry: 2.458\nTP: 2.511457\nSL: 2.419818"
-    },
     {
       "key": "bot2:SOLUSDT",
       "bot_id": "bot2",
@@ -102,22 +102,6 @@
     }
   ],
   "bot4": [
-    {
-      "key": "bot4:LTCUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "LTCUSDT",
-      "direction": "SHORT",
-      "entry": 50.96,
-      "tp": 50.562213,
-      "sl": 51.291489,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 06:34:39",
-      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-16 06:34:39\nEntry: 50.96\nTP: 50.562213\nSL: 51.291489"
-    },
     {
       "key": "bot4:SOLUSDT",
       "bot_id": "bot4",
@@ -370,8 +354,57 @@
       "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-16 00:22:07\nEntry: 76057.87\nTP: 74536.050015\nSL: 76818.779992"
     }
   ],
-  "bot11": [],
+  "bot11": [
+    {
+      "key": "bot11:ICPUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.521,
+      "tp": 2.570203,
+      "sl": 2.498635,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 10.6x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 09:24:27",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-16 09:24:27\nEntry: 2.521\nTP: 2.570203\nSL: 2.498635"
+    }
+  ],
   "bot12": [
+    {
+      "key": "bot12:BNBUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BNBUSDT",
+      "direction": "SHORT",
+      "entry": 715.95,
+      "tp": 713.816991,
+      "sl": 717.372006,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.04 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 09:24:00",
+      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 09:24:00\nEntry: 715.95\nTP: 713.816991\nSL: 717.372006"
+    },
+    {
+      "key": "bot12:SOLUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "SOLUSDT",
+      "direction": "SHORT",
+      "entry": 97.51,
+      "tp": 97.089435,
+      "sl": 97.790377,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.71 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 09:23:58",
+      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-16 09:23:58\nEntry: 97.51\nTP: 97.089435\nSL: 97.790377"
+    },
     {
       "key": "bot12:BTCUSDT",
       "bot_id": "bot12",
@@ -387,38 +420,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 07:49:57",
       "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-16 07:49:57\nEntry: 75997.64\nTP: 75746.996494\nSL: 76164.735671"
-    },
-    {
-      "key": "bot12:FILUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "FILUSDT",
-      "direction": "SHORT",
-      "entry": 0.8139,
-      "tp": 0.807447,
-      "sl": 0.818202,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.48 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 07:24:42",
-      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-16 07:24:42\nEntry: 0.8139\nTP: 0.807447\nSL: 0.818202"
-    },
-    {
-      "key": "bot12:STXUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.2394,
-      "tp": 0.237107,
-      "sl": 0.240928,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.72 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 07:03:13",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-16 07:03:13\nEntry: 0.2394\nTP: 0.237107\nSL: 0.240928"
     }
   ]
 }
