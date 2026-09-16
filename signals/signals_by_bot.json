@@ -420,5 +420,54 @@
       "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-16 09:24:27\nEntry: 2.521\nTP: 2.570203\nSL: 2.498635"
     }
   ],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "bot12:INJUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "INJUSDT",
+      "direction": "SHORT",
+      "entry": 5.449,
+      "tp": 5.416316,
+      "sl": 5.470789,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.32 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 11:57:40",
+      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-16 11:57:40\nEntry: 5.449\nTP: 5.416316\nSL: 5.470789"
+    },
+    {
+      "key": "bot12:ICPUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "ICPUSDT",
+      "direction": "SHORT",
+      "entry": 2.524,
+      "tp": 2.508628,
+      "sl": 2.534248,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.99 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 11:57:30",
+      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-16 11:57:30\nEntry: 2.524\nTP: 2.508628\nSL: 2.534248"
+    },
+    {
+      "key": "bot12:BCHUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 220.6,
+      "tp": 219.760242,
+      "sl": 221.159839,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.54 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 11:57:20",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 11:57:20\nEntry: 220.6\nTP: 219.760242\nSL: 221.159839"
+    }
+  ]
 }
