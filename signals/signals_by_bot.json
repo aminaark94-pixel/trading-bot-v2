@@ -419,22 +419,6 @@
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-16 14:24:18\nEntry: 2.404\nTP: 2.468772\nSL: 2.374558"
     },
     {
-      "key": "bot11:STXUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.2356,
-      "tp": 0.230987,
-      "sl": 0.237697,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.2x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 13:26:13",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-16 13:26:13\nEntry: 0.2356\nTP: 0.230987\nSL: 0.237697"
-    },
-    {
       "key": "bot11:APTUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",

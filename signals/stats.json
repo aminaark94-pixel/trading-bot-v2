@@ -84,9 +84,9 @@
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
       "wins": 15,
-      "losses": 26,
-      "total": 41,
-      "win_rate": 36.6
+      "losses": 27,
+      "total": 42,
+      "win_rate": 35.7
     },
     {
       "bot_id": "bot12",
@@ -105,7 +105,7 @@
     "total": 9,
     "win_rate": 77.8
   },
-  "last_run": "2026-09-16T09:37:21.849033+00:00",
+  "last_run": "2026-09-16T09:52:14.539585+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
