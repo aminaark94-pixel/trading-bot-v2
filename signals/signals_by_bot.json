@@ -87,22 +87,6 @@
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-16 21:02:48\nEntry: 50.46\nTP: 50.973429\nSL: 50.032142"
     },
     {
-      "key": "bot4:BNBUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "BNBUSDT",
-      "direction": "LONG",
-      "entry": 712.89,
-      "tp": 717.90915,
-      "sl": 708.707375,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 20:50:08",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-16 20:50:08\nEntry: 712.89\nTP: 717.90915\nSL: 708.707375"
-    },
-    {
       "key": "bot4:DOTUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -120,6 +104,22 @@
     }
   ],
   "bot5": [
+    {
+      "key": "NEARUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 2.528,
+      "tp": 2.71846,
+      "sl": 2.454746,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 00:02:06",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-17 00:02:06\nEntry: 2.528\nTP: 2.71846\nSL: 2.454746"
+    },
     {
       "key": "bot5:RENDERUSDT",
       "bot_id": "bot5",
@@ -169,22 +169,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 23:38:30",
       "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-16 23:38:30\nEntry: 0.6926\nTP: 0.676261\nSL: 0.702812"
-    },
-    {
-      "key": "bot6:AVAXUSDT",
-      "bot_id": "bot6",
-      "bot_name": "Pullback Hunter (Bot C)",
-      "symbol": "AVAXUSDT",
-      "direction": "SHORT",
-      "entry": 7.258,
-      "tp": 7.160693,
-      "sl": 7.318817,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "1H trend DOWN (-1.28% EMA20/50 gap) + RSI 47.08 pullback zone, confirmed by 15m volume contraction->expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 20:23:56",
-      "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-16 20:23:56\nEntry: 7.258\nTP: 7.160693\nSL: 7.318817"
     },
     {
       "key": "bot6:DOTUSDT",
