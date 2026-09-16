@@ -34,24 +34,7 @@
       "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-16 18:05:42\nEntry: 0.7842\nTP: 0.805749\nSL: 0.768809"
     }
   ],
-  "bot3": [
-    {
-      "key": "bot3:FILUSDT",
-      "bot_id": "bot3",
-      "bot_name": "Breakout Sniper",
-      "symbol": "FILUSDT",
-      "direction": "SHORT",
-      "entry": 0.7835,
-      "tp": 0.747597,
-      "sl": 0.799819,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "Price broke recent range high/low with ATR volatility expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 17:44:44",
-      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-16 17:44:44\nEntry: 0.7835\nTP: 0.747597\nSL: 0.799819"
-    }
-  ],
+  "bot3": [],
   "bot4": [
     {
       "key": "BTCUSDT",
@@ -108,20 +91,20 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "bot8:NEARUSDT",
+      "key": "POLUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "NEARUSDT",
+      "symbol": "POLUSDT",
       "direction": "SHORT",
-      "entry": 2.53,
-      "tp": 2.43034,
-      "sl": 2.57983,
+      "entry": 0.09318,
+      "tp": 0.090282,
+      "sl": 0.094629,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-16 23:26:11",
-      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-16 23:26:11\nEntry: 2.53\nTP: 2.43034\nSL: 2.57983"
+      "timestamp": "2026-09-17 01:50:44",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-17 01:50:44\nEntry: 0.09318\nTP: 0.090282\nSL: 0.094629"
     },
     {
       "key": "bot8:BTCUSDT",
@@ -256,24 +239,7 @@
       "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-16 00:22:07\nEntry: 76057.87\nTP: 74536.050015\nSL: 76818.779992"
     }
   ],
-  "bot11": [
-    {
-      "key": "bot11:FILUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "FILUSDT",
-      "direction": "SHORT",
-      "entry": 0.7835,
-      "tp": 0.747597,
-      "sl": 0.799819,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 22.2x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 17:44:44",
-      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-16 17:44:44\nEntry: 0.7835\nTP: 0.747597\nSL: 0.799819"
-    }
-  ],
+  "bot11": [],
   "bot12": [
     {
       "key": "DOGEUSDT",
