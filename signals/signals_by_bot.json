@@ -1,22 +1,6 @@
 {
   "bot1": [
     {
-      "key": "bot1:UNIUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "UNIUSDT",
-      "direction": "LONG",
-      "entry": 6.397,
-      "tp": 6.539633,
-      "sl": 6.31776,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 61.85).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 16:50:42",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-16 16:50:42\nEntry: 6.397\nTP: 6.539633\nSL: 6.31776"
-    },
-    {
       "key": "bot1:BCHUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -101,6 +85,22 @@
   ],
   "bot3": [],
   "bot4": [
+    {
+      "key": "bot4:BCHUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 218.0,
+      "tp": 216.100347,
+      "sl": 219.583044,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 17:29:35",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 17:29:35\nEntry: 218.0\nTP: 216.100347\nSL: 219.583044"
+    },
     {
       "key": "bot4:LTCUSDT",
       "bot_id": "bot4",
@@ -403,22 +403,6 @@
       "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-16 17:02:24\nEntry: 0.967\nTP: 0.987338\nSL: 0.957755"
     },
     {
-      "key": "bot11:TIAUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.3312,
-      "tp": 0.336239,
-      "sl": 0.32891,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.6x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 16:37:17",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-16 16:37:17\nEntry: 0.3312\nTP: 0.336239\nSL: 0.32891"
-    },
-    {
       "key": "bot11:APTUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -437,20 +421,20 @@
   ],
   "bot12": [
     {
-      "key": "bot12:XRPUSDT",
+      "key": "bot12:RENDERUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "XRPUSDT",
+      "symbol": "RENDERUSDT",
       "direction": "SHORT",
-      "entry": 1.2977,
-      "tp": 1.291312,
-      "sl": 1.301959,
+      "entry": 1.308,
+      "tp": 1.298927,
+      "sl": 1.314049,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 69.07 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.85 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-16 16:50:26",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-16 16:50:26\nEntry: 1.2977\nTP: 1.291312\nSL: 1.301959"
+      "timestamp": "2026-09-16 17:30:03",
+      "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-16 17:30:03\nEntry: 1.308\nTP: 1.298927\nSL: 1.314049"
     },
     {
       "key": "bot12:BNBUSDT",
@@ -467,22 +451,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 16:50:23",
       "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 16:50:23\nEntry: 714.83\nTP: 712.811505\nSL: 716.175664"
-    },
-    {
-      "key": "bot12:ETHUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2422.77,
-      "tp": 2412.82374,
-      "sl": 2429.40084,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 69.41 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 16:50:18",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-16 16:50:18\nEntry: 2422.77\nTP: 2412.82374\nSL: 2429.40084"
     }
   ]
 }
