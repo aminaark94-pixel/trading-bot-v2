@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot2:UNIUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 6.013,
+    "tp": 6.205012,
+    "sl": 5.875849,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 24.83 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 19:51:52",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-16 19:51:52\nEntry: 6.013\nTP: 6.205012\nSL: 5.875849"
+  },
+  {
+    "key": "bot12:NEARUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 2.438,
+    "tp": 2.485902,
+    "sl": 2.406066,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.41 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 19:51:43",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-16 19:51:43\nEntry: 2.438\nTP: 2.485902\nSL: 2.406066"
+  },
+  {
     "key": "bot6:DOTUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -144,22 +176,6 @@
     "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-16 17:44:10\nEntry: 0.978\nTP: 0.964669\nSL: 0.986887"
   },
   {
-    "key": "bot4:XRPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "XRPUSDT",
-    "direction": "SHORT",
-    "entry": 1.2826,
-    "tp": 1.267577,
-    "sl": 1.295119,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 17:43:40",
-    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-16 17:43:40\nEntry: 1.2826\nTP: 1.267577\nSL: 1.295119"
-  },
-  {
     "key": "bot4:BCHUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -174,22 +190,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-16 17:29:35",
     "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 17:29:35\nEntry: 218.0\nTP: 216.100347\nSL: 219.583044"
-  },
-  {
-    "key": "bot6:STXUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.2384,
-    "tp": 0.234716,
-    "sl": 0.240702,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend DOWN (-4.34% EMA20/50 gap) + RSI 50.54 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 17:03:02",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-16 17:03:02\nEntry: 0.2384\nTP: 0.234716\nSL: 0.240702"
   },
   {
     "key": "bot11:DOTUSDT",
