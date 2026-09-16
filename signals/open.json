@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot6:BCHUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 217.6,
+    "tp": 214.032753,
+    "sl": 219.82953,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend DOWN (-0.93% EMA20/50 gap) + RSI 49.52 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 05:54:45",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 05:54:45\nEntry: 217.6\nTP: 214.032753\nSL: 219.82953"
+  },
+  {
+    "key": "bot6:ETHUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2400.71,
+    "tp": 2372.526285,
+    "sl": 2418.324823,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend DOWN (-1.49% EMA20/50 gap) + RSI 45.32 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 05:54:03",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-16 05:54:03\nEntry: 2400.71\nTP: 2372.526285\nSL: 2418.324823"
+  },
+  {
     "key": "bot4:STXUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
