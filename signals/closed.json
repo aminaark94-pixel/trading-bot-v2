@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot8:DOGEUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "DOGEUSDT",
-    "direction": "SHORT",
-    "entry": 0.08394,
-    "tp": 0.082686,
-    "sl": 0.084567,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 07:36:08",
-    "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-14 07:36:08\nEntry: 0.08394\nTP: 0.082686\nSL: 0.084567",
-    "result": "SL_HIT",
-    "close_price": 0.08458,
-    "closed_at": "2026-09-14 14:51:22"
-  },
-  {
     "key": "bot4:BTCUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 6.082,
     "closed_at": "2026-09-16 19:24:06"
+  },
+  {
+    "key": "bot2:APTUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.534,
+    "tp": 0.542243,
+    "sl": 0.528112,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 27.89 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 12:24:49",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-16 12:24:49\nEntry: 0.534\nTP: 0.542243\nSL: 0.528112",
+    "result": "SL_HIT",
+    "close_price": 0.528,
+    "closed_at": "2026-09-16 19:37:37"
   }
 ]
