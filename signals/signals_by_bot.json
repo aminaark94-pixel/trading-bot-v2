@@ -51,22 +51,6 @@
   ],
   "bot2": [
     {
-      "key": "bot2:UNIUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "UNIUSDT",
-      "direction": "LONG",
-      "entry": 6.013,
-      "tp": 6.205012,
-      "sl": 5.875849,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 24.83 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 19:51:52",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-16 19:51:52\nEntry: 6.013\nTP: 6.205012\nSL: 5.875849"
-    },
-    {
       "key": "bot2:FILUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -119,6 +103,22 @@
   ],
   "bot4": [
     {
+      "key": "bot4:LTCUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 50.46,
+      "tp": 50.973429,
+      "sl": 50.032142,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 21:02:48",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-16 21:02:48\nEntry: 50.46\nTP: 50.973429\nSL: 50.032142"
+    },
+    {
       "key": "bot4:BNBUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -149,22 +149,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 19:25:00",
       "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-16 19:25:00\nEntry: 0.973\nTP: 0.955404\nSL: 0.987662"
-    },
-    {
-      "key": "bot4:BCHUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 218.0,
-      "tp": 216.100347,
-      "sl": 219.583044,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 17:29:35",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 17:29:35\nEntry: 218.0\nTP: 216.100347\nSL: 219.583044"
     }
   ],
   "bot5": [
