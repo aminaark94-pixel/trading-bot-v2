@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "bot1:RENDERUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "RENDERUSDT",
+      "direction": "SHORT",
+      "entry": 1.297,
+      "tp": 1.271318,
+      "sl": 1.311268,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 43.31).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 19:25:29",
+      "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-16 19:25:29\nEntry: 1.297\nTP: 1.271318\nSL: 1.311268"
+    },
+    {
       "key": "bot1:BCHUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -103,6 +119,22 @@
   ],
   "bot4": [
     {
+      "key": "bot4:DOTUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "DOTUSDT",
+      "direction": "SHORT",
+      "entry": 0.973,
+      "tp": 0.955404,
+      "sl": 0.987662,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 19:25:00",
+      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-16 19:25:00\nEntry: 0.973\nTP: 0.955404\nSL: 0.987662"
+    },
+    {
       "key": "bot4:XRPUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -133,22 +165,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 17:29:35",
       "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 17:29:35\nEntry: 218.0\nTP: 216.100347\nSL: 219.583044"
-    },
-    {
-      "key": "bot4:UNIUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "UNIUSDT",
-      "direction": "SHORT",
-      "entry": 6.328,
-      "tp": 6.151817,
-      "sl": 6.474819,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 01:50:09",
-      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-16 01:50:09\nEntry: 6.328\nTP: 6.151817\nSL: 6.474819"
     }
   ],
   "bot5": [
@@ -452,22 +468,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 17:44:10",
       "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-16 17:44:10\nEntry: 0.978\nTP: 0.964669\nSL: 0.986887"
-    },
-    {
-      "key": "bot12:RENDERUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "RENDERUSDT",
-      "direction": "SHORT",
-      "entry": 1.308,
-      "tp": 1.298927,
-      "sl": 1.314049,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.85 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 17:30:03",
-      "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-16 17:30:03\nEntry: 1.308\nTP: 1.298927\nSL: 1.314049"
     }
   ]
 }
