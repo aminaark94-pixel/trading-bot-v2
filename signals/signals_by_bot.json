@@ -87,7 +87,40 @@
       "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-16 00:23:07\nEntry: 1.324\nTP: 1.266198\nSL: 1.346232"
     }
   ],
-  "bot6": [],
+  "bot6": [
+    {
+      "key": "FILUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 0.7963,
+      "tp": 0.775575,
+      "sl": 0.809252,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-5.82% EMA20/50 gap) + RSI 59.11 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 02:24:32",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-17 02:24:32\nEntry: 0.7963\nTP: 0.775575\nSL: 0.809252"
+    },
+    {
+      "key": "ETHUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "ETHUSDT",
+      "direction": "SHORT",
+      "entry": 2408.98,
+      "tp": 2368.036526,
+      "sl": 2434.569671,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-1.46% EMA20/50 gap) + RSI 54.23 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 02:23:19",
+      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-17 02:23:19\nEntry: 2408.98\nTP: 2368.036526\nSL: 2434.569671"
+    }
+  ],
   "bot7": [],
   "bot8": [
     {
