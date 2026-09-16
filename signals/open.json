@@ -64,38 +64,6 @@
     "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 09:24:00\nEntry: 715.95\nTP: 713.816991\nSL: 717.372006"
   },
   {
-    "key": "bot12:SOLUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 97.51,
-    "tp": 97.089435,
-    "sl": 97.790377,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.71 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 09:23:58",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-16 09:23:58\nEntry: 97.51\nTP: 97.089435\nSL: 97.790377"
-  },
-  {
-    "key": "bot12:BTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 75997.64,
-    "tp": 75746.996494,
-    "sl": 76164.735671,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.67 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 07:49:57",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-16 07:49:57\nEntry: 75997.64\nTP: 75746.996494\nSL: 76164.735671"
-  },
-  {
     "key": "bot8:DOGEUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
