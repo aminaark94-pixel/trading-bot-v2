@@ -1,5 +1,37 @@
 [
   {
+    "key": "RENDERUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.326,
+    "tp": 1.294865,
+    "sl": 1.34546,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend DOWN (-1.63% EMA20/50 gap) + RSI 55.17 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 03:02:40",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-17 03:02:40\nEntry: 1.326\nTP: 1.294865\nSL: 1.34546"
+  },
+  {
+    "key": "LINKUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "LINKUSDT",
+    "direction": "SHORT",
+    "entry": 10.905,
+    "tp": 10.732513,
+    "sl": 11.04874,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 03:01:56",
+    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-17 03:01:56\nEntry: 10.905\nTP: 10.732513\nSL: 11.04874"
+  },
+  {
     "key": "SUIUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
