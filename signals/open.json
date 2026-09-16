@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot4:LTCUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 50.96,
+    "tp": 50.562213,
+    "sl": 51.291489,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 06:34:39",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-16 06:34:39\nEntry: 50.96\nTP: 50.562213\nSL: 51.291489"
+  },
+  {
     "key": "bot6:BCHUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -30,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-16 05:54:03",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-16 05:54:03\nEntry: 2400.71\nTP: 2372.526285\nSL: 2418.324823"
-  },
-  {
-    "key": "bot4:STXUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.2349,
-    "tp": 0.238541,
-    "sl": 0.231866,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 05:02:47",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-16 05:02:47\nEntry: 0.2349\nTP: 0.238541\nSL: 0.231866"
   },
   {
     "key": "bot12:UNIUSDT",

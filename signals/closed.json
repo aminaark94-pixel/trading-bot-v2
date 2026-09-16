@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:BNBUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 715.71,
-    "tp": 712.307069,
-    "sl": 718.545775,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 06:22:17",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-14 06:22:17\nEntry: 715.71\nTP: 712.307069\nSL: 718.545775",
-    "result": "SL_HIT",
-    "close_price": 719.62,
-    "closed_at": "2026-09-14 07:01:37"
-  },
-  {
     "key": "bot6:INJUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 75580.8,
     "closed_at": "2026-09-16 04:32:56"
+  },
+  {
+    "key": "bot4:STXUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2349,
+    "tp": 0.238541,
+    "sl": 0.231866,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 05:02:47",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-16 05:02:47\nEntry: 0.2349\nTP: 0.238541\nSL: 0.231866",
+    "result": "TP_HIT",
+    "close_price": 0.239,
+    "closed_at": "2026-09-16 06:33:26"
   }
 ]
