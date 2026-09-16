@@ -187,6 +187,38 @@
   ],
   "bot6": [
     {
+      "key": "bot6:ADAUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "ADAUSDT",
+      "direction": "SHORT",
+      "entry": 0.1948,
+      "tp": 0.19227,
+      "sl": 0.196381,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-2.43% EMA20/50 gap) + RSI 45.26 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 11:44:12",
+      "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-16 11:44:12\nEntry: 0.1948\nTP: 0.19227\nSL: 0.196381"
+    },
+    {
+      "key": "bot6:XRPUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "XRPUSDT",
+      "direction": "SHORT",
+      "entry": 1.2935,
+      "tp": 1.275541,
+      "sl": 1.304725,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-2.69% EMA20/50 gap) + RSI 45.4 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 11:44:07",
+      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-16 11:44:07\nEntry: 1.2935\nTP: 1.275541\nSL: 1.304725"
+    },
+    {
       "key": "bot6:ETHUSDT",
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
@@ -372,22 +404,6 @@
       "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-16 11:29:33\nEntry: 0.538\nTP: 0.525826\nSL: 0.543534"
     },
     {
-      "key": "bot11:TIAUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.3291,
-      "tp": 0.334958,
-      "sl": 0.326437,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.6x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 09:37:06",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-16 09:37:06\nEntry: 0.3291\nTP: 0.334958\nSL: 0.326437"
-    },
-    {
       "key": "bot11:ICPUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -404,22 +420,5 @@
       "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-16 09:24:27\nEntry: 2.521\nTP: 2.570203\nSL: 2.498635"
     }
   ],
-  "bot12": [
-    {
-      "key": "bot12:AVAXUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "AVAXUSDT",
-      "direction": "SHORT",
-      "entry": 7.345,
-      "tp": 7.30875,
-      "sl": 7.369166,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 64.68 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 10:22:46",
-      "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-16 10:22:46\nEntry: 7.345\nTP: 7.30875\nSL: 7.369166"
-    }
-  ]
+  "bot12": []
 }
