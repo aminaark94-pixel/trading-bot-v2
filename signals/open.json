@@ -192,22 +192,6 @@
     "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-16 18:05:42\nEntry: 0.7842\nTP: 0.805749\nSL: 0.768809"
   },
   {
-    "key": "bot8:SUIUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "SUIUSDT",
-    "direction": "LONG",
-    "entry": 0.6869,
-    "tp": 0.699892,
-    "sl": 0.680404,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 18:04:59",
-    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-16 18:04:59\nEntry: 0.6869\nTP: 0.699892\nSL: 0.680404"
-  },
-  {
     "key": "bot3:FILUSDT",
     "bot_id": "bot3",
     "bot_name": "Breakout Sniper",
@@ -270,38 +254,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-16 17:02:24",
     "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-16 17:02:24\nEntry: 0.967\nTP: 0.987338\nSL: 0.957755"
-  },
-  {
-    "key": "bot5:BCHUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 218.2,
-    "tp": 214.666448,
-    "sl": 219.559058,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 13:25:45",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 13:25:45\nEntry: 218.2\nTP: 214.666448\nSL: 219.559058"
-  },
-  {
-    "key": "bot11:APTUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "APTUSDT",
-    "direction": "SHORT",
-    "entry": 0.538,
-    "tp": 0.525826,
-    "sl": 0.543534,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.0x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 11:29:33",
-    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-16 11:29:33\nEntry: 0.538\nTP: 0.525826\nSL: 0.543534"
   },
   {
     "key": "bot8:BTCUSDT",
