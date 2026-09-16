@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot12:BTCUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 76046.0,
+    "tp": 75881.87514,
+    "sl": 76155.416573,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 69.33 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 15:01:45",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-16 15:01:45\nEntry: 76046.0\nTP: 75881.87514\nSL: 76155.416573"
+  },
+  {
     "key": "bot11:NEARUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -14,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-16 14:24:18",
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-16 14:24:18\nEntry: 2.404\nTP: 2.468772\nSL: 2.374558"
-  },
-  {
-    "key": "bot12:BTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 75863.72,
-    "tp": 75661.404372,
-    "sl": 75998.597086,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.38 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 14:23:49",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-16 14:23:49\nEntry: 75863.72\nTP: 75661.404372\nSL: 75998.597086"
   },
   {
     "key": "bot12:SOLUSDT",
