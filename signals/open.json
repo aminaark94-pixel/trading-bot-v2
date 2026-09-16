@@ -208,22 +208,6 @@
     "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-16 12:24:49\nEntry: 0.534\nTP: 0.542243\nSL: 0.528112"
   },
   {
-    "key": "bot6:XRPUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "XRPUSDT",
-    "direction": "SHORT",
-    "entry": 1.2935,
-    "tp": 1.275541,
-    "sl": 1.304725,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend DOWN (-2.69% EMA20/50 gap) + RSI 45.4 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 11:44:07",
-    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-16 11:44:07\nEntry: 1.2935\nTP: 1.275541\nSL: 1.304725"
-  },
-  {
     "key": "bot11:APTUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
