@@ -1,22 +1,6 @@
 {
   "bot1": [
     {
-      "key": "bot1:UNIUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "UNIUSDT",
-      "direction": "LONG",
-      "entry": 6.427,
-      "tp": 6.601523,
-      "sl": 6.330043,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 60.14).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 09:24:23",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-16 09:24:23\nEntry: 6.427\nTP: 6.601523\nSL: 6.330043"
-    },
-    {
       "key": "bot1:SUIUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -372,6 +356,22 @@
   ],
   "bot11": [
     {
+      "key": "bot11:APTUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "APTUSDT",
+      "direction": "SHORT",
+      "entry": 0.538,
+      "tp": 0.525826,
+      "sl": 0.543534,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.0x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 11:29:33",
+      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-16 11:29:33\nEntry: 0.538\nTP: 0.525826\nSL: 0.543534"
+    },
+    {
       "key": "bot11:TIAUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -406,22 +406,6 @@
   ],
   "bot12": [
     {
-      "key": "bot12:LINKUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "LINKUSDT",
-      "direction": "SHORT",
-      "entry": 10.904,
-      "tp": 10.834882,
-      "sl": 10.950079,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.5 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 10:22:48",
-      "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-16 10:22:48\nEntry: 10.904\nTP: 10.834882\nSL: 10.950079"
-    },
-    {
       "key": "bot12:AVAXUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -436,22 +420,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 10:22:46",
       "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-16 10:22:46\nEntry: 7.345\nTP: 7.30875\nSL: 7.369166"
-    },
-    {
-      "key": "bot12:BNBUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 715.95,
-      "tp": 713.816991,
-      "sl": 717.372006,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.04 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 09:24:00",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 09:24:00\nEntry: 715.95\nTP: 713.816991\nSL: 717.372006"
     }
   ]
 }
