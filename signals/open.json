@@ -1,5 +1,37 @@
 [
   {
+    "key": "bot12:STXUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "STXUSDT",
+    "direction": "SHORT",
+    "entry": 0.2394,
+    "tp": 0.237107,
+    "sl": 0.240928,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.72 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 07:03:13",
+    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-16 07:03:13\nEntry: 0.2394\nTP: 0.237107\nSL: 0.240928"
+  },
+  {
+    "key": "bot8:DOGEUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "DOGEUSDT",
+    "direction": "LONG",
+    "entry": 0.07962,
+    "tp": 0.080835,
+    "sl": 0.079012,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 07:02:06",
+    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-16 07:02:06\nEntry: 0.07962\nTP: 0.080835\nSL: 0.079012"
+  },
+  {
     "key": "bot4:LTCUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
