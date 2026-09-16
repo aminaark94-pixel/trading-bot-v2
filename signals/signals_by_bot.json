@@ -17,22 +17,6 @@
       "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-16 00:34:32\nEntry: 0.6892\nTP: 0.667229\nSL: 0.701406"
     },
     {
-      "key": "bot1:BCHUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 215.7,
-      "tp": 210.491986,
-      "sl": 218.593341,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 28.93).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-15 23:52:30",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-15 23:52:30\nEntry: 215.7\nTP: 210.491986\nSL: 218.593341"
-    },
-    {
       "key": "bot1:RENDERUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -435,22 +419,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 07:03:13",
       "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-16 07:03:13\nEntry: 0.2394\nTP: 0.237107\nSL: 0.240928"
-    },
-    {
-      "key": "bot12:BCHUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 217.8,
-      "tp": 216.161272,
-      "sl": 218.892486,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.46 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 04:33:57",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-16 04:33:57\nEntry: 217.8\nTP: 216.161272\nSL: 218.892486"
     }
   ]
 }

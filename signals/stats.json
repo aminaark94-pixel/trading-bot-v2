@@ -4,9 +4,9 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 14,
-      "losses": 34,
-      "total": 48,
-      "win_rate": 29.2
+      "losses": 35,
+      "total": 49,
+      "win_rate": 28.6
     },
     {
       "bot_id": "bot2",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 58,
-      "losses": 88,
-      "total": 146,
-      "win_rate": 39.7
+      "losses": 89,
+      "total": 147,
+      "win_rate": 39.5
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 8,
     "win_rate": 75.0
   },
-  "last_run": "2026-09-16T02:25:01.959390+00:00",
+  "last_run": "2026-09-16T02:37:01.861615+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
