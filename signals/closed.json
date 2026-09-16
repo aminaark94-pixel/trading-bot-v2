@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot11:DOTUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "DOTUSDT",
-    "direction": "SHORT",
-    "entry": 1.006,
-    "tp": 0.988952,
-    "sl": 1.013749,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.8x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 14:26:18",
-    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-14 14:26:18\nEntry: 1.006\nTP: 0.988952\nSL: 1.013749",
-    "result": "SL_HIT",
-    "close_price": 1.017,
-    "closed_at": "2026-09-14 14:51:22"
-  },
-  {
     "key": "bot11:AVAXUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 50.56,
     "closed_at": "2026-09-16 17:43:05"
+  },
+  {
+    "key": "bot12:BNBUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 714.83,
+    "tp": 712.811505,
+    "sl": 716.175664,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 68.62 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 16:50:23",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 16:50:23\nEntry: 714.83\nTP: 712.811505\nSL: 716.175664",
+    "result": "TP_HIT",
+    "close_price": 712.52,
+    "closed_at": "2026-09-16 17:55:48"
   }
 ]

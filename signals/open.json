@@ -144,22 +144,6 @@
     "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-16 16:50:48\nEntry: 0.1529\nTP: 0.151306\nSL: 0.154038"
   },
   {
-    "key": "bot12:BNBUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 714.83,
-    "tp": 712.811505,
-    "sl": 716.175664,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 68.62 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 16:50:23",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 16:50:23\nEntry: 714.83\nTP: 712.811505\nSL: 716.175664"
-  },
-  {
     "key": "bot5:BCHUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
