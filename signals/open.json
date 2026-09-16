@@ -1,5 +1,21 @@
 [
   {
+    "key": "bot6:SUIUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "SUIUSDT",
+    "direction": "SHORT",
+    "entry": 0.6858,
+    "tp": 0.673183,
+    "sl": 0.693685,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend DOWN (-1.86% EMA20/50 gap) + RSI 46.61 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 21:35:30",
+    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-16 21:35:30\nEntry: 0.6858\nTP: 0.673183\nSL: 0.693685"
+  },
+  {
     "key": "bot4:LTCUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
