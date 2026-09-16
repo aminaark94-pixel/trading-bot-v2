@@ -435,5 +435,22 @@
       "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-16 11:29:33\nEntry: 0.538\nTP: 0.525826\nSL: 0.543534"
     }
   ],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "bot12:POLUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "POLUSDT",
+      "direction": "SHORT",
+      "entry": 0.09194,
+      "tp": 0.091256,
+      "sl": 0.092396,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.04 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-16 13:51:54",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-16 13:51:54\nEntry: 0.09194\nTP: 0.091256\nSL: 0.092396"
+    }
+  ]
 }
