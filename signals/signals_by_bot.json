@@ -1,22 +1,5 @@
 {
-  "bot1": [
-    {
-      "key": "bot1:SUIUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "SUIUSDT",
-      "direction": "SHORT",
-      "entry": 0.6892,
-      "tp": 0.667229,
-      "sl": 0.701406,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 35.64).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 00:34:32",
-      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-16 00:34:32\nEntry: 0.6892\nTP: 0.667229\nSL: 0.701406"
-    }
-  ],
+  "bot1": [],
   "bot2": [
     {
       "key": "bot2:FILUSDT",
@@ -101,22 +84,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 21:02:48",
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-16 21:02:48\nEntry: 50.46\nTP: 50.973429\nSL: 50.032142"
-    },
-    {
-      "key": "bot4:DOTUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "DOTUSDT",
-      "direction": "SHORT",
-      "entry": 0.973,
-      "tp": 0.955404,
-      "sl": 0.987662,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 19:25:00",
-      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-16 19:25:00\nEntry: 0.973\nTP: 0.955404\nSL: 0.987662"
     }
   ],
   "bot5": [
@@ -185,38 +152,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-17 00:22:40",
       "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-17 00:22:40\nEntry: 0.1501\nTP: 0.145662\nSL: 0.152874"
-    },
-    {
-      "key": "bot6:SUIUSDT",
-      "bot_id": "bot6",
-      "bot_name": "Pullback Hunter (Bot C)",
-      "symbol": "SUIUSDT",
-      "direction": "SHORT",
-      "entry": 0.6926,
-      "tp": 0.676261,
-      "sl": 0.702812,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "1H trend DOWN (-1.77% EMA20/50 gap) + RSI 55.51 pullback zone, confirmed by 15m volume contraction->expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 23:38:30",
-      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-16 23:38:30\nEntry: 0.6926\nTP: 0.676261\nSL: 0.702812"
-    },
-    {
-      "key": "bot6:DOTUSDT",
-      "bot_id": "bot6",
-      "bot_name": "Pullback Hunter (Bot C)",
-      "symbol": "DOTUSDT",
-      "direction": "SHORT",
-      "entry": 0.972,
-      "tp": 0.948413,
-      "sl": 0.986742,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "1H trend DOWN (-1.85% EMA20/50 gap) + RSI 55.45 pullback zone, confirmed by 15m volume contraction->expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 19:36:45",
-      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-16 19:36:45\nEntry: 0.972\nTP: 0.948413\nSL: 0.986742"
     }
   ],
   "bot7": [],
@@ -386,22 +321,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 17:44:44",
       "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-16 17:44:44\nEntry: 0.7835\nTP: 0.747597\nSL: 0.799819"
-    },
-    {
-      "key": "bot11:DOTUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "DOTUSDT",
-      "direction": "LONG",
-      "entry": 0.967,
-      "tp": 0.987338,
-      "sl": 0.957755,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.8x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 17:02:24",
-      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-16 17:02:24\nEntry: 0.967\nTP: 0.987338\nSL: 0.957755"
     }
   ],
   "bot12": [
@@ -436,22 +355,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-16 23:38:56",
       "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-16 23:38:56\nEntry: 6.362\nTP: 6.215516\nSL: 6.459656"
-    },
-    {
-      "key": "bot12:DOTUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "DOTUSDT",
-      "direction": "SHORT",
-      "entry": 0.978,
-      "tp": 0.964669,
-      "sl": 0.986887,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 68.22 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-16 17:44:10",
-      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-16 17:44:10\nEntry: 0.978\nTP: 0.964669\nSL: 0.986887"
     }
   ]
 }
