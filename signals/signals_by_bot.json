@@ -323,6 +323,22 @@
   ],
   "bot11": [
     {
+      "key": "POLUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.09532,
+      "tp": 0.097802,
+      "sl": 0.094192,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.7x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 04:35:04",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-17 04:35:04\nEntry: 0.09532\nTP: 0.097802\nSL: 0.094192"
+    },
+    {
       "key": "BCHUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
