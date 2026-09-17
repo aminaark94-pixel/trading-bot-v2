@@ -1,5 +1,22 @@
 {
-  "bot1": [],
+  "bot1": [
+    {
+      "key": "UNIUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 6.831,
+      "tp": 7.065347,
+      "sl": 6.700808,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 73.24).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 06:50:35",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 06:50:35\nEntry: 6.831\nTP: 7.065347\nSL: 6.700808"
+    }
+  ],
   "bot2": [
     {
       "key": "DOTUSDT",
@@ -51,7 +68,40 @@
     }
   ],
   "bot3": [],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "FETUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "FETUSDT",
+      "direction": "SHORT",
+      "entry": 0.1575,
+      "tp": 0.155252,
+      "sl": 0.159374,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 06:50:43",
+      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-17 06:50:43\nEntry: 0.1575\nTP: 0.155252\nSL: 0.159374"
+    },
+    {
+      "key": "POLUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "POLUSDT",
+      "direction": "SHORT",
+      "entry": 0.09596,
+      "tp": 0.094565,
+      "sl": 0.097123,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 06:50:31",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-17 06:50:31\nEntry: 0.09596\nTP: 0.094565\nSL: 0.097123"
+    }
+  ],
   "bot5": [
     {
       "key": "NEARUSDT",
