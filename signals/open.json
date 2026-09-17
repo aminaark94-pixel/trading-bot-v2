@@ -160,22 +160,6 @@
     "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-17 19:25:39\nEntry: 0.585\nTP: 0.572537\nSL: 0.593902"
   },
   {
-    "key": "UNIUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 7.195,
-    "tp": 7.545715,
-    "sl": 7.000159,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.1).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 19:02:37",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 19:02:37\nEntry: 7.195\nTP: 7.545715\nSL: 7.000159"
-  },
-  {
     "key": "DOGEUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",

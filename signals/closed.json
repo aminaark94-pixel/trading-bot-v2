@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot8:AVAXUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "AVAXUSDT",
-    "direction": "SHORT",
-    "entry": 7.758,
-    "tp": 7.608922,
-    "sl": 7.83254,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 01:35:13",
-    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-15 01:35:13\nEntry: 7.758\nTP: 7.608922\nSL: 7.83254",
-    "result": "TP_HIT",
-    "close_price": 7.607,
-    "closed_at": "2026-09-15 04:21:59"
-  },
-  {
     "key": "bot4:ETHUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 2.928,
     "closed_at": "2026-09-17 21:25:09"
+  },
+  {
+    "key": "UNIUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 7.195,
+    "tp": 7.545715,
+    "sl": 7.000159,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.1).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 19:02:37",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 19:02:37\nEntry: 7.195\nTP: 7.545715\nSL: 7.000159",
+    "result": "TP_HIT",
+    "close_price": 7.568,
+    "closed_at": "2026-09-17 21:51:24"
   }
 ]
