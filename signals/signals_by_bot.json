@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "RENDERUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "RENDERUSDT",
+      "direction": "SHORT",
+      "entry": 1.407,
+      "tp": 1.385479,
+      "sl": 1.418955,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 42.27).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 03:02:50",
+      "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-18 03:02:50\nEntry: 1.407\nTP: 1.385479\nSL: 1.418955"
+    },
+    {
       "key": "NEARUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -307,20 +323,20 @@
   ],
   "bot12": [
     {
-      "key": "XRPUSDT",
+      "key": "ICPUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "XRPUSDT",
-      "direction": "SHORT",
-      "entry": 1.3,
-      "tp": 1.294117,
-      "sl": 1.303923,
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.604,
+      "tp": 2.622676,
+      "sl": 2.591549,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.05 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 33.89 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-18 01:24:05",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-18 01:24:05\nEntry: 1.3\nTP: 1.294117\nSL: 1.303923"
+      "timestamp": "2026-09-18 03:02:43",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-18 03:02:43\nEntry: 2.604\nTP: 2.622676\nSL: 2.591549"
     },
     {
       "key": "POLUSDT",
