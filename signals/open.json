@@ -48,22 +48,6 @@
     "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-17 20:24:26\nEntry: 5.556\nTP: 5.650048\nSL: 5.493302"
   },
   {
-    "key": "FETUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "FETUSDT",
-    "direction": "SHORT",
-    "entry": 0.161,
-    "tp": 0.157756,
-    "sl": 0.163703,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 20:24:19",
-    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-17 20:24:19\nEntry: 0.161\nTP: 0.157756\nSL: 0.163703"
-  },
-  {
     "key": "SOLUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -254,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 17:28:38",
     "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-17 17:28:38\nEntry: 0.2014\nTP: 0.205535\nSL: 0.199333"
-  },
-  {
-    "key": "NEARUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "NEARUSDT",
-    "direction": "LONG",
-    "entry": 2.827,
-    "tp": 2.915185,
-    "sl": 2.778008,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 74.8).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 14:50:48",
-    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-17 14:50:48\nEntry: 2.827\nTP: 2.915185\nSL: 2.778008"
   },
   {
     "key": "AVAXUSDT",
