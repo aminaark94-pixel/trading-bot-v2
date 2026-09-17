@@ -1,5 +1,21 @@
 [
   {
+    "key": "RENDERUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "RENDERUSDT",
+    "direction": "LONG",
+    "entry": 1.375,
+    "tp": 1.383276,
+    "sl": 1.369483,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.9 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 11:02:54",
+    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-17 11:02:54\nEntry: 1.375\nTP: 1.383276\nSL: 1.369483"
+  },
+  {
     "key": "TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -46,22 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 09:24:43",
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-17 09:24:43\nEntry: 0.09674\nTP: 0.098642\nSL: 0.095789"
-  },
-  {
-    "key": "INJUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "INJUSDT",
-    "direction": "SHORT",
-    "entry": 5.54,
-    "tp": 5.488774,
-    "sl": 5.574151,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.02 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 08:37:23",
-    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-17 08:37:23\nEntry: 5.54\nTP: 5.488774\nSL: 5.574151"
   },
   {
     "key": "LINKUSDT",
