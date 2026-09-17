@@ -1,5 +1,37 @@
 [
   {
+    "key": "DOTUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "DOTUSDT",
+    "direction": "SHORT",
+    "entry": 1.089,
+    "tp": 1.056615,
+    "sl": 1.105192,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 04:31:56",
+    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-18 04:31:56\nEntry: 1.089\nTP: 1.056615\nSL: 1.105192"
+  },
+  {
+    "key": "SOLUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 101.46,
+    "tp": 102.656098,
+    "sl": 100.861951,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 04:31:30",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-18 04:31:30\nEntry: 101.46\nTP: 102.656098\nSL: 100.861951"
+  },
+  {
     "key": "FILUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -142,22 +174,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 21:35:51",
     "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-17 21:35:51\nEntry: 232.3\nTP: 227.538262\nSL: 236.268116"
-  },
-  {
-    "key": "DOTUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 1.053,
-    "tp": 1.087158,
-    "sl": 1.035921,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 20:35:04",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-17 20:35:04\nEntry: 1.053\nTP: 1.087158\nSL: 1.035921"
   },
   {
     "key": "ETHUSDT",
