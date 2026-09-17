@@ -123,6 +123,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "FILUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 0.8257,
+      "tp": 0.808622,
+      "sl": 0.834239,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 02:02:55",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-18 02:02:55\nEntry: 0.8257\nTP: 0.808622\nSL: 0.834239"
+    },
+    {
       "key": "FETUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
