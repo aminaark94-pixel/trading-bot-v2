@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "NEARUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 2.946,
+      "tp": 3.075088,
+      "sl": 2.874284,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 70.01).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 21:35:41",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-17 21:35:41\nEntry: 2.946\nTP: 3.075088\nSL: 2.874284"
+    },
+    {
       "key": "UNIUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -69,6 +85,22 @@
   ],
   "bot3": [],
   "bot4": [
+    {
+      "key": "BCHUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 232.3,
+      "tp": 227.538262,
+      "sl": 236.268116,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 21:35:51",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-17 21:35:51\nEntry: 232.3\nTP: 227.538262\nSL: 236.268116"
+    },
     {
       "key": "SOLUSDT",
       "bot_id": "bot4",
