@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:FILUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9602,
-    "tp": 0.986442,
-    "sl": 0.938332,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 23:54:58",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-14 23:54:58\nEntry: 0.9602\nTP: 0.986442\nSL: 0.938332",
-    "result": "SL_HIT",
-    "close_price": 0.935,
-    "closed_at": "2026-09-15 02:34:54"
-  },
-  {
     "key": "bot12:FILUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 76965.67,
     "closed_at": "2026-09-17 17:28:03"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "INJUSDT",
+    "direction": "SHORT",
+    "entry": 5.577,
+    "tp": 5.504914,
+    "sl": 5.637072,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 15:36:23",
+    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-17 15:36:23\nEntry: 5.577\nTP: 5.504914\nSL: 5.637072",
+    "result": "SL_HIT",
+    "close_price": 5.641,
+    "closed_at": "2026-09-17 17:41:54"
   }
 ]
