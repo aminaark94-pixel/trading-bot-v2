@@ -1,5 +1,37 @@
 [
   {
+    "key": "TIAUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.3508,
+    "tp": 0.354278,
+    "sl": 0.347902,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 13:27:01",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 13:27:01\nEntry: 0.3508\nTP: 0.354278\nSL: 0.347902"
+  },
+  {
+    "key": "UNIUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 6.899,
+    "tp": 7.076547,
+    "sl": 6.800363,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 65.86).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 13:26:41",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 13:26:41\nEntry: 6.899\nTP: 7.076547\nSL: 6.800363"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -78,22 +110,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 11:56:54",
     "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-17 11:56:54\nEntry: 1.012\nTP: 1.026537\nSL: 1.002914"
-  },
-  {
-    "key": "APTUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.566,
-    "tp": 0.573567,
-    "sl": 0.559694,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 10:02:29",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-17 10:02:29\nEntry: 0.566\nTP: 0.573567\nSL: 0.559694"
   },
   {
     "key": "POLUSDT",
