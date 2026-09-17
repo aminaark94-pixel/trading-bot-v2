@@ -1,5 +1,21 @@
 [
   {
+    "key": "DOTUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "DOTUSDT",
+    "direction": "LONG",
+    "entry": 1.053,
+    "tp": 1.087158,
+    "sl": 1.035921,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 20:35:04",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-17 20:35:04\nEntry: 1.053\nTP: 1.087158\nSL: 1.035921"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -270,22 +286,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 17:28:38",
     "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-17 17:28:38\nEntry: 0.2014\nTP: 0.205535\nSL: 0.199333"
-  },
-  {
-    "key": "DOTUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 1.028,
-    "tp": 1.048079,
-    "sl": 1.017961,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 16:23:18",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-17 16:23:18\nEntry: 1.028\nTP: 1.048079\nSL: 1.017961"
   },
   {
     "key": "NEARUSDT",
