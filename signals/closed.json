@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot8:FILUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "FILUSDT",
-    "direction": "SHORT",
-    "entry": 1.0104,
-    "tp": 0.955716,
-    "sl": 1.037742,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 15:52:16",
-    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-14 15:52:16\nEntry: 1.0104\nTP: 0.955716\nSL: 1.037742",
-    "result": "TP_HIT",
-    "close_price": 0.9514,
-    "closed_at": "2026-09-15 00:35:06"
-  },
-  {
     "key": "bot10:FILUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 2438.56,
     "closed_at": "2026-09-17 08:36:02"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "LTCUSDT",
+    "direction": "LONG",
+    "entry": 52.23,
+    "tp": 52.840584,
+    "sl": 51.924708,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 08:36:59",
+    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-17 08:36:59\nEntry: 52.23\nTP: 52.840584\nSL: 51.924708",
+    "result": "SL_HIT",
+    "close_price": 51.91,
+    "closed_at": "2026-09-17 09:23:25"
   }
 ]
