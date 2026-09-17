@@ -1,5 +1,21 @@
 [
   {
+    "key": "STXUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2475,
+    "tp": 0.253983,
+    "sl": 0.244553,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 5.1x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 18:04:12",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-17 18:04:12\nEntry: 0.2475\nTP: 0.253983\nSL: 0.244553"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -286,22 +302,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 06:34:41",
     "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-17 06:34:41\nEntry: 76636.17\nTP: 75912.168252\nSL: 76998.170874"
-  },
-  {
-    "key": "STXUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.2417,
-    "tp": 0.236357,
-    "sl": 0.24504,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend DOWN (-3.60% EMA20/50 gap) + RSI 60.04 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 05:44:47",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-17 05:44:47\nEntry: 0.2417\nTP: 0.236357\nSL: 0.24504"
   },
   {
     "key": "ICPUSDT",
