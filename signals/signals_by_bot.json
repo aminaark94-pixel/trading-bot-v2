@@ -107,6 +107,38 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "INJUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "INJUSDT",
+      "direction": "SHORT",
+      "entry": 5.623,
+      "tp": 5.484796,
+      "sl": 5.692102,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 23:40:17",
+      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-17 23:40:17\nEntry: 5.623\nTP: 5.484796\nSL: 5.692102"
+    },
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "ICPUSDT",
+      "direction": "SHORT",
+      "entry": 2.615,
+      "tp": 2.570201,
+      "sl": 2.6374,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 23:40:05",
+      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-17 23:40:05\nEntry: 2.615\nTP: 2.570201\nSL: 2.6374"
+    },
+    {
       "key": "BTCUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -259,6 +291,38 @@
   ],
   "bot12": [
     {
+      "key": "LTCUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 53.49,
+      "tp": 53.776911,
+      "sl": 53.298726,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.4 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 23:39:51",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-17 23:39:51\nEntry: 53.49\nTP: 53.776911\nSL: 53.298726"
+    },
+    {
+      "key": "SOLUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "SOLUSDT",
+      "direction": "LONG",
+      "entry": 100.89,
+      "tp": 101.450608,
+      "sl": 100.516261,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.75 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 23:39:20",
+      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-17 23:39:20\nEntry: 100.89\nTP: 101.450608\nSL: 100.516261"
+    },
+    {
       "key": "FILUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -273,22 +337,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-17 22:50:21",
       "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-17 22:50:21\nEntry: 0.815\nTP: 0.824246\nSL: 0.808836"
-    },
-    {
-      "key": "XRPUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "XRPUSDT",
-      "direction": "SHORT",
-      "entry": 1.3131,
-      "tp": 1.297113,
-      "sl": 1.323757,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.47 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 19:35:59",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-17 19:35:59\nEntry: 1.3131\nTP: 1.297113\nSL: 1.323757"
     }
   ]
 }
