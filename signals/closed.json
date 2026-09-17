@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot2:NEARUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "NEARUSDT",
-    "direction": "SHORT",
-    "entry": 2.532,
-    "tp": 2.454452,
-    "sl": 2.587392,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 79.52 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 22:22:17",
-    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-14 22:22:17\nEntry: 2.532\nTP: 2.454452\nSL: 2.587392",
-    "result": "SL_HIT",
-    "close_price": 2.59,
-    "closed_at": "2026-09-14 23:01:17"
-  },
-  {
     "key": "bot8:XRPUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 2417.0,
     "closed_at": "2026-09-17 07:23:05"
+  },
+  {
+    "key": "bot9:SOLUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SOLUSDT",
+    "direction": "SHORT",
+    "entry": 98.07,
+    "tp": 95.550203,
+    "sl": 99.469887,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 33.81 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-16 00:22:08",
+    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-16 00:22:08\nEntry: 98.07\nTP: 95.550203\nSL: 99.469887",
+    "result": "SL_HIT",
+    "close_price": 99.47,
+    "closed_at": "2026-09-17 07:37:01"
   }
 ]
