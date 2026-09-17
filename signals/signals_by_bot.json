@@ -70,6 +70,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "SUIUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "SUIUSDT",
+      "direction": "SHORT",
+      "entry": 0.733,
+      "tp": 0.725658,
+      "sl": 0.739119,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 23:02:22",
+      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-17 23:02:22\nEntry: 0.733\nTP: 0.725658\nSL: 0.739119"
+    },
+    {
       "key": "BCHUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
