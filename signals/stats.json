@@ -4,9 +4,9 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 18,
-      "losses": 42,
-      "total": 60,
-      "win_rate": 30.0
+      "losses": 43,
+      "total": 61,
+      "win_rate": 29.5
     },
     {
       "bot_id": "bot2",
@@ -105,7 +105,7 @@
     "total": 10,
     "win_rate": 70.0
   },
-  "last_run": "2026-09-17T10:03:00.698898+00:00",
+  "last_run": "2026-09-17T10:24:55.893909+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

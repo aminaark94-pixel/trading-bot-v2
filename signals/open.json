@@ -1,5 +1,21 @@
 [
   {
+    "key": "TIAUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.3459,
+    "tp": 0.348559,
+    "sl": 0.344127,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 29.8 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 15:24:40",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 15:24:40\nEntry: 0.3459\nTP: 0.348559\nSL: 0.344127"
+  },
+  {
     "key": "RENDERUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -30,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 14:50:48",
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-17 14:50:48\nEntry: 2.827\nTP: 2.915185\nSL: 2.778008"
-  },
-  {
-    "key": "UNIUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 6.899,
-    "tp": 7.076547,
-    "sl": 6.800363,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 65.86).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 13:26:41",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 13:26:41\nEntry: 6.899\nTP: 7.076547\nSL: 6.800363"
   },
   {
     "key": "LTCUSDT",
