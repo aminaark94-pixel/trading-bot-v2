@@ -35,20 +35,20 @@
   ],
   "bot2": [
     {
-      "key": "FETUSDT",
+      "key": "APTUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "symbol": "FETUSDT",
+      "symbol": "APTUSDT",
       "direction": "SHORT",
-      "entry": 0.1607,
-      "tp": 0.158126,
-      "sl": 0.162539,
+      "entry": 0.585,
+      "tp": 0.572537,
+      "sl": 0.593902,
       "score": 74,
       "provider": "Technical",
-      "reason": "RSI 72.34 extreme + price at Bollinger Band edge.",
+      "reason": "RSI 71.1 extreme + price at Bollinger Band edge.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-17 17:29:15",
-      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-17 17:29:15\nEntry: 0.1607\nTP: 0.158126\nSL: 0.162539"
+      "timestamp": "2026-09-17 19:25:39",
+      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-17 19:25:39\nEntry: 0.585\nTP: 0.572537\nSL: 0.593902"
     },
     {
       "key": "POLUSDT",
@@ -83,39 +83,40 @@
       "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-17 04:22:08\nEntry: 2.567\nTP: 2.519872\nSL: 2.600663"
     }
   ],
-  "bot3": [],
+  "bot3": [
+    {
+      "key": "BCHUSDT",
+      "bot_id": "bot3",
+      "bot_name": "Breakout Sniper",
+      "symbol": "BCHUSDT",
+      "direction": "LONG",
+      "entry": 240.0,
+      "tp": 250.078947,
+      "sl": 235.41866,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "Price broke recent range high/low with ATR volatility expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 19:25:45",
+      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-17 19:25:45\nEntry: 240.0\nTP: 250.078947\nSL: 235.41866"
+    }
+  ],
   "bot4": [
     {
-      "key": "ETHUSDT",
+      "key": "TIAUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2450.74,
-      "tp": 2425.50431,
-      "sl": 2471.769742,
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.35,
+      "tp": 0.355295,
+      "sl": 0.345587,
       "score": 72,
       "provider": "Technical",
       "reason": "MACD line just crossed its signal line (fast momentum flip).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-17 18:50:15",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-17 18:50:15\nEntry: 2450.74\nTP: 2425.50431\nSL: 2471.769742"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "SOLUSDT",
-      "direction": "SHORT",
-      "entry": 100.13,
-      "tp": 99.085124,
-      "sl": 101.00073,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 18:35:19",
-      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-17 18:35:19\nEntry: 100.13\nTP: 99.085124\nSL: 101.00073"
+      "timestamp": "2026-09-17 19:26:08",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 19:26:08\nEntry: 0.35\nTP: 0.355295\nSL: 0.345587"
     },
     {
       "key": "INJUSDT",
@@ -337,38 +338,5 @@
       "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-17 06:35:09\nEntry: 0.719\nTP: 0.737196\nSL: 0.710729"
     }
   ],
-  "bot12": [
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.3467,
-      "tp": 0.350111,
-      "sl": 0.344427,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.72 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 18:36:29",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 18:36:29\nEntry: 0.3467\nTP: 0.350111\nSL: 0.344427"
-    },
-    {
-      "key": "XRPUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "XRPUSDT",
-      "direction": "SHORT",
-      "entry": 1.3009,
-      "tp": 1.27871,
-      "sl": 1.315694,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 64.35 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 01:02:00",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-17 01:02:00\nEntry: 1.3009\nTP: 1.27871\nSL: 1.315694"
-    }
-  ]
+  "bot12": []
 }
