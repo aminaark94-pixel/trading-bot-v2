@@ -1,5 +1,21 @@
 [
   {
+    "key": "NEARUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 2.827,
+    "tp": 2.915185,
+    "sl": 2.778008,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 74.8).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 14:50:48",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-17 14:50:48\nEntry: 2.827\nTP: 2.915185\nSL: 2.778008"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
