@@ -19,6 +19,22 @@
   ],
   "bot2": [
     {
+      "key": "POLUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "POLUSDT",
+      "direction": "SHORT",
+      "entry": 0.1013,
+      "tp": 0.098916,
+      "sl": 0.103002,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 79.71 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 22:34:17",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-17 22:34:17\nEntry: 0.1013\nTP: 0.098916\nSL: 0.103002"
+    },
+    {
       "key": "UNIUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
