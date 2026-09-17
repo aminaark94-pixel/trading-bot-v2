@@ -259,6 +259,22 @@
   ],
   "bot12": [
     {
+      "key": "FILUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "FILUSDT",
+      "direction": "LONG",
+      "entry": 0.815,
+      "tp": 0.824246,
+      "sl": 0.808836,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.33 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 22:50:21",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-17 22:50:21\nEntry: 0.815\nTP: 0.824246\nSL: 0.808836"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
