@@ -1,5 +1,37 @@
 [
   {
+    "key": "DOGEUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "DOGEUSDT",
+    "direction": "LONG",
+    "entry": 0.08119,
+    "tp": 0.0824,
+    "sl": 0.080518,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 51.97 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 18:50:32",
+    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-17 18:50:32\nEntry: 0.08119\nTP: 0.0824\nSL: 0.080518"
+  },
+  {
+    "key": "ETHUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2450.74,
+    "tp": 2425.50431,
+    "sl": 2471.769742,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 18:50:15",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-17 18:50:15\nEntry: 2450.74\nTP: 2425.50431\nSL: 2471.769742"
+  },
+  {
     "key": "TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
