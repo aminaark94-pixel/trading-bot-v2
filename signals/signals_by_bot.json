@@ -157,22 +157,6 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "AVAXUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "AVAXUSDT",
-      "direction": "SHORT",
-      "entry": 7.406,
-      "tp": 7.248069,
-      "sl": 7.484965,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 04:21:34",
-      "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-17 04:21:34\nEntry: 7.406\nTP: 7.248069\nSL: 7.484965"
-    },
-    {
       "key": "bot8:BTCUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
