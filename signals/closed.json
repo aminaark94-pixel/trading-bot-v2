@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot10:FILUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9818,
-    "tp": 1.036874,
-    "sl": 0.954263,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 07:02:56",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-14 07:02:56\nEntry: 0.9818\nTP: 1.036874\nSL: 0.954263",
-    "result": "SL_HIT",
-    "close_price": 0.9514,
-    "closed_at": "2026-09-15 00:35:06"
-  },
-  {
     "key": "bot1:FILUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 51.91,
     "closed_at": "2026-09-17 09:23:25"
+  },
+  {
+    "key": "RENDERUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.37,
+    "tp": 1.351498,
+    "sl": 1.385419,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 07:02:56",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-17 07:02:56\nEntry: 1.37\nTP: 1.351498\nSL: 1.385419",
+    "result": "SL_HIT",
+    "close_price": 1.386,
+    "closed_at": "2026-09-17 09:51:30"
   }
 ]

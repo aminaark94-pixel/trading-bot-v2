@@ -28,9 +28,9 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 46,
-      "losses": 61,
-      "total": 107,
-      "win_rate": 43.0
+      "losses": 62,
+      "total": 108,
+      "win_rate": 42.6
     },
     {
       "bot_id": "bot5",
@@ -105,7 +105,7 @@
     "total": 10,
     "win_rate": 70.0
   },
-  "last_run": "2026-09-17T04:38:08.532755+00:00",
+  "last_run": "2026-09-17T04:51:45.574717+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

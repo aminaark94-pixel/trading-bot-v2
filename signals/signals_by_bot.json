@@ -69,22 +69,6 @@
       "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-17 08:36:31\nEntry: 0.08128\nTP: 0.081977\nSL: 0.0807"
     },
     {
-      "key": "RENDERUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "RENDERUSDT",
-      "direction": "SHORT",
-      "entry": 1.37,
-      "tp": 1.351498,
-      "sl": 1.385419,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 07:02:56",
-      "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-17 07:02:56\nEntry: 1.37\nTP: 1.351498\nSL: 1.385419"
-    },
-    {
       "key": "FETUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
