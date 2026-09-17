@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:UNIUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 6.7,
-    "tp": 6.831151,
-    "sl": 6.590707,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 05:54:17",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-15 05:54:17\nEntry: 6.7\nTP: 6.831151\nSL: 6.590707",
-    "result": "SL_HIT",
-    "close_price": 6.585,
-    "closed_at": "2026-09-15 07:38:15"
-  },
-  {
     "key": "bot12:TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.2926,
     "closed_at": "2026-09-18 03:01:18"
+  },
+  {
+    "key": "TIAUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.3523,
+    "tp": 0.362275,
+    "sl": 0.347767,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 2.4x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 22:02:44",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 22:02:44\nEntry: 0.3523\nTP: 0.362275\nSL: 0.347767",
+    "result": "SL_HIT",
+    "close_price": 0.3467,
+    "closed_at": "2026-09-18 03:20:41"
   }
 ]
