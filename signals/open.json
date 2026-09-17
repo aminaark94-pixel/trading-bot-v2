@@ -1,5 +1,21 @@
 [
   {
+    "key": "AVAXUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 7.473,
+    "tp": 7.518826,
+    "sl": 7.442449,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.33 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 07:23:50",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-17 07:23:50\nEntry: 7.473\nTP: 7.518826\nSL: 7.442449"
+  },
+  {
     "key": "RENDERUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -32,22 +48,6 @@
     "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-17 06:50:43\nEntry: 0.1575\nTP: 0.155252\nSL: 0.159374"
   },
   {
-    "key": "UNIUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 6.831,
-    "tp": 7.065347,
-    "sl": 6.700808,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 73.24).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 06:50:35",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 06:50:35\nEntry: 6.831\nTP: 7.065347\nSL: 6.700808"
-  },
-  {
     "key": "POLUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -78,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 06:35:09",
     "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-17 06:35:09\nEntry: 0.719\nTP: 0.737196\nSL: 0.710729"
-  },
-  {
-    "key": "ETHUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2436.44,
-    "tp": 2423.680221,
-    "sl": 2444.94652,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 70.14 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 06:34:50",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-17 06:34:50\nEntry: 2436.44\nTP: 2423.680221\nSL: 2444.94652"
   },
   {
     "key": "SOLUSDT",
