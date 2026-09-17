@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot11:TIAUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.3618,
-    "tp": 0.371953,
-    "sl": 0.357186,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.9x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-14 22:22:48",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-14 22:22:48\nEntry: 0.3618\nTP: 0.371953\nSL: 0.357186",
-    "result": "SL_HIT",
-    "close_price": 0.3564,
-    "closed_at": "2026-09-15 03:49:36"
-  },
-  {
     "key": "bot10:SOLUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 234.3,
     "closed_at": "2026-09-17 19:49:39"
+  },
+  {
+    "key": "TIAUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.35,
+    "tp": 0.355295,
+    "sl": 0.345587,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 19:26:08",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 19:26:08\nEntry: 0.35\nTP: 0.355295\nSL: 0.345587",
+    "result": "SL_HIT",
+    "close_price": 0.3453,
+    "closed_at": "2026-09-17 20:01:41"
   }
 ]
