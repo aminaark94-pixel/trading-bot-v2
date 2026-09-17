@@ -86,22 +86,6 @@
   "bot3": [],
   "bot4": [
     {
-      "key": "TIAUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.3508,
-      "tp": 0.354278,
-      "sl": 0.347902,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 13:27:01",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 13:27:01\nEntry: 0.3508\nTP: 0.354278\nSL: 0.347902"
-    },
-    {
       "key": "DOGEUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -338,22 +322,6 @@
   ],
   "bot11": [
     {
-      "key": "INJUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "INJUSDT",
-      "direction": "LONG",
-      "entry": 5.649,
-      "tp": 5.774314,
-      "sl": 5.592039,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.0x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 14:25:00",
-      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-17 14:25:00\nEntry: 5.649\nTP: 5.774314\nSL: 5.592039"
-    },
-    {
       "key": "SUIUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -371,6 +339,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "RENDERUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 1.385,
+      "tp": 1.393161,
+      "sl": 1.37956,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.99 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 15:02:34",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-17 15:02:34\nEntry: 1.385\nTP: 1.393161\nSL: 1.37956"
+    },
     {
       "key": "XRPUSDT",
       "bot_id": "bot12",
