@@ -1,5 +1,21 @@
 [
   {
+    "key": "APTUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.566,
+    "tp": 0.573567,
+    "sl": 0.559694,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 10:02:29",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-17 10:02:29\nEntry: 0.566\nTP: 0.573567\nSL: 0.559694"
+  },
+  {
     "key": "POLUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -14,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 09:24:43",
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-17 09:24:43\nEntry: 0.09674\nTP: 0.098642\nSL: 0.095789"
-  },
-  {
-    "key": "LTCUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "LTCUSDT",
-    "direction": "SHORT",
-    "entry": 51.85,
-    "tp": 51.362114,
-    "sl": 52.154929,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend DOWN (-0.75% EMA20/50 gap) + RSI 52.51 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 09:24:36",
-    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-17 09:24:36\nEntry: 51.85\nTP: 51.362114\nSL: 52.154929"
   },
   {
     "key": "INJUSDT",
@@ -270,22 +270,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 04:21:58",
     "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-17 04:21:58\nEntry: 220.2\nTP: 225.459957\nSL: 217.80911"
-  },
-  {
-    "key": "APTUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.548,
-    "tp": 0.566957,
-    "sl": 0.539384,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.6x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 04:21:51",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-17 04:21:51\nEntry: 0.548\nTP: 0.566957\nSL: 0.539384"
   },
   {
     "key": "FILUSDT",
