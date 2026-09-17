@@ -1,5 +1,21 @@
 [
   {
+    "key": "LINKUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "LINKUSDT",
+    "direction": "SHORT",
+    "entry": 10.988,
+    "tp": 10.865998,
+    "sl": 11.089669,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 06:02:47",
+    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-17 06:02:47\nEntry: 10.988\nTP: 10.865998\nSL: 11.089669"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
