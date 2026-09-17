@@ -15,22 +15,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 03:02:50",
       "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-18 03:02:50\nEntry: 1.407\nTP: 1.385479\nSL: 1.418955"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 2.946,
-      "tp": 3.075088,
-      "sl": 2.874284,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 70.01).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 21:35:41",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-17 21:35:41\nEntry: 2.946\nTP: 3.075088\nSL: 2.874284"
     }
   ],
   "bot2": [
@@ -337,22 +321,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 00:47:47",
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-18 00:47:47\nEntry: 0.09764\nTP: 0.099128\nSL: 0.096649"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 100.89,
-      "tp": 101.450608,
-      "sl": 100.516261,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.75 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 23:39:20",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-17 23:39:20\nEntry: 100.89\nTP: 101.450608\nSL: 100.516261"
     }
   ]
 }
