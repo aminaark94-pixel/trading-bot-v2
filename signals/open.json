@@ -1,5 +1,21 @@
 [
   {
+    "key": "LTCUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 53.35,
+    "tp": 52.488411,
+    "sl": 53.780794,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 20:50:32",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-17 20:50:32\nEntry: 53.35\nTP: 52.488411\nSL: 53.780794"
+  },
+  {
     "key": "DOTUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -206,38 +222,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 18:04:12",
     "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-17 18:04:12\nEntry: 0.2475\nTP: 0.253983\nSL: 0.244553"
-  },
-  {
-    "key": "LTCUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "LTCUSDT",
-    "direction": "SHORT",
-    "entry": 52.95,
-    "tp": 52.250634,
-    "sl": 53.299684,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 17:42:57",
-    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-17 17:42:57\nEntry: 52.95\nTP: 52.250634\nSL: 53.299684"
-  },
-  {
-    "key": "FILUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.8113,
-    "tp": 0.830648,
-    "sl": 0.802506,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 3.1x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 17:29:33",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-17 17:29:33\nEntry: 0.8113\nTP: 0.830648\nSL: 0.802506"
   },
   {
     "key": "POLUSDT",
