@@ -206,6 +206,22 @@
   ],
   "bot9": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 7.538,
+      "tp": 7.653873,
+      "sl": 7.473626,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.61 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 07:50:19",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-17 07:50:19\nEntry: 7.538\nTP: 7.653873\nSL: 7.473626"
+    },
+    {
       "key": "bot9:ETHUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -340,20 +356,20 @@
   ],
   "bot12": [
     {
-      "key": "AVAXUSDT",
+      "key": "INJUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 7.473,
-      "tp": 7.518826,
-      "sl": 7.442449,
+      "symbol": "INJUSDT",
+      "direction": "SHORT",
+      "entry": 5.505,
+      "tp": 5.451965,
+      "sl": 5.540356,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.33 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.46 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-17 07:23:50",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-17 07:23:50\nEntry: 7.473\nTP: 7.518826\nSL: 7.442449"
+      "timestamp": "2026-09-17 07:51:08",
+      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-17 07:51:08\nEntry: 5.505\nTP: 5.451965\nSL: 5.540356"
     },
     {
       "key": "DOGEUSDT",
