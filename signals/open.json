@@ -64,22 +64,6 @@
     "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-17 12:51:04\nEntry: 52.73\nTP: 52.181885\nSL: 53.004057"
   },
   {
-    "key": "NEARUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "NEARUSDT",
-    "direction": "LONG",
-    "entry": 2.737,
-    "tp": 2.822641,
-    "sl": 2.689421,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.53).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 12:25:14",
-    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-17 12:25:14\nEntry: 2.737\nTP: 2.822641\nSL: 2.689421"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
