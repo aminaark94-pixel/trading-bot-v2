@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot10:XRPUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.4584,
-    "tp": 1.496491,
-    "sl": 1.439355,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 00:35:43",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-15 00:35:43\nEntry: 1.4584\nTP: 1.496491\nSL: 1.439355",
-    "result": "SL_HIT",
-    "close_price": 1.4384,
-    "closed_at": "2026-09-15 03:49:36"
-  },
-  {
     "key": "bot11:TIAUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.412,
     "closed_at": "2026-09-17 19:35:22"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot3",
+    "bot_name": "Breakout Sniper",
+    "symbol": "BCHUSDT",
+    "direction": "LONG",
+    "entry": 240.0,
+    "tp": 250.078947,
+    "sl": 235.41866,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "Price broke recent range high/low with ATR volatility expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 19:25:45",
+    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-17 19:25:45\nEntry: 240.0\nTP: 250.078947\nSL: 235.41866",
+    "result": "SL_HIT",
+    "close_price": 234.3,
+    "closed_at": "2026-09-17 19:49:39"
   }
 ]

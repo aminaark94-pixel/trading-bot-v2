@@ -83,24 +83,7 @@
       "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-17 04:22:08\nEntry: 2.567\nTP: 2.519872\nSL: 2.600663"
     }
   ],
-  "bot3": [
-    {
-      "key": "BCHUSDT",
-      "bot_id": "bot3",
-      "bot_name": "Breakout Sniper",
-      "symbol": "BCHUSDT",
-      "direction": "LONG",
-      "entry": 240.0,
-      "tp": 250.078947,
-      "sl": 235.41866,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "Price broke recent range high/low with ATR volatility expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 19:25:45",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-17 19:25:45\nEntry: 240.0\nTP: 250.078947\nSL: 235.41866"
-    }
-  ],
+  "bot3": [],
   "bot4": [
     {
       "key": "TIAUSDT",

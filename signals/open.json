@@ -48,22 +48,6 @@
     "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 19:26:08\nEntry: 0.35\nTP: 0.355295\nSL: 0.345587"
   },
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 240.0,
-    "tp": 250.078947,
-    "sl": 235.41866,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 19:25:45",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-17 19:25:45\nEntry: 240.0\nTP: 250.078947\nSL: 235.41866"
-  },
-  {
     "key": "APTUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
