@@ -105,6 +105,22 @@
   ],
   "bot6": [
     {
+      "key": "DOTUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "DOTUSDT",
+      "direction": "LONG",
+      "entry": 1.012,
+      "tp": 1.026537,
+      "sl": 1.002914,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend UP (+1.09% EMA20/50 gap) + RSI 50.9 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-17 11:56:54",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-17 11:56:54\nEntry: 1.012\nTP: 1.026537\nSL: 1.002914"
+    },
+    {
       "key": "STXUSDT",
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
