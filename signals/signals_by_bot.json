@@ -86,22 +86,6 @@
       "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-17 15:36:23\nEntry: 5.577\nTP: 5.504914\nSL: 5.637072"
     },
     {
-      "key": "DOGEUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "DOGEUSDT",
-      "direction": "LONG",
-      "entry": 0.08128,
-      "tp": 0.081977,
-      "sl": 0.0807,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 08:36:31",
-      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-17 08:36:31\nEntry: 0.08128\nTP: 0.081977\nSL: 0.0807"
-    },
-    {
       "key": "FETUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
