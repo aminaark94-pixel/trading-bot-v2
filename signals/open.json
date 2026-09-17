@@ -64,22 +64,6 @@
     "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 15:24:40\nEntry: 0.3459\nTP: 0.348559\nSL: 0.344127"
   },
   {
-    "key": "RENDERUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "RENDERUSDT",
-    "direction": "LONG",
-    "entry": 1.385,
-    "tp": 1.393161,
-    "sl": 1.37956,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.99 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 15:02:34",
-    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-17 15:02:34\nEntry: 1.385\nTP: 1.393161\nSL: 1.37956"
-  },
-  {
     "key": "NEARUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
