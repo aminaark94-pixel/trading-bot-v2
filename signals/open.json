@@ -1,5 +1,37 @@
 [
   {
+    "key": "TIAUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.3523,
+    "tp": 0.362275,
+    "sl": 0.347767,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 2.4x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 22:02:44",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 22:02:44\nEntry: 0.3523\nTP: 0.362275\nSL: 0.347767"
+  },
+  {
+    "key": "UNIUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "UNIUSDT",
+    "direction": "SHORT",
+    "entry": 7.729,
+    "tp": 7.353924,
+    "sl": 7.996912,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 76.41 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 22:02:23",
+    "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-17 22:02:23\nEntry: 7.729\nTP: 7.353924\nSL: 7.996912"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -78,22 +110,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 20:24:26",
     "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-17 20:24:26\nEntry: 5.556\nTP: 5.650048\nSL: 5.493302"
-  },
-  {
-    "key": "SOLUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 100.37,
-    "tp": 98.992982,
-    "sl": 101.517515,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 20:23:24",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-17 20:23:24\nEntry: 100.37\nTP: 98.992982\nSL: 101.517515"
   },
   {
     "key": "ETHUSDT",
@@ -302,21 +318,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 06:34:41",
     "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-17 06:34:41\nEntry: 76636.17\nTP: 75912.168252\nSL: 76998.170874"
-  },
-  {
-    "key": "ICPUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "ICPUSDT",
-    "direction": "SHORT",
-    "entry": 2.567,
-    "tp": 2.519872,
-    "sl": 2.600663,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 71.55 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 04:22:08",
-    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-17 04:22:08\nEntry: 2.567\nTP: 2.519872\nSL: 2.600663"
   }
 ]
