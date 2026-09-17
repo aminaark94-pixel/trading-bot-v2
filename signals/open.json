@@ -1,5 +1,21 @@
 [
   {
+    "key": "INJUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "INJUSDT",
+    "direction": "SHORT",
+    "entry": 5.577,
+    "tp": 5.504914,
+    "sl": 5.637072,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 15:36:23",
+    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-17 15:36:23\nEntry: 5.577\nTP: 5.504914\nSL: 5.637072"
+  },
+  {
     "key": "TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
