@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot1:ETHUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2561.97,
-    "tp": 2607.340707,
-    "sl": 2536.764052,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 58.86).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 02:01:31",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-15 02:01:31\nEntry: 2561.97\nTP: 2607.340707\nSL: 2536.764052",
-    "result": "SL_HIT",
-    "close_price": 2535.74,
-    "closed_at": "2026-09-15 03:49:36"
-  },
-  {
     "key": "bot10:XRPUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.3168,
     "closed_at": "2026-09-17 19:26:20"
+  },
+  {
+    "key": "RENDERUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.397,
+    "tp": 1.370104,
+    "sl": 1.410447,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 17:43:19",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-17 17:43:19\nEntry: 1.397\nTP: 1.370104\nSL: 1.410447",
+    "result": "SL_HIT",
+    "close_price": 1.412,
+    "closed_at": "2026-09-17 19:35:22"
   }
 ]
