@@ -1,5 +1,21 @@
 [
   {
+    "key": "UNIUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 7.195,
+    "tp": 7.545715,
+    "sl": 7.000159,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.1).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 19:02:37",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 19:02:37\nEntry: 7.195\nTP: 7.545715\nSL: 7.000159"
+  },
+  {
     "key": "DOGEUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -174,22 +190,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 17:29:15",
     "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-17 17:29:15\nEntry: 0.1607\nTP: 0.158126\nSL: 0.162539"
-  },
-  {
-    "key": "UNIUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 6.916,
-    "tp": 7.185766,
-    "sl": 6.76613,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 55.34).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 17:29:09",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 17:29:09\nEntry: 6.916\nTP: 7.185766\nSL: 6.76613"
   },
   {
     "key": "POLUSDT",

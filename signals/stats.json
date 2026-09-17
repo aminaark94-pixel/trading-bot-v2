@@ -3,10 +3,10 @@
     {
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "wins": 18,
+      "wins": 19,
       "losses": 44,
-      "total": 62,
-      "win_rate": 29.0
+      "total": 63,
+      "win_rate": 30.2
     },
     {
       "bot_id": "bot2",
@@ -105,7 +105,7 @@
     "total": 10,
     "win_rate": 70.0
   },
-  "last_run": "2026-09-17T13:52:04.204932+00:00",
+  "last_run": "2026-09-17T14:03:21.163900+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

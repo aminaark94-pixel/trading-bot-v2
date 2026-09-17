@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot8:XRPUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "XRPUSDT",
-    "direction": "SHORT",
-    "entry": 1.4828,
-    "tp": 1.442677,
-    "sl": 1.502862,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 01:23:13",
-    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-15 01:23:13\nEntry: 1.4828\nTP: 1.442677\nSL: 1.502862",
-    "result": "TP_HIT",
-    "close_price": 1.4401,
-    "closed_at": "2026-09-15 03:01:05"
-  },
-  {
     "key": "bot9:BTCUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.08094,
     "closed_at": "2026-09-17 18:36:40"
+  },
+  {
+    "key": "UNIUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 6.916,
+    "tp": 7.185766,
+    "sl": 6.76613,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 55.34).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 17:29:09",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-17 17:29:09\nEntry: 6.916\nTP: 7.185766\nSL: 6.76613",
+    "result": "TP_HIT",
+    "close_price": 7.225,
+    "closed_at": "2026-09-17 19:01:22"
   }
 ]
