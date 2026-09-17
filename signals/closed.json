@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot2:FILUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9093,
-    "tp": 0.933926,
-    "sl": 0.89171,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 26.67 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 05:32:33",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-15 05:32:33\nEntry: 0.9093\nTP: 0.933926\nSL: 0.89171",
-    "result": "SL_HIT",
-    "close_price": 0.8903,
-    "closed_at": "2026-09-15 09:01:34"
-  },
-  {
     "key": "bot2:FETUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.089,
     "closed_at": "2026-09-18 04:31:00"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "SUIUSDT",
+    "direction": "SHORT",
+    "entry": 0.733,
+    "tp": 0.725658,
+    "sl": 0.739119,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-17 23:02:22",
+    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-17 23:02:22\nEntry: 0.733\nTP: 0.725658\nSL: 0.739119",
+    "result": "SL_HIT",
+    "close_price": 0.7403,
+    "closed_at": "2026-09-18 04:45:55"
   }
 ]
