@@ -1,5 +1,21 @@
 [
   {
+    "key": "XRPUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "XRPUSDT",
+    "direction": "SHORT",
+    "entry": 1.301,
+    "tp": 1.287686,
+    "sl": 1.307657,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 06:01:48",
+    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-18 06:01:48\nEntry: 1.301\nTP: 1.287686\nSL: 1.307657"
+  },
+  {
     "key": "FETUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
