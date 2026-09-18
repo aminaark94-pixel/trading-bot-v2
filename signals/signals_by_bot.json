@@ -15,38 +15,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 03:01:42",
       "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-19 03:01:42\nEntry: 0.2252\nTP: 0.229125\nSL: 0.22302"
-    },
-    {
-      "key": "LTCUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "LTCUSDT",
-      "direction": "LONG",
-      "entry": 57.04,
-      "tp": 57.894885,
-      "sl": 56.565064,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 73.18).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 00:32:40",
-      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-19 00:32:40\nEntry: 57.04\nTP: 57.894885\nSL: 56.565064"
-    },
-    {
-      "key": "FILUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "FILUSDT",
-      "direction": "LONG",
-      "entry": 0.91,
-      "tp": 0.934999,
-      "sl": 0.896111,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.7).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 00:21:57",
-      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-19 00:21:57\nEntry: 0.91\nTP: 0.934999\nSL: 0.896111"
     }
   ],
   "bot2": [
@@ -204,6 +172,22 @@
   ],
   "bot7": [],
   "bot8": [
+    {
+      "key": "FILUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 0.9377,
+      "tp": 0.907457,
+      "sl": 0.952821,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 04:47:49",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-19 04:47:49\nEntry: 0.9377\nTP: 0.907457\nSL: 0.952821"
+    },
     {
       "key": "SUIUSDT",
       "bot_id": "bot8",
