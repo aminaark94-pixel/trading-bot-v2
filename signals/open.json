@@ -1,21 +1,5 @@
 [
   {
-    "key": "ETHUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2589.4,
-    "tp": 2556.515602,
-    "sl": 2616.803665,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 22:31:44",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-18 22:31:44\nEntry: 2589.4\nTP: 2556.515602\nSL: 2616.803665"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -270,22 +254,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 18:22:42",
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 18:22:42\nEntry: 3.626\nTP: 3.867619\nSL: 3.505191"
-  },
-  {
-    "key": "AVAXUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 8.054,
-    "tp": 8.207804,
-    "sl": 7.968553,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 69.73).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:22:26",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 18:22:26\nEntry: 8.054\nTP: 8.207804\nSL: 7.968553"
   },
   {
     "key": "STXUSDT",
