@@ -106,6 +106,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "DOTUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "DOTUSDT",
+      "direction": "SHORT",
+      "entry": 1.136,
+      "tp": 1.104632,
+      "sl": 1.151684,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 10:21:37",
+      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-18 10:21:37\nEntry: 1.136\nTP: 1.104632\nSL: 1.151684"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -288,5 +304,22 @@
       "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-18 08:22:46\nEntry: 0.7773\nTP: 0.795493\nSL: 0.76903"
     }
   ],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "FETUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "FETUSDT",
+      "direction": "LONG",
+      "entry": 0.1787,
+      "tp": 0.180977,
+      "sl": 0.177182,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 35.98 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 10:22:08",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-18 10:22:08\nEntry: 0.1787\nTP: 0.180977\nSL: 0.177182"
+    }
+  ]
 }
