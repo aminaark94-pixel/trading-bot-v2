@@ -64,22 +64,6 @@
     "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-18 10:34:46\nEntry: 2.768\nTP: 2.729541\nSL: 2.800049"
   },
   {
-    "key": "FETUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "FETUSDT",
-    "direction": "LONG",
-    "entry": 0.1787,
-    "tp": 0.180977,
-    "sl": 0.177182,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 35.98 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 10:22:08",
-    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-18 10:22:08\nEntry: 0.1787\nTP: 0.180977\nSL: 0.177182"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
