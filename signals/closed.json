@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:DOTUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "DOTUSDT",
-    "direction": "SHORT",
-    "entry": 0.988,
-    "tp": 0.975692,
-    "sl": 0.998257,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 18:51:43",
-    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-15 18:51:43\nEntry: 0.988\nTP: 0.975692\nSL: 0.998257",
-    "result": "TP_HIT",
-    "close_price": 0.974,
-    "closed_at": "2026-09-15 19:52:33"
-  },
-  {
     "key": "bot4:APTUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.2813,
     "closed_at": "2026-09-19 01:23:25"
+  },
+  {
+    "key": "DOGEUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "DOGEUSDT",
+    "direction": "LONG",
+    "entry": 0.08689,
+    "tp": 0.088132,
+    "sl": 0.085855,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 18:49:26",
+    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-18 18:49:26\nEntry: 0.08689\nTP: 0.088132\nSL: 0.085855",
+    "result": "TP_HIT",
+    "close_price": 0.08841,
+    "closed_at": "2026-09-19 01:47:00"
   }
 ]
