@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:ICPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.553,
-    "tp": 2.591193,
-    "sl": 2.521172,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 20:23:34",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-15 20:23:34\nEntry: 2.553\nTP: 2.591193\nSL: 2.521172",
-    "result": "SL_HIT",
-    "close_price": 2.52,
-    "closed_at": "2026-09-15 22:01:10"
-  },
-  {
     "key": "bot12:UNIUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.821,
     "closed_at": "2026-09-19 03:01:01"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 258.5,
+    "tp": 253.464366,
+    "sl": 261.017817,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 02:47:03",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-19 02:47:03\nEntry: 258.5\nTP: 253.464366\nSL: 261.017817",
+    "result": "SL_HIT",
+    "close_price": 263.7,
+    "closed_at": "2026-09-19 03:33:19"
   }
 ]
