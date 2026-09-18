@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot1:POLUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.09673,
-    "tp": 0.097643,
-    "sl": 0.096223,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 61.05).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 14:40:52",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-15 14:40:52\nEntry: 0.09673\nTP: 0.097643\nSL: 0.096223",
-    "result": "TP_HIT",
-    "close_price": 0.0979,
-    "closed_at": "2026-09-15 17:27:31"
-  },
-  {
     "key": "bot6:XRPUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.148,
     "closed_at": "2026-09-18 15:24:20"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 7.894,
+    "tp": 8.012665,
+    "sl": 7.828075,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 73.29).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 09:35:36",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 09:35:36\nEntry: 7.894\nTP: 8.012665\nSL: 7.828075",
+    "result": "TP_HIT",
+    "close_price": 8.016,
+    "closed_at": "2026-09-18 15:47:57"
   }
 ]

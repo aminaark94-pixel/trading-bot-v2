@@ -1,5 +1,37 @@
 [
   {
+    "key": "FETUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "FETUSDT",
+    "direction": "LONG",
+    "entry": 0.1863,
+    "tp": 0.190796,
+    "sl": 0.183802,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 68.12).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 15:49:20",
+    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-18 15:49:20\nEntry: 0.1863\nTP: 0.190796\nSL: 0.183802"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ICPUSDT",
+    "direction": "SHORT",
+    "entry": 2.786,
+    "tp": 2.755353,
+    "sl": 2.811539,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 15:49:17",
+    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-18 15:49:17\nEntry: 2.786\nTP: 2.755353\nSL: 2.811539"
+  },
+  {
     "key": "DOGEUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -238,22 +270,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 09:35:52",
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 09:35:52\nEntry: 3.458\nTP: 3.633079\nSL: 3.360734"
-  },
-  {
-    "key": "AVAXUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 7.894,
-    "tp": 8.012665,
-    "sl": 7.828075,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 73.29).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 09:35:36",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 09:35:36\nEntry: 7.894\nTP: 8.012665\nSL: 7.828075"
   },
   {
     "key": "POLUSDT",
