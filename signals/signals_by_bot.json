@@ -1,22 +1,6 @@
 {
   "bot1": [
     {
-      "key": "STXUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.2832,
-      "tp": 0.288674,
-      "sl": 0.280159,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 72.89).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 01:35:38",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 01:35:38\nEntry: 0.2832\nTP: 0.288674\nSL: 0.280159"
-    },
-    {
       "key": "LTCUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -220,6 +204,22 @@
   ],
   "bot7": [],
   "bot8": [
+    {
+      "key": "BCHUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 258.5,
+      "tp": 253.464366,
+      "sl": 261.017817,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 02:47:03",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-19 02:47:03\nEntry: 258.5\nTP: 253.464366\nSL: 261.017817"
+    },
     {
       "key": "INJUSDT",
       "bot_id": "bot8",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot9:ETHUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2405.81,
-    "tp": 2363.371061,
-    "sl": 2429.387188,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 14.63 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 19:51:22",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 19:51:22\nEntry: 2405.81\nTP: 2363.371061\nSL: 2429.387188",
-    "result": "SL_HIT",
-    "close_price": 2429.67,
-    "closed_at": "2026-09-15 20:34:43"
-  },
-  {
     "key": "bot2:BTCUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 256.7,
     "closed_at": "2026-09-19 02:35:12"
+  },
+  {
+    "key": "STXUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2832,
+    "tp": 0.288674,
+    "sl": 0.280159,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 72.89).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 01:35:38",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 01:35:38\nEntry: 0.2832\nTP: 0.288674\nSL: 0.280159",
+    "result": "TP_HIT",
+    "close_price": 0.2891,
+    "closed_at": "2026-09-19 02:47:42"
   }
 ]
