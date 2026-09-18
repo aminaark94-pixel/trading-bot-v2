@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:APTUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "APTUSDT",
-    "direction": "SHORT",
-    "entry": 0.561,
-    "tp": 0.550488,
-    "sl": 0.56976,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 19:51:50",
-    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-15 19:51:50\nEntry: 0.561\nTP: 0.550488\nSL: 0.56976",
-    "result": "SL_HIT",
-    "close_price": 0.57,
-    "closed_at": "2026-09-15 20:03:58"
-  },
-  {
     "key": "bot4:FETUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.08841,
     "closed_at": "2026-09-19 01:47:00"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "ADAUSDT",
+    "direction": "SHORT",
+    "entry": 0.221,
+    "tp": 0.214836,
+    "sl": 0.224082,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 20:02:04",
+    "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-18 20:02:04\nEntry: 0.221\nTP: 0.214836\nSL: 0.224082",
+    "result": "SL_HIT",
+    "close_price": 0.2241,
+    "closed_at": "2026-09-19 02:02:53"
   }
 ]
