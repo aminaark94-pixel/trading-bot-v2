@@ -86,6 +86,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "BCHUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 247.5,
+      "tp": 243.944428,
+      "sl": 250.462977,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 11:02:04",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-18 11:02:04\nEntry: 247.5\nTP: 243.944428\nSL: 250.462977"
+    },
+    {
       "key": "ICPUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
