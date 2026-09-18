@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot1:XRPUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.4061,
-    "tp": 1.426836,
-    "sl": 1.394579,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 54.58).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 17:27:59",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-15 17:27:59\nEntry: 1.4061\nTP: 1.426836\nSL: 1.394579",
-    "result": "TP_HIT",
-    "close_price": 1.4329,
-    "closed_at": "2026-09-15 18:04:02"
-  },
-  {
     "key": "bot12:LINKUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.3217,
     "closed_at": "2026-09-18 16:21:30"
+  },
+  {
+    "key": "BNBUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "BNBUSDT",
+    "direction": "LONG",
+    "entry": 754.66,
+    "tp": 762.041085,
+    "sl": 750.559397,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.22 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 13:24:10",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-18 13:24:10\nEntry: 754.66\nTP: 762.041085\nSL: 750.559397",
+    "result": "SL_HIT",
+    "close_price": 750.34,
+    "closed_at": "2026-09-18 16:35:42"
   }
 ]

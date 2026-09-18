@@ -173,22 +173,6 @@
       "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 16:22:10\nEntry: 7.949\nTP: 8.045457\nSL: 7.895412"
     },
     {
-      "key": "BNBUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BNBUSDT",
-      "direction": "LONG",
-      "entry": 754.66,
-      "tp": 762.041085,
-      "sl": 750.559397,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.22 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 13:24:10",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-18 13:24:10\nEntry: 754.66\nTP: 762.041085\nSL: 750.559397"
-    },
-    {
       "key": "ADAUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
