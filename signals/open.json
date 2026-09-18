@@ -1,5 +1,37 @@
 [
   {
+    "key": "FILUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.91,
+    "tp": 0.934999,
+    "sl": 0.896111,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.7).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 00:21:57",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-19 00:21:57\nEntry: 0.91\nTP: 0.934999\nSL: 0.896111"
+  },
+  {
+    "key": "ETHUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2630.47,
+    "tp": 2597.957256,
+    "sl": 2653.693389,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 80.06 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 00:20:42",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-19 00:20:42\nEntry: 2630.47\nTP: 2597.957256\nSL: 2653.693389"
+  },
+  {
     "key": "POLUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -14,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 23:49:07",
     "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-18 23:49:07\nEntry: 0.10364\nTP: 0.102019\nSL: 0.104798"
-  },
-  {
-    "key": "AVAXUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "AVAXUSDT",
-    "direction": "SHORT",
-    "entry": 8.196,
-    "tp": 8.105167,
-    "sl": 8.260881,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 71.35 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 23:48:38",
-    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-18 23:48:38\nEntry: 8.196\nTP: 8.105167\nSL: 8.260881"
   },
   {
     "key": "DOTUSDT",
@@ -126,22 +142,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 18:50:01",
     "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-18 18:50:01\nEntry: 253.1\nTP: 246.47501\nSL: 256.412495"
-  },
-  {
-    "key": "LTCUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 55.67,
-    "tp": 56.984175,
-    "sl": 55.164548,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:49:57",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-18 18:49:57\nEntry: 55.67\nTP: 56.984175\nSL: 55.164548"
   },
   {
     "key": "DOGEUSDT",
@@ -270,22 +270,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 17:41:19",
     "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-18 17:41:19\nEntry: 0.2741\nTP: 0.280217\nSL: 0.270277"
-  },
-  {
-    "key": "ICPUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.781,
-    "tp": 2.861757,
-    "sl": 2.740622,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 17:28:06",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-18 17:28:06\nEntry: 2.781\nTP: 2.861757\nSL: 2.740622"
   },
   {
     "key": "APTUSDT",
