@@ -1,5 +1,21 @@
 [
   {
+    "key": "APTUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.72,
+    "tp": 0.755419,
+    "sl": 0.703901,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 3.3x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 01:22:37",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-19 01:22:37\nEntry: 0.72\nTP: 0.755419\nSL: 0.703901"
+  },
+  {
     "key": "ICPUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -318,38 +334,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 18:22:42",
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 18:22:42\nEntry: 3.626\nTP: 3.867619\nSL: 3.505191"
-  },
-  {
-    "key": "STXUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.2741,
-    "tp": 0.280217,
-    "sl": 0.270277,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend UP (+4.94% EMA20/50 gap) + RSI 54.58 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 17:41:19",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-18 17:41:19\nEntry: 0.2741\nTP: 0.280217\nSL: 0.270277"
-  },
-  {
-    "key": "APTUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.684,
-    "tp": 0.714316,
-    "sl": 0.667159,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 63.03).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 17:02:11",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 17:02:11\nEntry: 0.684\nTP: 0.714316\nSL: 0.667159"
   },
   {
     "key": "FETUSDT",
