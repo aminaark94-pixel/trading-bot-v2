@@ -259,6 +259,22 @@
   ],
   "bot11": [
     {
+      "key": "BCHUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "BCHUSDT",
+      "direction": "LONG",
+      "entry": 239.4,
+      "tp": 243.167138,
+      "sl": 237.687665,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.0x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 07:49:36",
+      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-18 07:49:36\nEntry: 239.4\nTP: 243.167138\nSL: 237.687665"
+    },
+    {
       "key": "STXUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
