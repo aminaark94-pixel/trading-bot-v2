@@ -1,5 +1,21 @@
 [
   {
+    "key": "RENDERUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.544,
+    "tp": 1.516522,
+    "sl": 1.566899,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 21:02:25",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-18 21:02:25\nEntry: 1.544\nTP: 1.516522\nSL: 1.566899"
+  },
+  {
     "key": "LINKUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -62,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 19:23:35",
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-18 19:23:35\nEntry: 0.10116\nTP: 0.103536\nSL: 0.09984"
-  },
-  {
-    "key": "SOLUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 109.62,
-    "tp": 107.65858,
-    "sl": 111.021015,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 82.16 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 19:22:44",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-18 19:22:44\nEntry: 109.62\nTP: 107.65858\nSL: 111.021015"
   },
   {
     "key": "ETHUSDT",
