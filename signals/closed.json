@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot9:ETHUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2441.29,
-    "tp": 2406.909212,
-    "sl": 2460.390437,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 20.96 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 18:51:22",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 18:51:22\nEntry: 2441.29\nTP: 2406.909212\nSL: 2460.390437",
-    "result": "TP_HIT",
-    "close_price": 2404.82,
-    "closed_at": "2026-09-15 19:50:52"
-  },
-  {
     "key": "bot4:SOLUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.516,
     "closed_at": "2026-09-18 22:03:21"
+  },
+  {
+    "key": "DOTUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "DOTUSDT",
+    "direction": "LONG",
+    "entry": 1.153,
+    "tp": 1.20545,
+    "sl": 1.132827,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 18:22:38",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-18 18:22:38\nEntry: 1.153\nTP: 1.20545\nSL: 1.132827",
+    "result": "SL_HIT",
+    "close_price": 1.131,
+    "closed_at": "2026-09-18 22:19:53"
   }
 ]
