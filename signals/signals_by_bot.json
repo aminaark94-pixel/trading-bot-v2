@@ -49,58 +49,9 @@
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-18 08:23:05\nEntry: 0.09954\nTP: 0.101125\nSL: 0.098659"
     }
   ],
-  "bot2": [
-    {
-      "key": "BNBUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 758.74,
-      "tp": 753.388641,
-      "sl": 762.562399,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 77.89 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 12:22:55",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-18 12:22:55\nEntry: 758.74\nTP: 753.388641\nSL: 762.562399"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "SOLUSDT",
-      "direction": "SHORT",
-      "entry": 105.17,
-      "tp": 104.016985,
-      "sl": 105.993583,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 87.81 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 09:22:41",
-      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-18 09:22:41\nEntry: 105.17\nTP: 104.016985\nSL: 105.993583"
-    }
-  ],
+  "bot2": [],
   "bot3": [],
   "bot4": [
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "TIAUSDT",
-      "direction": "SHORT",
-      "entry": 0.3916,
-      "tp": 0.385102,
-      "sl": 0.397015,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 12:02:44",
-      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-18 12:02:44\nEntry: 0.3916\nTP: 0.385102\nSL: 0.397015"
-    },
     {
       "key": "BCHUSDT",
       "bot_id": "bot4",
@@ -139,6 +90,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "TIAUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "TIAUSDT",
+      "direction": "SHORT",
+      "entry": 0.396,
+      "tp": 0.384393,
+      "sl": 0.401804,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 13:02:46",
+      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-18 13:02:46\nEntry: 0.396\nTP: 0.384393\nSL: 0.401804"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -153,22 +120,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 12:35:26",
       "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-18 12:35:26\nEntry: 55.19\nTP: 54.578879\nSL: 55.49556"
-    },
-    {
-      "key": "DOTUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "DOTUSDT",
-      "direction": "SHORT",
-      "entry": 1.136,
-      "tp": 1.104632,
-      "sl": 1.151684,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 10:21:37",
-      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-18 10:21:37\nEntry: 1.136\nTP: 1.104632\nSL: 1.151684"
     }
   ],
   "bot9": [
@@ -187,22 +138,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 08:22:37",
       "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-18 08:22:37\nEntry: 0.2151\nTP: 0.219795\nSL: 0.212491"
-    },
-    {
-      "key": "DOGEUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "DOGEUSDT",
-      "direction": "LONG",
-      "entry": 0.08374,
-      "tp": 0.084588,
-      "sl": 0.083269,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 83.71 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 08:22:35",
-      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-18 08:22:35\nEntry: 0.08374\nTP: 0.084588\nSL: 0.083269"
     },
     {
       "key": "XRPUSDT",
@@ -272,22 +207,6 @@
     }
   ],
   "bot11": [
-    {
-      "key": "INJUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "INJUSDT",
-      "direction": "LONG",
-      "entry": 5.995,
-      "tp": 6.142025,
-      "sl": 5.928171,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.6x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 11:53:53",
-      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-18 11:53:53\nEntry: 5.995\nTP: 6.142025\nSL: 5.928171"
-    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot11",
