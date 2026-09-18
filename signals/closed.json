@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:SOLUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 99.97,
-    "tp": 99.132214,
-    "sl": 100.668155,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 18:51:18",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-15 18:51:18\nEntry: 99.97\nTP: 99.132214\nSL: 100.668155",
-    "result": "TP_HIT",
-    "close_price": 98.39,
-    "closed_at": "2026-09-15 19:50:52"
-  },
-  {
     "key": "bot2:BTCUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.131,
     "closed_at": "2026-09-18 22:19:53"
+  },
+  {
+    "key": "FILUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.8818,
+    "tp": 0.896344,
+    "sl": 0.872104,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.97 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 22:03:17",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-18 22:03:17\nEntry: 0.8818\nTP: 0.896344\nSL: 0.872104",
+    "result": "TP_HIT",
+    "close_price": 0.8986,
+    "closed_at": "2026-09-18 22:48:03"
   }
 ]
