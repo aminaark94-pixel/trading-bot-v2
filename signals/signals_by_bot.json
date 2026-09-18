@@ -81,26 +81,27 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 09:22:41",
       "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-18 09:22:41\nEntry: 105.17\nTP: 104.016985\nSL: 105.993583"
-    },
-    {
-      "key": "BTCUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 77374.6,
-      "tp": 77041.986918,
-      "sl": 77612.180773,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 79.2 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 08:22:14",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-18 08:22:14\nEntry: 77374.6\nTP: 77041.986918\nSL: 77612.180773"
     }
   ],
   "bot3": [],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "ICPUSDT",
+      "direction": "SHORT",
+      "entry": 2.768,
+      "tp": 2.729541,
+      "sl": 2.800049,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 10:34:46",
+      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-18 10:34:46\nEntry: 2.768\nTP: 2.729541\nSL: 2.800049"
+    }
+  ],
   "bot5": [],
   "bot6": [],
   "bot7": [],
@@ -255,22 +256,6 @@
     }
   ],
   "bot11": [
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.2659,
-      "tp": 0.272137,
-      "sl": 0.263065,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.8x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 08:50:02",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-18 08:50:02\nEntry: 0.2659\nTP: 0.272137\nSL: 0.263065"
-    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot11",

@@ -12,9 +12,9 @@
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "wins": 37,
-      "losses": 62,
-      "total": 99,
-      "win_rate": 37.4
+      "losses": 63,
+      "total": 100,
+      "win_rate": 37.0
     },
     {
       "bot_id": "bot3",
@@ -83,10 +83,10 @@
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 28,
+      "wins": 29,
       "losses": 33,
-      "total": 61,
-      "win_rate": 45.9
+      "total": 62,
+      "win_rate": 46.8
     },
     {
       "bot_id": "bot12",
@@ -105,7 +105,7 @@
     "total": 12,
     "win_rate": 66.7
   },
-  "last_run": "2026-09-18T05:22:41.131140+00:00",
+  "last_run": "2026-09-18T05:35:20.276738+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
