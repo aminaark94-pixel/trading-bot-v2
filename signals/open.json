@@ -1,5 +1,37 @@
 [
   {
+    "key": "SUIUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "SUIUSDT",
+    "direction": "SHORT",
+    "entry": 0.82,
+    "tp": 0.802129,
+    "sl": 0.828936,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 03:01:54",
+    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-19 03:01:54\nEntry: 0.82\nTP: 0.802129\nSL: 0.828936"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.2252,
+    "tp": 0.229125,
+    "sl": 0.22302,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.27).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 03:01:42",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-19 03:01:42\nEntry: 0.2252\nTP: 0.229125\nSL: 0.22302"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -270,22 +302,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 18:35:38",
     "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-18 18:35:38\nEntry: 0.404\nTP: 0.425545\nSL: 0.395714"
-  },
-  {
-    "key": "SUIUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "SUIUSDT",
-    "direction": "LONG",
-    "entry": 0.8041,
-    "tp": 0.818865,
-    "sl": 0.791796,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:34:52",
-    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-18 18:34:52\nEntry: 0.8041\nTP: 0.818865\nSL: 0.791796"
   },
   {
     "key": "INJUSDT",

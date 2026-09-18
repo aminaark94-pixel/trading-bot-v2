@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot2:BTCUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 75740.01,
-    "tp": 76468.898856,
-    "sl": 75219.375102,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 18.67 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 19:51:12",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-15 19:51:12\nEntry: 75740.01\nTP: 76468.898856\nSL: 75219.375102",
-    "result": "TP_HIT",
-    "close_price": 76496.31,
-    "closed_at": "2026-09-15 20:49:57"
-  },
-  {
     "key": "bot4:ICPUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.2891,
     "closed_at": "2026-09-19 02:47:42"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 0.8041,
+    "tp": 0.818865,
+    "sl": 0.791796,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 18:34:52",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-18 18:34:52\nEntry: 0.8041\nTP: 0.818865\nSL: 0.791796",
+    "result": "TP_HIT",
+    "close_price": 0.821,
+    "closed_at": "2026-09-19 03:01:01"
   }
 ]
