@@ -144,22 +144,6 @@
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-18 13:23:59\nEntry: 2503.27\nTP: 2484.47646\nSL: 2516.693958"
   },
   {
-    "key": "BTCUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 78041.18,
-    "tp": 77656.786044,
-    "sl": 78315.747111,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 78.87 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 13:23:55",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-18 13:23:55\nEntry: 78041.18\nTP: 77656.786044\nSL: 78315.747111"
-  },
-  {
     "key": "TIAUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -254,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 09:35:36",
     "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 09:35:36\nEntry: 7.894\nTP: 8.012665\nSL: 7.828075"
-  },
-  {
-    "key": "UNIUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 8.446,
-    "tp": 8.915709,
-    "sl": 8.232496,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 4.8x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 08:23:09",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-18 08:23:09\nEntry: 8.446\nTP: 8.915709\nSL: 8.232496"
   },
   {
     "key": "POLUSDT",
