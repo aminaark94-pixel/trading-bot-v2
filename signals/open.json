@@ -240,22 +240,6 @@
     "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-18 19:22:37\nEntry: 80874.88\nTP: 79891.949745\nSL: 81576.973039"
   },
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 253.1,
-    "tp": 246.47501,
-    "sl": 256.412495,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:50:01",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-18 18:50:01\nEntry: 253.1\nTP: 246.47501\nSL: 256.412495"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",

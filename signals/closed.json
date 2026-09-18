@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot9:SOLUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 98.37,
-    "tp": 96.645452,
-    "sl": 99.328081,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 20.79 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 19:51:24",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-15 19:51:24\nEntry: 98.37\nTP: 96.645452\nSL: 99.328081",
-    "result": "SL_HIT",
-    "close_price": 99.42,
-    "closed_at": "2026-09-15 20:34:43"
-  },
-  {
     "key": "bot9:ETHUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.143,
     "closed_at": "2026-09-19 02:21:03"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 253.1,
+    "tp": 246.47501,
+    "sl": 256.412495,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 18:50:01",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-18 18:50:01\nEntry: 253.1\nTP: 246.47501\nSL: 256.412495",
+    "result": "SL_HIT",
+    "close_price": 256.7,
+    "closed_at": "2026-09-19 02:35:12"
   }
 ]
