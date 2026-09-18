@@ -306,6 +306,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "DOTUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "DOTUSDT",
+      "direction": "LONG",
+      "entry": 1.142,
+      "tp": 1.153189,
+      "sl": 1.13454,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.15 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 16:02:27",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-18 16:02:27\nEntry: 1.142\nTP: 1.153189\nSL: 1.13454"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
