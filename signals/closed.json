@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot12:XRPUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.3877,
-    "tp": 1.394839,
-    "sl": 1.38294,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 28.65 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 13:26:58",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-15 13:26:58\nEntry: 1.3877\nTP: 1.394839\nSL: 1.38294",
-    "result": "TP_HIT",
-    "close_price": 1.395,
-    "closed_at": "2026-09-15 13:55:42"
-  },
-  {
     "key": "bot1:SUIUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 3.502,
     "closed_at": "2026-09-18 09:02:49"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 7.947,
+    "tp": 8.061879,
+    "sl": 7.88956,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 08:49:03",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 08:49:03\nEntry: 7.947\nTP: 8.061879\nSL: 7.88956",
+    "result": "SL_HIT",
+    "close_price": 7.886,
+    "closed_at": "2026-09-18 09:24:12"
   }
 ]

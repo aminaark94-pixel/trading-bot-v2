@@ -1,5 +1,21 @@
 [
   {
+    "key": "SOLUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "SOLUSDT",
+    "direction": "SHORT",
+    "entry": 105.17,
+    "tp": 104.016985,
+    "sl": 105.993583,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 87.81 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 09:22:41",
+    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-18 09:22:41\nEntry: 105.17\nTP: 104.016985\nSL: 105.993583"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -14,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 08:50:02",
     "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-18 08:50:02\nEntry: 0.2659\nTP: 0.272137\nSL: 0.263065"
-  },
-  {
-    "key": "AVAXUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 7.947,
-    "tp": 8.061879,
-    "sl": 7.88956,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 08:49:03",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 08:49:03\nEntry: 7.947\nTP: 8.061879\nSL: 7.88956"
   },
   {
     "key": "ETHUSDT",
