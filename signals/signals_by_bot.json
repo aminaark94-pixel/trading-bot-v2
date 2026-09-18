@@ -70,6 +70,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "TIAUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "TIAUSDT",
+      "direction": "SHORT",
+      "entry": 0.3916,
+      "tp": 0.385102,
+      "sl": 0.397015,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 12:02:44",
+      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-18 12:02:44\nEntry: 0.3916\nTP: 0.385102\nSL: 0.397015"
+    },
+    {
       "key": "BCHUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
