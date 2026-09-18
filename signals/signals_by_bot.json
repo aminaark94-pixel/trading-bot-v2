@@ -1,6 +1,38 @@
 {
   "bot1": [
     {
+      "key": "NEARUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 3.458,
+      "tp": 3.633079,
+      "sl": 3.360734,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 70.97).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 09:35:52",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 09:35:52\nEntry: 3.458\nTP: 3.633079\nSL: 3.360734"
+    },
+    {
+      "key": "AVAXUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 7.894,
+      "tp": 8.012665,
+      "sl": 7.828075,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 73.29).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 09:35:36",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 09:35:36\nEntry: 7.894\nTP: 8.012665\nSL: 7.828075"
+    },
+    {
       "key": "POLUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -157,6 +189,22 @@
     }
   ],
   "bot10": [
+    {
+      "key": "LINKUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 11.7,
+      "tp": 11.876007,
+      "sl": 11.611997,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 09:35:40",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-18 09:35:40\nEntry: 11.7\nTP: 11.876007\nSL: 11.611997"
+    },
     {
       "key": "ETHUSDT",
       "bot_id": "bot10",
