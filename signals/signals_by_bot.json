@@ -40,15 +40,15 @@
       "bot_name": "Reversal Hunter",
       "symbol": "ADAUSDT",
       "direction": "SHORT",
-      "entry": 0.2061,
-      "tp": 0.203891,
-      "sl": 0.207678,
-      "score": 74,
+      "entry": 0.2081,
+      "tp": 0.20578,
+      "sl": 0.209758,
+      "score": 85,
       "provider": "Technical",
-      "reason": "RSI 71.11 extreme + price at Bollinger Band edge.",
+      "reason": "RSI 76.88 extreme + price at Bollinger Band edge.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-18 06:21:38",
-      "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-18 06:21:38\nEntry: 0.2061\nTP: 0.203891\nSL: 0.207678"
+      "timestamp": "2026-09-18 06:48:33",
+      "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-18 06:48:33\nEntry: 0.2081\nTP: 0.20578\nSL: 0.209758"
     },
     {
       "key": "FETUSDT",
@@ -85,22 +85,6 @@
   ],
   "bot3": [],
   "bot4": [
-    {
-      "key": "ICPUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 2.637,
-      "tp": 2.664823,
-      "sl": 2.613815,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 04:47:19",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-18 04:47:19\nEntry: 2.637\nTP: 2.664823\nSL: 2.613815"
-    },
     {
       "key": "BCHUSDT",
       "bot_id": "bot4",
@@ -189,6 +173,22 @@
   ],
   "bot9": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 7.687,
+      "tp": 7.754919,
+      "sl": 7.649268,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 68.63 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 06:48:37",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 06:48:37\nEntry: 7.687\nTP: 7.754919\nSL: 7.649268"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -203,22 +203,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 01:24:30",
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-18 01:24:30\nEntry: 53.95\nTP: 54.622726\nSL: 53.576263"
-    },
-    {
-      "key": "DOGEUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "DOGEUSDT",
-      "direction": "LONG",
-      "entry": 0.08119,
-      "tp": 0.0824,
-      "sl": 0.080518,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 51.97 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 18:50:32",
-      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-17 18:50:32\nEntry: 0.08119\nTP: 0.0824\nSL: 0.080518"
     }
   ],
   "bot10": [
