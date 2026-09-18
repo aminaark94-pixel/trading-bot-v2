@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot12:POLUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "POLUSDT",
-    "direction": "SHORT",
-    "entry": 0.09716,
-    "tp": 0.096339,
-    "sl": 0.097707,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.92 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 17:02:31",
-    "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-15 17:02:31\nEntry: 0.09716\nTP: 0.096339\nSL: 0.097707",
-    "result": "SL_HIT",
-    "close_price": 0.09797,
-    "closed_at": "2026-09-15 17:27:31"
-  },
-  {
     "key": "bot8:AVAXUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.7959,
     "closed_at": "2026-09-18 14:48:12"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ICPUSDT",
+    "direction": "SHORT",
+    "entry": 2.768,
+    "tp": 2.729541,
+    "sl": 2.800049,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 10:34:46",
+    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-18 10:34:46\nEntry: 2.768\nTP: 2.729541\nSL: 2.800049",
+    "result": "SL_HIT",
+    "close_price": 2.812,
+    "closed_at": "2026-09-18 15:01:28"
   }
 ]

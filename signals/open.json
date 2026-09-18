@@ -1,5 +1,21 @@
 [
   {
+    "key": "FILUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.8787,
+    "tp": 0.890078,
+    "sl": 0.869219,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 15:03:19",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-18 15:03:19\nEntry: 0.8787\nTP: 0.890078\nSL: 0.869219"
+  },
+  {
     "key": "DOTUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -238,22 +254,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 10:48:32",
     "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 10:48:32\nEntry: 0.66\nTP: 0.678133\nSL: 0.647912"
-  },
-  {
-    "key": "ICPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ICPUSDT",
-    "direction": "SHORT",
-    "entry": 2.768,
-    "tp": 2.729541,
-    "sl": 2.800049,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 10:34:46",
-    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-18 10:34:46\nEntry: 2.768\nTP: 2.729541\nSL: 2.800049"
   },
   {
     "key": "NEARUSDT",
