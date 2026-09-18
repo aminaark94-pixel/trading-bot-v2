@@ -207,6 +207,22 @@
   ],
   "bot10": [
     {
+      "key": "BTCUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 77523.65,
+      "tp": 78022.783145,
+      "sl": 77274.083427,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 10:47:59",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-18 10:47:59\nEntry: 77523.65\nTP: 78022.783145\nSL: 77274.083427"
+    },
+    {
       "key": "LINKUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -237,22 +253,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 08:48:49",
       "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-18 08:48:49\nEntry: 2478.32\nTP: 2500.545128\nSL: 2467.207436"
-    },
-    {
-      "key": "APTUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "APTUSDT",
-      "direction": "LONG",
-      "entry": 0.681,
-      "tp": 0.707019,
-      "sl": 0.667991,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 08:22:56",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 08:22:56\nEntry: 0.681\nTP: 0.707019\nSL: 0.667991"
     }
   ],
   "bot11": [
@@ -290,6 +290,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "APTUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "APTUSDT",
+      "direction": "LONG",
+      "entry": 0.66,
+      "tp": 0.678133,
+      "sl": 0.647912,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.84 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 10:48:32",
+      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 10:48:32\nEntry: 0.66\nTP: 0.678133\nSL: 0.647912"
+    },
     {
       "key": "FETUSDT",
       "bot_id": "bot12",
