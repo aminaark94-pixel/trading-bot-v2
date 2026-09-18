@@ -321,6 +321,22 @@
   ],
   "bot10": [
     {
+      "key": "LINKUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 12.192,
+      "tp": 12.527121,
+      "sl": 12.024439,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 20:35:10",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-18 20:35:10\nEntry: 12.192\nTP: 12.527121\nSL: 12.024439"
+    },
+    {
       "key": "NEARUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
