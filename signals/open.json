@@ -1,5 +1,21 @@
 [
   {
+    "key": "NEARUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 3.397,
+    "tp": 3.272762,
+    "sl": 3.485741,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 76.89 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 08:02:09",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-18 08:02:09\nEntry: 3.397\nTP: 3.272762\nSL: 3.485741"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -78,22 +94,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 07:24:28",
     "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-18 07:24:28\nEntry: 7.91\nTP: 8.363987\nSL: 7.73539"
-  },
-  {
-    "key": "APTUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.639,
-    "tp": 0.659021,
-    "sl": 0.6299,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 07:24:11",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 07:24:11\nEntry: 0.639\nTP: 0.659021\nSL: 0.6299"
   },
   {
     "key": "SUIUSDT",
@@ -206,22 +206,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 06:34:03",
     "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-18 06:34:03\nEntry: 0.2568\nTP: 0.262228\nSL: 0.254332"
-  },
-  {
-    "key": "NEARUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "NEARUSDT",
-    "direction": "LONG",
-    "entry": 3.252,
-    "tp": 3.388156,
-    "sl": 3.176358,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.59).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 06:33:26",
-    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 06:33:26\nEntry: 3.252\nTP: 3.388156\nSL: 3.176358"
   },
   {
     "key": "FETUSDT",
