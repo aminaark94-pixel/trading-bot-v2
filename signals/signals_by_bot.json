@@ -51,6 +51,22 @@
   ],
   "bot2": [
     {
+      "key": "SUIUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "SUIUSDT",
+      "direction": "SHORT",
+      "entry": 0.7956,
+      "tp": 0.78514,
+      "sl": 0.803071,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 75.44 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 14:48:55",
+      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-18 14:48:55\nEntry: 0.7956\nTP: 0.78514\nSL: 0.803071"
+    },
+    {
       "key": "ETHUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -134,26 +150,27 @@
       "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-18 10:34:46\nEntry: 2.768\nTP: 2.729541\nSL: 2.800049"
     }
   ],
-  "bot5": [],
+  "bot5": [
+    {
+      "key": "DOTUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "DOTUSDT",
+      "direction": "LONG",
+      "entry": 1.165,
+      "tp": 1.208013,
+      "sl": 1.148456,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 14:48:59",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-18 14:48:59\nEntry: 1.165\nTP: 1.208013\nSL: 1.148456"
+    }
+  ],
   "bot6": [],
   "bot7": [],
   "bot8": [
-    {
-      "key": "DOTUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "DOTUSDT",
-      "direction": "SHORT",
-      "entry": 1.15,
-      "tp": 1.120135,
-      "sl": 1.164932,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 13:24:35",
-      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-18 13:24:35\nEntry: 1.15\nTP: 1.120135\nSL: 1.164932"
-    },
     {
       "key": "SOLUSDT",
       "bot_id": "bot8",
@@ -303,22 +320,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 14:23:53",
       "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-18 14:23:53\nEntry: 6.366\nTP: 6.553727\nSL: 6.280669"
-    },
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "SUIUSDT",
-      "direction": "LONG",
-      "entry": 0.7773,
-      "tp": 0.795493,
-      "sl": 0.76903,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.5x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 08:22:46",
-      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-18 08:22:46\nEntry: 0.7773\nTP: 0.795493\nSL: 0.76903"
     }
   ],
   "bot12": [

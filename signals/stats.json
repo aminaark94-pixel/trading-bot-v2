@@ -60,9 +60,9 @@
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
       "wins": 22,
-      "losses": 57,
-      "total": 79,
-      "win_rate": 27.8
+      "losses": 58,
+      "total": 80,
+      "win_rate": 27.5
     },
     {
       "bot_id": "bot9",
@@ -83,10 +83,10 @@
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 31,
+      "wins": 32,
       "losses": 33,
-      "total": 64,
-      "win_rate": 48.4
+      "total": 65,
+      "win_rate": 49.2
     },
     {
       "bot_id": "bot12",
@@ -105,7 +105,7 @@
     "total": 12,
     "win_rate": 66.7
   },
-  "last_run": "2026-09-18T09:36:48.607305+00:00",
+  "last_run": "2026-09-18T09:49:58.369599+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
