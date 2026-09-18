@@ -271,6 +271,22 @@
   ],
   "bot9": [
     {
+      "key": "XRPUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "XRPUSDT",
+      "direction": "LONG",
+      "entry": 1.3749,
+      "tp": 1.409422,
+      "sl": 1.355722,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 80.19 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 19:35:08",
+      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-18 19:35:08\nEntry: 1.3749\nTP: 1.409422\nSL: 1.355722"
+    },
+    {
       "key": "BNBUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
