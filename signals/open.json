@@ -1,5 +1,21 @@
 [
   {
+    "key": "INJUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 5.995,
+    "tp": 6.142025,
+    "sl": 5.928171,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 1.6x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 11:53:53",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-18 11:53:53\nEntry: 5.995\nTP: 6.142025\nSL: 5.928171"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -78,22 +94,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 10:21:37",
     "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-18 10:21:37\nEntry: 1.136\nTP: 1.104632\nSL: 1.151684"
-  },
-  {
-    "key": "INJUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "INJUSDT",
-    "direction": "SHORT",
-    "entry": 5.909,
-    "tp": 5.813448,
-    "sl": 5.977251,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 70.96 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 09:49:45",
-    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-18 09:49:45\nEntry: 5.909\nTP: 5.813448\nSL: 5.977251"
   },
   {
     "key": "NEARUSDT",
