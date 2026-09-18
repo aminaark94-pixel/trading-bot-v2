@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot12:LINKUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "LINKUSDT",
-    "direction": "SHORT",
-    "entry": 11.418,
-    "tp": 11.347819,
-    "sl": 11.464787,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.33 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 17:28:22",
-    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-15 17:28:22\nEntry: 11.418\nTP: 11.347819\nSL: 11.464787",
-    "result": "SL_HIT",
-    "close_price": 11.478,
-    "closed_at": "2026-09-15 18:24:13"
-  },
-  {
     "key": "bot9:LINKUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 750.34,
     "closed_at": "2026-09-18 16:35:42"
+  },
+  {
+    "key": "APTUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.66,
+    "tp": 0.678133,
+    "sl": 0.647912,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.84 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 10:48:32",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 10:48:32\nEntry: 0.66\nTP: 0.678133\nSL: 0.647912",
+    "result": "TP_HIT",
+    "close_price": 0.679,
+    "closed_at": "2026-09-18 16:48:50"
   }
 ]

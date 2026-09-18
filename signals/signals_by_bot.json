@@ -157,6 +157,22 @@
   ],
   "bot9": [
     {
+      "key": "FETUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "FETUSDT",
+      "direction": "LONG",
+      "entry": 0.1843,
+      "tp": 0.189084,
+      "sl": 0.181642,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 55.43 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 16:48:28",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-18 16:48:28\nEntry: 0.1843\nTP: 0.189084\nSL: 0.181642"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -240,22 +256,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 16:22:09",
       "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-18 16:22:09\nEntry: 1.3216\nTP: 1.330422\nSL: 1.315719"
-    },
-    {
-      "key": "APTUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "APTUSDT",
-      "direction": "LONG",
-      "entry": 0.66,
-      "tp": 0.678133,
-      "sl": 0.647912,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.84 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 10:48:32",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 10:48:32\nEntry: 0.66\nTP: 0.678133\nSL: 0.647912"
     }
   ]
 }
