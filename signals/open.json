@@ -128,22 +128,6 @@
     "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-18 16:48:28\nEntry: 0.1843\nTP: 0.189084\nSL: 0.181642"
   },
   {
-    "key": "INJUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 6.644,
-    "tp": 6.983567,
-    "sl": 6.474216,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 16:22:58",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-18 16:22:58\nEntry: 6.644\nTP: 6.983567\nSL: 6.474216"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
