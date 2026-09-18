@@ -257,6 +257,22 @@
   ],
   "bot11": [
     {
+      "key": "RENDERUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 1.443,
+      "tp": 1.473952,
+      "sl": 1.428931,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.5x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 05:02:56",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-18 05:02:56\nEntry: 1.443\nTP: 1.473952\nSL: 1.428931"
+    },
+    {
       "key": "FILUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
