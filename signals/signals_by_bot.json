@@ -51,22 +51,6 @@
   ],
   "bot2": [
     {
-      "key": "ETHUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2578.73,
-      "tp": 2540.002812,
-      "sl": 2606.392278,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 84.13 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 19:22:41",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-18 19:22:41\nEntry: 2578.73\nTP: 2540.002812\nSL: 2606.392278"
-    },
-    {
       "key": "BTCUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
