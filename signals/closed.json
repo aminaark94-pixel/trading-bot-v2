@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot5:BCHUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 220.0,
-    "tp": 213.919746,
-    "sl": 222.338559,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 19:51:54",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-15 19:51:54\nEntry: 220.0\nTP: 213.919746\nSL: 222.338559",
-    "result": "SL_HIT",
-    "close_price": 222.6,
-    "closed_at": "2026-09-15 22:32:36"
-  },
-  {
     "key": "bot11:BTCUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 8.191,
     "closed_at": "2026-09-19 03:47:49"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 263.4,
+    "tp": 257.520251,
+    "sl": 266.339874,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 03:34:29",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-19 03:34:29\nEntry: 263.4\nTP: 257.520251\nSL: 266.339874",
+    "result": "TP_HIT",
+    "close_price": 255.0,
+    "closed_at": "2026-09-19 04:21:10"
   }
 ]

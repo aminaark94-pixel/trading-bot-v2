@@ -59,10 +59,10 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 22,
+      "wins": 23,
       "losses": 64,
-      "total": 86,
-      "win_rate": 25.6
+      "total": 87,
+      "win_rate": 26.4
     },
     {
       "bot_id": "bot9",
@@ -105,7 +105,7 @@
     "total": 12,
     "win_rate": 66.7
   },
-  "last_run": "2026-09-18T23:03:19.683397+00:00",
+  "last_run": "2026-09-18T23:22:58.622207+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

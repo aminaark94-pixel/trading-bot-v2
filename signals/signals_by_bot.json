@@ -86,6 +86,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "BCHUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 254.9,
+      "tp": 249.559858,
+      "sl": 259.350119,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 04:22:12",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-19 04:22:12\nEntry: 254.9\nTP: 249.559858\nSL: 259.350119"
+    },
+    {
       "key": "DOGEUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -188,22 +204,6 @@
   ],
   "bot7": [],
   "bot8": [
-    {
-      "key": "BCHUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 263.4,
-      "tp": 257.520251,
-      "sl": 266.339874,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 03:34:29",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-19 03:34:29\nEntry: 263.4\nTP: 257.520251\nSL: 266.339874"
-    },
     {
       "key": "SUIUSDT",
       "bot_id": "bot8",
