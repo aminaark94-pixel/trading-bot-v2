@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "NEARUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 3.252,
+      "tp": 3.388156,
+      "sl": 3.176358,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.59).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 06:33:26",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 06:33:26\nEntry: 3.252\nTP: 3.388156\nSL: 3.176358"
+    },
+    {
       "key": "BNBUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -15,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 06:21:27",
       "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-18 06:21:27\nEntry: 741.21\nTP: 746.415832\nSL: 738.317871"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 3.122,
-      "tp": 3.250246,
-      "sl": 3.050752,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 68.02).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 04:02:00",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 04:02:00\nEntry: 3.122\nTP: 3.250246\nSL: 3.050752"
     }
   ],
   "bot2": [
@@ -219,22 +219,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-17 18:50:32",
       "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-17 18:50:32\nEntry: 0.08119\nTP: 0.0824\nSL: 0.080518"
-    },
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 7.538,
-      "tp": 7.653873,
-      "sl": 7.473626,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.61 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 07:50:19",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-17 07:50:19\nEntry: 7.538\nTP: 7.653873\nSL: 7.473626"
     }
   ],
   "bot10": [
@@ -288,6 +272,22 @@
     }
   ],
   "bot11": [
+    {
+      "key": "STXUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.2568,
+      "tp": 0.262228,
+      "sl": 0.254332,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.6x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 06:34:03",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-18 06:34:03\nEntry: 0.2568\nTP: 0.262228\nSL: 0.254332"
+    },
     {
       "key": "FILUSDT",
       "bot_id": "bot11",
