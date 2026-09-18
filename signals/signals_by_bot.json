@@ -67,22 +67,6 @@
       "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-18 14:48:55\nEntry: 0.7956\nTP: 0.78514\nSL: 0.803071"
     },
     {
-      "key": "ETHUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2521.01,
-      "tp": 2501.956173,
-      "sl": 2534.619877,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 81.53 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 14:22:48",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-18 14:22:48\nEntry: 2521.01\nTP: 2501.956173\nSL: 2534.619877"
-    },
-    {
       "key": "BTCUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -186,22 +170,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 13:24:06",
       "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-18 13:24:06\nEntry: 106.26\nTP: 104.692137\nSL: 107.043931"
-    },
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "TIAUSDT",
-      "direction": "SHORT",
-      "entry": 0.396,
-      "tp": 0.384393,
-      "sl": 0.401804,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 13:02:46",
-      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-18 13:02:46\nEntry: 0.396\nTP: 0.384393\nSL: 0.401804"
     }
   ],
   "bot9": [
