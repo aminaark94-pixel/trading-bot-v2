@@ -1,5 +1,53 @@
 [
   {
+    "key": "TIAUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "TIAUSDT",
+    "direction": "SHORT",
+    "entry": 0.3699,
+    "tp": 0.361629,
+    "sl": 0.374036,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 07:37:05",
+    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-18 07:37:05\nEntry: 0.3699\nTP: 0.361629\nSL: 0.374036"
+  },
+  {
+    "key": "DOTUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "DOTUSDT",
+    "direction": "SHORT",
+    "entry": 1.117,
+    "tp": 1.086859,
+    "sl": 1.13207,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 07:36:21",
+    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-18 07:36:21\nEntry: 1.117\nTP: 1.086859\nSL: 1.13207"
+  },
+  {
+    "key": "BTCUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 77010.01,
+    "tp": 76731.080429,
+    "sl": 77209.245407,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 70.47 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 07:35:40",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-18 07:35:40\nEntry: 77010.01\nTP: 76731.080429\nSL: 77209.245407"
+  },
+  {
     "key": "UNIUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -48,22 +96,6 @@
     "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-18 07:23:59\nEntry: 0.7651\nTP: 0.749692\nSL: 0.772804"
   },
   {
-    "key": "ADAUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "ADAUSDT",
-    "direction": "SHORT",
-    "entry": 0.2144,
-    "tp": 0.211219,
-    "sl": 0.216673,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 86.53 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 07:23:48",
-    "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-18 07:23:48\nEntry: 0.2144\nTP: 0.211219\nSL: 0.216673"
-  },
-  {
     "key": "XRPUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -94,38 +126,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 07:23:39",
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-18 07:23:39\nEntry: 102.42\nTP: 103.627833\nSL: 101.816084"
-  },
-  {
-    "key": "BNBUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 747.52,
-    "tp": 743.135494,
-    "sl": 750.65179,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 82.76 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 07:23:36",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-18 07:23:36\nEntry: 747.52\nTP: 743.135494\nSL: 750.65179"
-  },
-  {
-    "key": "BCHUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 236.5,
-    "tp": 233.214439,
-    "sl": 238.14278,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 07:02:18",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-18 07:02:18\nEntry: 236.5\nTP: 233.214439\nSL: 238.14278"
   },
   {
     "key": "LINKUSDT",
@@ -286,21 +286,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-17 20:23:22",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-17 20:23:22\nEntry: 2453.13\nTP: 2422.879489\nSL: 2478.338759"
-  },
-  {
-    "key": "BTCUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 76636.17,
-    "tp": 75912.168252,
-    "sl": 76998.170874,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 06:34:41",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-17 06:34:41\nEntry: 76636.17\nTP: 75912.168252\nSL: 76998.170874"
   }
 ]
