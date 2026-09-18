@@ -1,5 +1,21 @@
 [
   {
+    "key": "LTCUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 55.19,
+    "tp": 54.578879,
+    "sl": 55.49556,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 12:35:26",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-18 12:35:26\nEntry: 55.19\nTP: 54.578879\nSL: 55.49556"
+  },
+  {
     "key": "BNBUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
