@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot1:SUIUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "SUIUSDT",
-    "direction": "SHORT",
-    "entry": 0.7034,
-    "tp": 0.694598,
-    "sl": 0.70829,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 28.87).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 13:02:44",
-    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-15 13:02:44\nEntry: 0.7034\nTP: 0.694598\nSL: 0.70829",
-    "result": "SL_HIT",
-    "close_price": 0.7084,
-    "closed_at": "2026-09-15 13:55:42"
-  },
-  {
     "key": "bot10:BNBUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 7.886,
     "closed_at": "2026-09-18 09:24:12"
+  },
+  {
+    "key": "DOTUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "DOTUSDT",
+    "direction": "SHORT",
+    "entry": 1.117,
+    "tp": 1.086859,
+    "sl": 1.13207,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 07:36:21",
+    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-18 07:36:21\nEntry: 1.117\nTP: 1.086859\nSL: 1.13207",
+    "result": "SL_HIT",
+    "close_price": 1.136,
+    "closed_at": "2026-09-18 09:48:16"
   }
 ]
