@@ -1,5 +1,21 @@
 [
   {
+    "key": "DOGEUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "DOGEUSDT",
+    "direction": "SHORT",
+    "entry": 0.08617,
+    "tp": 0.085021,
+    "sl": 0.086745,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 15:23:02",
+    "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-18 15:23:02\nEntry: 0.08617\nTP: 0.085021\nSL: 0.086745"
+  },
+  {
     "key": "FILUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -14,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 15:03:19",
     "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-18 15:03:19\nEntry: 0.8787\nTP: 0.890078\nSL: 0.869219"
-  },
-  {
-    "key": "DOTUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 1.165,
-    "tp": 1.208013,
-    "sl": 1.148456,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 14:48:59",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-18 14:48:59\nEntry: 1.165\nTP: 1.208013\nSL: 1.148456"
   },
   {
     "key": "SUIUSDT",
@@ -48,22 +48,6 @@
     "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-18 14:48:55\nEntry: 0.7956\nTP: 0.78514\nSL: 0.803071"
   },
   {
-    "key": "INJUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 6.366,
-    "tp": 6.553727,
-    "sl": 6.280669,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.0x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 14:23:53",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-18 14:23:53\nEntry: 6.366\nTP: 6.553727\nSL: 6.280669"
-  },
-  {
     "key": "UNIUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -78,22 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 14:23:40",
     "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-18 14:23:40\nEntry: 8.939\nTP: 9.343232\nSL: 8.736884"
-  },
-  {
-    "key": "DOGEUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "DOGEUSDT",
-    "direction": "LONG",
-    "entry": 0.08545,
-    "tp": 0.086121,
-    "sl": 0.08489,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 14:23:02",
-    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-18 14:23:02\nEntry: 0.08545\nTP: 0.086121\nSL: 0.08489"
   },
   {
     "key": "ETHUSDT",
