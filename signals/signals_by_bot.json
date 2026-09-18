@@ -68,24 +68,7 @@
     }
   ],
   "bot3": [],
-  "bot4": [
-    {
-      "key": "ETHUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "ETHUSDT",
-      "direction": "SHORT",
-      "entry": 2453.13,
-      "tp": 2422.879489,
-      "sl": 2478.338759,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-17 20:23:22",
-      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-17 20:23:22\nEntry: 2453.13\nTP: 2422.879489\nSL: 2478.338759"
-    }
-  ],
+  "bot4": [],
   "bot5": [],
   "bot6": [],
   "bot7": [],
@@ -191,6 +174,38 @@
   ],
   "bot10": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 7.947,
+      "tp": 8.061879,
+      "sl": 7.88956,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 08:49:03",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 08:49:03\nEntry: 7.947\nTP: 8.061879\nSL: 7.88956"
+    },
+    {
+      "key": "ETHUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2478.32,
+      "tp": 2500.545128,
+      "sl": 2467.207436,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 08:48:49",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-18 08:48:49\nEntry: 2478.32\nTP: 2500.545128\nSL: 2467.207436"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -205,41 +220,25 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 08:22:56",
       "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 08:22:56\nEntry: 0.681\nTP: 0.707019\nSL: 0.667991"
-    },
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 7.81,
-      "tp": 7.902535,
-      "sl": 7.763732,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 08:22:40",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-18 08:22:40\nEntry: 7.81\nTP: 7.902535\nSL: 7.763732"
-    },
-    {
-      "key": "LINKUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "LINKUSDT",
-      "direction": "LONG",
-      "entry": 11.575,
-      "tp": 11.716813,
-      "sl": 11.504093,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 07:01:54",
-      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-18 07:01:54\nEntry: 11.575\nTP: 11.716813\nSL: 11.504093"
     }
   ],
   "bot11": [
+    {
+      "key": "STXUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.2659,
+      "tp": 0.272137,
+      "sl": 0.263065,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.8x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 08:50:02",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-18 08:50:02\nEntry: 0.2659\nTP: 0.272137\nSL: 0.263065"
+    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot11",
