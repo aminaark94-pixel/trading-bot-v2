@@ -19,22 +19,6 @@
   ],
   "bot2": [
     {
-      "key": "SOLUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "SOLUSDT",
-      "direction": "SHORT",
-      "entry": 104.22,
-      "tp": 103.254208,
-      "sl": 104.909852,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 83.49 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 08:22:21",
-      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-18 08:22:21\nEntry: 104.22\nTP: 103.254208\nSL: 104.909852"
-    },
-    {
       "key": "BTCUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -49,22 +33,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 08:22:14",
       "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-18 08:22:14\nEntry: 77374.6\nTP: 77041.986918\nSL: 77612.180773"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "NEARUSDT",
-      "direction": "SHORT",
-      "entry": 3.397,
-      "tp": 3.272762,
-      "sl": 3.485741,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 76.89 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 08:02:09",
-      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-18 08:02:09\nEntry: 3.397\nTP: 3.272762\nSL: 3.485741"
     }
   ],
   "bot3": [],
