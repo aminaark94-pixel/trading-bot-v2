@@ -1,5 +1,21 @@
 [
   {
+    "key": "BNBUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 758.74,
+    "tp": 753.388641,
+    "sl": 762.562399,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 77.89 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 12:22:55",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-18 12:22:55\nEntry: 758.74\nTP: 753.388641\nSL: 762.562399"
+  },
+  {
     "key": "TIAUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -224,22 +240,6 @@
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-18 08:23:05\nEntry: 0.09954\nTP: 0.101125\nSL: 0.098659"
   },
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "LTCUSDT",
-    "direction": "SHORT",
-    "entry": 54.73,
-    "tp": 54.138787,
-    "sl": 55.025606,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 08:22:59",
-    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-18 08:22:59\nEntry: 54.73\nTP: 54.138787\nSL: 55.025606"
-  },
-  {
     "key": "SUIUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -302,21 +302,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 08:22:33",
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-18 08:22:33\nEntry: 1.3204\nTP: 1.334486\nSL: 1.312574"
-  },
-  {
-    "key": "BNBUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 752.06,
-    "tp": 744.410546,
-    "sl": 755.884727,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 08:22:29",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-18 08:22:29\nEntry: 752.06\nTP: 744.410546\nSL: 755.884727"
   }
 ]
