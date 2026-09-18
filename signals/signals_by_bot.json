@@ -120,6 +120,22 @@
   ],
   "bot5": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.2858,
+      "tp": 0.295335,
+      "sl": 0.282133,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 04:02:55",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 04:02:55\nEntry: 0.2858\nTP: 0.295335\nSL: 0.282133"
+    },
+    {
       "key": "ICPUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
@@ -356,6 +372,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "AVAXUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 8.208,
+      "tp": 8.256047,
+      "sl": 8.175968,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.82 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 04:02:01",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-19 04:02:01\nEntry: 8.208\nTP: 8.256047\nSL: 8.175968"
+    },
     {
       "key": "DOTUSDT",
       "bot_id": "bot12",
