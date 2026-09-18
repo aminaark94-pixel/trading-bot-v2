@@ -237,6 +237,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "ADAUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "ADAUSDT",
+      "direction": "SHORT",
+      "entry": 0.221,
+      "tp": 0.214836,
+      "sl": 0.224082,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-18 20:02:04",
+      "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-18 20:02:04\nEntry: 0.221\nTP: 0.214836\nSL: 0.224082"
+    },
+    {
       "key": "BCHUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
