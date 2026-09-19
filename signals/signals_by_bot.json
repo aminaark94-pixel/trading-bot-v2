@@ -31,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 14:46:58",
       "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-19 14:46:58\nEntry: 2639.84\nTP: 2666.379877\nSL: 2625.095624"
-    },
-    {
-      "key": "FETUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "FETUSDT",
-      "direction": "LONG",
-      "entry": 0.1823,
-      "tp": 0.186064,
-      "sl": 0.180209,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 61.47).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 14:22:43",
-      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-19 14:22:43\nEntry: 0.1823\nTP: 0.186064\nSL: 0.180209"
     }
   ],
   "bot2": [
@@ -188,6 +172,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "SOLUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "SOLUSDT",
+      "direction": "LONG",
+      "entry": 111.06,
+      "tp": 112.389654,
+      "sl": 110.395173,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 23:23:38",
+      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-19 23:23:38\nEntry: 111.06\nTP: 112.389654\nSL: 110.395173"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -202,22 +202,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 11:39:06",
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-19 11:39:06\nEntry: 57.26\nTP: 58.334756\nSL: 56.722622"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 111.87,
-      "tp": 113.305794,
-      "sl": 111.152103,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 11:01:48",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-19 11:01:48\nEntry: 111.87\nTP: 113.305794\nSL: 111.152103"
     }
   ],
   "bot9": [
