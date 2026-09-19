@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "BTCUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 81691.22,
+      "tp": 82221.07445,
+      "sl": 81396.856416,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.51).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 06:01:38",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-19 06:01:38\nEntry: 81691.22\nTP: 82221.07445\nSL: 81396.856416"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -65,22 +81,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 00:20:42",
       "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-19 00:20:42\nEntry: 2630.47\nTP: 2597.957256\nSL: 2653.693389"
-    },
-    {
-      "key": "BTCUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 80874.88,
-      "tp": 79891.949745,
-      "sl": 81576.973039,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 89.61 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 19:22:37",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-18 19:22:37\nEntry: 80874.88\nTP: 79891.949745\nSL: 81576.973039"
     }
   ],
   "bot3": [],

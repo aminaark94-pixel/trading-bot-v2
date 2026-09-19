@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot10:POLUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.0976,
-    "tp": 0.099827,
-    "sl": 0.096486,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 22:33:34",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-15 22:33:34\nEntry: 0.0976\nTP: 0.099827\nSL: 0.096486",
-    "result": "SL_HIT",
-    "close_price": 0.09643,
-    "closed_at": "2026-09-15 23:36:28"
-  },
-  {
     "key": "bot6:DOTUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.14,
     "closed_at": "2026-09-19 05:42:53"
+  },
+  {
+    "key": "BTCUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 80874.88,
+    "tp": 79891.949745,
+    "sl": 81576.973039,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 89.61 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 19:22:37",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-18 19:22:37\nEntry: 80874.88\nTP: 79891.949745\nSL: 81576.973039",
+    "result": "SL_HIT",
+    "close_price": 81691.22,
+    "closed_at": "2026-09-19 06:01:25"
   }
 ]
