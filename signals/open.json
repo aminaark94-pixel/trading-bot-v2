@@ -1,5 +1,21 @@
 [
   {
+    "key": "BCHUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 251.6,
+    "tp": 247.175037,
+    "sl": 253.812482,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 02:47:03",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-20 02:47:03\nEntry: 251.6\nTP: 247.175037\nSL: 253.812482"
+  },
+  {
     "key": "LINKUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -62,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 02:21:29",
     "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-20 02:21:29\nEntry: 8.483\nTP: 8.185833\nSL: 8.618077"
-  },
-  {
-    "key": "DOTUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "DOTUSDT",
-    "direction": "SHORT",
-    "entry": 1.099,
-    "tp": 1.069501,
-    "sl": 1.112408,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.1x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 02:21:05",
-    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-20 02:21:05\nEntry: 1.099\nTP: 1.069501\nSL: 1.112408"
   },
   {
     "key": "XRPUSDT",
