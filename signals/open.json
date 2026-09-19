@@ -1,5 +1,37 @@
 [
   {
+    "key": "SUIUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 0.8253,
+    "tp": 0.835803,
+    "sl": 0.816547,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 13:48:50",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 13:48:50\nEntry: 0.8253\nTP: 0.835803\nSL: 0.816547"
+  },
+  {
+    "key": "ETHUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 2649.6,
+    "tp": 2674.156206,
+    "sl": 2635.957663,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 70.58).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 13:48:18",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-19 13:48:18\nEntry: 2649.6\nTP: 2674.156206\nSL: 2635.957663"
+  },
+  {
     "key": "UNIUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
