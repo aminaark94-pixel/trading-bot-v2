@@ -1,5 +1,21 @@
 [
   {
+    "key": "POLUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "POLUSDT",
+    "direction": "LONG",
+    "entry": 0.10489,
+    "tp": 0.108961,
+    "sl": 0.102855,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 05:29:30",
+    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-19 05:29:30\nEntry: 0.10489\nTP: 0.108961\nSL: 0.102855"
+  },
+  {
     "key": "LTCUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -14,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 05:02:25",
     "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-19 05:02:25\nEntry: 58.22\nTP: 57.483365\nSL: 58.746168"
-  },
-  {
-    "key": "FILUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "FILUSDT",
-    "direction": "SHORT",
-    "entry": 0.9377,
-    "tp": 0.907457,
-    "sl": 0.952821,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 04:47:49",
-    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-19 04:47:49\nEntry: 0.9377\nTP: 0.907457\nSL: 0.952821"
   },
   {
     "key": "BCHUSDT",
@@ -192,22 +192,6 @@
     "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-19 00:32:56\nEntry: 2.858\nTP: 2.943923\nSL: 2.824952"
   },
   {
-    "key": "POLUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.10653,
-    "tp": 0.110295,
-    "sl": 0.104819,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.7x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 00:32:48",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-19 00:32:48\nEntry: 0.10653\nTP: 0.110295\nSL: 0.104819"
-  },
-  {
     "key": "SOLUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -254,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-18 20:35:10",
     "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-18 20:35:10\nEntry: 12.192\nTP: 12.527121\nSL: 12.024439"
-  },
-  {
-    "key": "XRPUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.3749,
-    "tp": 1.409422,
-    "sl": 1.355722,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 80.19 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 19:35:08",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-18 19:35:08\nEntry: 1.3749\nTP: 1.409422\nSL: 1.355722"
   },
   {
     "key": "BTCUSDT",
