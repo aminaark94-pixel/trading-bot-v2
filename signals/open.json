@@ -1,5 +1,21 @@
 [
   {
+    "key": "DOGEUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "DOGEUSDT",
+    "direction": "LONG",
+    "entry": 0.08721,
+    "tp": 0.087637,
+    "sl": 0.086925,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.11 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 11:50:54",
+    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-19 11:50:54\nEntry: 0.08721\nTP: 0.087637\nSL: 0.086925"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot3",
     "bot_name": "Breakout Sniper",
