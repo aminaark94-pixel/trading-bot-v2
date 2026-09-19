@@ -356,6 +356,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "NEARUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 3.758,
+      "tp": 3.829986,
+      "sl": 3.710009,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.76 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 09:02:28",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-19 09:02:28\nEntry: 3.758\nTP: 3.829986\nSL: 3.710009"
+    },
+    {
       "key": "FETUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
