@@ -16,22 +16,6 @@
     "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-19 06:23:09\nEntry: 0.9545\nTP: 1.000699\nSL: 0.936731"
   },
   {
-    "key": "DOTUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 1.129,
-    "tp": 1.13685,
-    "sl": 1.123767,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.9 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 06:22:32",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-19 06:22:32\nEntry: 1.129\nTP: 1.13685\nSL: 1.123767"
-  },
-  {
     "key": "SUIUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",

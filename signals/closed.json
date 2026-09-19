@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot5:POLUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.09759,
-    "tp": 0.100691,
-    "sl": 0.096398,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 21:02:11",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-15 21:02:11\nEntry: 0.09759\nTP: 0.100691\nSL: 0.096398",
-    "result": "SL_HIT",
-    "close_price": 0.09598,
-    "closed_at": "2026-09-15 23:38:07"
-  },
-  {
     "key": "bot8:APTUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.1816,
     "closed_at": "2026-09-19 06:21:39"
+  },
+  {
+    "key": "DOTUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "DOTUSDT",
+    "direction": "LONG",
+    "entry": 1.129,
+    "tp": 1.13685,
+    "sl": 1.123767,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.9 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 06:22:32",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-19 06:22:32\nEntry: 1.129\nTP: 1.13685\nSL: 1.123767",
+    "result": "SL_HIT",
+    "close_price": 1.123,
+    "closed_at": "2026-09-19 06:35:38"
   }
 ]
