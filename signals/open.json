@@ -1,5 +1,21 @@
 [
   {
+    "key": "LTCUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 58.22,
+    "tp": 57.483365,
+    "sl": 58.746168,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 76.9 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 05:02:25",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-19 05:02:25\nEntry: 58.22\nTP: 57.483365\nSL: 58.746168"
+  },
+  {
     "key": "FILUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
