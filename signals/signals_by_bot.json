@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "DOTUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "DOTUSDT",
+      "direction": "LONG",
+      "entry": 1.146,
+      "tp": 1.165672,
+      "sl": 1.135071,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 62.36).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 07:22:07",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-19 07:22:07\nEntry: 1.146\nTP: 1.165672\nSL: 1.135071"
+    },
+    {
       "key": "ADAUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -86,6 +102,22 @@
     }
   ],
   "bot4": [
+    {
+      "key": "SUIUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 0.8282,
+      "tp": 0.839511,
+      "sl": 0.818774,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 07:22:04",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 07:22:04\nEntry: 0.8282\nTP: 0.839511\nSL: 0.818774"
+    },
     {
       "key": "BCHUSDT",
       "bot_id": "bot4",
