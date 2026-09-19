@@ -11,10 +11,10 @@
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 46,
+      "wins": 47,
       "losses": 84,
-      "total": 130,
-      "win_rate": 35.4
+      "total": 131,
+      "win_rate": 35.9
     },
     {
       "bot_id": "bot3",
@@ -91,10 +91,10 @@
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 109,
+      "wins": 111,
       "losses": 124,
-      "total": 233,
-      "win_rate": 46.8
+      "total": 235,
+      "win_rate": 47.2
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 14,
     "win_rate": 64.3
   },
-  "last_run": "2026-09-19T17:21:28.335084+00:00",
+  "last_run": "2026-09-19T17:33:10.942183+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
