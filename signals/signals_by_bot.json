@@ -172,6 +172,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "STXUSDT",
+      "direction": "SHORT",
+      "entry": 0.3218,
+      "tp": 0.305236,
+      "sl": 0.330082,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 17:02:33",
+      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-19 17:02:33\nEntry: 0.3218\nTP: 0.305236\nSL: 0.330082"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
