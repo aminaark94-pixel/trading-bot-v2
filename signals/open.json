@@ -1,5 +1,21 @@
 [
   {
+    "key": "RENDERUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.552,
+    "tp": 1.519861,
+    "sl": 1.56807,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 13:24:08",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-19 13:24:08\nEntry: 1.552\nTP: 1.519861\nSL: 1.56807"
+  },
+  {
     "key": "XRPUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -62,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 11:39:06",
     "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-19 11:39:06\nEntry: 57.26\nTP: 58.334756\nSL: 56.722622"
-  },
-  {
-    "key": "RENDERUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "RENDERUSDT",
-    "direction": "LONG",
-    "entry": 1.537,
-    "tp": 1.550732,
-    "sl": 1.527845,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.01 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 11:27:28",
-    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-19 11:27:28\nEntry: 1.537\nTP: 1.550732\nSL: 1.527845"
   },
   {
     "key": "DOTUSDT",

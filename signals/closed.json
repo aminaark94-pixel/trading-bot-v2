@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:TIAUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.33,
-    "tp": 0.336922,
-    "sl": 0.324232,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 01:50:24",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-16 01:50:24\nEntry: 0.33\nTP: 0.336922\nSL: 0.324232",
-    "result": "SL_HIT",
-    "close_price": 0.3241,
-    "closed_at": "2026-09-16 03:23:14"
-  },
-  {
     "key": "bot11:STXUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.8076,
     "closed_at": "2026-09-19 13:01:11"
+  },
+  {
+    "key": "RENDERUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "RENDERUSDT",
+    "direction": "LONG",
+    "entry": 1.537,
+    "tp": 1.550732,
+    "sl": 1.527845,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.01 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 11:27:28",
+    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-19 11:27:28\nEntry: 1.537\nTP: 1.550732\nSL: 1.527845",
+    "result": "TP_HIT",
+    "close_price": 1.556,
+    "closed_at": "2026-09-19 13:22:40"
   }
 ]
