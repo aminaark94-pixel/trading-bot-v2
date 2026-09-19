@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot6:AVAXUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 7.458,
-    "tp": 7.599741,
-    "sl": 7.369413,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend UP (+0.47% EMA20/50 gap) + RSI 48.66 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 22:33:16",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-15 22:33:16\nEntry: 7.458\nTP: 7.599741\nSL: 7.369413",
-    "result": "SL_HIT",
-    "close_price": 7.253,
-    "closed_at": "2026-09-15 23:51:18"
-  },
-  {
     "key": "bot9:DOGEUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 8.532,
     "closed_at": "2026-09-19 08:21:52"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 254.9,
+    "tp": 249.559858,
+    "sl": 259.350119,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 04:22:12",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-19 04:22:12\nEntry: 254.9\nTP: 249.559858\nSL: 259.350119",
+    "result": "TP_HIT",
+    "close_price": 248.4,
+    "closed_at": "2026-09-19 08:47:23"
   }
 ]

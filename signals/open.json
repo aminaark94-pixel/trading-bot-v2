@@ -208,22 +208,6 @@
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-19 05:29:30\nEntry: 0.10489\nTP: 0.108961\nSL: 0.102855"
   },
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 254.9,
-    "tp": 249.559858,
-    "sl": 259.350119,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 04:22:12",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-19 04:22:12\nEntry: 254.9\nTP: 249.559858\nSL: 259.350119"
-  },
-  {
     "key": "DOGEUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
