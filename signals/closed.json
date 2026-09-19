@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot2:DOTUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 0.957,
-    "tp": 0.973178,
-    "sl": 0.945444,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 27.57 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 23:37:21",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-15 23:37:21\nEntry: 0.957\nTP: 0.973178\nSL: 0.945444",
-    "result": "SL_HIT",
-    "close_price": 0.942,
-    "closed_at": "2026-09-15 23:51:18"
-  },
-  {
     "key": "bot10:ETHUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.57,
     "closed_at": "2026-09-19 06:47:50"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.2252,
+    "tp": 0.229125,
+    "sl": 0.22302,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.27).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 03:01:42",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-19 03:01:42\nEntry: 0.2252\nTP: 0.229125\nSL: 0.22302",
+    "result": "TP_HIT",
+    "close_price": 0.2293,
+    "closed_at": "2026-09-19 07:01:11"
   }
 ]
