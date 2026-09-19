@@ -1,5 +1,37 @@
 [
   {
+    "key": "FETUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "FETUSDT",
+    "direction": "LONG",
+    "entry": 0.1823,
+    "tp": 0.186064,
+    "sl": 0.180209,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 61.47).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 14:22:43",
+    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-19 14:22:43\nEntry: 0.1823\nTP: 0.186064\nSL: 0.180209"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "AVAXUSDT",
+    "direction": "SHORT",
+    "entry": 9.0,
+    "tp": 8.812617,
+    "sl": 9.133845,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 77.55 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 14:22:06",
+    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-19 14:22:06\nEntry: 9.0\nTP: 8.812617\nSL: 9.133845"
+  },
+  {
     "key": "SUIUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -46,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 13:35:49",
     "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-19 13:35:49\nEntry: 9.324\nTP: 9.670202\nSL: 9.131666"
-  },
-  {
-    "key": "AVAXUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 8.698,
-    "tp": 8.904604,
-    "sl": 8.58322,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 65.52).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 13:35:13",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-19 13:35:13\nEntry: 8.698\nTP: 8.904604\nSL: 8.58322"
   },
   {
     "key": "ADAUSDT",
