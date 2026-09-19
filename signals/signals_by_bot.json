@@ -303,25 +303,24 @@
       "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-19 15:34:24\nEntry: 0.737\nTP: 0.770093\nSL: 0.720453"
     }
   ],
-  "bot11": [
-    {
-      "key": "RENDERUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "RENDERUSDT",
-      "direction": "LONG",
-      "entry": 1.622,
-      "tp": 1.66938,
-      "sl": 1.600465,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.9x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 17:27:20",
-      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-19 17:27:20\nEntry: 1.622\nTP: 1.66938\nSL: 1.600465"
-    }
-  ],
+  "bot11": [],
   "bot12": [
+    {
+      "key": "INJUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 7.482,
+      "tp": 7.663968,
+      "sl": 7.360688,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.77 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 19:34:32",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-19 19:34:32\nEntry: 7.482\nTP: 7.663968\nSL: 7.360688"
+    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot12",
@@ -353,22 +352,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 18:47:04",
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-19 18:47:04\nEntry: 3.574\nTP: 3.639713\nSL: 3.530191"
-    },
-    {
-      "key": "LINKUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "LINKUSDT",
-      "direction": "LONG",
-      "entry": 12.45,
-      "tp": 12.55544,
-      "sl": 12.379706,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.28 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 18:46:56",
-      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-19 18:46:56\nEntry: 12.45\nTP: 12.55544\nSL: 12.379706"
     }
   ]
 }
