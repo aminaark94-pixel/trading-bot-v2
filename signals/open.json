@@ -96,22 +96,6 @@
     "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-19 11:26:54\nEntry: 1.111\nTP: 1.083462\nSL: 1.123517"
   },
   {
-    "key": "SUIUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "SUIUSDT",
-    "direction": "LONG",
-    "entry": 0.8165,
-    "tp": 0.833882,
-    "sl": 0.807809,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 11:02:11",
-    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 11:02:11\nEntry: 0.8165\nTP: 0.833882\nSL: 0.807809"
-  },
-  {
     "key": "SOLUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",

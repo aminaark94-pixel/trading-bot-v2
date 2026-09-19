@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot3:BNBUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 720.65,
-    "tp": 711.220207,
-    "sl": 724.93627,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 03:50:04",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-15 03:50:04\nEntry: 720.65\nTP: 711.220207\nSL: 724.93627",
-    "result": "TP_HIT",
-    "close_price": 709.71,
-    "closed_at": "2026-09-16 03:21:37"
-  },
-  {
     "key": "bot4:TIAUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.4121,
     "closed_at": "2026-09-19 12:46:37"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 0.8165,
+    "tp": 0.833882,
+    "sl": 0.807809,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 11:02:11",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 11:02:11\nEntry: 0.8165\nTP: 0.833882\nSL: 0.807809",
+    "result": "SL_HIT",
+    "close_price": 0.8076,
+    "closed_at": "2026-09-19 13:01:11"
   }
 ]
