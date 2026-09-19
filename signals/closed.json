@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot11:BNBUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 705.06,
-    "tp": 698.243451,
-    "sl": 708.158431,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.2x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 13:25:15",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 13:25:15\nEntry: 705.06\nTP: 698.243451\nSL: 708.158431",
-    "result": "SL_HIT",
-    "close_price": 709.76,
-    "closed_at": "2026-09-16 14:23:13"
-  },
-  {
     "key": "bot11:STXUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.8414,
     "closed_at": "2026-09-19 20:20:56"
+  },
+  {
+    "key": "BTCUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 81176.01,
+    "tp": 81768.427894,
+    "sl": 80846.888947,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.67 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 06:22:02",
+    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-19 06:22:02\nEntry: 81176.01\nTP: 81768.427894\nSL: 80846.888947",
+    "result": "TP_HIT",
+    "close_price": 81811.31,
+    "closed_at": "2026-09-19 20:46:09"
   }
 ]

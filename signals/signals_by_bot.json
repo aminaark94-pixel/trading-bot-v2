@@ -190,6 +190,22 @@
   ],
   "bot9": [
     {
+      "key": "BTCUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 81811.31,
+      "tp": 82348.955778,
+      "sl": 81512.617901,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 65.69 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 20:46:36",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-19 20:46:36\nEntry: 81811.31\nTP: 82348.955778\nSL: 81512.617901"
+    },
+    {
       "key": "DOGEUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -220,22 +236,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 17:50:32",
       "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-19 17:50:32\nEntry: 769.99\nTP: 776.789183\nSL: 766.212676"
-    },
-    {
-      "key": "BTCUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 81176.01,
-      "tp": 81768.427894,
-      "sl": 80846.888947,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.67 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 06:22:02",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-19 06:22:02\nEntry: 81176.01\nTP: 81768.427894\nSL: 80846.888947"
     }
   ],
   "bot10": [
