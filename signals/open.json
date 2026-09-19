@@ -1,5 +1,37 @@
 [
   {
+    "key": "STXUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2907,
+    "tp": 0.297105,
+    "sl": 0.287498,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 15:03:36",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 15:03:36\nEntry: 0.2907\nTP: 0.297105\nSL: 0.287498"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 0.8357,
+    "tp": 0.852728,
+    "sl": 0.827186,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 15:02:44",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 15:02:44\nEntry: 0.8357\nTP: 0.852728\nSL: 0.827186"
+  },
+  {
     "key": "ETHUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -46,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 14:22:06",
     "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-19 14:22:06\nEntry: 9.0\nTP: 8.812617\nSL: 9.133845"
-  },
-  {
-    "key": "SUIUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "SUIUSDT",
-    "direction": "LONG",
-    "entry": 0.8253,
-    "tp": 0.835803,
-    "sl": 0.816547,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 13:48:50",
-    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 13:48:50\nEntry: 0.8253\nTP: 0.835803\nSL: 0.816547"
   },
   {
     "key": "UNIUSDT",
@@ -142,22 +158,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 12:47:17",
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-19 12:47:17\nEntry: 1.4115\nTP: 1.421119\nSL: 1.405088"
-  },
-  {
-    "key": "STXUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.2862,
-    "tp": 0.290003,
-    "sl": 0.283031,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 12:22:20",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 12:22:20\nEntry: 0.2862\nTP: 0.290003\nSL: 0.283031"
   },
   {
     "key": "INJUSDT",
