@@ -1,5 +1,37 @@
 [
   {
+    "key": "BCHUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "BCHUSDT",
+    "direction": "LONG",
+    "entry": 255.0,
+    "tp": 259.000603,
+    "sl": 252.999698,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 04:32:05",
+    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-20 04:32:05\nEntry: 255.0\nTP: 259.000603\nSL: 252.999698"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 9.967,
+    "tp": 10.341529,
+    "sl": 9.758929,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.11).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 04:31:40",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-20 04:31:40\nEntry: 9.967\nTP: 10.341529\nSL: 9.758929"
+  },
+  {
     "key": "UNIUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
