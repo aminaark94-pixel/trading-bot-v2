@@ -17,22 +17,6 @@
       "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-19 07:22:07\nEntry: 1.146\nTP: 1.165672\nSL: 1.135071"
     },
     {
-      "key": "ADAUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "ADAUSDT",
-      "direction": "LONG",
-      "entry": 0.2298,
-      "tp": 0.234323,
-      "sl": 0.227288,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 68.2).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 07:01:44",
-      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-19 07:01:44\nEntry: 0.2298\nTP: 0.234323\nSL: 0.227288"
-    },
-    {
       "key": "APTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -50,6 +34,22 @@
     }
   ],
   "bot2": [
+    {
+      "key": "ADAUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "ADAUSDT",
+      "direction": "SHORT",
+      "entry": 0.2346,
+      "tp": 0.230726,
+      "sl": 0.237368,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 77.61 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 08:01:37",
+      "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-19 08:01:37\nEntry: 0.2346\nTP: 0.230726\nSL: 0.237368"
+    },
     {
       "key": "RENDERUSDT",
       "bot_id": "bot2",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot2:FILUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.8308,
-    "tp": 0.847281,
-    "sl": 0.819028,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 22.24 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 23:25:29",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-15 23:25:29\nEntry: 0.8308\nTP: 0.847281\nSL: 0.819028",
-    "result": "SL_HIT",
-    "close_price": 0.8151,
-    "closed_at": "2026-09-15 23:51:18"
-  },
-  {
     "key": "bot5:NEARUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 3.895,
     "closed_at": "2026-09-19 07:33:49"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.2298,
+    "tp": 0.234323,
+    "sl": 0.227288,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 68.2).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 07:01:44",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-19 07:01:44\nEntry: 0.2298\nTP: 0.234323\nSL: 0.227288",
+    "result": "TP_HIT",
+    "close_price": 0.2347,
+    "closed_at": "2026-09-19 08:00:56"
   }
 ]
