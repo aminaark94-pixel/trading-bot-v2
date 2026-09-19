@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot12:BNBUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 714.83,
-    "tp": 712.811505,
-    "sl": 716.175664,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 68.62 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 16:50:23",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-16 16:50:23\nEntry: 714.83\nTP: 712.811505\nSL: 716.175664",
-    "result": "TP_HIT",
-    "close_price": 712.52,
-    "closed_at": "2026-09-16 17:55:48"
-  },
-  {
     "key": "bot2:FETUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.566,
     "closed_at": "2026-09-19 23:50:11"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 3.657,
+    "tp": 3.839258,
+    "sl": 3.586901,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 22:32:10",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-19 22:32:10\nEntry: 3.657\nTP: 3.839258\nSL: 3.586901",
+    "result": "SL_HIT",
+    "close_price": 3.572,
+    "closed_at": "2026-09-20 00:01:07"
   }
 ]
