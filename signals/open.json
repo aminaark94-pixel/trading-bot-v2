@@ -1,5 +1,37 @@
 [
   {
+    "key": "RENDERUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "RENDERUSDT",
+    "direction": "LONG",
+    "entry": 1.622,
+    "tp": 1.66938,
+    "sl": 1.600465,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 2.9x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 17:27:20",
+    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-19 17:27:20\nEntry: 1.622\nTP: 1.66938\nSL: 1.600465"
+  },
+  {
+    "key": "XRPUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "XRPUSDT",
+    "direction": "LONG",
+    "entry": 1.431,
+    "tp": 1.460565,
+    "sl": 1.416218,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 17:26:20",
+    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-19 17:26:20\nEntry: 1.431\nTP: 1.460565\nSL: 1.416218"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -14,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 17:02:33",
     "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-19 17:02:33\nEntry: 0.3218\nTP: 0.305236\nSL: 0.330082"
-  },
-  {
-    "key": "RENDERUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "RENDERUSDT",
-    "direction": "LONG",
-    "entry": 1.572,
-    "tp": 1.598583,
-    "sl": 1.558709,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 16:02:41",
-    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-19 16:02:41\nEntry: 1.572\nTP: 1.598583\nSL: 1.558709"
   },
   {
     "key": "SUIUSDT",
@@ -174,22 +190,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 13:35:09",
     "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-19 13:35:09\nEntry: 0.2244\nTP: 0.220169\nSL: 0.22675"
-  },
-  {
-    "key": "INJUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 7.386,
-    "tp": 7.701219,
-    "sl": 7.242719,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 11:39:34",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-19 11:39:34\nEntry: 7.386\nTP: 7.701219\nSL: 7.242719"
   },
   {
     "key": "LTCUSDT",
