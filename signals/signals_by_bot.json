@@ -140,22 +140,6 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "DOGEUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "DOGEUSDT",
-      "direction": "SHORT",
-      "entry": 0.08984,
-      "tp": 0.08777,
-      "sl": 0.090875,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 22:03:05",
-      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-19 22:03:05\nEntry: 0.08984\nTP: 0.08777\nSL: 0.090875"
-    },
-    {
       "key": "LTCUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -291,6 +275,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "UNIUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 8.803,
+      "tp": 8.916345,
+      "sl": 8.727438,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 31.72 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 22:20:52",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-19 22:20:52\nEntry: 8.803\nTP: 8.916345\nSL: 8.727438"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -305,22 +305,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 19:34:32",
       "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-19 19:34:32\nEntry: 7.482\nTP: 7.663968\nSL: 7.360688"
-    },
-    {
-      "key": "UNIUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "UNIUSDT",
-      "direction": "LONG",
-      "entry": 8.931,
-      "tp": 9.090617,
-      "sl": 8.824588,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.28 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 18:47:18",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-19 18:47:18\nEntry: 8.931\nTP: 9.090617\nSL: 8.824588"
     },
     {
       "key": "NEARUSDT",
