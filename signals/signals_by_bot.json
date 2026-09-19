@@ -133,22 +133,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 16:01:43",
       "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-19 16:01:43\nEntry: 1.4193\nTP: 1.430768\nSL: 1.409744"
-    },
-    {
-      "key": "DOGEUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "DOGEUSDT",
-      "direction": "LONG",
-      "entry": 0.08742,
-      "tp": 0.088135,
-      "sl": 0.086824,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 13:35:05",
-      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-19 13:35:05\nEntry: 0.08742\nTP: 0.088135\nSL: 0.086824"
     }
   ],
   "bot5": [
@@ -204,22 +188,6 @@
   "bot6": [],
   "bot7": [],
   "bot8": [
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.2997,
-      "tp": 0.292287,
-      "sl": 0.303407,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 16:02:51",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-19 16:02:51\nEntry: 0.2997\nTP: 0.292287\nSL: 0.303407"
-    },
     {
       "key": "LTCUSDT",
       "bot_id": "bot8",
