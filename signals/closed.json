@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot2:FETUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "FETUSDT",
-    "direction": "SHORT",
-    "entry": 0.1529,
-    "tp": 0.151306,
-    "sl": 0.154038,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 70.09 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 16:50:48",
-    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-16 16:50:48\nEntry: 0.1529\nTP: 0.151306\nSL: 0.154038",
-    "result": "TP_HIT",
-    "close_price": 0.1506,
-    "closed_at": "2026-09-16 18:04:07"
-  },
-  {
     "key": "bot6:ADAUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 3.572,
     "closed_at": "2026-09-20 00:01:07"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 3.565,
+    "tp": 3.619462,
+    "sl": 3.528692,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.6 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 00:02:01",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 00:02:01\nEntry: 3.565\nTP: 3.619462\nSL: 3.528692",
+    "result": "SL_HIT",
+    "close_price": 3.455,
+    "closed_at": "2026-09-20 00:18:23"
   }
 ]
