@@ -85,7 +85,24 @@
       "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-19 11:39:34\nEntry: 7.386\nTP: 7.701219\nSL: 7.242719"
     }
   ],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "STXUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.2862,
+      "tp": 0.290003,
+      "sl": 0.283031,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 12:22:20",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 12:22:20\nEntry: 0.2862\nTP: 0.290003\nSL: 0.283031"
+    }
+  ],
   "bot5": [
     {
       "key": "FILUSDT",
