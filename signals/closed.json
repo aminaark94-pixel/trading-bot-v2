@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot11:BTCUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 75415.01,
-    "tp": 74033.01354,
-    "sl": 76043.190209,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 3.4x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 23:51:51",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-15 23:51:51\nEntry: 75415.01\nTP: 74033.01354\nSL: 76043.190209",
-    "result": "SL_HIT",
-    "close_price": 76108.62,
-    "closed_at": "2026-09-16 00:21:35"
-  },
-  {
     "key": "bot10:BTCUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.4306,
     "closed_at": "2026-09-19 10:33:19"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 58.86,
+    "tp": 57.732768,
+    "sl": 59.423616,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 05:42:08",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-19 05:42:08\nEntry: 58.86\nTP: 57.732768\nSL: 59.423616",
+    "result": "TP_HIT",
+    "close_price": 57.55,
+    "closed_at": "2026-09-19 10:47:45"
   }
 ]
