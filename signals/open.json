@@ -1,5 +1,21 @@
 [
   {
+    "key": "DOGEUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "DOGEUSDT",
+    "direction": "LONG",
+    "entry": 0.09,
+    "tp": 0.092223,
+    "sl": 0.088765,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 60.86 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 22:46:38",
+    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-19 22:46:38\nEntry: 0.09\nTP: 0.092223\nSL: 0.088765"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -96,22 +112,6 @@
     "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-19 22:04:15\nEntry: 1.088\nTP: 1.038008\nSL: 1.123709"
   },
   {
-    "key": "BNBUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BNBUSDT",
-    "direction": "LONG",
-    "entry": 768.45,
-    "tp": 776.459214,
-    "sl": 764.000438,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 51.88 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 22:02:59",
-    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-19 22:02:59\nEntry: 768.45\nTP: 776.459214\nSL: 764.000438"
-  },
-  {
     "key": "SUIUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -126,22 +126,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 21:22:24",
     "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 21:22:24\nEntry: 0.8491\nTP: 0.873893\nSL: 0.835326"
-  },
-  {
-    "key": "BTCUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 81811.31,
-    "tp": 82348.955778,
-    "sl": 81512.617901,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 65.69 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 20:46:36",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-19 20:46:36\nEntry: 81811.31\nTP: 82348.955778\nSL: 81512.617901"
   },
   {
     "key": "LINKUSDT",
