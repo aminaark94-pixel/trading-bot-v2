@@ -1,5 +1,37 @@
 [
   {
+    "key": "POLUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "POLUSDT",
+    "direction": "SHORT",
+    "entry": 0.1064,
+    "tp": 0.104681,
+    "sl": 0.107627,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 70.93 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 19:21:44",
+    "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-19 19:21:44\nEntry: 0.1064\nTP: 0.104681\nSL: 0.107627"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 254.4,
+    "tp": 251.262457,
+    "sl": 256.641101,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 70.61 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 19:21:41",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-19 19:21:41\nEntry: 254.4\nTP: 251.262457\nSL: 256.641101"
+  },
+  {
     "key": "UNIUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
