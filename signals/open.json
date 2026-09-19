@@ -1,21 +1,5 @@
 [
   {
-    "key": "STXUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.3068,
-    "tp": 0.298319,
-    "sl": 0.31104,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 16:34:00",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-19 16:34:00\nEntry: 0.3068\nTP: 0.298319\nSL: 0.31104"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -46,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 16:02:02",
     "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-19 16:02:02\nEntry: 0.8572\nTP: 0.843943\nSL: 0.866669"
-  },
-  {
-    "key": "XRPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.4193,
-    "tp": 1.430768,
-    "sl": 1.409744,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 16:01:43",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-19 16:01:43\nEntry: 1.4193\nTP: 1.430768\nSL: 1.409744"
   },
   {
     "key": "UNIUSDT",
