@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "XRPUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "XRPUSDT",
+      "direction": "LONG",
+      "entry": 1.4294,
+      "tp": 1.455317,
+      "sl": 1.415002,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 63.47).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 10:33:48",
+      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-19 10:33:48\nEntry: 1.4294\nTP: 1.455317\nSL: 1.415002"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -239,20 +255,20 @@
   ],
   "bot9": [
     {
-      "key": "XRPUSDT",
+      "key": "AVAXUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "XRPUSDT",
+      "symbol": "AVAXUSDT",
       "direction": "LONG",
-      "entry": 1.4089,
-      "tp": 1.430478,
-      "sl": 1.396912,
+      "entry": 8.521,
+      "tp": 8.706266,
+      "sl": 8.418075,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 58.39 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 58.3 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-19 06:48:22",
-      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-19 06:48:22\nEntry: 1.4089\nTP: 1.430478\nSL: 1.396912"
+      "timestamp": "2026-09-19 10:33:59",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-19 10:33:59\nEntry: 8.521\nTP: 8.706266\nSL: 8.418075"
     },
     {
       "key": "BTCUSDT",
@@ -308,6 +324,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.281,
+      "tp": 0.282924,
+      "sl": 0.279718,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.33 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 10:34:56",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 10:34:56\nEntry: 0.281\nTP: 0.282924\nSL: 0.279718"
+    },
+    {
       "key": "NEARUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -322,22 +354,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 09:48:19",
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-19 09:48:19\nEntry: 3.677\nTP: 3.754299\nSL: 3.625468"
-    },
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 8.406,
-      "tp": 8.500046,
-      "sl": 8.343303,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.19 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 09:34:56",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-19 09:34:56\nEntry: 8.406\nTP: 8.500046\nSL: 8.343303"
     },
     {
       "key": "ADAUSDT",
