@@ -1,5 +1,21 @@
 [
   {
+    "key": "STXUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.2864,
+    "tp": 0.292688,
+    "sl": 0.283256,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 08:35:41",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 08:35:41\nEntry: 0.2864\nTP: 0.292688\nSL: 0.283256"
+  },
+  {
     "key": "FETUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
