@@ -34,7 +34,24 @@
       "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-20 02:21:37\nEntry: 0.1747\nTP: 0.178048\nSL: 0.172309"
     }
   ],
-  "bot3": [],
+  "bot3": [
+    {
+      "key": "FILUSDT",
+      "bot_id": "bot3",
+      "bot_name": "Breakout Sniper",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 0.9681,
+      "tp": 0.885915,
+      "sl": 1.005457,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "Price broke recent range high/low with ATR volatility expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 03:02:49",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-20 03:02:49\nEntry: 0.9681\nTP: 0.885915\nSL: 1.005457"
+    }
+  ],
   "bot4": [
     {
       "key": "AVAXUSDT",
@@ -105,22 +122,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 02:33:03",
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-20 02:33:03\nEntry: 12.346\nTP: 12.593655\nSL: 12.222173"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 111.06,
-      "tp": 112.389654,
-      "sl": 110.395173,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 23:23:38",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-19 23:23:38\nEntry: 111.06\nTP: 112.389654\nSL: 110.395173"
     },
     {
       "key": "LTCUSDT",
@@ -248,15 +249,31 @@
       "bot_name": "Pullback Pro V3",
       "symbol": "XRPUSDT",
       "direction": "LONG",
-      "entry": 1.4138,
-      "tp": 1.424339,
-      "sl": 1.406774,
+      "entry": 1.4074,
+      "tp": 1.419286,
+      "sl": 1.399475,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 29.92 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.0 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-20 02:20:51",
-      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-20 02:20:51\nEntry: 1.4138\nTP: 1.424339\nSL: 1.406774"
+      "timestamp": "2026-09-20 03:01:41",
+      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-20 03:01:41\nEntry: 1.4074\nTP: 1.419286\nSL: 1.399475"
+    },
+    {
+      "key": "BNBUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BNBUSDT",
+      "direction": "LONG",
+      "entry": 759.36,
+      "tp": 761.956127,
+      "sl": 757.629249,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.59 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 03:01:39",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-20 03:01:39\nEntry: 759.36\nTP: 761.956127\nSL: 757.629249"
     },
     {
       "key": "ETHUSDT",
@@ -273,22 +290,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 02:20:43",
       "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-20 02:20:43\nEntry: 2622.6\nTP: 2632.650999\nSL: 2615.899334"
-    },
-    {
-      "key": "FILUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "FILUSDT",
-      "direction": "LONG",
-      "entry": 1.02,
-      "tp": 1.049813,
-      "sl": 1.000125,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.21 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 01:22:50",
-      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-20 01:22:50\nEntry: 1.02\nTP: 1.049813\nSL: 1.000125"
     }
   ]
 }
