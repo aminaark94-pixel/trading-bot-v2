@@ -105,7 +105,7 @@
     "total": 14,
     "win_rate": 64.3
   },
-  "last_run": "2026-09-19T20:03:11.093598+00:00",
+  "last_run": "2026-09-19T20:23:04.022976+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
