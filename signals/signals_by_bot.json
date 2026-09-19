@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 8.533,
+      "tp": 8.73493,
+      "sl": 8.420816,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 62.36).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 08:22:38",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-19 08:22:38\nEntry: 8.533\nTP: 8.73493\nSL: 8.420816"
+    },
+    {
       "key": "DOTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -83,24 +99,7 @@
       "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-19 00:20:42\nEntry: 2630.47\nTP: 2597.957256\nSL: 2653.693389"
     }
   ],
-  "bot3": [
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot3",
-      "bot_name": "Breakout Sniper",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 8.646,
-      "tp": 8.849947,
-      "sl": 8.553297,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "Price broke recent range high/low with ATR volatility expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 06:48:31",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-19 06:48:31\nEntry: 8.646\nTP: 8.849947\nSL: 8.553297"
-    }
-  ],
+  "bot3": [],
   "bot4": [
     {
       "key": "SUIUSDT",
@@ -322,22 +321,6 @@
   ],
   "bot10": [
     {
-      "key": "NEARUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 3.909,
-      "tp": 4.11348,
-      "sl": 3.80676,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 07:34:40",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-19 07:34:40\nEntry: 3.909\nTP: 4.11348\nSL: 3.80676"
-    },
-    {
       "key": "SOLUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -371,5 +354,22 @@
     }
   ],
   "bot11": [],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "FETUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "FETUSDT",
+      "direction": "LONG",
+      "entry": 0.1821,
+      "tp": 0.183785,
+      "sl": 0.180977,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.98 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 08:23:23",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-19 08:23:23\nEntry: 0.1821\nTP: 0.183785\nSL: 0.180977"
+    }
+  ]
 }
