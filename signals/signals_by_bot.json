@@ -156,6 +156,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "AVAXUSDT",
+      "direction": "SHORT",
+      "entry": 9.454,
+      "tp": 8.976951,
+      "sl": 9.692525,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 21:01:34",
+      "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-19 21:01:34\nEntry: 9.454\nTP: 8.976951\nSL: 9.692525"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -220,22 +236,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 17:50:38",
       "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-19 17:50:38\nEntry: 0.08846\nTP: 0.089787\nSL: 0.087723"
-    },
-    {
-      "key": "BNBUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BNBUSDT",
-      "direction": "LONG",
-      "entry": 769.99,
-      "tp": 776.789183,
-      "sl": 766.212676,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 68.28 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 17:50:32",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-19 17:50:32\nEntry: 769.99\nTP: 776.789183\nSL: 766.212676"
     }
   ],
   "bot10": [
