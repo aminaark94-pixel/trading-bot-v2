@@ -353,22 +353,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 23:01:40",
       "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-19 23:01:40\nEntry: 81497.01\nTP: 81673.33375\nSL: 81379.460833"
-    },
-    {
-      "key": "RENDERUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "RENDERUSDT",
-      "direction": "LONG",
-      "entry": 1.579,
-      "tp": 1.59793,
-      "sl": 1.56638,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.86 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 22:32:41",
-      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-19 22:32:41\nEntry: 1.579\nTP: 1.59793\nSL: 1.56638"
     }
   ]
 }
