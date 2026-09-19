@@ -19,20 +19,20 @@
   ],
   "bot2": [
     {
-      "key": "LTCUSDT",
+      "key": "XRPUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "symbol": "LTCUSDT",
+      "symbol": "XRPUSDT",
       "direction": "SHORT",
-      "entry": 58.22,
-      "tp": 57.483365,
-      "sl": 58.746168,
-      "score": 85,
+      "entry": 1.4195,
+      "tp": 1.401192,
+      "sl": 1.432578,
+      "score": 74,
       "provider": "Technical",
-      "reason": "RSI 76.9 extreme + price at Bollinger Band edge.",
+      "reason": "RSI 71.03 extreme + price at Bollinger Band edge.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-19 05:02:25",
-      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-19 05:02:25\nEntry: 58.22\nTP: 57.483365\nSL: 58.746168"
+      "timestamp": "2026-09-19 05:41:31",
+      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-19 05:41:31\nEntry: 1.4195\nTP: 1.401192\nSL: 1.432578"
     },
     {
       "key": "ETHUSDT",
@@ -189,6 +189,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "LTCUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "LTCUSDT",
+      "direction": "SHORT",
+      "entry": 58.86,
+      "tp": 57.732768,
+      "sl": 59.423616,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 05:42:08",
+      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-19 05:42:08\nEntry: 58.86\nTP: 57.732768\nSL: 59.423616"
+    },
+    {
       "key": "POLUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -203,22 +219,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 05:29:30",
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-19 05:29:30\nEntry: 0.10489\nTP: 0.108961\nSL: 0.102855"
-    },
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "SUIUSDT",
-      "direction": "SHORT",
-      "entry": 0.82,
-      "tp": 0.802129,
-      "sl": 0.828936,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 03:01:54",
-      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-19 03:01:54\nEntry: 0.82\nTP: 0.802129\nSL: 0.828936"
     },
     {
       "key": "INJUSDT",
@@ -238,6 +238,22 @@
     }
   ],
   "bot9": [
+    {
+      "key": "AVAXUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 8.291,
+      "tp": 8.40383,
+      "sl": 8.228317,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 65.82 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 05:41:44",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-19 05:41:44\nEntry: 8.291\nTP: 8.40383\nSL: 8.228317"
+    },
     {
       "key": "BNBUSDT",
       "bot_id": "bot9",
@@ -323,54 +339,21 @@
   ],
   "bot11": [
     {
-      "key": "APTUSDT",
+      "key": "FILUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "symbol": "APTUSDT",
+      "symbol": "FILUSDT",
       "direction": "LONG",
-      "entry": 0.72,
-      "tp": 0.755419,
-      "sl": 0.703901,
+      "entry": 0.9691,
+      "tp": 1.008314,
+      "sl": 0.951275,
       "score": 78,
       "provider": "Technical",
-      "reason": "20-period range breakout with 3.3x volume spike.",
+      "reason": "20-period range breakout with 2.0x volume spike.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-19 01:22:37",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-19 01:22:37\nEntry: 0.72\nTP: 0.755419\nSL: 0.703901"
+      "timestamp": "2026-09-19 05:42:48",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-19 05:42:48\nEntry: 0.9691\nTP: 1.008314\nSL: 0.951275"
     }
   ],
-  "bot12": [
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 8.208,
-      "tp": 8.256047,
-      "sl": 8.175968,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.82 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 04:02:01",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-19 04:02:01\nEntry: 8.208\nTP: 8.256047\nSL: 8.175968"
-    },
-    {
-      "key": "DOTUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "DOTUSDT",
-      "direction": "LONG",
-      "entry": 1.128,
-      "tp": 1.139341,
-      "sl": 1.120439,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.28 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 03:47:04",
-      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-19 03:47:04\nEntry: 1.128\nTP: 1.139341\nSL: 1.120439"
-    }
-  ]
+  "bot12": []
 }
