@@ -206,6 +206,22 @@
   ],
   "bot9": [
     {
+      "key": "SUIUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 0.8491,
+      "tp": 0.873893,
+      "sl": 0.835326,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 55.84 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 21:22:24",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 21:22:24\nEntry: 0.8491\nTP: 0.873893\nSL: 0.835326"
+    },
+    {
       "key": "BTCUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
