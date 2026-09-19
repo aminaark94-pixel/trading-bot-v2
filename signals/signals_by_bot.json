@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "APTUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "APTUSDT",
+      "direction": "LONG",
+      "entry": 0.75,
+      "tp": 0.790759,
+      "sl": 0.727355,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 68.78).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 05:51:40",
+      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-19 05:51:40\nEntry: 0.75\nTP: 0.790759\nSL: 0.727355"
+    },
+    {
       "key": "ADAUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
