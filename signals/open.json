@@ -1,5 +1,37 @@
 [
   {
+    "key": "DOGEUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "DOGEUSDT",
+    "direction": "LONG",
+    "entry": 0.08846,
+    "tp": 0.089787,
+    "sl": 0.087723,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 64.52 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 17:50:38",
+    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-19 17:50:38\nEntry: 0.08846\nTP: 0.089787\nSL: 0.087723"
+  },
+  {
+    "key": "BNBUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "BNBUSDT",
+    "direction": "LONG",
+    "entry": 769.99,
+    "tp": 776.789183,
+    "sl": 766.212676,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 68.28 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 17:50:32",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-19 17:50:32\nEntry: 769.99\nTP: 776.789183\nSL: 766.212676"
+  },
+  {
     "key": "NEARUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -192,22 +224,6 @@
     "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-19 14:22:43\nEntry: 0.1823\nTP: 0.186064\nSL: 0.180209"
   },
   {
-    "key": "ADAUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "ADAUSDT",
-    "direction": "SHORT",
-    "entry": 0.2244,
-    "tp": 0.220169,
-    "sl": 0.22675,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 47.45 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 13:35:09",
-    "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-19 13:35:09\nEntry: 0.2244\nTP: 0.220169\nSL: 0.22675"
-  },
-  {
     "key": "LTCUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -302,22 +318,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-19 00:32:56",
     "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-19 00:32:56\nEntry: 2.858\nTP: 2.943923\nSL: 2.824952"
-  },
-  {
-    "key": "BNBUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BNBUSDT",
-    "direction": "LONG",
-    "entry": 759.47,
-    "tp": 769.380099,
-    "sl": 753.964389,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 70.19 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:49:21",
-    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-18 18:49:21\nEntry: 759.47\nTP: 769.380099\nSL: 753.964389"
   },
   {
     "key": "TIAUSDT",
