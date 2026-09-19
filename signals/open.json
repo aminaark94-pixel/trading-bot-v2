@@ -208,22 +208,6 @@
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-19 11:01:48\nEntry: 111.87\nTP: 113.305794\nSL: 111.152103"
   },
   {
-    "key": "FETUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "FETUSDT",
-    "direction": "LONG",
-    "entry": 0.1776,
-    "tp": 0.180433,
-    "sl": 0.175576,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 23.34 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 09:48:36",
-    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-19 09:48:36\nEntry: 0.1776\nTP: 0.180433\nSL: 0.175576"
-  },
-  {
     "key": "NEARUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:ETHUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2388.73,
-    "tp": 2361.046669,
-    "sl": 2411.799443,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 03:01:45",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-16 03:01:45\nEntry: 2388.73\nTP: 2361.046669\nSL: 2411.799443",
-    "result": "SL_HIT",
-    "close_price": 2412.17,
-    "closed_at": "2026-09-16 04:22:36"
-  },
-  {
     "key": "bot12:BTCUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 2654.73,
     "closed_at": "2026-09-19 13:36:22"
+  },
+  {
+    "key": "FETUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "FETUSDT",
+    "direction": "LONG",
+    "entry": 0.1776,
+    "tp": 0.180433,
+    "sl": 0.175576,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 23.34 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 09:48:36",
+    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-19 09:48:36\nEntry: 0.1776\nTP: 0.180433\nSL: 0.175576",
+    "result": "TP_HIT",
+    "close_price": 0.1805,
+    "closed_at": "2026-09-19 14:01:03"
   }
 ]
