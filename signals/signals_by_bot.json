@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "DOTUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "DOTUSDT",
+      "direction": "LONG",
+      "entry": 1.125,
+      "tp": 1.142512,
+      "sl": 1.115271,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 53.5).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 15:47:03",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-19 15:47:03\nEntry: 1.125\nTP: 1.142512\nSL: 1.115271"
+    },
+    {
       "key": "ETHUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -31,22 +47,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 14:22:43",
       "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-19 14:22:43\nEntry: 0.1823\nTP: 0.186064\nSL: 0.180209"
-    },
-    {
-      "key": "UNIUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "UNIUSDT",
-      "direction": "LONG",
-      "entry": 9.324,
-      "tp": 9.670202,
-      "sl": 9.131666,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 64.26).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 13:35:49",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-19 13:35:49\nEntry: 9.324\nTP: 9.670202\nSL: 9.131666"
     }
   ],
   "bot2": [
@@ -307,6 +307,22 @@
   ],
   "bot11": [],
   "bot12": [
+    {
+      "key": "UNIUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 9.117,
+      "tp": 9.249548,
+      "sl": 9.028635,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.12 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 15:47:25",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-19 15:47:25\nEntry: 9.117\nTP: 9.249548\nSL: 9.028635"
+    },
     {
       "key": "NEARUSDT",
       "bot_id": "bot12",

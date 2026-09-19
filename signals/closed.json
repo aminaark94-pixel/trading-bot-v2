@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot12:STXUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.2394,
-    "tp": 0.237107,
-    "sl": 0.240928,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.72 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 07:03:13",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-16 07:03:13\nEntry: 0.2394\nTP: 0.237107\nSL: 0.240928",
-    "result": "SL_HIT",
-    "close_price": 0.2434,
-    "closed_at": "2026-09-16 09:23:27"
-  },
-  {
     "key": "bot4:LTCUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.4217,
     "closed_at": "2026-09-19 15:35:09"
+  },
+  {
+    "key": "UNIUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 9.324,
+    "tp": 9.670202,
+    "sl": 9.131666,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 64.26).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 13:35:49",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-19 13:35:49\nEntry: 9.324\nTP: 9.670202\nSL: 9.131666",
+    "result": "SL_HIT",
+    "close_price": 9.124,
+    "closed_at": "2026-09-19 15:46:21"
   }
 ]
