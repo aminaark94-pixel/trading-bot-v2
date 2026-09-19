@@ -1,5 +1,21 @@
 [
   {
+    "key": "INJUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "INJUSDT",
+    "direction": "SHORT",
+    "entry": 7.885,
+    "tp": 7.580766,
+    "sl": 8.138529,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 04:47:24",
+    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-20 04:47:24\nEntry: 7.885\nTP: 7.580766\nSL: 8.138529"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -78,22 +94,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 04:19:38",
     "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-20 04:19:38\nEntry: 81266.0\nTP: 80842.624263\nSL: 81477.687869"
-  },
-  {
-    "key": "INJUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 8.13,
-    "tp": 8.529774,
-    "sl": 7.907903,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 67.13).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 04:02:34",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 04:02:34\nEntry: 8.13\nTP: 8.529774\nSL: 7.907903"
   },
   {
     "key": "APTUSDT",

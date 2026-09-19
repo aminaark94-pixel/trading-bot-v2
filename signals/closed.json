@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot11:DOTUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 0.967,
-    "tp": 0.987338,
-    "sl": 0.957755,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.8x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 17:02:24",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-16 17:02:24\nEntry: 0.967\nTP: 0.987338\nSL: 0.957755",
-    "result": "TP_HIT",
-    "close_price": 0.988,
-    "closed_at": "2026-09-17 00:47:33"
-  },
-  {
     "key": "FETUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 9.913,
     "closed_at": "2026-09-20 04:21:07"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 8.13,
+    "tp": 8.529774,
+    "sl": 7.907903,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 67.13).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 04:02:34",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 04:02:34\nEntry: 8.13\nTP: 8.529774\nSL: 7.907903",
+    "result": "SL_HIT",
+    "close_price": 7.904,
+    "closed_at": "2026-09-20 04:45:51"
   }
 ]
