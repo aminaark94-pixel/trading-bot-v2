@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot4:STXUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.2349,
-    "tp": 0.238541,
-    "sl": 0.231866,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 05:02:47",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-16 05:02:47\nEntry: 0.2349\nTP: 0.238541\nSL: 0.231866",
-    "result": "TP_HIT",
-    "close_price": 0.239,
-    "closed_at": "2026-09-16 06:33:26"
-  },
-  {
     "key": "bot12:UNIUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 8.997,
     "closed_at": "2026-09-19 14:21:31"
+  },
+  {
+    "key": "ETHUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 2649.6,
+    "tp": 2674.156206,
+    "sl": 2635.957663,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 70.58).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 13:48:18",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-19 13:48:18\nEntry: 2649.6\nTP: 2674.156206\nSL: 2635.957663",
+    "result": "SL_HIT",
+    "close_price": 2634.0,
+    "closed_at": "2026-09-19 14:35:39"
   }
 ]

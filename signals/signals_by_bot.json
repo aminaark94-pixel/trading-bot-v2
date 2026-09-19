@@ -17,22 +17,6 @@
       "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-19 14:22:43\nEntry: 0.1823\nTP: 0.186064\nSL: 0.180209"
     },
     {
-      "key": "ETHUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2649.6,
-      "tp": 2674.156206,
-      "sl": 2635.957663,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 70.58).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 13:48:18",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-19 13:48:18\nEntry: 2649.6\nTP: 2674.156206\nSL: 2635.957663"
-    },
-    {
       "key": "UNIUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
