@@ -51,6 +51,22 @@
   ],
   "bot2": [
     {
+      "key": "SUIUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "SUIUSDT",
+      "direction": "SHORT",
+      "entry": 0.8797,
+      "tp": 0.861351,
+      "sl": 0.892807,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 73.51 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 00:46:57",
+      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-20 00:46:57\nEntry: 0.8797\nTP: 0.861351\nSL: 0.892807"
+    },
+    {
       "key": "UNIUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -222,6 +238,22 @@
   ],
   "bot9": [
     {
+      "key": "NEARUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "NEARUSDT",
+      "direction": "SHORT",
+      "entry": 3.518,
+      "tp": 3.373229,
+      "sl": 3.598428,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 38.75 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 00:47:05",
+      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-20 00:47:05\nEntry: 3.518\nTP: 3.373229\nSL: 3.598428"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -252,22 +284,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 22:46:38",
       "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-19 22:46:38\nEntry: 0.09\nTP: 0.092223\nSL: 0.088765"
-    },
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "SUIUSDT",
-      "direction": "LONG",
-      "entry": 0.8491,
-      "tp": 0.873893,
-      "sl": 0.835326,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 55.84 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 21:22:24",
-      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-19 21:22:24\nEntry: 0.8491\nTP: 0.873893\nSL: 0.835326"
     }
   ],
   "bot10": [
@@ -323,6 +339,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "BTCUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 81348.0,
+      "tp": 81485.421737,
+      "sl": 81256.385509,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.74 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 00:46:38",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 00:46:38\nEntry: 81348.0\nTP: 81485.421737\nSL: 81256.385509"
+    },
+    {
       "key": "FETUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -353,22 +385,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 23:36:25",
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-19 23:36:25\nEntry: 0.10451\nTP: 0.105203\nSL: 0.104048"
-    },
-    {
-      "key": "BTCUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 81497.01,
-      "tp": 81673.33375,
-      "sl": 81379.460833,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.71 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 23:01:40",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-19 23:01:40\nEntry: 81497.01\nTP: 81673.33375\nSL: 81379.460833"
     }
   ]
 }
