@@ -322,6 +322,22 @@
   ],
   "bot10": [
     {
+      "key": "NEARUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 3.909,
+      "tp": 4.11348,
+      "sl": 3.80676,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 07:34:40",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-19 07:34:40\nEntry: 3.909\nTP: 4.11348\nSL: 3.80676"
+    },
+    {
       "key": "SOLUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -352,22 +368,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-18 20:35:10",
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-18 20:35:10\nEntry: 12.192\nTP: 12.527121\nSL: 12.024439"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 3.626,
-      "tp": 3.867619,
-      "sl": 3.505191,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-18 18:22:42",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 18:22:42\nEntry: 3.626\nTP: 3.867619\nSL: 3.505191"
     }
   ],
   "bot11": [],

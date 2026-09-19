@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot10:ETHUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2423.37,
-    "tp": 2382.012861,
-    "sl": 2444.048569,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 23:36:59",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-15 23:36:59\nEntry: 2423.37\nTP: 2382.012861\nSL: 2444.048569",
-    "result": "TP_HIT",
-    "close_price": 2377.81,
-    "closed_at": "2026-09-15 23:51:18"
-  },
-  {
     "key": "bot2:FILUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.2293,
     "closed_at": "2026-09-19 07:01:11"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 3.626,
+    "tp": 3.867619,
+    "sl": 3.505191,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-18 18:22:42",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-18 18:22:42\nEntry: 3.626\nTP: 3.867619\nSL: 3.505191",
+    "result": "TP_HIT",
+    "close_price": 3.895,
+    "closed_at": "2026-09-19 07:33:49"
   }
 ]
