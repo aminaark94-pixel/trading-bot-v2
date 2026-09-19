@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot2:STXUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.2298,
-    "tp": 0.233774,
-    "sl": 0.226961,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 27.43 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 22:22:18",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-16 22:22:18\nEntry: 0.2298\nTP: 0.233774\nSL: 0.226961",
-    "result": "TP_HIT",
-    "close_price": 0.2339,
-    "closed_at": "2026-09-16 23:51:18"
-  },
-  {
     "key": "bot4:BNBUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 110.29,
     "closed_at": "2026-09-20 03:02:54"
+  },
+  {
+    "key": "UNIUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "UNIUSDT",
+    "direction": "SHORT",
+    "entry": 8.483,
+    "tp": 8.185833,
+    "sl": 8.618077,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 2.7x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 02:21:29",
+    "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-20 02:21:29\nEntry: 8.483\nTP: 8.185833\nSL: 8.618077",
+    "result": "SL_HIT",
+    "close_price": 8.622,
+    "closed_at": "2026-09-20 03:47:51"
   }
 ]

@@ -54,6 +54,22 @@
   ],
   "bot4": [
     {
+      "key": "POLUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.10446,
+      "tp": 0.10559,
+      "sl": 0.103518,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 03:47:16",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-20 03:47:16\nEntry: 0.10446\nTP: 0.10559\nSL: 0.103518"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -224,24 +240,7 @@
       "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-19 18:46:45\nEntry: 0.2269\nTP: 0.231934\nSL: 0.224382"
     }
   ],
-  "bot11": [
-    {
-      "key": "UNIUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "UNIUSDT",
-      "direction": "SHORT",
-      "entry": 8.483,
-      "tp": 8.185833,
-      "sl": 8.618077,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.7x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 02:21:29",
-      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-20 02:21:29\nEntry: 8.483\nTP: 8.185833\nSL: 8.618077"
-    }
-  ],
+  "bot11": [],
   "bot12": [
     {
       "key": "XRPUSDT",
