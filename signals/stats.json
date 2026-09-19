@@ -4,17 +4,17 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 38,
-      "losses": 55,
-      "total": 93,
-      "win_rate": 40.9
+      "losses": 57,
+      "total": 95,
+      "win_rate": 40.0
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 48,
-      "losses": 84,
-      "total": 132,
-      "win_rate": 36.4
+      "wins": 49,
+      "losses": 85,
+      "total": 134,
+      "win_rate": 36.6
     },
     {
       "bot_id": "bot3",
@@ -27,10 +27,10 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 62,
-      "losses": 84,
-      "total": 146,
-      "win_rate": 42.5
+      "wins": 63,
+      "losses": 85,
+      "total": 148,
+      "win_rate": 42.6
     },
     {
       "bot_id": "bot5",
@@ -60,25 +60,25 @@
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
       "wins": 26,
-      "losses": 74,
-      "total": 100,
-      "win_rate": 26.0
+      "losses": 75,
+      "total": 101,
+      "win_rate": 25.7
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "wins": 53,
-      "losses": 60,
-      "total": 113,
-      "win_rate": 46.9
+      "losses": 61,
+      "total": 114,
+      "win_rate": 46.5
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
       "wins": 40,
-      "losses": 58,
-      "total": 98,
-      "win_rate": 40.8
+      "losses": 60,
+      "total": 100,
+      "win_rate": 40.0
     },
     {
       "bot_id": "bot11",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 113,
-      "losses": 130,
-      "total": 243,
-      "win_rate": 46.5
+      "losses": 132,
+      "total": 245,
+      "win_rate": 46.1
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 14,
     "win_rate": 64.3
   },
-  "last_run": "2026-09-19T21:03:17.904294+00:00",
+  "last_run": "2026-09-19T21:22:12.459465+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
