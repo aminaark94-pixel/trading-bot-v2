@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot12:BTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 75863.72,
-    "tp": 75661.404372,
-    "sl": 75998.597086,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.38 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 14:23:49",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-16 14:23:49\nEntry: 75863.72\nTP: 75661.404372\nSL: 75998.597086",
-    "result": "SL_HIT",
-    "close_price": 76042.01,
-    "closed_at": "2026-09-16 15:01:08"
-  },
-  {
     "key": "bot1:RENDERUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 766.08,
     "closed_at": "2026-09-19 21:02:37"
+  },
+  {
+    "key": "FILUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.9545,
+    "tp": 1.000699,
+    "sl": 0.936731,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 06:23:09",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-19 06:23:09\nEntry: 0.9545\nTP: 1.000699\nSL: 0.936731",
+    "result": "TP_HIT",
+    "close_price": 1.0054,
+    "closed_at": "2026-09-19 21:35:17"
   }
 ]

@@ -288,22 +288,6 @@
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-19 11:01:48\nEntry: 111.87\nTP: 113.305794\nSL: 111.152103"
   },
   {
-    "key": "FILUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9545,
-    "tp": 1.000699,
-    "sl": 0.936731,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 06:23:09",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-19 06:23:09\nEntry: 0.9545\nTP: 1.000699\nSL: 0.936731"
-  },
-  {
     "key": "ICPUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
