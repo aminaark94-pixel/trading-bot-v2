@@ -1,22 +1,6 @@
 {
   "bot1": [
     {
-      "key": "INJUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "INJUSDT",
-      "direction": "LONG",
-      "entry": 7.034,
-      "tp": 7.244997,
-      "sl": 6.916779,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 68.76).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 11:02:53",
-      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-19 11:02:53\nEntry: 7.034\nTP: 7.244997\nSL: 6.916779"
-    },
-    {
       "key": "XRPUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -83,7 +67,24 @@
       "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-19 00:20:42\nEntry: 2630.47\nTP: 2597.957256\nSL: 2653.693389"
     }
   ],
-  "bot3": [],
+  "bot3": [
+    {
+      "key": "INJUSDT",
+      "bot_id": "bot3",
+      "bot_name": "Breakout Sniper",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 7.386,
+      "tp": 7.701219,
+      "sl": 7.242719,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "Price broke recent range high/low with ATR volatility expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 11:39:34",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-19 11:39:34\nEntry: 7.386\nTP: 7.701219\nSL: 7.242719"
+    }
+  ],
   "bot4": [],
   "bot5": [
     {
@@ -155,6 +156,22 @@
   ],
   "bot7": [],
   "bot8": [
+    {
+      "key": "LTCUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 57.26,
+      "tp": 58.334756,
+      "sl": 56.722622,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-19 11:39:06",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-19 11:39:06\nEntry: 57.26\nTP: 58.334756\nSL: 56.722622"
+    },
     {
       "key": "SUIUSDT",
       "bot_id": "bot8",
@@ -258,22 +275,6 @@
   ],
   "bot11": [
     {
-      "key": "STXUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.278,
-      "tp": 0.271816,
-      "sl": 0.280811,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.5x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 11:27:39",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-19 11:27:39\nEntry: 0.278\nTP: 0.271816\nSL: 0.280811"
-    },
-    {
       "key": "DOTUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -306,22 +307,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-19 11:27:28",
       "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-19 11:27:28\nEntry: 1.537\nTP: 1.550732\nSL: 1.527845"
-    },
-    {
-      "key": "DOGEUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "DOGEUSDT",
-      "direction": "LONG",
-      "entry": 0.08687,
-      "tp": 0.087354,
-      "sl": 0.086547,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 28.02 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-19 11:26:44",
-      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-19 11:26:44\nEntry: 0.08687\nTP: 0.087354\nSL: 0.086547"
     },
     {
       "key": "NEARUSDT",
