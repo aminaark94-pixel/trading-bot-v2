@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot3:INJUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "INJUSDT",
-    "direction": "SHORT",
-    "entry": 5.603,
-    "tp": 5.354923,
-    "sl": 5.715761,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-15 19:52:16",
-    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-15 19:52:16\nEntry: 5.603\nTP: 5.354923\nSL: 5.715761",
-    "result": "TP_HIT",
-    "close_price": 5.354,
-    "closed_at": "2026-09-16 13:26:32"
-  },
-  {
     "key": "bot12:POLUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.6,
     "closed_at": "2026-09-19 19:33:08"
+  },
+  {
+    "key": "STXUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "STXUSDT",
+    "direction": "SHORT",
+    "entry": 0.3218,
+    "tp": 0.305236,
+    "sl": 0.330082,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-19 17:02:33",
+    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-19 17:02:33\nEntry: 0.3218\nTP: 0.305236\nSL: 0.330082",
+    "result": "TP_HIT",
+    "close_price": 0.304,
+    "closed_at": "2026-09-19 20:00:56"
   }
 ]
