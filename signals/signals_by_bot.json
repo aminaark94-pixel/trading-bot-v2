@@ -307,6 +307,38 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "RENDERUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 1.566,
+      "tp": 1.580035,
+      "sl": 1.556644,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.87 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 01:35:14",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-20 01:35:14\nEntry: 1.566\nTP: 1.580035\nSL: 1.556644"
+    },
+    {
+      "key": "BTCUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 81246.77,
+      "tp": 81387.947744,
+      "sl": 81152.651504,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.39 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 01:34:12",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 01:34:12\nEntry: 81246.77\nTP: 81387.947744\nSL: 81152.651504"
+    },
+    {
       "key": "FILUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -321,38 +353,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 01:22:50",
       "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-20 01:22:50\nEntry: 1.02\nTP: 1.049813\nSL: 1.000125"
-    },
-    {
-      "key": "BTCUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 81348.0,
-      "tp": 81485.421737,
-      "sl": 81256.385509,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.74 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 00:46:38",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 00:46:38\nEntry: 81348.0\nTP: 81485.421737\nSL: 81256.385509"
-    },
-    {
-      "key": "FETUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "FETUSDT",
-      "direction": "LONG",
-      "entry": 0.1786,
-      "tp": 0.180644,
-      "sl": 0.177237,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.25 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 00:19:47",
-      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-20 00:19:47\nEntry: 0.1786\nTP: 0.180644\nSL: 0.177237"
     }
   ]
 }
