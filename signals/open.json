@@ -160,22 +160,6 @@
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-19 17:26:20\nEntry: 1.431\nTP: 1.460565\nSL: 1.416218"
   },
   {
-    "key": "SUIUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "SUIUSDT",
-    "direction": "SHORT",
-    "entry": 0.8572,
-    "tp": 0.843943,
-    "sl": 0.866669,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 79.26 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 16:02:02",
-    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-19 16:02:02\nEntry: 0.8572\nTP: 0.843943\nSL: 0.866669"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
