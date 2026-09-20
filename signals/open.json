@@ -112,22 +112,6 @@
     "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 13:49:19\nEntry: 7.704\nTP: 8.0007\nSL: 7.539166"
   },
   {
-    "key": "SOLUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 107.95,
-    "tp": 107.215415,
-    "sl": 108.562155,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 13:48:13",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-20 13:48:13\nEntry: 107.95\nTP: 107.215415\nSL: 108.562155"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -254,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 08:01:13",
     "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-20 08:01:13\nEntry: 2576.81\nTP: 2596.725906\nSL: 2562.584353"
-  },
-  {
-    "key": "BTCUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 80406.27,
-    "tp": 80734.186871,
-    "sl": 80172.043664,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 24.44 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 08:01:09",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 08:01:09\nEntry: 80406.27\nTP: 80734.186871\nSL: 80172.043664"
   },
   {
     "key": "ADAUSDT",
