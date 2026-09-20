@@ -3,18 +3,18 @@
     {
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "wins": 43,
+      "wins": 44,
       "losses": 66,
-      "total": 109,
-      "win_rate": 39.4
+      "total": 110,
+      "win_rate": 40.0
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "wins": 56,
-      "losses": 91,
-      "total": 147,
-      "win_rate": 38.1
+      "losses": 92,
+      "total": 148,
+      "win_rate": 37.8
     },
     {
       "bot_id": "bot3",
@@ -27,26 +27,26 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 66,
+      "wins": 68,
       "losses": 94,
-      "total": 160,
-      "win_rate": 41.2
+      "total": 162,
+      "win_rate": 42.0
     },
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "wins": 19,
+      "wins": 20,
       "losses": 38,
-      "total": 57,
-      "win_rate": 33.3
+      "total": 58,
+      "win_rate": 34.5
     },
     {
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
-      "wins": 20,
+      "wins": 21,
       "losses": 36,
-      "total": 56,
-      "win_rate": 35.7
+      "total": 57,
+      "win_rate": 36.8
     },
     {
       "bot_id": "bot7",
@@ -59,10 +59,10 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 27,
+      "wins": 28,
       "losses": 80,
-      "total": 107,
-      "win_rate": 25.2
+      "total": 108,
+      "win_rate": 25.9
     },
     {
       "bot_id": "bot9",
@@ -83,10 +83,10 @@
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 34,
+      "wins": 35,
       "losses": 41,
-      "total": 75,
-      "win_rate": 45.3
+      "total": 76,
+      "win_rate": 46.1
     },
     {
       "bot_id": "bot12",
@@ -105,7 +105,7 @@
     "total": 14,
     "win_rate": 64.3
   },
-  "last_run": "2026-09-20T16:23:43.660662+00:00",
+  "last_run": "2026-09-20T16:35:52.281567+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
