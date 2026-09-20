@@ -1,24 +1,5 @@
 [
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "LTCUSDT",
-    "direction": "SHORT",
-    "entry": 52.73,
-    "tp": 52.181885,
-    "sl": 53.004057,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 12:51:04",
-    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-17 12:51:04\nEntry: 52.73\nTP: 52.181885\nSL: 53.004057",
-    "result": "SL_HIT",
-    "close_price": 53.01,
-    "closed_at": "2026-09-17 17:28:03"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 7.761,
     "closed_at": "2026-09-20 13:35:56"
+  },
+  {
+    "key": "SOLUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 108.82,
+    "tp": 109.836694,
+    "sl": 107.972755,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 09:48:28",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-20 09:48:28\nEntry: 108.82\nTP: 109.836694\nSL: 107.972755",
+    "result": "SL_HIT",
+    "close_price": 107.94,
+    "closed_at": "2026-09-20 13:47:52"
   }
 ]
