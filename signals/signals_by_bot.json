@@ -151,42 +151,9 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 05:45:24",
       "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 05:45:24\nEntry: 8.16\nTP: 8.835737\nSL: 7.900101"
-    },
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.3097,
-      "tp": 0.325281,
-      "sl": 0.303707,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 00:32:42",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-20 00:32:42\nEntry: 0.3097\nTP: 0.325281\nSL: 0.303707"
     }
   ],
-  "bot6": [
-    {
-      "key": "BNBUSDT",
-      "bot_id": "bot6",
-      "bot_name": "Pullback Hunter (Bot C)",
-      "symbol": "BNBUSDT",
-      "direction": "LONG",
-      "entry": 763.08,
-      "tp": 767.567851,
-      "sl": 760.275094,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "1H trend UP (+0.93% EMA20/50 gap) + RSI 53.31 pullback zone, confirmed by 15m volume contraction->expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 05:44:18",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-20 05:44:18\nEntry: 763.08\nTP: 767.567851\nSL: 760.275094"
-    }
-  ],
+  "bot6": [],
   "bot7": [],
   "bot8": [
     {
