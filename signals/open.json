@@ -1,19 +1,19 @@
 [
   {
     "key": "RENDERUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
     "symbol": "RENDERUSDT",
     "direction": "SHORT",
-    "entry": 1.548,
-    "tp": 1.526297,
-    "sl": 1.562468,
+    "entry": 1.569,
+    "tp": 1.539555,
+    "sl": 1.590032,
     "score": 74,
     "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.92 aggressive pullback zone.",
+    "reason": "RSI 74.54 extreme + price at Bollinger Band edge.",
     "status": "waiting_entry",
-    "timestamp": "2026-09-20 20:34:43",
-    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-20 20:34:43\nEntry: 1.548\nTP: 1.526297\nSL: 1.562468"
+    "timestamp": "2026-09-20 21:02:31",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-20 21:02:31\nEntry: 1.569\nTP: 1.539555\nSL: 1.590032"
   },
   {
     "key": "BNBUSDT",
@@ -46,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 20:21:20",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-20 20:21:20\nEntry: 2601.12\nTP: 2579.315275\nSL: 2616.694803"
-  },
-  {
-    "key": "ICPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.769,
-    "tp": 2.806415,
-    "sl": 2.73782,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 20:02:15",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-20 20:02:15\nEntry: 2.769\nTP: 2.806415\nSL: 2.73782"
   },
   {
     "key": "UNIUSDT",
@@ -158,22 +142,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 19:21:09",
     "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 19:21:09\nEntry: 80454.01\nTP: 80921.902863\nSL: 80194.06952"
-  },
-  {
-    "key": "NEARUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "NEARUSDT",
-    "direction": "LONG",
-    "entry": 3.704,
-    "tp": 3.904038,
-    "sl": 3.603981,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 17:51:23",
-    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 17:51:23\nEntry: 3.704\nTP: 3.904038\nSL: 3.603981"
   },
   {
     "key": "FETUSDT",
