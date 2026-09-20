@@ -1,5 +1,21 @@
 [
   {
+    "key": "AVAXUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "AVAXUSDT",
+    "direction": "SHORT",
+    "entry": 10.472,
+    "tp": 10.132921,
+    "sl": 10.714198,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 76.95 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 05:30:47",
+    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-20 05:30:47\nEntry: 10.472\nTP: 10.132921\nSL: 10.714198"
+  },
+  {
     "key": "RENDERUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -46,22 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 04:32:05",
     "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-20 04:32:05\nEntry: 255.0\nTP: 259.000603\nSL: 252.999698"
-  },
-  {
-    "key": "AVAXUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 9.967,
-    "tp": 10.341529,
-    "sl": 9.758929,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.11).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 04:31:40",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-20 04:31:40\nEntry: 9.967\nTP: 10.341529\nSL: 9.758929"
   },
   {
     "key": "UNIUSDT",
