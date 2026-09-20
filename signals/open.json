@@ -1,19 +1,19 @@
 [
   {
-    "key": "LINKUSDT",
+    "key": "TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
-    "symbol": "LINKUSDT",
-    "direction": "SHORT",
-    "entry": 12.067,
-    "tp": 12.002371,
-    "sl": 12.110086,
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.4151,
+    "tp": 0.420219,
+    "sl": 0.411688,
     "score": 74,
     "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 67.55 aggressive pullback zone.",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.56 aggressive pullback zone.",
     "status": "waiting_entry",
-    "timestamp": "2026-09-20 14:34:12",
-    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-20 14:34:12\nEntry: 12.067\nTP: 12.002371\nSL: 12.110086"
+    "timestamp": "2026-09-20 15:22:56",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 15:22:56\nEntry: 0.4151\nTP: 0.420219\nSL: 0.411688"
   },
   {
     "key": "DOTUSDT",
@@ -21,15 +21,15 @@
     "bot_name": "Conservative Swing",
     "symbol": "DOTUSDT",
     "direction": "LONG",
-    "entry": 1.108,
-    "tp": 1.135846,
-    "sl": 1.09729,
+    "entry": 1.094,
+    "tp": 1.122478,
+    "sl": 1.083047,
     "score": 87,
     "provider": "Technical",
     "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
     "status": "waiting_entry",
-    "timestamp": "2026-09-20 14:34:11",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-20 14:34:11\nEntry: 1.108\nTP: 1.135846\nSL: 1.09729"
+    "timestamp": "2026-09-20 15:22:18",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-20 15:22:18\nEntry: 1.094\nTP: 1.122478\nSL: 1.083047"
   },
   {
     "key": "AVAXUSDT",
@@ -142,22 +142,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 11:52:30",
     "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-20 11:52:30\nEntry: 1.523\nTP: 1.549736\nSL: 1.50629"
-  },
-  {
-    "key": "TIAUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.4184,
-    "tp": 0.423341,
-    "sl": 0.415106,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.21 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 11:40:35",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 11:40:35\nEntry: 0.4184\nTP: 0.423341\nSL: 0.415106"
   },
   {
     "key": "ICPUSDT",
