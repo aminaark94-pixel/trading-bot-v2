@@ -105,6 +105,22 @@
   ],
   "bot5": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.3244,
+      "tp": 0.337935,
+      "sl": 0.319194,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 02:22:06",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-21 02:22:06\nEntry: 0.3244\nTP: 0.337935\nSL: 0.319194"
+    },
+    {
       "key": "TIAUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
