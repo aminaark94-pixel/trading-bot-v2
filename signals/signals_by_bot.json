@@ -87,6 +87,22 @@
   ],
   "bot4": [
     {
+      "key": "RENDERUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "RENDERUSDT",
+      "direction": "SHORT",
+      "entry": 1.732,
+      "tp": 1.683454,
+      "sl": 1.772455,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 04:02:38",
+      "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-21 04:02:38\nEntry: 1.732\nTP: 1.683454\nSL: 1.772455"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
