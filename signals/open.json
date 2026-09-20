@@ -80,22 +80,6 @@
     "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-20 15:22:18\nEntry: 1.094\nTP: 1.122478\nSL: 1.083047"
   },
   {
-    "key": "AVAXUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 9.78,
-    "tp": 10.05361,
-    "sl": 9.627994,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 56.37).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 14:34:01",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-20 14:34:01\nEntry: 9.78\nTP: 10.05361\nSL: 9.627994"
-  },
-  {
     "key": "INJUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot9:BTCUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 76057.87,
-    "tp": 74688.232014,
-    "sl": 76818.779992,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 41.39 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 00:22:05",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-16 00:22:05\nEntry: 76057.87\nTP: 74688.232014\nSL: 76818.779992",
-    "result": "SL_HIT",
-    "close_price": 76965.67,
-    "closed_at": "2026-09-17 17:28:03"
-  },
-  {
     "key": "INJUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.1708,
     "closed_at": "2026-09-20 16:20:20"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 9.78,
+    "tp": 10.05361,
+    "sl": 9.627994,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 56.37).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 14:34:01",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-20 14:34:01\nEntry: 9.78\nTP: 10.05361\nSL: 9.627994",
+    "result": "TP_HIT",
+    "close_price": 10.108,
+    "closed_at": "2026-09-20 16:47:59"
   }
 ]
