@@ -1,21 +1,5 @@
 [
   {
-    "key": "AVAXUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 9.808,
-    "tp": 10.127405,
-    "sl": 9.630553,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 56.62).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 12:01:56",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-20 12:01:56\nEntry: 9.808\nTP: 10.127405\nSL: 9.630553"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -46,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 11:40:35",
     "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 11:40:35\nEntry: 0.4184\nTP: 0.423341\nSL: 0.415106"
-  },
-  {
-    "key": "APTUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.716,
-    "tp": 0.723753,
-    "sl": 0.710831,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.06 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 11:39:59",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-20 11:39:59\nEntry: 0.716\nTP: 0.723753\nSL: 0.710831"
   },
   {
     "key": "NEARUSDT",
