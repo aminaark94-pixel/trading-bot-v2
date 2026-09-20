@@ -199,22 +199,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 15:22:18",
       "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-20 15:22:18\nEntry: 1.094\nTP: 1.122478\nSL: 1.083047"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 3.537,
-      "tp": 3.674034,
-      "sl": 3.484294,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 13:35:11",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 13:35:11\nEntry: 3.537\nTP: 3.674034\nSL: 3.484294"
     }
   ],
   "bot6": [
@@ -352,7 +336,24 @@
       "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-20 07:48:41\nEntry: 1.3806\nTP: 1.358762\nSL: 1.392732"
     }
   ],
-  "bot10": [],
+  "bot10": [
+    {
+      "key": "NEARUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 3.704,
+      "tp": 3.904038,
+      "sl": 3.603981,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 17:51:23",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 17:51:23\nEntry: 3.704\nTP: 3.904038\nSL: 3.603981"
+    }
+  ],
   "bot11": [],
   "bot12": [
     {

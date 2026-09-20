@@ -1,24 +1,5 @@
 [
   {
-    "key": "STXUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.2417,
-    "tp": 0.236357,
-    "sl": 0.24504,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend DOWN (-3.60% EMA20/50 gap) + RSI 60.04 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 05:44:47",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-17 05:44:47\nEntry: 0.2417\nTP: 0.236357\nSL: 0.24504",
-    "result": "SL_HIT",
-    "close_price": 0.2482,
-    "closed_at": "2026-09-17 18:02:45"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 12.074,
     "closed_at": "2026-09-20 17:37:44"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 3.537,
+    "tp": 3.674034,
+    "sl": 3.484294,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 13:35:11",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 13:35:11\nEntry: 3.537\nTP: 3.674034\nSL: 3.484294",
+    "result": "TP_HIT",
+    "close_price": 3.68,
+    "closed_at": "2026-09-20 17:50:29"
   }
 ]
