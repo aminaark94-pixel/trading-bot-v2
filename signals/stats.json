@@ -35,10 +35,10 @@
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "wins": 21,
+      "wins": 22,
       "losses": 39,
-      "total": 60,
-      "win_rate": 35.0
+      "total": 61,
+      "win_rate": 36.1
     },
     {
       "bot_id": "bot6",
@@ -105,7 +105,7 @@
     "total": 15,
     "win_rate": 66.7
   },
-  "last_run": "2026-09-20T23:33:41.912465+00:00",
+  "last_run": "2026-09-20T23:48:17.637598+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
