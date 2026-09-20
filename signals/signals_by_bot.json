@@ -17,22 +17,6 @@
       "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 19:21:09\nEntry: 80454.01\nTP: 80921.902863\nSL: 80194.06952"
     },
     {
-      "key": "AVAXUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 10.338,
-      "tp": 10.828879,
-      "sl": 10.065289,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 74.26).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 17:01:35",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-20 17:01:35\nEntry: 10.338\nTP: 10.828879\nSL: 10.065289"
-    },
-    {
       "key": "INJUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -101,7 +85,24 @@
       "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-20 03:02:49\nEntry: 0.9681\nTP: 0.885915\nSL: 1.005457"
     }
   ],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "TIAUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.4093,
+      "tp": 0.416593,
+      "sl": 0.403224,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 19:48:03",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 19:48:03\nEntry: 0.4093\nTP: 0.416593\nSL: 0.403224"
+    }
+  ],
   "bot5": [
     {
       "key": "FETUSDT",
