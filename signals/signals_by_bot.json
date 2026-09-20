@@ -31,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 13:49:19",
       "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 13:49:19\nEntry: 7.704\nTP: 8.0007\nSL: 7.539166"
-    },
-    {
-      "key": "APTUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "APTUSDT",
-      "direction": "LONG",
-      "entry": 0.726,
-      "tp": 0.742151,
-      "sl": 0.717027,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 54.55).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 13:02:07",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-20 13:02:07\nEntry: 0.726\nTP: 0.742151\nSL: 0.717027"
     }
   ],
   "bot2": [
