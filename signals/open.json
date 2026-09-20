@@ -1,5 +1,37 @@
 [
   {
+    "key": "ICPUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 2.785,
+    "tp": 2.825864,
+    "sl": 2.750947,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 09:49:25",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-20 09:49:25\nEntry: 2.785\nTP: 2.825864\nSL: 2.750947"
+  },
+  {
+    "key": "SOLUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 108.82,
+    "tp": 109.836694,
+    "sl": 107.972755,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 09:48:28",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-20 09:48:28\nEntry: 108.82\nTP: 109.836694\nSL: 107.972755"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
