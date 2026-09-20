@@ -1,24 +1,5 @@
 [
   {
-    "key": "NEARUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "NEARUSDT",
-    "direction": "LONG",
-    "entry": 2.946,
-    "tp": 3.075088,
-    "sl": 2.874284,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 70.01).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 21:35:41",
-    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-17 21:35:41\nEntry: 2.946\nTP: 3.075088\nSL: 2.874284",
-    "result": "TP_HIT",
-    "close_price": 3.077,
-    "closed_at": "2026-09-18 03:47:38"
-  },
-  {
     "key": "APTUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.165,
     "closed_at": "2026-09-20 21:48:46"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 8.161,
+    "tp": 8.561907,
+    "sl": 7.938274,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 77.01 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 21:23:18",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 21:23:18\nEntry: 8.161\nTP: 8.561907\nSL: 7.938274",
+    "result": "SL_HIT",
+    "close_price": 7.917,
+    "closed_at": "2026-09-20 22:01:05"
   }
 ]

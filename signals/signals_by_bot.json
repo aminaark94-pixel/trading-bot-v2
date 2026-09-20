@@ -172,6 +172,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "FETUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "FETUSDT",
+      "direction": "SHORT",
+      "entry": 0.1786,
+      "tp": 0.171764,
+      "sl": 0.182018,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 22:02:24",
+      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-20 22:02:24\nEntry: 0.1786\nTP: 0.171764\nSL: 0.182018"
+    },
+    {
       "key": "POLUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -206,6 +222,22 @@
   ],
   "bot9": [
     {
+      "key": "DOTUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "DOTUSDT",
+      "direction": "LONG",
+      "entry": 1.164,
+      "tp": 1.203304,
+      "sl": 1.142164,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 81.21 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 22:01:55",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-20 22:01:55\nEntry: 1.164\nTP: 1.203304\nSL: 1.142164"
+    },
+    {
       "key": "SUIUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -236,25 +268,25 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 21:34:45",
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-20 21:34:45\nEntry: 12.446\nTP: 12.695271\nSL: 12.307516"
-    },
-    {
-      "key": "INJUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "INJUSDT",
-      "direction": "LONG",
-      "entry": 8.161,
-      "tp": 8.561907,
-      "sl": 7.938274,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 77.01 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 21:23:18",
-      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 21:23:18\nEntry: 8.161\nTP: 8.561907\nSL: 7.938274"
     }
   ],
   "bot10": [
+    {
+      "key": "LTCUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 59.06,
+      "tp": 60.505522,
+      "sl": 58.33724,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 22:02:06",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-20 22:02:06\nEntry: 59.06\nTP: 60.505522\nSL: 58.33724"
+    },
     {
       "key": "NEARUSDT",
       "bot_id": "bot10",
