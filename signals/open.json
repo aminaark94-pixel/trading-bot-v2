@@ -1,5 +1,21 @@
 [
   {
+    "key": "NEARUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 3.537,
+    "tp": 3.674034,
+    "sl": 3.484294,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 13:35:11",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 13:35:11\nEntry: 3.537\nTP: 3.674034\nSL: 3.484294"
+  },
+  {
     "key": "APTUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -94,22 +110,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 09:48:28",
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-20 09:48:28\nEntry: 108.82\nTP: 109.836694\nSL: 107.972755"
-  },
-  {
-    "key": "INJUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 7.574,
-    "tp": 7.752956,
-    "sl": 7.454696,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.45 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 09:23:41",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 09:23:41\nEntry: 7.574\nTP: 7.752956\nSL: 7.454696"
   },
   {
     "key": "LTCUSDT",
