@@ -49,7 +49,24 @@
       "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-20 13:49:19\nEntry: 7.704\nTP: 8.0007\nSL: 7.539166"
     }
   ],
-  "bot2": [],
+  "bot2": [
+    {
+      "key": "ETHUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "ETHUSDT",
+      "direction": "SHORT",
+      "entry": 2601.12,
+      "tp": 2579.315275,
+      "sl": 2616.694803,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 71.78 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 20:21:20",
+      "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-20 20:21:20\nEntry: 2601.12\nTP: 2579.315275\nSL: 2616.694803"
+    }
+  ],
   "bot3": [
     {
       "key": "FILUSDT",
@@ -119,6 +136,22 @@
     }
   ],
   "bot5": [
+    {
+      "key": "BNBUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "BNBUSDT",
+      "direction": "LONG",
+      "entry": 755.96,
+      "tp": 766.086206,
+      "sl": 752.065305,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 20:21:27",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-20 20:21:27\nEntry: 755.96\nTP: 766.086206\nSL: 752.065305"
+    },
     {
       "key": "FETUSDT",
       "bot_id": "bot5",
