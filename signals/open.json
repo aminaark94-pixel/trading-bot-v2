@@ -1,5 +1,21 @@
 [
   {
+    "key": "STXUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "STXUSDT",
+    "direction": "SHORT",
+    "entry": 0.3306,
+    "tp": 0.322719,
+    "sl": 0.33623,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 76.17 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 07:03:25",
+    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-20 07:03:25\nEntry: 0.3306\nTP: 0.322719\nSL: 0.33623"
+  },
+  {
     "key": "POLUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -270,22 +286,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 02:33:03",
     "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-20 02:33:03\nEntry: 12.346\nTP: 12.593655\nSL: 12.222173"
-  },
-  {
-    "key": "FETUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "FETUSDT",
-    "direction": "LONG",
-    "entry": 0.1747,
-    "tp": 0.178048,
-    "sl": 0.172309,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 23.27 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 02:21:37",
-    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-20 02:21:37\nEntry: 0.1747\nTP: 0.178048\nSL: 0.172309"
   },
   {
     "key": "ADAUSDT",
