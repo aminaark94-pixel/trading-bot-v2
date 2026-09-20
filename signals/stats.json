@@ -28,9 +28,9 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 65,
-      "losses": 92,
-      "total": 157,
-      "win_rate": 41.4
+      "losses": 93,
+      "total": 158,
+      "win_rate": 41.1
     },
     {
       "bot_id": "bot5",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 122,
-      "losses": 152,
-      "total": 274,
-      "win_rate": 44.5
+      "losses": 153,
+      "total": 275,
+      "win_rate": 44.4
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 14,
     "win_rate": 64.3
   },
-  "last_run": "2026-09-20T13:35:23.478517+00:00",
+  "last_run": "2026-09-20T13:48:24.180884+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
