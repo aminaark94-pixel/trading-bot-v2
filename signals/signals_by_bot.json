@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "RENDERUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 1.577,
+      "tp": 1.604048,
+      "sl": 1.561973,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 57.48).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 05:02:36",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-20 05:02:36\nEntry: 1.577\nTP: 1.604048\nSL: 1.561973"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -34,22 +50,6 @@
     }
   ],
   "bot2": [
-    {
-      "key": "RENDERUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "RENDERUSDT",
-      "direction": "LONG",
-      "entry": 1.55,
-      "tp": 1.575228,
-      "sl": 1.531981,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 27.0 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 02:21:41",
-      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-20 02:21:41\nEntry: 1.55\nTP: 1.575228\nSL: 1.531981"
-    },
     {
       "key": "FETUSDT",
       "bot_id": "bot2",
