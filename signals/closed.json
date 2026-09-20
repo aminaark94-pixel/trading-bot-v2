@@ -1,24 +1,5 @@
 [
   {
-    "key": "bot11:FILUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "FILUSDT",
-    "direction": "SHORT",
-    "entry": 0.7835,
-    "tp": 0.747597,
-    "sl": 0.799819,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 22.2x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-16 17:44:44",
-    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-16 17:44:44\nEntry: 0.7835\nTP: 0.747597\nSL: 0.799819",
-    "result": "SL_HIT",
-    "close_price": 0.8009,
-    "closed_at": "2026-09-17 01:49:28"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.4263,
     "closed_at": "2026-09-20 05:43:47"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 3.61,
+    "tp": 3.722118,
+    "sl": 3.547711,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 58.07).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 04:01:59",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 04:01:59\nEntry: 3.61\nTP: 3.722118\nSL: 3.547711",
+    "result": "SL_HIT",
+    "close_price": 3.547,
+    "closed_at": "2026-09-20 05:56:18"
   }
 ]

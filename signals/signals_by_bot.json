@@ -31,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 05:02:36",
       "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-20 05:02:36\nEntry: 1.577\nTP: 1.604048\nSL: 1.561973"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 3.61,
-      "tp": 3.722118,
-      "sl": 3.547711,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 58.07).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 04:01:59",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 04:01:59\nEntry: 3.61\nTP: 3.722118\nSL: 3.547711"
     }
   ],
   "bot2": [
