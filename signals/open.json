@@ -1,5 +1,21 @@
 [
   {
+    "key": "RENDERUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.653,
+    "tp": 1.60971,
+    "sl": 1.689075,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 23:49:16",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-20 23:49:16\nEntry: 1.653\nTP: 1.60971\nSL: 1.689075"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
