@@ -32,22 +32,6 @@
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-20 06:34:32\nEntry: 0.10486\nTP: 0.106496\nSL: 0.103951"
   },
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 251.6,
-    "tp": 253.023998,
-    "sl": 250.650668,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.0 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 06:34:30",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-20 06:34:30\nEntry: 251.6\nTP: 253.023998\nSL: 250.650668"
-  },
-  {
     "key": "XRPUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -62,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-20 06:33:58",
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-20 06:33:58\nEntry: 1.3986\nTP: 1.405501\nSL: 1.394"
-  },
-  {
-    "key": "ETHUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2620.44,
-    "tp": 2626.865066,
-    "sl": 2616.156623,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 35.09 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 06:33:50",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-20 06:33:50\nEntry: 2620.44\nTP: 2626.865066\nSL: 2616.156623"
   },
   {
     "key": "NEARUSDT",
