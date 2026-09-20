@@ -28,9 +28,9 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 68,
-      "losses": 94,
-      "total": 162,
-      "win_rate": 42.0
+      "losses": 95,
+      "total": 163,
+      "win_rate": 41.7
     },
     {
       "bot_id": "bot5",
@@ -59,10 +59,10 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 29,
+      "wins": 30,
       "losses": 80,
-      "total": 109,
-      "win_rate": 26.6
+      "total": 110,
+      "win_rate": 27.3
     },
     {
       "bot_id": "bot9",
@@ -105,7 +105,7 @@
     "total": 15,
     "win_rate": 66.7
   },
-  "last_run": "2026-09-20T19:48:16.936336+00:00",
+  "last_run": "2026-09-20T20:03:00.391145+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

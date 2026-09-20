@@ -107,16 +107,16 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "symbol": "DOTUSDT",
-      "direction": "SHORT",
-      "entry": 1.144,
-      "tp": 1.120961,
-      "sl": 1.163199,
+      "direction": "LONG",
+      "entry": 1.17,
+      "tp": 1.192838,
+      "sl": 1.150968,
       "score": 72,
       "provider": "Technical",
       "reason": "MACD line just crossed its signal line (fast momentum flip).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-21 00:02:01",
-      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-21 00:02:01\nEntry: 1.144\nTP: 1.120961\nSL: 1.163199"
+      "timestamp": "2026-09-21 01:02:00",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 01:02:00\nEntry: 1.17\nTP: 1.192838\nSL: 1.150968"
     },
     {
       "key": "RENDERUSDT",
@@ -235,22 +235,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 22:02:24",
       "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-20 22:02:24\nEntry: 0.1786\nTP: 0.171764\nSL: 0.182018"
-    },
-    {
-      "key": "BCHUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "BCHUSDT",
-      "direction": "LONG",
-      "entry": 246.3,
-      "tp": 251.961876,
-      "sl": 243.469062,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 08:23:23",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-20 08:23:23\nEntry: 246.3\nTP: 251.961876\nSL: 243.469062"
     }
   ],
   "bot9": [
