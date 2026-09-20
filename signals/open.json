@@ -1,5 +1,21 @@
 [
   {
+    "key": "RENDERUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.695,
+    "tp": 1.617223,
+    "sl": 1.733888,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 01:34:59",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-21 01:34:59\nEntry: 1.695\nTP: 1.617223\nSL: 1.733888"
+  },
+  {
     "key": "DOTUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -46,22 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 00:01:58",
     "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-21 00:01:58\nEntry: 0.8802\nTP: 0.922285\nSL: 0.856819"
-  },
-  {
-    "key": "RENDERUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "RENDERUSDT",
-    "direction": "SHORT",
-    "entry": 1.653,
-    "tp": 1.60971,
-    "sl": 1.689075,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 23:49:16",
-    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-20 23:49:16\nEntry: 1.653\nTP: 1.60971\nSL: 1.689075"
   },
   {
     "key": "STXUSDT",
