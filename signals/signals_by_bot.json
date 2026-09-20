@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "UNIUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 8.732,
+      "tp": 8.905996,
+      "sl": 8.635336,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 56.4).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 06:02:26",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-20 06:02:26\nEntry: 8.732\nTP: 8.905996\nSL: 8.635336"
+    },
+    {
       "key": "DOTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -34,22 +50,6 @@
     }
   ],
   "bot2": [
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "AVAXUSDT",
-      "direction": "SHORT",
-      "entry": 10.792,
-      "tp": 10.391856,
-      "sl": 11.077816,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 82.64 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 05:44:31",
-      "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-20 05:44:31\nEntry: 10.792\nTP: 10.391856\nSL: 11.077816"
-    },
     {
       "key": "FETUSDT",
       "bot_id": "bot2",
@@ -324,22 +324,6 @@
   ],
   "bot11": [],
   "bot12": [
-    {
-      "key": "UNIUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "UNIUSDT",
-      "direction": "SHORT",
-      "entry": 8.662,
-      "tp": 8.577409,
-      "sl": 8.718394,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.61 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 04:20:36",
-      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-20 04:20:36\nEntry: 8.662\nTP: 8.577409\nSL: 8.718394"
-    },
     {
       "key": "XRPUSDT",
       "bot_id": "bot12",
