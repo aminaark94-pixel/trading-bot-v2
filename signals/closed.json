@@ -1,24 +1,5 @@
 [
   {
-    "key": "AVAXUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 7.538,
-    "tp": 7.653873,
-    "sl": 7.473626,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.61 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 07:50:19",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-17 07:50:19\nEntry: 7.538\nTP: 7.653873\nSL: 7.473626",
-    "result": "TP_HIT",
-    "close_price": 7.66,
-    "closed_at": "2026-09-18 06:34:12"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 58.89,
     "closed_at": "2026-09-21 03:01:01"
+  },
+  {
+    "key": "RENDERUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "RENDERUSDT",
+    "direction": "SHORT",
+    "entry": 1.695,
+    "tp": 1.617223,
+    "sl": 1.733888,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 01:34:59",
+    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-21 01:34:59\nEntry: 1.695\nTP: 1.617223\nSL: 1.733888",
+    "result": "SL_HIT",
+    "close_price": 1.739,
+    "closed_at": "2026-09-21 03:32:54"
   }
 ]

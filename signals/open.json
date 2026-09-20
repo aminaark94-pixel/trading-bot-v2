@@ -48,22 +48,6 @@
     "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 02:02:08\nEntry: 1.139\nTP: 1.155488\nSL: 1.128008"
   },
   {
-    "key": "RENDERUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "RENDERUSDT",
-    "direction": "SHORT",
-    "entry": 1.695,
-    "tp": 1.617223,
-    "sl": 1.733888,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 01:34:59",
-    "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-21 01:34:59\nEntry: 1.695\nTP: 1.617223\nSL: 1.733888"
-  },
-  {
     "key": "POLUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
