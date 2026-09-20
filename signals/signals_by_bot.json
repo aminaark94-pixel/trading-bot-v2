@@ -272,24 +272,7 @@
     }
   ],
   "bot10": [],
-  "bot11": [
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "NEARUSDT",
-      "direction": "SHORT",
-      "entry": 3.441,
-      "tp": 3.318702,
-      "sl": 3.49659,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.7x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 11:26:50",
-      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-20 11:26:50\nEntry: 3.441\nTP: 3.318702\nSL: 3.49659"
-    }
-  ],
+  "bot11": [],
   "bot12": [
     {
       "key": "AVAXUSDT",

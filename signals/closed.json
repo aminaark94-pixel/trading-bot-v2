@@ -1,24 +1,5 @@
 [
   {
-    "key": "TIAUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.3459,
-    "tp": 0.348559,
-    "sl": 0.344127,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 29.8 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 15:24:40",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-17 15:24:40\nEntry: 0.3459\nTP: 0.348559\nSL: 0.344127",
-    "result": "TP_HIT",
-    "close_price": 0.3493,
-    "closed_at": "2026-09-17 17:01:20"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 9.615,
     "closed_at": "2026-09-20 12:34:49"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 3.441,
+    "tp": 3.318702,
+    "sl": 3.49659,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 1.7x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 11:26:50",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-20 11:26:50\nEntry: 3.441\nTP: 3.318702\nSL: 3.49659",
+    "result": "SL_HIT",
+    "close_price": 3.53,
+    "closed_at": "2026-09-20 13:22:23"
   }
 ]
