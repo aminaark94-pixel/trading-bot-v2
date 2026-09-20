@@ -340,6 +340,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "TIAUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.4114,
+      "tp": 0.416384,
+      "sl": 0.408077,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 31.94 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 15:48:15",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 15:48:15\nEntry: 0.4114\nTP: 0.416384\nSL: 0.408077"
+    },
+    {
       "key": "STXUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -354,22 +370,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 15:35:25",
       "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-20 15:35:25\nEntry: 0.3144\nTP: 0.318734\nSL: 0.311511"
-    },
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.4151,
-      "tp": 0.420219,
-      "sl": 0.411688,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.56 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 15:22:56",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 15:22:56\nEntry: 0.4151\nTP: 0.420219\nSL: 0.411688"
     },
     {
       "key": "FETUSDT",
