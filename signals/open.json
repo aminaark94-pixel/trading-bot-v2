@@ -208,22 +208,6 @@
     "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 08:01:09\nEntry: 80406.27\nTP: 80734.186871\nSL: 80172.043664"
   },
   {
-    "key": "APTUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.717,
-    "tp": 0.725761,
-    "sl": 0.711159,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.41 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 07:49:12",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-20 07:49:12\nEntry: 0.717\nTP: 0.725761\nSL: 0.711159"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
