@@ -340,6 +340,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.3144,
+      "tp": 0.318734,
+      "sl": 0.311511,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.21 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 15:35:25",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-20 15:35:25\nEntry: 0.3144\nTP: 0.318734\nSL: 0.311511"
+    },
+    {
       "key": "TIAUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
