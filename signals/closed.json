@@ -1,24 +1,5 @@
 [
   {
-    "key": "SOLUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 100.13,
-    "tp": 99.085124,
-    "sl": 101.00073,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 18:35:19",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-17 18:35:19\nEntry: 100.13\nTP: 99.085124\nSL: 101.00073",
-    "result": "SL_HIT",
-    "close_price": 101.42,
-    "closed_at": "2026-09-17 19:24:44"
-  },
-  {
     "key": "FETUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 80749.99,
     "closed_at": "2026-09-20 19:03:04"
+  },
+  {
+    "key": "TIAUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.4114,
+    "tp": 0.416384,
+    "sl": 0.408077,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 31.94 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 15:48:15",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 15:48:15\nEntry: 0.4114\nTP: 0.416384\nSL: 0.408077",
+    "result": "SL_HIT",
+    "close_price": 0.4074,
+    "closed_at": "2026-09-20 19:20:59"
   }
 ]

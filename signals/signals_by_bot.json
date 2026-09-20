@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "BTCUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 80454.01,
+      "tp": 80921.902863,
+      "sl": 80194.06952,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 48.6).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 19:21:09",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 19:21:09\nEntry: 80454.01\nTP: 80921.902863\nSL: 80194.06952"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -276,6 +292,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "APTUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "APTUSDT",
+      "direction": "LONG",
+      "entry": 0.716,
+      "tp": 0.726406,
+      "sl": 0.709062,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.23 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 19:21:54",
+      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-20 19:21:54\nEntry: 0.716\nTP: 0.726406\nSL: 0.709062"
+    },
+    {
       "key": "LINKUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -290,22 +322,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-20 17:38:40",
       "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-20 17:38:40\nEntry: 12.095\nTP: 12.004125\nSL: 12.155584"
-    },
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.4114,
-      "tp": 0.416384,
-      "sl": 0.408077,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 31.94 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-20 15:48:15",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 15:48:15\nEntry: 0.4114\nTP: 0.416384\nSL: 0.408077"
     }
   ]
 }
