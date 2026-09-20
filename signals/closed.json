@@ -1,24 +1,5 @@
 [
   {
-    "key": "RENDERUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "RENDERUSDT",
-    "direction": "LONG",
-    "entry": 1.443,
-    "tp": 1.473952,
-    "sl": 1.428931,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.5x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 05:02:56",
-    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-18 05:02:56\nEntry: 1.443\nTP: 1.473952\nSL: 1.428931",
-    "result": "TP_HIT",
-    "close_price": 1.477,
-    "closed_at": "2026-09-18 05:53:41"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.699,
     "closed_at": "2026-09-21 01:33:23"
+  },
+  {
+    "key": "DOTUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "DOTUSDT",
+    "direction": "LONG",
+    "entry": 1.17,
+    "tp": 1.192838,
+    "sl": 1.150968,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 01:02:00",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 01:02:00\nEntry: 1.17\nTP: 1.192838\nSL: 1.150968",
+    "result": "SL_HIT",
+    "close_price": 1.148,
+    "closed_at": "2026-09-21 01:45:57"
   }
 ]
