@@ -1,5 +1,21 @@
 [
   {
+    "key": "UNIUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "UNIUSDT",
+    "direction": "SHORT",
+    "entry": 8.803,
+    "tp": 8.536594,
+    "sl": 8.936203,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 03:02:18",
+    "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-21 03:02:18\nEntry: 8.803\nTP: 8.536594\nSL: 8.936203"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -14,22 +30,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 02:22:06",
     "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-21 02:22:06\nEntry: 0.3244\nTP: 0.337935\nSL: 0.319194"
-  },
-  {
-    "key": "LTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 58.33,
-    "tp": 58.821029,
-    "sl": 58.002647,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.57 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 02:02:18",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-21 02:02:18\nEntry: 58.33\nTP: 58.821029\nSL: 58.002647"
   },
   {
     "key": "DOTUSDT",
