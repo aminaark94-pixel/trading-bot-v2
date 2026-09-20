@@ -64,22 +64,6 @@
     "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-20 14:22:26\nEntry: 0.1697\nTP: 0.168111\nSL: 0.170759"
   },
   {
-    "key": "STXUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.3215,
-    "tp": 0.334802,
-    "sl": 0.314849,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 13:49:27",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-20 13:49:27\nEntry: 0.3215\nTP: 0.334802\nSL: 0.314849"
-  },
-  {
     "key": "INJUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
