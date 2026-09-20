@@ -1,24 +1,5 @@
 [
   {
-    "key": "POLUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.09674,
-    "tp": 0.098642,
-    "sl": 0.095789,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-17 09:24:43",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-17 09:24:43\nEntry: 0.09674\nTP: 0.098642\nSL: 0.095789",
-    "result": "SL_HIT",
-    "close_price": 0.09564,
-    "closed_at": "2026-09-17 16:22:29"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.4186,
     "closed_at": "2026-09-20 11:38:54"
+  },
+  {
+    "key": "STXUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.3233,
+    "tp": 0.338882,
+    "sl": 0.315509,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-20 08:49:40",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-20 08:49:40\nEntry: 0.3233\nTP: 0.338882\nSL: 0.315509",
+    "result": "SL_HIT",
+    "close_price": 0.3153,
+    "closed_at": "2026-09-20 12:21:00"
   }
 ]
