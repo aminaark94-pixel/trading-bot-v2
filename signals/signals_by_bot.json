@@ -121,6 +121,22 @@
   "bot5": [],
   "bot6": [
     {
+      "key": "RENDERUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 1.523,
+      "tp": 1.549736,
+      "sl": 1.50629,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "1H trend UP (+1.04% EMA20/50 gap) + RSI 34.48 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-20 11:52:30",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-20 11:52:30\nEntry: 1.523\nTP: 1.549736\nSL: 1.50629"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
