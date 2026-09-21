@@ -1,5 +1,21 @@
 [
   {
+    "key": "TIAUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "TIAUSDT",
+    "direction": "SHORT",
+    "entry": 0.4303,
+    "tp": 0.413367,
+    "sl": 0.437998,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 1.8x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 22:49:01",
+    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-21 22:49:01\nEntry: 0.4303\nTP: 0.413367\nSL: 0.437998"
+  },
+  {
     "key": "AVAXUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -254,38 +270,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 17:02:05",
     "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-21 17:02:05\nEntry: 0.774\nTP: 0.752063\nSL: 0.792282"
-  },
-  {
-    "key": "POLUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.11271,
-    "tp": 0.11709,
-    "sl": 0.11052,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 16:02:28",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-21 16:02:28\nEntry: 0.11271\nTP: 0.11709\nSL: 0.11052"
-  },
-  {
-    "key": "LINKUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 13.007,
-    "tp": 13.293918,
-    "sl": 12.847601,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.98).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 15:01:49",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-21 15:01:49\nEntry: 13.007\nTP: 13.293918\nSL: 12.847601"
   },
   {
     "key": "DOTUSDT",
