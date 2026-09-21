@@ -1,24 +1,5 @@
 [
   {
-    "key": "POLUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.09954,
-    "tp": 0.101125,
-    "sl": 0.098659,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.04).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 08:23:05",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-18 08:23:05\nEntry: 0.09954\nTP: 0.101125\nSL: 0.098659",
-    "result": "TP_HIT",
-    "close_price": 0.10122,
-    "closed_at": "2026-09-18 19:22:20"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.751,
     "closed_at": "2026-09-21 23:03:12"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 62.93,
+    "tp": 61.276416,
+    "sl": 64.111133,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 82.71 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 17:38:23",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-21 17:38:23\nEntry: 62.93\nTP: 61.276416\nSL: 64.111133",
+    "result": "TP_HIT",
+    "close_price": 61.27,
+    "closed_at": "2026-09-21 23:37:45"
   }
 ]

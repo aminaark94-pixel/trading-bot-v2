@@ -224,22 +224,6 @@
     "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-21 18:22:51\nEntry: 117.88\nTP: 115.794698\nSL: 119.369501"
   },
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "LTCUSDT",
-    "direction": "SHORT",
-    "entry": 62.93,
-    "tp": 61.276416,
-    "sl": 64.111133,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 82.71 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 17:38:23",
-    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-21 17:38:23\nEntry: 62.93\nTP: 61.276416\nSL: 64.111133"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
