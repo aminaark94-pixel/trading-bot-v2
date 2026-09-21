@@ -288,22 +288,6 @@
       "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-22 01:33:41\nEntry: 118.96\nTP: 121.237749\nSL: 117.821125"
     },
     {
-      "key": "XRPUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "XRPUSDT",
-      "direction": "LONG",
-      "entry": 1.5181,
-      "tp": 1.554118,
-      "sl": 1.500091,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 01:22:31",
-      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 01:22:31\nEntry: 1.5181\nTP: 1.554118\nSL: 1.500091"
-    },
-    {
       "key": "LTCUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",

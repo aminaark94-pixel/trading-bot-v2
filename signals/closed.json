@@ -1,24 +1,5 @@
 [
   {
-    "key": "POLUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "POLUSDT",
-    "direction": "LONG",
-    "entry": 0.10116,
-    "tp": 0.103536,
-    "sl": 0.09984,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 62.89).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 19:23:35",
-    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-18 19:23:35\nEntry: 0.10116\nTP: 0.103536\nSL: 0.09984",
-    "result": "TP_HIT",
-    "close_price": 0.1036,
-    "closed_at": "2026-09-18 23:47:58"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.783,
     "closed_at": "2026-09-22 02:33:46"
+  },
+  {
+    "key": "XRPUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "XRPUSDT",
+    "direction": "LONG",
+    "entry": 1.5181,
+    "tp": 1.554118,
+    "sl": 1.500091,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 01:22:31",
+    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 01:22:31\nEntry: 1.5181\nTP: 1.554118\nSL: 1.500091",
+    "result": "TP_HIT",
+    "close_price": 1.5568,
+    "closed_at": "2026-09-22 03:03:19"
   }
 ]
