@@ -1,24 +1,5 @@
 [
   {
-    "key": "ADAUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "ADAUSDT",
-    "direction": "LONG",
-    "entry": 0.2151,
-    "tp": 0.219795,
-    "sl": 0.212491,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 79.34 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 08:22:37",
-    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-18 08:22:37\nEntry: 0.2151\nTP: 0.219795\nSL: 0.212491",
-    "result": "TP_HIT",
-    "close_price": 0.2198,
-    "closed_at": "2026-09-18 19:24:11"
-  },
-  {
     "key": "LINKUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 61.27,
     "closed_at": "2026-09-21 23:37:45"
+  },
+  {
+    "key": "LINKUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "LINKUSDT",
+    "direction": "LONG",
+    "entry": 12.821,
+    "tp": 12.959613,
+    "sl": 12.728591,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.69 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 23:02:25",
+    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-21 23:02:25\nEntry: 12.821\nTP: 12.959613\nSL: 12.728591",
+    "result": "TP_HIT",
+    "close_price": 12.964,
+    "closed_at": "2026-09-21 23:53:34"
   }
 ]
