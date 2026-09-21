@@ -1,24 +1,5 @@
 [
   {
-    "key": "RENDERUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "RENDERUSDT",
-    "direction": "LONG",
-    "entry": 1.516,
-    "tp": 1.555933,
-    "sl": 1.496033,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 17:28:13",
-    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-18 17:28:13\nEntry: 1.516\nTP: 1.555933\nSL: 1.496033",
-    "result": "TP_HIT",
-    "close_price": 1.557,
-    "closed_at": "2026-09-18 20:24:50"
-  },
-  {
     "key": "SOLUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 4.126,
     "closed_at": "2026-09-22 00:21:37"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "ICPUSDT",
+    "direction": "SHORT",
+    "entry": 2.898,
+    "tp": 2.832814,
+    "sl": 2.934214,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 34.6 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 23:02:47",
+    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-21 23:02:47\nEntry: 2.898\nTP: 2.832814\nSL: 2.934214",
+    "result": "SL_HIT",
+    "close_price": 2.936,
+    "closed_at": "2026-09-22 00:34:25"
   }
 ]

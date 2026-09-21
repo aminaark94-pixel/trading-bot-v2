@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "LINKUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 13.057,
+      "tp": 13.341036,
+      "sl": 12.899203,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 58.99).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 00:35:06",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-22 00:35:06\nEntry: 13.057\nTP: 13.341036\nSL: 12.899203"
+    },
+    {
       "key": "BNBUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -69,6 +85,22 @@
   ],
   "bot3": [],
   "bot4": [
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.937,
+      "tp": 2.984097,
+      "sl": 2.897753,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 00:35:38",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-22 00:35:38\nEntry: 2.937\nTP: 2.984097\nSL: 2.897753"
+    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot4",
@@ -157,6 +189,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "NEARUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "NEARUSDT",
+      "direction": "SHORT",
+      "entry": 4.134,
+      "tp": 3.938057,
+      "sl": 4.231972,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 00:35:17",
+      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-22 00:35:17\nEntry: 4.134\nTP: 3.938057\nSL: 4.231972"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -191,20 +239,20 @@
   ],
   "bot9": [
     {
-      "key": "ICPUSDT",
+      "key": "SUIUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "ICPUSDT",
-      "direction": "SHORT",
-      "entry": 2.898,
-      "tp": 2.832814,
-      "sl": 2.934214,
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 1.0193,
+      "tp": 1.05974,
+      "sl": 0.996834,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 34.6 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.43 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-21 23:02:47",
-      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-21 23:02:47\nEntry: 2.898\nTP: 2.832814\nSL: 2.934214"
+      "timestamp": "2026-09-22 00:35:10",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-22 00:35:10\nEntry: 1.0193\nTP: 1.05974\nSL: 0.996834"
     },
     {
       "key": "DOGEUSDT",
