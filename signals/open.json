@@ -1,5 +1,21 @@
 [
   {
+    "key": "SOLUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 115.3,
+    "tp": 117.599299,
+    "sl": 114.150351,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 14:01:35",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-21 14:01:35\nEntry: 115.3\nTP: 117.599299\nSL: 114.150351"
+  },
+  {
     "key": "DOGEUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -222,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 07:23:49",
     "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-21 07:23:49\nEntry: 58.9\nTP: 60.011217\nSL: 58.282657"
-  },
-  {
-    "key": "DOTUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 1.148,
-    "tp": 1.180046,
-    "sl": 1.131977,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 07:23:38",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 07:23:38\nEntry: 1.148\nTP: 1.180046\nSL: 1.131977"
   },
   {
     "key": "LINKUSDT",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "XRPUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.3204,
-    "tp": 1.334486,
-    "sl": 1.312574,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 77.76 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 08:22:33",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-18 08:22:33\nEntry: 1.3204\nTP: 1.334486\nSL: 1.312574",
-    "result": "TP_HIT",
-    "close_price": 1.3353,
-    "closed_at": "2026-09-18 13:23:41"
-  },
-  {
     "key": "BTCUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 261.6,
     "closed_at": "2026-09-21 13:51:21"
+  },
+  {
+    "key": "DOTUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "DOTUSDT",
+    "direction": "LONG",
+    "entry": 1.148,
+    "tp": 1.180046,
+    "sl": 1.131977,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 07:23:38",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 07:23:38\nEntry: 1.148\nTP: 1.180046\nSL: 1.131977",
+    "result": "TP_HIT",
+    "close_price": 1.183,
+    "closed_at": "2026-09-21 14:01:06"
   }
 ]
