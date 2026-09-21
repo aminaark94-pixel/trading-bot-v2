@@ -204,6 +204,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 10.999,
+      "tp": 11.430819,
+      "sl": 10.78309,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 22:20:36",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 22:20:36\nEntry: 10.999\nTP: 11.430819\nSL: 10.78309"
+    },
+    {
       "key": "FILUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -221,6 +237,22 @@
     }
   ],
   "bot9": [
+    {
+      "key": "DOGEUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "DOGEUSDT",
+      "direction": "LONG",
+      "entry": 0.09732,
+      "tp": 0.101786,
+      "sl": 0.094839,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 66.33 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 22:20:28",
+      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-21 22:20:28\nEntry: 0.09732\nTP: 0.101786\nSL: 0.094839"
+    },
     {
       "key": "BTCUSDT",
       "bot_id": "bot9",
@@ -252,22 +284,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 17:38:09",
       "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-21 17:38:09\nEntry: 1.0316\nTP: 1.08644\nSL: 1.001133"
-    },
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 11.226,
-      "tp": 11.585111,
-      "sl": 11.026494,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 52.35 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 14:35:44",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 14:35:44\nEntry: 11.226\nTP: 11.585111\nSL: 11.026494"
     }
   ],
   "bot10": [

@@ -1,24 +1,5 @@
 [
   {
-    "key": "DOGEUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "DOGEUSDT",
-    "direction": "SHORT",
-    "entry": 0.08617,
-    "tp": 0.085021,
-    "sl": 0.086745,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 15:23:02",
-    "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-18 15:23:02\nEntry: 0.08617\nTP: 0.085021\nSL: 0.086745",
-    "result": "SL_HIT",
-    "close_price": 0.08678,
-    "closed_at": "2026-09-18 18:48:48"
-  },
-  {
     "key": "BTCUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.3278,
     "closed_at": "2026-09-21 20:50:24"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 11.226,
+    "tp": 11.585111,
+    "sl": 11.026494,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 52.35 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 14:35:44",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 14:35:44\nEntry: 11.226\nTP: 11.585111\nSL: 11.026494",
+    "result": "SL_HIT",
+    "close_price": 10.987,
+    "closed_at": "2026-09-21 22:19:46"
   }
 ]
