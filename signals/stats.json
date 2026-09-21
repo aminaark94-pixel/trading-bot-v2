@@ -12,9 +12,9 @@
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "wins": 61,
-      "losses": 101,
-      "total": 162,
-      "win_rate": 37.7
+      "losses": 102,
+      "total": 163,
+      "win_rate": 37.4
     },
     {
       "bot_id": "bot3",
@@ -35,10 +35,10 @@
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "wins": 26,
+      "wins": 27,
       "losses": 39,
-      "total": 65,
-      "win_rate": 40.0
+      "total": 66,
+      "win_rate": 40.9
     },
     {
       "bot_id": "bot6",
@@ -105,7 +105,7 @@
     "total": 16,
     "win_rate": 62.5
   },
-  "last_run": "2026-09-21T13:36:47.022569+00:00",
+  "last_run": "2026-09-21T13:51:24.182056+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

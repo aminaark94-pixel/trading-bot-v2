@@ -81,22 +81,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 17:38:23",
       "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-21 17:38:23\nEntry: 62.93\nTP: 61.276416\nSL: 64.111133"
-    },
-    {
-      "key": "BTCUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 84783.14,
-      "tp": 83921.088528,
-      "sl": 85398.891052,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 86.16 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 14:35:17",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-21 14:35:17\nEntry: 84783.14\nTP: 83921.088528\nSL: 85398.891052"
     }
   ],
   "bot3": [],
@@ -151,22 +135,6 @@
     }
   ],
   "bot5": [
-    {
-      "key": "FETUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "FETUSDT",
-      "direction": "LONG",
-      "entry": 0.189,
-      "tp": 0.198972,
-      "sl": 0.185165,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 14:50:18",
-      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-21 14:50:18\nEntry: 0.189\nTP: 0.198972\nSL: 0.185165"
-    },
     {
       "key": "DOTUSDT",
       "bot_id": "bot5",
