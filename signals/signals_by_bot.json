@@ -70,6 +70,38 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "UNIUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "UNIUSDT",
+      "direction": "SHORT",
+      "entry": 8.891,
+      "tp": 8.626366,
+      "sl": 9.111529,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 17:02:20",
+      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-09-21 17:02:20\nEntry: 8.891\nTP: 8.626366\nSL: 9.111529"
+    },
+    {
+      "key": "APTUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "APTUSDT",
+      "direction": "SHORT",
+      "entry": 0.774,
+      "tp": 0.752063,
+      "sl": 0.792282,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 17:02:05",
+      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-21 17:02:05\nEntry: 0.774\nTP: 0.752063\nSL: 0.792282"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
