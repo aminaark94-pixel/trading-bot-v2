@@ -160,22 +160,6 @@
     "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-21 19:02:40\nEntry: 0.2056\nTP: 0.196157\nSL: 0.212345"
   },
   {
-    "key": "TIAUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.4408,
-    "tp": 0.455757,
-    "sl": 0.433322,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 18:24:01",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-21 18:24:01\nEntry: 0.4408\nTP: 0.455757\nSL: 0.433322"
-  },
-  {
     "key": "SOLUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
