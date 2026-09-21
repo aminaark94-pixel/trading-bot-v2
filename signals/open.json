@@ -1,5 +1,21 @@
 [
   {
+    "key": "AVAXUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 11.301,
+    "tp": 11.570561,
+    "sl": 11.121293,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.04 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 06:49:19",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 06:49:19\nEntry: 11.301\nTP: 11.570561\nSL: 11.121293"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -80,22 +96,6 @@
     "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-21 05:30:12\nEntry: 12.738\nTP: 12.543338\nSL: 12.877043"
   },
   {
-    "key": "AVAXUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 11.662,
-    "tp": 12.227269,
-    "sl": 11.379366,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 05:30:09",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 05:30:09\nEntry: 11.662\nTP: 12.227269\nSL: 11.379366"
-  },
-  {
     "key": "DOGEUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -158,22 +158,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 05:29:44",
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-21 05:29:44\nEntry: 2685.16\nTP: 2651.795706\nSL: 2708.99164"
-  },
-  {
-    "key": "BTCUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 81747.44,
-    "tp": 82426.495107,
-    "sl": 81370.187163,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 67.65).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 05:29:40",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-21 05:29:40\nEntry: 81747.44\nTP: 82426.495107\nSL: 81370.187163"
   },
   {
     "key": "SOLUSDT",
