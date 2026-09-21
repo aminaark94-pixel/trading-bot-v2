@@ -357,22 +357,6 @@
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 00:02:09\nEntry: 61.55\nTP: 62.145412\nSL: 61.153058"
     },
     {
-      "key": "STXUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.329,
-      "tp": 0.335583,
-      "sl": 0.324612,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.5 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 21:02:33",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-21 21:02:33\nEntry: 0.329\nTP: 0.335583\nSL: 0.324612"
-    },
-    {
       "key": "BCHUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",

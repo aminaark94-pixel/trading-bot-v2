@@ -1,24 +1,5 @@
 [
   {
-    "key": "SOLUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 109.62,
-    "tp": 107.65858,
-    "sl": 111.021015,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 82.16 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 19:22:44",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-18 19:22:44\nEntry: 109.62\nTP: 107.65858\nSL: 111.021015",
-    "result": "SL_HIT",
-    "close_price": 111.13,
-    "closed_at": "2026-09-18 21:01:06"
-  },
-  {
     "key": "ETHUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 2.936,
     "closed_at": "2026-09-22 00:34:25"
+  },
+  {
+    "key": "STXUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.329,
+    "tp": 0.335583,
+    "sl": 0.324612,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.5 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 21:02:33",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-21 21:02:33\nEntry: 0.329\nTP: 0.335583\nSL: 0.324612",
+    "result": "TP_HIT",
+    "close_price": 0.3356,
+    "closed_at": "2026-09-22 00:47:54"
   }
 ]
