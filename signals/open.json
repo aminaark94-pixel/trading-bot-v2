@@ -1,5 +1,37 @@
 [
   {
+    "key": "ICPUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 3.02,
+    "tp": 3.099781,
+    "sl": 2.98011,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 04:35:17",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-22 04:35:17\nEntry: 3.02\nTP: 3.099781\nSL: 2.98011"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 265.6,
+    "tp": 261.356847,
+    "sl": 269.13596,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 04:35:06",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-22 04:35:06\nEntry: 265.6\nTP: 261.356847\nSL: 269.13596"
+  },
+  {
     "key": "NEARUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -14,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 04:02:34",
     "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-22 04:02:34\nEntry: 4.321\nTP: 4.173314\nSL: 4.426491"
-  },
-  {
-    "key": "BCHUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 270.2,
-    "tp": 276.374217,
-    "sl": 267.112892,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 03:48:02",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-22 03:48:02\nEntry: 270.2\nTP: 276.374217\nSL: 267.112892"
   },
   {
     "key": "XRPUSDT",
@@ -62,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 02:34:40",
     "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-22 02:34:40\nEntry: 0.783\nTP: 0.81766\nSL: 0.769669"
-  },
-  {
-    "key": "STXUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.3469,
-    "tp": 0.338701,
-    "sl": 0.352756,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 76.12 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 02:03:01",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-22 02:03:01\nEntry: 0.3469\nTP: 0.338701\nSL: 0.352756"
   },
   {
     "key": "SOLUSDT",
