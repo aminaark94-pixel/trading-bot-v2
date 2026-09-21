@@ -1,5 +1,21 @@
 [
   {
+    "key": "STXUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "STXUSDT",
+    "direction": "SHORT",
+    "entry": 0.3469,
+    "tp": 0.338701,
+    "sl": 0.352756,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 76.12 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 02:03:01",
+    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-22 02:03:01\nEntry: 0.3469\nTP: 0.338701\nSL: 0.352756"
+  },
+  {
     "key": "SOLUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -46,22 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 01:22:31",
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 01:22:31\nEntry: 1.5181\nTP: 1.554118\nSL: 1.500091"
-  },
-  {
-    "key": "STXUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.3345,
-    "tp": 0.346605,
-    "sl": 0.329845,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 01:02:42",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 01:02:42\nEntry: 0.3345\nTP: 0.346605\nSL: 0.329845"
   },
   {
     "key": "LTCUSDT",
