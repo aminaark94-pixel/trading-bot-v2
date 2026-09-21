@@ -1,5 +1,21 @@
 [
   {
+    "key": "XRPUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "XRPUSDT",
+    "direction": "LONG",
+    "entry": 1.5593,
+    "tp": 1.6074,
+    "sl": 1.53525,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 03:22:22",
+    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 03:22:22\nEntry: 1.5593\nTP: 1.6074\nSL: 1.53525"
+  },
+  {
     "key": "APTUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -238,22 +254,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 20:21:18",
     "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 20:21:18\nEntry: 802.09\nTP: 819.853416\nSL: 792.221437"
-  },
-  {
-    "key": "BCHUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 265.1,
-    "tp": 270.482827,
-    "sl": 261.511449,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.54 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 20:02:32",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-21 20:02:32\nEntry: 265.1\nTP: 270.482827\nSL: 261.511449"
   },
   {
     "key": "FETUSDT",
