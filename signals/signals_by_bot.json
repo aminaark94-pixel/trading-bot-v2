@@ -17,22 +17,6 @@
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-21 09:24:21\nEntry: 4.365\nTP: 4.581262\nSL: 4.244855"
     },
     {
-      "key": "BNBUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "BNBUSDT",
-      "direction": "LONG",
-      "entry": 778.02,
-      "tp": 788.201041,
-      "sl": 772.363866,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.64).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 05:29:52",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 05:29:52\nEntry: 778.02\nTP: 788.201041\nSL: 772.363866"
-    },
-    {
       "key": "APTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -354,22 +338,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 09:24:07",
       "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-21 09:24:07\nEntry: 0.08798\nTP: 0.088655\nSL: 0.08753"
-    },
-    {
-      "key": "BTCUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 81070.01,
-      "tp": 81505.589293,
-      "sl": 80779.623804,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.87 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 07:01:45",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-21 07:01:45\nEntry: 81070.01\nTP: 81505.589293\nSL: 80779.623804"
     }
   ]
 }
