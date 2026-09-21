@@ -102,6 +102,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "TIAUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "TIAUSDT",
+      "direction": "SHORT",
+      "entry": 0.4305,
+      "tp": 0.424317,
+      "sl": 0.435652,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 15:35:39",
+      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-21 15:35:39\nEntry: 0.4305\nTP: 0.424317\nSL: 0.435652"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -172,22 +188,6 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "BCHUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 263.1,
-      "tp": 256.902159,
-      "sl": 266.198921,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 14:50:03",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-21 14:50:03\nEntry: 263.1\nTP: 256.902159\nSL: 266.198921"
-    },
-    {
       "key": "STXUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -206,6 +206,38 @@
   ],
   "bot9": [
     {
+      "key": "LTCUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 60.16,
+      "tp": 61.355484,
+      "sl": 59.495842,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 69.25 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 15:35:11",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-21 15:35:11\nEntry: 60.16\nTP: 61.355484\nSL: 59.495842"
+    },
+    {
+      "key": "ETHUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2714.25,
+      "tp": 2755.147383,
+      "sl": 2691.529232,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 61.61 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 15:34:36",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-21 15:34:36\nEntry: 2714.25\nTP: 2755.147383\nSL: 2691.529232"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -220,38 +252,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 14:35:44",
       "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 14:35:44\nEntry: 11.226\nTP: 11.585111\nSL: 11.026494"
-    },
-    {
-      "key": "ETHUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2738.35,
-      "tp": 2779.462994,
-      "sl": 2715.509448,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 76.16 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 14:35:29",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-21 14:35:29\nEntry: 2738.35\nTP: 2779.462994\nSL: 2715.509448"
-    },
-    {
-      "key": "LTCUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "LTCUSDT",
-      "direction": "LONG",
-      "entry": 58.9,
-      "tp": 60.011217,
-      "sl": 58.282657,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 51.75 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 07:23:49",
-      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-21 07:23:49\nEntry: 58.9\nTP: 60.011217\nSL: 58.282657"
     }
   ],
   "bot10": [
