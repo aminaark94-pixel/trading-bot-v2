@@ -1,24 +1,5 @@
 [
   {
-    "key": "ETHUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2521.01,
-    "tp": 2501.956173,
-    "sl": 2534.619877,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 81.53 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 14:22:48",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-18 14:22:48\nEntry: 2521.01\nTP: 2501.956173\nSL: 2534.619877",
-    "result": "TP_HIT",
-    "close_price": 2501.71,
-    "closed_at": "2026-09-18 17:53:32"
-  },
-  {
     "key": "INJUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.2448,
     "closed_at": "2026-09-21 17:25:44"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "LTCUSDT",
+    "direction": "LONG",
+    "entry": 60.16,
+    "tp": 61.355484,
+    "sl": 59.495842,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 69.25 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 15:35:11",
+    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-21 15:35:11\nEntry: 60.16\nTP: 61.355484\nSL: 59.495842",
+    "result": "TP_HIT",
+    "close_price": 62.74,
+    "closed_at": "2026-09-21 17:37:26"
   }
 ]

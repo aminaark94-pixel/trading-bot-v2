@@ -1,5 +1,37 @@
 [
   {
+    "key": "LTCUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 62.93,
+    "tp": 61.276416,
+    "sl": 64.111133,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 82.71 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 17:38:23",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-21 17:38:23\nEntry: 62.93\nTP: 61.276416\nSL: 64.111133"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 1.0316,
+    "tp": 1.08644,
+    "sl": 1.001133,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 69.02 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 17:38:09",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-21 17:38:09\nEntry: 1.0316\nTP: 1.08644\nSL: 1.001133"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -110,22 +142,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 16:02:28",
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-21 16:02:28\nEntry: 0.11271\nTP: 0.11709\nSL: 0.11052"
-  },
-  {
-    "key": "LTCUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 60.16,
-    "tp": 61.355484,
-    "sl": 59.495842,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 69.25 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 15:35:11",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-21 15:35:11\nEntry: 60.16\nTP: 61.355484\nSL: 59.495842"
   },
   {
     "key": "ETHUSDT",
