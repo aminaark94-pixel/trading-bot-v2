@@ -136,6 +136,22 @@
   ],
   "bot5": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.3345,
+      "tp": 0.346605,
+      "sl": 0.329845,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 01:02:42",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 01:02:42\nEntry: 0.3345\nTP: 0.346605\nSL: 0.329845"
+    },
+    {
       "key": "ETHUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
@@ -289,6 +305,22 @@
   ],
   "bot10": [
     {
+      "key": "LTCUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 62.36,
+      "tp": 63.977622,
+      "sl": 61.551189,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 01:02:13",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 01:02:13\nEntry: 62.36\nTP: 63.977622\nSL: 61.551189"
+    },
+    {
       "key": "RENDERUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -340,22 +372,6 @@
     }
   ],
   "bot12": [
-    {
-      "key": "LTCUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "LTCUSDT",
-      "direction": "LONG",
-      "entry": 61.55,
-      "tp": 62.145412,
-      "sl": 61.153058,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.97 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 00:02:09",
-      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 00:02:09\nEntry: 61.55\nTP: 62.145412\nSL: 61.153058"
-    },
     {
       "key": "BCHUSDT",
       "bot_id": "bot12",
