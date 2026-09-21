@@ -289,6 +289,22 @@
   ],
   "bot10": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 11.534,
+      "tp": 12.005942,
+      "sl": 11.298029,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 09:50:47",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 09:50:47\nEntry: 11.534\nTP: 12.005942\nSL: 11.298029"
+    },
+    {
       "key": "XRPUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -319,22 +335,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 07:23:38",
       "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 07:23:38\nEntry: 1.148\nTP: 1.180046\nSL: 1.131977"
-    },
-    {
-      "key": "POLUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "POLUSDT",
-      "direction": "LONG",
-      "entry": 0.10718,
-      "tp": 0.110119,
-      "sl": 0.10571,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 00:02:19",
-      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-21 00:02:19\nEntry: 0.10718\nTP: 0.110119\nSL: 0.10571"
     }
   ],
   "bot11": [],

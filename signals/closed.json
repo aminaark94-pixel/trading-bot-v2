@@ -1,24 +1,5 @@
 [
   {
-    "key": "FILUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.8417,
-    "tp": 0.86247,
-    "sl": 0.83226,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.2x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 04:20:31",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-18 04:20:31\nEntry: 0.8417\nTP: 0.86247\nSL: 0.83226",
-    "result": "TP_HIT",
-    "close_price": 0.8634,
-    "closed_at": "2026-09-18 08:22:05"
-  },
-  {
     "key": "LTCUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 2.95,
     "closed_at": "2026-09-21 09:23:24"
+  },
+  {
+    "key": "POLUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "POLUSDT",
+    "direction": "LONG",
+    "entry": 0.10718,
+    "tp": 0.110119,
+    "sl": 0.10571,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 00:02:19",
+    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-21 00:02:19\nEntry: 0.10718\nTP: 0.110119\nSL: 0.10571",
+    "result": "TP_HIT",
+    "close_price": 0.11032,
+    "closed_at": "2026-09-21 09:50:09"
   }
 ]
