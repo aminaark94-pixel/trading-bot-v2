@@ -188,6 +188,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "BCHUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 266.4,
+      "tp": 259.704948,
+      "sl": 269.747526,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 15:49:18",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-21 15:49:18\nEntry: 266.4\nTP: 259.704948\nSL: 269.747526"
+    },
+    {
       "key": "STXUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
