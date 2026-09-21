@@ -3,18 +3,18 @@
     {
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "wins": 45,
+      "wins": 46,
       "losses": 66,
-      "total": 111,
-      "win_rate": 40.5
+      "total": 112,
+      "win_rate": 41.1
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "wins": 58,
-      "losses": 94,
-      "total": 152,
-      "win_rate": 38.2
+      "losses": 95,
+      "total": 153,
+      "win_rate": 37.9
     },
     {
       "bot_id": "bot3",
@@ -27,10 +27,10 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 68,
+      "wins": 69,
       "losses": 97,
-      "total": 165,
-      "win_rate": 41.2
+      "total": 166,
+      "win_rate": 41.6
     },
     {
       "bot_id": "bot5",
@@ -60,33 +60,33 @@
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
       "wins": 30,
-      "losses": 82,
-      "total": 112,
-      "win_rate": 26.8
+      "losses": 83,
+      "total": 113,
+      "win_rate": 26.5
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "wins": 57,
+      "wins": 59,
       "losses": 70,
-      "total": 127,
-      "win_rate": 44.9
+      "total": 129,
+      "win_rate": 45.7
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "wins": 42,
+      "wins": 43,
       "losses": 69,
-      "total": 111,
-      "win_rate": 37.8
+      "total": 112,
+      "win_rate": 38.4
     },
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 35,
+      "wins": 36,
       "losses": 41,
-      "total": 76,
-      "win_rate": 46.1
+      "total": 77,
+      "win_rate": 46.8
     },
     {
       "bot_id": "bot12",
@@ -105,7 +105,7 @@
     "total": 15,
     "win_rate": 66.7
   },
-  "last_run": "2026-09-21T00:03:15.907113+00:00",
+  "last_run": "2026-09-21T00:31:31.735402+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
