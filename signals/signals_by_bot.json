@@ -51,6 +51,22 @@
   ],
   "bot2": [
     {
+      "key": "SOLUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "SOLUSDT",
+      "direction": "SHORT",
+      "entry": 117.88,
+      "tp": 115.794698,
+      "sl": 119.369501,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 74.31 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 18:22:51",
+      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-21 18:22:51\nEntry: 117.88\nTP: 115.794698\nSL: 119.369501"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -272,6 +288,22 @@
   ],
   "bot10": [
     {
+      "key": "TIAUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.4408,
+      "tp": 0.455757,
+      "sl": 0.433322,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 18:24:01",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-21 18:24:01\nEntry: 0.4408\nTP: 0.455757\nSL: 0.433322"
+    },
+    {
       "key": "POLUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -286,22 +318,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 16:02:28",
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-21 16:02:28\nEntry: 0.11271\nTP: 0.11709\nSL: 0.11052"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 115.3,
-      "tp": 117.599299,
-      "sl": 114.150351,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 14:01:35",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-21 14:01:35\nEntry: 115.3\nTP: 117.599299\nSL: 114.150351"
     },
     {
       "key": "RENDERUSDT",
