@@ -357,22 +357,6 @@
       "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 12:37:03\nEntry: 11.002\nTP: 11.180351\nSL: 10.8831"
     },
     {
-      "key": "ETHUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2650.91,
-      "tp": 2663.324103,
-      "sl": 2642.633932,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.19 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 12:36:47",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-21 12:36:47\nEntry: 2650.91\nTP: 2663.324103\nSL: 2642.633932"
-    },
-    {
       "key": "POLUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
