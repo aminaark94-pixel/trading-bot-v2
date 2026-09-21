@@ -1,5 +1,21 @@
 [
   {
+    "key": "BNBUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "BNBUSDT",
+    "direction": "LONG",
+    "entry": 792.05,
+    "tp": 801.478821,
+    "sl": 786.811766,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 72.08).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 16:49:17",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 16:49:17\nEntry: 792.05\nTP: 801.478821\nSL: 786.811766"
+  },
+  {
     "key": "NEARUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -238,22 +254,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 13:50:03",
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-21 13:50:03\nEntry: 1.4812\nTP: 1.516563\nSL: 1.465126"
-  },
-  {
-    "key": "BNBUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "BNBUSDT",
-    "direction": "LONG",
-    "entry": 781.4,
-    "tp": 791.286574,
-    "sl": 775.907459,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 63.65).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 13:49:54",
-    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 13:49:54\nEntry: 781.4\nTP: 791.286574\nSL: 775.907459"
   },
   {
     "key": "RENDERUSDT",

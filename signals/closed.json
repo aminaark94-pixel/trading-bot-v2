@@ -1,24 +1,5 @@
 [
   {
-    "key": "BNBUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BNBUSDT",
-    "direction": "LONG",
-    "entry": 748.66,
-    "tp": 752.370664,
-    "sl": 746.186224,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.58 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 17:01:46",
-    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-18 17:01:46\nEntry: 748.66\nTP: 752.370664\nSL: 746.186224",
-    "result": "SL_HIT",
-    "close_price": 745.89,
-    "closed_at": "2026-09-18 17:26:40"
-  },
-  {
     "key": "LINKUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.0305,
     "closed_at": "2026-09-21 16:37:51"
+  },
+  {
+    "key": "BNBUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "BNBUSDT",
+    "direction": "LONG",
+    "entry": 781.4,
+    "tp": 791.286574,
+    "sl": 775.907459,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 63.65).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 13:49:54",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 13:49:54\nEntry: 781.4\nTP: 791.286574\nSL: 775.907459",
+    "result": "TP_HIT",
+    "close_price": 792.1,
+    "closed_at": "2026-09-21 16:48:55"
   }
 ]
