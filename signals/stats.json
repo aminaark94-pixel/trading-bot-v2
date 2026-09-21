@@ -76,9 +76,9 @@
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
       "wins": 51,
-      "losses": 76,
-      "total": 127,
-      "win_rate": 40.2
+      "losses": 77,
+      "total": 128,
+      "win_rate": 39.8
     },
     {
       "bot_id": "bot11",
@@ -105,7 +105,7 @@
     "total": 16,
     "win_rate": 62.5
   },
-  "last_run": "2026-09-21T23:35:57.389643+00:00",
+  "last_run": "2026-09-21T23:48:41.662213+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

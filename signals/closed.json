@@ -1,24 +1,5 @@
 [
   {
-    "key": "DOGEUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "DOGEUSDT",
-    "direction": "LONG",
-    "entry": 0.08689,
-    "tp": 0.088132,
-    "sl": 0.085855,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:49:26",
-    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-18 18:49:26\nEntry: 0.08689\nTP: 0.088132\nSL: 0.085855",
-    "result": "TP_HIT",
-    "close_price": 0.08841,
-    "closed_at": "2026-09-19 01:47:00"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.3387,
     "closed_at": "2026-09-22 04:35:44"
+  },
+  {
+    "key": "XRPUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "XRPUSDT",
+    "direction": "LONG",
+    "entry": 1.5593,
+    "tp": 1.6074,
+    "sl": 1.53525,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 03:22:22",
+    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 03:22:22\nEntry: 1.5593\nTP: 1.6074\nSL: 1.53525",
+    "result": "SL_HIT",
+    "close_price": 1.5317,
+    "closed_at": "2026-09-22 04:46:32"
   }
 ]
