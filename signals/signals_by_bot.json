@@ -272,6 +272,22 @@
   ],
   "bot10": [
     {
+      "key": "BCHUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "BCHUSDT",
+      "direction": "LONG",
+      "entry": 270.2,
+      "tp": 276.374217,
+      "sl": 267.112892,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 03:48:02",
+      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-22 03:48:02\nEntry: 270.2\nTP: 276.374217\nSL: 267.112892"
+    },
+    {
       "key": "XRPUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -302,22 +318,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-22 01:33:41",
       "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-22 01:33:41\nEntry: 118.96\nTP: 121.237749\nSL: 117.821125"
-    },
-    {
-      "key": "LTCUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "LTCUSDT",
-      "direction": "LONG",
-      "entry": 62.36,
-      "tp": 63.977622,
-      "sl": 61.551189,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 01:02:13",
-      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 01:02:13\nEntry: 62.36\nTP: 63.977622\nSL: 61.551189"
     }
   ],
   "bot11": [
@@ -354,5 +354,22 @@
       "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-21 22:49:01\nEntry: 0.4303\nTP: 0.413367\nSL: 0.437998"
     }
   ],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "LTCUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 61.53,
+      "tp": 62.023759,
+      "sl": 61.200827,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.95 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 03:47:59",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 03:47:59\nEntry: 61.53\nTP: 62.023759\nSL: 61.200827"
+    }
+  ]
 }

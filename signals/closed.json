@@ -1,24 +1,5 @@
 [
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 55.67,
-    "tp": 56.984175,
-    "sl": 55.164548,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:49:57",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-18 18:49:57\nEntry: 55.67\nTP: 56.984175\nSL: 55.164548",
-    "result": "TP_HIT",
-    "close_price": 57.22,
-    "closed_at": "2026-09-19 00:20:27"
-  },
-  {
     "key": "ICPUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 272.0,
     "closed_at": "2026-09-22 03:21:48"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "LTCUSDT",
+    "direction": "LONG",
+    "entry": 62.36,
+    "tp": 63.977622,
+    "sl": 61.551189,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 01:02:13",
+    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 01:02:13\nEntry: 62.36\nTP: 63.977622\nSL: 61.551189",
+    "result": "SL_HIT",
+    "close_price": 61.55,
+    "closed_at": "2026-09-22 03:46:58"
   }
 ]
