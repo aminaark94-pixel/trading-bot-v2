@@ -87,6 +87,22 @@
   ],
   "bot4": [
     {
+      "key": "FETUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "FETUSDT",
+      "direction": "LONG",
+      "entry": 0.1816,
+      "tp": 0.185292,
+      "sl": 0.178524,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 10:50:51",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-21 10:50:51\nEntry: 0.1816\nTP: 0.185292\nSL: 0.178524"
+    },
+    {
       "key": "STXUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -322,5 +338,38 @@
     }
   ],
   "bot11": [],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "POLUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.10716,
+      "tp": 0.108416,
+      "sl": 0.106323,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.37 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 10:50:42",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-21 10:50:42\nEntry: 0.10716\nTP: 0.108416\nSL: 0.106323"
+    },
+    {
+      "key": "BNBUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "BNBUSDT",
+      "direction": "LONG",
+      "entry": 772.46,
+      "tp": 775.585266,
+      "sl": 770.37649,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.64 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 10:50:12",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 10:50:12\nEntry: 772.46\nTP: 775.585266\nSL: 770.37649"
+    }
+  ]
 }
