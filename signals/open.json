@@ -1,5 +1,21 @@
 [
   {
+    "key": "NEARUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 4.321,
+    "tp": 4.173314,
+    "sl": 4.426491,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 70.92 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 04:02:34",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-22 04:02:34\nEntry: 4.321\nTP: 4.173314\nSL: 4.426491"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -110,22 +126,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 01:23:22",
     "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-22 01:23:22\nEntry: 1.848\nTP: 1.921669\nSL: 1.814514"
-  },
-  {
-    "key": "NEARUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "NEARUSDT",
-    "direction": "SHORT",
-    "entry": 4.134,
-    "tp": 3.938057,
-    "sl": 4.231972,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 00:35:17",
-    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-22 00:35:17\nEntry: 4.134\nTP: 3.938057\nSL: 4.231972"
   },
   {
     "key": "SUIUSDT",

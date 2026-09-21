@@ -1,24 +1,5 @@
 [
   {
-    "key": "ICPUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.781,
-    "tp": 2.861757,
-    "sl": 2.740622,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 17:28:06",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-18 17:28:06\nEntry: 2.781\nTP: 2.861757\nSL: 2.740622",
-    "result": "TP_HIT",
-    "close_price": 2.865,
-    "closed_at": "2026-09-19 00:22:02"
-  },
-  {
     "key": "POLUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 61.55,
     "closed_at": "2026-09-22 03:46:58"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 4.134,
+    "tp": 3.938057,
+    "sl": 4.231972,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 00:35:17",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-22 00:35:17\nEntry: 4.134\nTP: 3.938057\nSL: 4.231972",
+    "result": "SL_HIT",
+    "close_price": 4.325,
+    "closed_at": "2026-09-22 04:01:35"
   }
 ]
