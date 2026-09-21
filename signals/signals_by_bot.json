@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "ADAUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "ADAUSDT",
+      "direction": "LONG",
+      "entry": 0.2447,
+      "tp": 0.252238,
+      "sl": 0.240512,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 70.21).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 17:26:24",
+      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-21 17:26:24\nEntry: 0.2447\nTP: 0.252238\nSL: 0.240512"
+    },
+    {
       "key": "BNBUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -31,22 +47,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 15:01:49",
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-21 15:01:49\nEntry: 13.007\nTP: 13.293918\nSL: 12.847601"
-    },
-    {
-      "key": "ADAUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "ADAUSDT",
-      "direction": "LONG",
-      "entry": 0.2382,
-      "tp": 0.244059,
-      "sl": 0.234945,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 61.75).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 15:01:41",
-      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-21 15:01:41\nEntry: 0.2382\nTP: 0.244059\nSL: 0.234945"
     }
   ],
   "bot2": [
@@ -188,22 +188,6 @@
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-21 16:23:45\nEntry: 4.172\nTP: 4.393478\nSL: 4.061261"
     },
     {
-      "key": "BCHUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 266.4,
-      "tp": 259.704948,
-      "sl": 269.747526,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 15:49:18",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-21 15:49:18\nEntry: 266.4\nTP: 259.704948\nSL: 269.747526"
-    },
-    {
       "key": "STXUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -321,6 +305,22 @@
     }
   ],
   "bot11": [
+    {
+      "key": "BCHUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "BCHUSDT",
+      "direction": "LONG",
+      "entry": 271.5,
+      "tp": 282.054025,
+      "sl": 266.702717,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.5x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 17:26:56",
+      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-21 17:26:56\nEntry: 271.5\nTP: 282.054025\nSL: 266.702717"
+    },
     {
       "key": "DOGEUSDT",
       "bot_id": "bot11",
