@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "BNBUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "BNBUSDT",
+      "direction": "LONG",
+      "entry": 802.09,
+      "tp": 819.853416,
+      "sl": 792.221437,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 65.93).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 20:21:18",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 20:21:18\nEntry: 802.09\nTP: 819.853416\nSL: 792.221437"
+    },
+    {
       "key": "ADAUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -15,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 17:26:24",
       "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-21 17:26:24\nEntry: 0.2447\nTP: 0.252238\nSL: 0.240512"
-    },
-    {
-      "key": "BNBUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "BNBUSDT",
-      "direction": "LONG",
-      "entry": 792.05,
-      "tp": 801.478821,
-      "sl": 786.811766,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 72.08).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 16:49:17",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 16:49:17\nEntry: 792.05\nTP: 801.478821\nSL: 786.811766"
     },
     {
       "key": "LINKUSDT",
@@ -188,20 +188,20 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "NEARUSDT",
+      "key": "FILUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "NEARUSDT",
+      "symbol": "FILUSDT",
       "direction": "LONG",
-      "entry": 4.172,
-      "tp": 4.393478,
-      "sl": 4.061261,
+      "entry": 0.9662,
+      "tp": 1.010345,
+      "sl": 0.944128,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-21 16:23:45",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-21 16:23:45\nEntry: 4.172\nTP: 4.393478\nSL: 4.061261"
+      "timestamp": "2026-09-21 20:22:36",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-21 20:22:36\nEntry: 0.9662\nTP: 1.010345\nSL: 0.944128"
     },
     {
       "key": "STXUSDT",
@@ -339,6 +339,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "NEARUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 4.025,
+      "tp": 4.132904,
+      "sl": 3.953064,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 31.46 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 20:21:51",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-21 20:21:51\nEntry: 4.025\nTP: 4.132904\nSL: 3.953064"
+    },
     {
       "key": "BCHUSDT",
       "bot_id": "bot12",
