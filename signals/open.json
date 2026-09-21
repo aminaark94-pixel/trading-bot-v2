@@ -1,5 +1,21 @@
 [
   {
+    "key": "BTCUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 82670.01,
+    "tp": 83374.830636,
+    "sl": 82278.44298,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 72.55).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 13:36:12",
+    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-21 13:36:12\nEntry: 82670.01\nTP: 83374.830636\nSL: 82278.44298"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -160,38 +176,6 @@
     "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-21 11:30:24\nEntry: 0.9736\nTP: 0.944582\nSL: 0.994327"
   },
   {
-    "key": "FETUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "FETUSDT",
-    "direction": "LONG",
-    "entry": 0.1816,
-    "tp": 0.185292,
-    "sl": 0.178524,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 10:50:51",
-    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-21 10:50:51\nEntry: 0.1816\nTP: 0.185292\nSL: 0.178524"
-  },
-  {
-    "key": "BTCUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 81764.0,
-    "tp": 82378.826601,
-    "sl": 81422.429666,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 61.73).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 10:34:53",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-21 10:34:53\nEntry: 81764.0\nTP: 82378.826601\nSL: 81422.429666"
-  },
-  {
     "key": "ICPUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -286,22 +270,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 06:35:34",
     "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-21 06:35:34\nEntry: 257.9\nTP: 251.280212\nSL: 261.209894"
-  },
-  {
-    "key": "SOLUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "SOLUSDT",
-    "direction": "LONG",
-    "entry": 111.17,
-    "tp": 113.538951,
-    "sl": 110.258865,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 04:46:33",
-    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-21 04:46:33\nEntry: 111.17\nTP: 113.538951\nSL: 110.258865"
   },
   {
     "key": "UNIUSDT",
