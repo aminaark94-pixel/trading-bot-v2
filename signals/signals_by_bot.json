@@ -1,20 +1,20 @@
 {
   "bot1": [
     {
-      "key": "FETUSDT",
+      "key": "NEARUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "symbol": "FETUSDT",
+      "symbol": "NEARUSDT",
       "direction": "LONG",
-      "entry": 0.1826,
-      "tp": 0.188494,
-      "sl": 0.179325,
+      "entry": 4.365,
+      "tp": 4.581262,
+      "sl": 4.244855,
       "score": 80,
       "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 65.2).",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 62.46).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-21 08:24:28",
-      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-21 08:24:28\nEntry: 0.1826\nTP: 0.188494\nSL: 0.179325"
+      "timestamp": "2026-09-21 09:24:21",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-21 09:24:21\nEntry: 4.365\nTP: 4.581262\nSL: 4.244855"
     },
     {
       "key": "BNBUSDT",
@@ -50,22 +50,6 @@
     }
   ],
   "bot2": [
-    {
-      "key": "ICPUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "ICPUSDT",
-      "direction": "SHORT",
-      "entry": 3.04,
-      "tp": 2.981475,
-      "sl": 3.081803,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 76.06 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 08:24:24",
-      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-21 08:24:24\nEntry: 3.04\nTP: 2.981475\nSL: 3.081803"
-    },
     {
       "key": "SUIUSDT",
       "bot_id": "bot2",
@@ -152,6 +136,22 @@
     }
   ],
   "bot5": [
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.948,
+      "tp": 3.072976,
+      "sl": 2.899932,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 09:24:44",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-21 09:24:44\nEntry: 2.948\nTP: 3.072976\nSL: 2.899932"
+    },
     {
       "key": "SOLUSDT",
       "bot_id": "bot5",
@@ -339,6 +339,22 @@
   ],
   "bot11": [],
   "bot12": [
+    {
+      "key": "DOGEUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "DOGEUSDT",
+      "direction": "LONG",
+      "entry": 0.08798,
+      "tp": 0.088655,
+      "sl": 0.08753,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.89 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 09:24:07",
+      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-21 09:24:07\nEntry: 0.08798\nTP: 0.088655\nSL: 0.08753"
+    },
     {
       "key": "BTCUSDT",
       "bot_id": "bot12",
