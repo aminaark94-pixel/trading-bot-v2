@@ -32,22 +32,6 @@
     "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-22 03:48:02\nEntry: 270.2\nTP: 276.374217\nSL: 267.112892"
   },
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 61.53,
-    "tp": 62.023759,
-    "sl": 61.200827,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.95 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 03:47:59",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 03:47:59\nEntry: 61.53\nTP: 62.023759\nSL: 61.200827"
-  },
-  {
     "key": "XRPUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
