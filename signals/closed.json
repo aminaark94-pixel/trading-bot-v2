@@ -1,24 +1,5 @@
 [
   {
-    "key": "APTUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.66,
-    "tp": 0.678133,
-    "sl": 0.647912,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.84 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 10:48:32",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-18 10:48:32\nEntry: 0.66\nTP: 0.678133\nSL: 0.647912",
-    "result": "TP_HIT",
-    "close_price": 0.679,
-    "closed_at": "2026-09-18 16:48:50"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.788,
     "closed_at": "2026-09-21 16:03:04"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "SUIUSDT",
+    "direction": "SHORT",
+    "entry": 1.0056,
+    "tp": 0.973445,
+    "sl": 1.028568,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "RSI 72.74 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 14:24:19",
+    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-21 14:24:19\nEntry: 1.0056\nTP: 0.973445\nSL: 1.028568",
+    "result": "SL_HIT",
+    "close_price": 1.0305,
+    "closed_at": "2026-09-21 16:37:51"
   }
 ]
