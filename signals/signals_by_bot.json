@@ -1,20 +1,20 @@
 {
   "bot1": [
     {
-      "key": "BTCUSDT",
+      "key": "BNBUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "symbol": "BTCUSDT",
+      "symbol": "BNBUSDT",
       "direction": "LONG",
-      "entry": 82670.01,
-      "tp": 83374.830636,
-      "sl": 82278.44298,
+      "entry": 781.4,
+      "tp": 791.286574,
+      "sl": 775.907459,
       "score": 80,
       "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 72.55).",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 63.65).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-21 13:36:12",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-21 13:36:12\nEntry: 82670.01\nTP: 83374.830636\nSL: 82278.44298"
+      "timestamp": "2026-09-21 13:49:54",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-21 13:49:54\nEntry: 781.4\nTP: 791.286574\nSL: 775.907459"
     },
     {
       "key": "ETHUSDT",
@@ -51,20 +51,20 @@
   ],
   "bot2": [
     {
-      "key": "DOGEUSDT",
+      "key": "BTCUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "symbol": "DOGEUSDT",
+      "symbol": "BTCUSDT",
       "direction": "SHORT",
-      "entry": 0.09109,
-      "tp": 0.089677,
-      "sl": 0.0921,
-      "score": 74,
+      "entry": 83790.16,
+      "tp": 82989.309804,
+      "sl": 84362.195854,
+      "score": 85,
       "provider": "Technical",
-      "reason": "RSI 73.49 extreme + price at Bollinger Band edge.",
+      "reason": "RSI 81.28 extreme + price at Bollinger Band edge.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-21 13:25:20",
-      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-21 13:25:20\nEntry: 0.09109\nTP: 0.089677\nSL: 0.0921"
+      "timestamp": "2026-09-21 13:49:42",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-21 13:49:42\nEntry: 83790.16\nTP: 82989.309804\nSL: 84362.195854"
     },
     {
       "key": "APTUSDT",
@@ -119,22 +119,6 @@
   ],
   "bot4": [
     {
-      "key": "STXUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.3229,
-      "tp": 0.327481,
-      "sl": 0.319083,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 13:26:27",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-21 13:26:27\nEntry: 0.3229\nTP: 0.327481\nSL: 0.319083"
-    },
-    {
       "key": "INJUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -188,38 +172,6 @@
   "bot6": [],
   "bot7": [],
   "bot8": [
-    {
-      "key": "XRPUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "XRPUSDT",
-      "direction": "SHORT",
-      "entry": 1.4477,
-      "tp": 1.421138,
-      "sl": 1.460981,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 13:25:16",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-21 13:25:16\nEntry: 1.4477\nTP: 1.421138\nSL: 1.460981"
-    },
-    {
-      "key": "BCHUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 257.9,
-      "tp": 251.280212,
-      "sl": 261.209894,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 06:35:34",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-21 06:35:34\nEntry: 257.9\nTP: 251.280212\nSL: 261.209894"
-    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot8",
@@ -337,7 +289,40 @@
       "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 07:23:38\nEntry: 1.148\nTP: 1.180046\nSL: 1.131977"
     }
   ],
-  "bot11": [],
+  "bot11": [
+    {
+      "key": "DOGEUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "DOGEUSDT",
+      "direction": "LONG",
+      "entry": 0.09244,
+      "tp": 0.094862,
+      "sl": 0.091339,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.6x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 13:50:05",
+      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-21 13:50:05\nEntry: 0.09244\nTP: 0.094862\nSL: 0.091339"
+    },
+    {
+      "key": "XRPUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "XRPUSDT",
+      "direction": "LONG",
+      "entry": 1.4812,
+      "tp": 1.516563,
+      "sl": 1.465126,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.0x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 13:50:03",
+      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-21 13:50:03\nEntry: 1.4812\nTP: 1.516563\nSL: 1.465126"
+    }
+  ],
   "bot12": [
     {
       "key": "AVAXUSDT",
