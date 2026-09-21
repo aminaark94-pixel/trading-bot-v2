@@ -223,6 +223,38 @@
   ],
   "bot9": [
     {
+      "key": "LTCUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 58.9,
+      "tp": 60.011217,
+      "sl": 58.282657,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 51.75 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 07:23:49",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-21 07:23:49\nEntry: 58.9\nTP: 60.011217\nSL: 58.282657"
+    },
+    {
+      "key": "LINKUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 12.611,
+      "tp": 12.890431,
+      "sl": 12.455761,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.68 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 07:23:31",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-21 07:23:31\nEntry: 12.611\nTP: 12.890431\nSL: 12.455761"
+    },
+    {
       "key": "ADAUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -240,6 +272,22 @@
     }
   ],
   "bot10": [
+    {
+      "key": "DOTUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "DOTUSDT",
+      "direction": "LONG",
+      "entry": 1.148,
+      "tp": 1.180046,
+      "sl": 1.131977,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-21 07:23:38",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 07:23:38\nEntry: 1.148\nTP: 1.180046\nSL: 1.131977"
+    },
     {
       "key": "POLUSDT",
       "bot_id": "bot10",
