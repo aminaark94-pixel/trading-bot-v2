@@ -1,24 +1,5 @@
 [
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 12.017,
-    "tp": 12.18545,
-    "sl": 11.876624,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:49:38",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-18 18:49:38\nEntry: 12.017\nTP: 12.18545\nSL: 11.876624",
-    "result": "TP_HIT",
-    "close_price": 12.232,
-    "closed_at": "2026-09-18 20:24:50"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 12.964,
     "closed_at": "2026-09-21 23:53:34"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 3.919,
+    "tp": 4.09321,
+    "sl": 3.831895,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-21 23:02:27",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-21 23:02:27\nEntry: 3.919\nTP: 4.09321\nSL: 3.831895",
+    "result": "TP_HIT",
+    "close_price": 4.126,
+    "closed_at": "2026-09-22 00:21:37"
   }
 ]

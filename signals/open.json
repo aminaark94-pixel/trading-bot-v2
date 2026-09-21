@@ -48,22 +48,6 @@
     "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-21 23:02:47\nEntry: 2.898\nTP: 2.832814\nSL: 2.934214"
   },
   {
-    "key": "NEARUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "NEARUSDT",
-    "direction": "LONG",
-    "entry": 3.919,
-    "tp": 4.09321,
-    "sl": 3.831895,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 23:02:27",
-    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-21 23:02:27\nEntry: 3.919\nTP: 4.09321\nSL: 3.831895"
-  },
-  {
     "key": "TIAUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
