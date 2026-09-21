@@ -202,22 +202,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 20:22:36",
       "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-21 20:22:36\nEntry: 0.9662\nTP: 1.010345\nSL: 0.944128"
-    },
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.3374,
-      "tp": 0.328214,
-      "sl": 0.341993,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 14:36:40",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-21 14:36:40\nEntry: 0.3374\nTP: 0.328214\nSL: 0.341993"
     }
   ],
   "bot9": [
@@ -236,22 +220,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-21 17:38:09",
       "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-21 17:38:09\nEntry: 1.0316\nTP: 1.08644\nSL: 1.001133"
-    },
-    {
-      "key": "ETHUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2714.25,
-      "tp": 2755.147383,
-      "sl": 2691.529232,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 61.61 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 15:34:36",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-21 15:34:36\nEntry: 2714.25\nTP: 2755.147383\nSL: 2691.529232"
     },
     {
       "key": "AVAXUSDT",
