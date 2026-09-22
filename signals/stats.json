@@ -36,17 +36,17 @@
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
       "wins": 28,
-      "losses": 46,
-      "total": 74,
-      "win_rate": 37.8
+      "losses": 47,
+      "total": 75,
+      "win_rate": 37.3
     },
     {
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
       "wins": 23,
-      "losses": 36,
-      "total": 59,
-      "win_rate": 39.0
+      "losses": 37,
+      "total": 60,
+      "win_rate": 38.3
     },
     {
       "bot_id": "bot7",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 144,
-      "losses": 170,
-      "total": 314,
-      "win_rate": 45.9
+      "losses": 172,
+      "total": 316,
+      "win_rate": 45.6
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 16,
     "win_rate": 62.5
   },
-  "last_run": "2026-09-22T10:03:36.114367+00:00",
+  "last_run": "2026-09-22T10:25:40.960543+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
