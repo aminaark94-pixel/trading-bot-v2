@@ -309,6 +309,22 @@
   ],
   "bot12": [
     {
+      "key": "SOLUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "SOLUSDT",
+      "direction": "LONG",
+      "entry": 116.32,
+      "tp": 116.956941,
+      "sl": 115.895372,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 42.0 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 12:23:14",
+      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-22 12:23:14\nEntry: 116.32\nTP: 116.956941\nSL: 115.895372"
+    },
+    {
       "key": "DOTUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
