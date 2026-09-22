@@ -1,5 +1,21 @@
 [
   {
+    "key": "UNIUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 9.1,
+    "tp": 9.407433,
+    "sl": 8.929204,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 57.31 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 06:35:10",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 06:35:10\nEntry: 9.1\nTP: 9.407433\nSL: 8.929204"
+  },
+  {
     "key": "POLUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
