@@ -51,6 +51,22 @@
   ],
   "bot2": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 10.725,
+      "tp": 10.904,
+      "sl": 10.597143,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 22.51 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 10:01:58",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-22 10:01:58\nEntry: 10.725\nTP: 10.904\nSL: 10.597143"
+    },
+    {
       "key": "FETUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -69,6 +85,22 @@
   ],
   "bot3": [],
   "bot4": [
+    {
+      "key": "DOGEUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "DOGEUSDT",
+      "direction": "SHORT",
+      "entry": 0.09974,
+      "tp": 0.096923,
+      "sl": 0.102087,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 10:01:51",
+      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-22 10:01:51\nEntry: 0.09974\nTP: 0.096923\nSL: 0.102087"
+    },
     {
       "key": "LTCUSDT",
       "bot_id": "bot4",
@@ -124,36 +156,36 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "ICPUSDT",
+      "key": "UNIUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "ICPUSDT",
+      "symbol": "UNIUSDT",
       "direction": "LONG",
-      "entry": 2.963,
-      "tp": 3.048848,
-      "sl": 2.920076,
+      "entry": 8.87,
+      "tp": 9.222485,
+      "sl": 8.693757,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-22 08:02:36",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-22 08:02:36\nEntry: 2.963\nTP: 3.048848\nSL: 2.920076"
+      "timestamp": "2026-09-22 10:02:30",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 10:02:30\nEntry: 8.87\nTP: 9.222485\nSL: 8.693757"
     },
     {
-      "key": "AVAXUSDT",
+      "key": "NEARUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "AVAXUSDT",
+      "symbol": "NEARUSDT",
       "direction": "LONG",
-      "entry": 10.999,
-      "tp": 11.430819,
-      "sl": 10.78309,
+      "entry": 4.282,
+      "tp": 4.515148,
+      "sl": 4.165426,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-21 22:20:36",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 22:20:36\nEntry: 10.999\nTP: 11.430819\nSL: 10.78309"
+      "timestamp": "2026-09-22 10:02:12",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-22 10:02:12\nEntry: 4.282\nTP: 4.515148\nSL: 4.165426"
     },
     {
       "key": "FILUSDT",
@@ -173,6 +205,22 @@
     }
   ],
   "bot9": [
+    {
+      "key": "APTUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "APTUSDT",
+      "direction": "SHORT",
+      "entry": 0.763,
+      "tp": 0.74201,
+      "sl": 0.774661,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 41.11 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 10:02:16",
+      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-22 10:02:16\nEntry: 0.763\nTP: 0.74201\nSL: 0.774661"
+    },
     {
       "key": "LINKUSDT",
       "bot_id": "bot9",
@@ -239,22 +287,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-22 06:21:10",
       "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-22 06:21:10\nEntry: 0.10996\nTP: 0.10731\nSL: 0.111164"
-    },
-    {
-      "key": "RENDERUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "RENDERUSDT",
-      "direction": "LONG",
-      "entry": 1.848,
-      "tp": 1.921669,
-      "sl": 1.814514,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.7x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 01:23:22",
-      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-22 01:23:22\nEntry: 1.848\nTP: 1.921669\nSL: 1.814514"
     }
   ],
   "bot12": [
