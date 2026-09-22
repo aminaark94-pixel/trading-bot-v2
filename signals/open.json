@@ -144,22 +144,6 @@
     "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-22 10:48:44\nEntry: 85570.01\nTP: 84923.053245\nSL: 85929.43042"
   },
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 264.4,
-    "tp": 258.488278,
-    "sl": 267.355861,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 10:22:42",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-22 10:22:42\nEntry: 264.4\nTP: 258.488278\nSL: 267.355861"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -190,22 +174,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 10:02:30",
     "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 10:02:30\nEntry: 8.87\nTP: 9.222485\nSL: 8.693757"
-  },
-  {
-    "key": "APTUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "APTUSDT",
-    "direction": "SHORT",
-    "entry": 0.763,
-    "tp": 0.74201,
-    "sl": 0.774661,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 41.11 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 10:02:16",
-    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-22 10:02:16\nEntry: 0.763\nTP: 0.74201\nSL: 0.774661"
   },
   {
     "key": "NEARUSDT",
