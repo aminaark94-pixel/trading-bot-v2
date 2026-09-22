@@ -289,6 +289,22 @@
   ],
   "bot10": [
     {
+      "key": "UNIUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 9.861,
+      "tp": 10.370072,
+      "sl": 9.606465,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 03:35:15",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-23 03:35:15\nEntry: 9.861\nTP: 10.370072\nSL: 9.606465"
+    },
+    {
       "key": "DOTUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
