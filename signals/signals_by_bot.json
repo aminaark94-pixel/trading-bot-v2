@@ -190,22 +190,6 @@
       "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-22 09:01:45\nEntry: 0.10255\nTP: 0.105963\nSL: 0.100654"
     },
     {
-      "key": "UNIUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "UNIUSDT",
-      "direction": "LONG",
-      "entry": 9.1,
-      "tp": 9.407433,
-      "sl": 8.929204,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 57.31 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 06:35:10",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 06:35:10\nEntry: 9.1\nTP: 9.407433\nSL: 8.929204"
-    },
-    {
       "key": "BTCUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -222,24 +206,7 @@
       "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-21 21:01:28\nEntry: 85950.93\nTP: 87370.446855\nSL: 85162.309525"
     }
   ],
-  "bot10": [
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.4448,
-      "tp": 0.455813,
-      "sl": 0.439293,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 07:36:20",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-22 07:36:20\nEntry: 0.4448\nTP: 0.455813\nSL: 0.439293"
-    }
-  ],
+  "bot10": [],
   "bot11": [
     {
       "key": "INJUSDT",
