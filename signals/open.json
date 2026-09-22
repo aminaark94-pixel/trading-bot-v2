@@ -1,5 +1,21 @@
 [
   {
+    "key": "DOGEUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "DOGEUSDT",
+    "direction": "LONG",
+    "entry": 0.10255,
+    "tp": 0.105963,
+    "sl": 0.100654,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 66.45 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 09:01:45",
+    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-22 09:01:45\nEntry: 0.10255\nTP: 0.105963\nSL: 0.100654"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -78,22 +94,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 07:36:20",
     "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-22 07:36:20\nEntry: 0.4448\nTP: 0.455813\nSL: 0.439293"
-  },
-  {
-    "key": "NEARUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "NEARUSDT",
-    "direction": "SHORT",
-    "entry": 4.515,
-    "tp": 4.354062,
-    "sl": 4.629955,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 76.24 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 07:35:40",
-    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-22 07:35:40\nEntry: 4.515\nTP: 4.354062\nSL: 4.629955"
   },
   {
     "key": "BNBUSDT",
@@ -206,22 +206,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 22:20:36",
     "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 22:20:36\nEntry: 10.999\nTP: 11.430819\nSL: 10.78309"
-  },
-  {
-    "key": "DOGEUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "DOGEUSDT",
-    "direction": "LONG",
-    "entry": 0.09732,
-    "tp": 0.101786,
-    "sl": 0.094839,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 66.33 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 22:20:28",
-    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-21 22:20:28\nEntry: 0.09732\nTP: 0.101786\nSL: 0.094839"
   },
   {
     "key": "BTCUSDT",
