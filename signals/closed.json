@@ -1,24 +1,5 @@
 [
   {
-    "key": "AVAXUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "AVAXUSDT",
-    "direction": "SHORT",
-    "entry": 9.454,
-    "tp": 8.976951,
-    "sl": 9.692525,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 21:01:34",
-    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-19 21:01:34\nEntry: 9.454\nTP: 8.976951\nSL: 9.692525",
-    "result": "SL_HIT",
-    "close_price": 9.697,
-    "closed_at": "2026-09-19 22:02:28"
-  },
-  {
     "key": "DOGEUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.3362,
     "closed_at": "2026-09-22 23:38:11"
+  },
+  {
+    "key": "XRPUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "XRPUSDT",
+    "direction": "LONG",
+    "entry": 1.5374,
+    "tp": 1.593479,
+    "sl": 1.506246,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 47.79).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 19:37:30",
+    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 19:37:30\nEntry: 1.5374\nTP: 1.593479\nSL: 1.506246",
+    "result": "TP_HIT",
+    "close_price": 1.5976,
+    "closed_at": "2026-09-23 00:20:31"
   }
 ]

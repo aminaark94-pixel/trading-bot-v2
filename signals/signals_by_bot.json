@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "ETHUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2761.27,
+      "tp": 2792.699347,
+      "sl": 2743.809251,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 59.81).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 00:20:52",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-23 00:20:52\nEntry: 2761.27\nTP: 2792.699347\nSL: 2743.809251"
+    },
+    {
       "key": "ADAUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -15,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-22 19:37:38",
       "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-22 19:37:38\nEntry: 0.2473\nTP: 0.257277\nSL: 0.241757"
-    },
-    {
-      "key": "XRPUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "XRPUSDT",
-      "direction": "LONG",
-      "entry": 1.5374,
-      "tp": 1.593479,
-      "sl": 1.506246,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 47.79).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 19:37:30",
-      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 19:37:30\nEntry: 1.5374\nTP: 1.593479\nSL: 1.506246"
     },
     {
       "key": "INJUSDT",
