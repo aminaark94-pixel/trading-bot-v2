@@ -1,5 +1,21 @@
 [
   {
+    "key": "ICPUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "ICPUSDT",
+    "direction": "SHORT",
+    "entry": 2.95,
+    "tp": 2.867121,
+    "sl": 2.99144,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 17:54:14",
+    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-22 17:54:14\nEntry: 2.95\nTP: 2.867121\nSL: 2.99144"
+  },
+  {
     "key": "RENDERUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -78,22 +94,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 17:28:41",
     "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-22 17:28:41\nEntry: 0.2123\nTP: 0.224742\nSL: 0.206079"
-  },
-  {
-    "key": "ICPUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.923,
-    "tp": 2.949317,
-    "sl": 2.905455,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.37 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 17:28:39",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-22 17:28:39\nEntry: 2.923\nTP: 2.949317\nSL: 2.905455"
   },
   {
     "key": "STXUSDT",
