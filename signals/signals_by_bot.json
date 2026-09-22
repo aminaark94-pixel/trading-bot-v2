@@ -102,6 +102,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "POLUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.1126,
+      "tp": 0.113993,
+      "sl": 0.11144,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 05:43:11",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-22 05:43:11\nEntry: 0.1126\nTP: 0.113993\nSL: 0.11144"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -206,20 +222,20 @@
   ],
   "bot9": [
     {
-      "key": "SUIUSDT",
+      "key": "BCHUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "SUIUSDT",
+      "symbol": "BCHUSDT",
       "direction": "LONG",
-      "entry": 1.0193,
-      "tp": 1.05974,
-      "sl": 0.996834,
+      "entry": 269.2,
+      "tp": 275.354992,
+      "sl": 265.78056,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.43 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 56.25 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-22 00:35:10",
-      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-22 00:35:10\nEntry: 1.0193\nTP: 1.05974\nSL: 0.996834"
+      "timestamp": "2026-09-22 05:43:08",
+      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-22 05:43:08\nEntry: 269.2\nTP: 275.354992\nSL: 265.78056"
     },
     {
       "key": "DOGEUSDT",
@@ -305,6 +321,22 @@
     }
   ],
   "bot11": [
+    {
+      "key": "SUIUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 1.0674,
+      "tp": 1.111445,
+      "sl": 1.04738,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 4.0x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 05:42:51",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-22 05:42:51\nEntry: 1.0674\nTP: 1.111445\nSL: 1.04738"
+    },
     {
       "key": "RENDERUSDT",
       "bot_id": "bot11",

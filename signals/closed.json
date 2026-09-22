@@ -1,24 +1,5 @@
 [
   {
-    "key": "STXUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.2832,
-    "tp": 0.288674,
-    "sl": 0.280159,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 72.89).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 01:35:38",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-19 01:35:38\nEntry: 0.2832\nTP: 0.288674\nSL: 0.280159",
-    "result": "TP_HIT",
-    "close_price": 0.2891,
-    "closed_at": "2026-09-19 02:47:42"
-  },
-  {
     "key": "SUIUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 9.209,
     "closed_at": "2026-09-22 05:28:25"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 1.0193,
+    "tp": 1.05974,
+    "sl": 0.996834,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.43 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 00:35:10",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-22 00:35:10\nEntry: 1.0193\nTP: 1.05974\nSL: 0.996834",
+    "result": "TP_HIT",
+    "close_price": 1.0659,
+    "closed_at": "2026-09-22 05:42:05"
   }
 ]
