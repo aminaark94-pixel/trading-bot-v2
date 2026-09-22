@@ -1,24 +1,5 @@
 [
   {
-    "key": "BNBUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BNBUSDT",
-    "direction": "LONG",
-    "entry": 769.99,
-    "tp": 776.789183,
-    "sl": 766.212676,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 68.28 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 17:50:32",
-    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-19 17:50:32\nEntry: 769.99\nTP: 776.789183\nSL: 766.212676",
-    "result": "SL_HIT",
-    "close_price": 766.08,
-    "closed_at": "2026-09-19 21:02:37"
-  },
-  {
     "key": "FILUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.3393,
     "closed_at": "2026-09-22 21:23:14"
+  },
+  {
+    "key": "ETHUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 2734.42,
+    "tp": 2756.318073,
+    "sl": 2719.821285,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.63 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 21:23:43",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-22 21:23:43\nEntry: 2734.42\nTP: 2756.318073\nSL: 2719.821285",
+    "result": "TP_HIT",
+    "close_price": 2757.19,
+    "closed_at": "2026-09-22 22:33:33"
   }
 ]

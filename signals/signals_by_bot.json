@@ -340,6 +340,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.3395,
+      "tp": 0.343225,
+      "sl": 0.337017,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.32 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 22:35:03",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 22:35:03\nEntry: 0.3395\nTP: 0.343225\nSL: 0.337017"
+    },
+    {
       "key": "LINKUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -354,22 +370,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-22 21:24:00",
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-22 21:24:00\nEntry: 12.92\nTP: 13.084232\nSL: 12.810512"
-    },
-    {
-      "key": "ETHUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2734.42,
-      "tp": 2756.318073,
-      "sl": 2719.821285,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.63 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 21:23:43",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-22 21:23:43\nEntry: 2734.42\nTP: 2756.318073\nSL: 2719.821285"
     },
     {
       "key": "NEARUSDT",
