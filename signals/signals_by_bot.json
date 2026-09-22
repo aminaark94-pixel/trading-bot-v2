@@ -238,7 +238,24 @@
       "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-22 13:24:57\nEntry: 1.0135\nTP: 0.985833\nSL: 1.028871"
     }
   ],
-  "bot10": [],
+  "bot10": [
+    {
+      "key": "UNIUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 9.166,
+      "tp": 9.888824,
+      "sl": 8.804589,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 20:02:50",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 20:02:50\nEntry: 9.166\nTP: 9.888824\nSL: 8.804589"
+    }
+  ],
   "bot11": [
     {
       "key": "BNBUSDT",
