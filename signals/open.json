@@ -1,5 +1,37 @@
 [
   {
+    "key": "DOTUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "DOTUSDT",
+    "direction": "SHORT",
+    "entry": 1.172,
+    "tp": 1.145767,
+    "sl": 1.186574,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 47.75 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 14:34:59",
+    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-22 14:34:59\nEntry: 1.172\nTP: 1.145767\nSL: 1.186574"
+  },
+  {
+    "key": "SOLUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 117.29,
+    "tp": 119.66579,
+    "sl": 116.376235,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 14:34:32",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-22 14:34:32\nEntry: 117.29\nTP: 119.66579\nSL: 116.376235"
+  },
+  {
     "key": "TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
