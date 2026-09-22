@@ -1,24 +1,5 @@
 [
   {
-    "key": "BNBUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BNBUSDT",
-    "direction": "LONG",
-    "entry": 768.45,
-    "tp": 776.459214,
-    "sl": 764.000438,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 51.88 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 22:02:59",
-    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-19 22:02:59\nEntry: 768.45\nTP: 776.459214\nSL: 764.000438",
-    "result": "SL_HIT",
-    "close_price": 763.74,
-    "closed_at": "2026-09-19 22:46:00"
-  },
-  {
     "key": "BTCUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 4.256,
     "closed_at": "2026-09-23 01:21:11"
+  },
+  {
+    "key": "APTUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.769,
+    "tp": 0.798124,
+    "sl": 0.754438,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 21:37:07",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-22 21:37:07\nEntry: 0.769\nTP: 0.798124\nSL: 0.754438",
+    "result": "TP_HIT",
+    "close_price": 0.802,
+    "closed_at": "2026-09-23 01:34:37"
   }
 ]
