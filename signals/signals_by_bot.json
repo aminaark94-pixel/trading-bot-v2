@@ -237,22 +237,6 @@
       "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 10:02:30\nEntry: 8.87\nTP: 9.222485\nSL: 8.693757"
     },
     {
-      "key": "NEARUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 4.282,
-      "tp": 4.515148,
-      "sl": 4.165426,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 10:02:12",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-22 10:02:12\nEntry: 4.282\nTP: 4.515148\nSL: 4.165426"
-    },
-    {
       "key": "FILUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -270,6 +254,22 @@
     }
   ],
   "bot9": [
+    {
+      "key": "NEARUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "NEARUSDT",
+      "direction": "LONG",
+      "entry": 4.528,
+      "tp": 4.733864,
+      "sl": 4.413631,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.78 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 14:02:08",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-22 14:02:08\nEntry: 4.528\nTP: 4.733864\nSL: 4.413631"
+    },
     {
       "key": "STXUSDT",
       "bot_id": "bot9",

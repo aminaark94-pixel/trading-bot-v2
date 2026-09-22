@@ -1,24 +1,5 @@
 [
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 57.51,
-    "tp": 57.971041,
-    "sl": 57.202639,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 28.09 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 11:02:27",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-19 11:02:27\nEntry: 57.51\nTP: 57.971041\nSL: 57.202639",
-    "result": "SL_HIT",
-    "close_price": 57.12,
-    "closed_at": "2026-09-19 11:26:00"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.5424,
     "closed_at": "2026-09-22 13:49:53"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 4.282,
+    "tp": 4.515148,
+    "sl": 4.165426,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 10:02:12",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-22 10:02:12\nEntry: 4.282\nTP: 4.515148\nSL: 4.165426",
+    "result": "TP_HIT",
+    "close_price": 4.528,
+    "closed_at": "2026-09-22 14:01:09"
   }
 ]
