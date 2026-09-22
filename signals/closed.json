@@ -1,24 +1,5 @@
 [
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "LTCUSDT",
-    "direction": "SHORT",
-    "entry": 58.22,
-    "tp": 57.483365,
-    "sl": 58.746168,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 76.9 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 05:02:25",
-    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-19 05:02:25\nEntry: 58.22\nTP: 57.483365\nSL: 58.746168",
-    "result": "SL_HIT",
-    "close_price": 58.89,
-    "closed_at": "2026-09-19 05:40:58"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 791.57,
     "closed_at": "2026-09-22 06:20:09"
+  },
+  {
+    "key": "BNBUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BNBUSDT",
+    "direction": "LONG",
+    "entry": 791.81,
+    "tp": 796.463281,
+    "sl": 788.707812,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.66 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 06:20:42",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-22 06:20:42\nEntry: 791.81\nTP: 796.463281\nSL: 788.707812",
+    "result": "SL_HIT",
+    "close_price": 788.4,
+    "closed_at": "2026-09-22 06:47:02"
   }
 ]
