@@ -174,20 +174,20 @@
   ],
   "bot9": [
     {
-      "key": "DOGEUSDT",
+      "key": "LINKUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "DOGEUSDT",
-      "direction": "LONG",
-      "entry": 0.10255,
-      "tp": 0.105963,
-      "sl": 0.100654,
+      "symbol": "LINKUSDT",
+      "direction": "SHORT",
+      "entry": 12.906,
+      "tp": 12.667312,
+      "sl": 13.038604,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 66.45 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 39.76 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-22 09:01:45",
-      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-22 09:01:45\nEntry: 0.10255\nTP: 0.105963\nSL: 0.100654"
+      "timestamp": "2026-09-22 09:49:30",
+      "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-22 09:49:30\nEntry: 12.906\nTP: 12.667312\nSL: 13.038604"
     },
     {
       "key": "BTCUSDT",
