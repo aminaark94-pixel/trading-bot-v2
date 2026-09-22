@@ -120,6 +120,22 @@
   ],
   "bot5": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.347,
+      "tp": 0.361059,
+      "sl": 0.341592,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 16:23:26",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 16:23:26\nEntry: 0.347\nTP: 0.361059\nSL: 0.341592"
+    },
+    {
       "key": "LINKUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
@@ -273,6 +289,22 @@
   ],
   "bot10": [
     {
+      "key": "XRPUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "XRPUSDT",
+      "direction": "LONG",
+      "entry": 1.5348,
+      "tp": 1.567371,
+      "sl": 1.518514,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 16:22:29",
+      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 16:22:29\nEntry: 1.5348\nTP: 1.567371\nSL: 1.518514"
+    },
+    {
       "key": "BCHUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -291,22 +323,6 @@
   ],
   "bot11": [
     {
-      "key": "LTCUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "LTCUSDT",
-      "direction": "SHORT",
-      "entry": 59.85,
-      "tp": 58.647143,
-      "sl": 60.396753,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.2x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 15:24:44",
-      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-22 15:24:44\nEntry: 59.85\nTP: 58.647143\nSL: 60.396753"
-    },
-    {
       "key": "POLUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -324,38 +340,6 @@
     }
   ],
   "bot12": [
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.3406,
-      "tp": 0.344207,
-      "sl": 0.338196,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.86 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 15:25:20",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 15:25:20\nEntry: 0.3406\nTP: 0.344207\nSL: 0.338196"
-    },
-    {
-      "key": "ICPUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 2.918,
-      "tp": 2.941423,
-      "sl": 2.902385,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.58 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 15:25:01",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-22 15:25:01\nEntry: 2.918\nTP: 2.941423\nSL: 2.902385"
-    },
     {
       "key": "AVAXUSDT",
       "bot_id": "bot12",
