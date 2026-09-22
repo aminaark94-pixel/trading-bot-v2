@@ -70,6 +70,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "POLUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.10798,
+      "tp": 0.109909,
+      "sl": 0.106372,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 20:35:12",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-22 20:35:12\nEntry: 0.10798\nTP: 0.109909\nSL: 0.106372"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -103,6 +119,22 @@
     }
   ],
   "bot5": [
+    {
+      "key": "BTCUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 86284.53,
+      "tp": 87841.935064,
+      "sl": 85685.528053,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 20:34:13",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-22 20:34:13\nEntry: 86284.53\nTP: 87841.935064\nSL: 85685.528053"
+    },
     {
       "key": "BNBUSDT",
       "bot_id": "bot5",
@@ -239,6 +271,22 @@
     }
   ],
   "bot10": [
+    {
+      "key": "FILUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "FILUSDT",
+      "direction": "LONG",
+      "entry": 1.0107,
+      "tp": 1.058138,
+      "sl": 0.98698,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 20:35:44",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-22 20:35:44\nEntry: 1.0107\nTP: 1.058138\nSL: 0.98698"
+    },
     {
       "key": "STXUSDT",
       "bot_id": "bot10",
