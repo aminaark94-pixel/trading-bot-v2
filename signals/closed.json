@@ -1,24 +1,5 @@
 [
   {
-    "key": "BTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 81348.0,
-    "tp": 81485.421737,
-    "sl": 81256.385509,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.74 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 00:46:38",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-20 00:46:38\nEntry: 81348.0\nTP: 81485.421737\nSL: 81256.385509",
-    "result": "SL_HIT",
-    "close_price": 81246.77,
-    "closed_at": "2026-09-20 01:33:41"
-  },
-  {
     "key": "FETUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.2122,
     "closed_at": "2026-09-23 04:21:51"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 8.157,
+    "tp": 8.487313,
+    "sl": 8.006858,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 3.9x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 04:21:35",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-23 04:21:35\nEntry: 8.157\nTP: 8.487313\nSL: 8.006858",
+    "result": "SL_HIT",
+    "close_price": 7.937,
+    "closed_at": "2026-09-23 04:32:27"
   }
 ]
