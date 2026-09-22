@@ -56,15 +56,15 @@
       "bot_name": "Reversal Hunter",
       "symbol": "AVAXUSDT",
       "direction": "LONG",
-      "entry": 10.725,
-      "tp": 10.904,
-      "sl": 10.597143,
+      "entry": 10.633,
+      "tp": 10.83486,
+      "sl": 10.488814,
       "score": 85,
       "provider": "Technical",
-      "reason": "RSI 22.51 extreme + price at Bollinger Band edge.",
+      "reason": "RSI 20.17 extreme + price at Bollinger Band edge.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-22 10:01:58",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-22 10:01:58\nEntry: 10.725\nTP: 10.904\nSL: 10.597143"
+      "timestamp": "2026-09-22 10:22:13",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-22 10:22:13\nEntry: 10.633\nTP: 10.83486\nSL: 10.488814"
     },
     {
       "key": "FETUSDT",
@@ -119,22 +119,6 @@
     }
   ],
   "bot5": [
-    {
-      "key": "ETHUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2755.37,
-      "tp": 2840.368234,
-      "sl": 2722.678372,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-21 21:01:24",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-21 21:01:24\nEntry: 2755.37\nTP: 2840.368234\nSL: 2722.678372"
-    },
     {
       "key": "DOTUSDT",
       "bot_id": "bot5",
@@ -254,7 +238,24 @@
       "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-21 21:01:28\nEntry: 85950.93\nTP: 87370.446855\nSL: 85162.309525"
     }
   ],
-  "bot10": [],
+  "bot10": [
+    {
+      "key": "BCHUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "BCHUSDT",
+      "direction": "SHORT",
+      "entry": 264.4,
+      "tp": 258.488278,
+      "sl": 267.355861,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 10:22:42",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-22 10:22:42\nEntry: 264.4\nTP: 258.488278\nSL: 267.355861"
+    }
+  ],
   "bot11": [
     {
       "key": "INJUSDT",
