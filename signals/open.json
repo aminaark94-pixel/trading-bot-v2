@@ -1,5 +1,37 @@
 [
   {
+    "key": "APTUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.771,
+    "tp": 0.79823,
+    "sl": 0.760527,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 13:25:09",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-22 13:25:09\nEntry: 0.771\nTP: 0.79823\nSL: 0.760527"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SUIUSDT",
+    "direction": "SHORT",
+    "entry": 1.0135,
+    "tp": 0.985833,
+    "sl": 1.028871,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 43.64 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 13:24:57",
+    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-22 13:24:57\nEntry: 1.0135\nTP: 0.985833\nSL: 1.028871"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -78,22 +110,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 11:42:04",
     "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-22 11:42:04\nEntry: 2736.05\nTP: 2760.037563\nSL: 2721.057773"
-  },
-  {
-    "key": "STXUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.3485,
-    "tp": 0.362006,
-    "sl": 0.343305,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 11:02:52",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 11:02:52\nEntry: 0.3485\nTP: 0.362006\nSL: 0.343305"
   },
   {
     "key": "TIAUSDT",
