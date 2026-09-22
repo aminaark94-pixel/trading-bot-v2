@@ -120,6 +120,22 @@
   ],
   "bot5": [
     {
+      "key": "LINKUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 12.965,
+      "tp": 13.282004,
+      "sl": 12.843075,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 14:49:10",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-22 14:49:10\nEntry: 12.965\nTP: 13.282004\nSL: 12.843075"
+    },
+    {
       "key": "SOLUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
