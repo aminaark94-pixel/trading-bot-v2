@@ -188,6 +188,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "TIAUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "TIAUSDT",
+      "direction": "SHORT",
+      "entry": 0.4393,
+      "tp": 0.429347,
+      "sl": 0.444277,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 05:54:04",
+      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-22 05:54:04\nEntry: 0.4393\nTP: 0.429347\nSL: 0.444277"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
