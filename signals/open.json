@@ -1,5 +1,37 @@
 [
   {
+    "key": "ICPUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 2.97,
+    "tp": 3.033233,
+    "sl": 2.93048,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+1.59% EMA20/50 gap) + RSI 52.12 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 11:42:59",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-22 11:42:59\nEntry: 2.97\nTP: 3.033233\nSL: 2.93048"
+  },
+  {
+    "key": "ETHUSDT",
+    "bot_id": "bot6",
+    "bot_name": "Pullback Hunter (Bot C)",
+    "symbol": "ETHUSDT",
+    "direction": "LONG",
+    "entry": 2736.05,
+    "tp": 2760.037563,
+    "sl": 2721.057773,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "1H trend UP (+1.97% EMA20/50 gap) + RSI 46.06 pullback zone, confirmed by 15m volume contraction->expansion.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 11:42:04",
+    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-22 11:42:04\nEntry: 2736.05\nTP: 2760.037563\nSL: 2721.057773"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
