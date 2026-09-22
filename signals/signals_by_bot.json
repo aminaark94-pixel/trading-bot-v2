@@ -68,7 +68,24 @@
     }
   ],
   "bot3": [],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "LTCUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 61.1,
+      "tp": 61.854538,
+      "sl": 60.471218,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 09:24:16",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 09:24:16\nEntry: 61.1\nTP: 61.854538\nSL: 60.471218"
+    }
+  ],
   "bot5": [
     {
       "key": "ETHUSDT",
