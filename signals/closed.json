@@ -1,24 +1,5 @@
 [
   {
-    "key": "POLUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "POLUSDT",
-    "direction": "SHORT",
-    "entry": 0.1064,
-    "tp": 0.104681,
-    "sl": 0.107627,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 70.93 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 19:21:44",
-    "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-19 19:21:44\nEntry: 0.1064\nTP: 0.104681\nSL: 0.107627",
-    "result": "TP_HIT",
-    "close_price": 0.10465,
-    "closed_at": "2026-09-19 22:32:59"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.5078,
     "closed_at": "2026-09-23 01:02:35"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 4.377,
+    "tp": 4.53875,
+    "sl": 4.269166,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.96 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 19:24:04",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-22 19:24:04\nEntry: 4.377\nTP: 4.53875\nSL: 4.269166",
+    "result": "SL_HIT",
+    "close_price": 4.256,
+    "closed_at": "2026-09-23 01:21:11"
   }
 ]
