@@ -1,5 +1,21 @@
 [
   {
+    "key": "INJUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 7.745,
+    "tp": 7.981469,
+    "sl": 7.613628,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 55.55).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 12:50:17",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-22 12:50:17\nEntry: 7.745\nTP: 7.981469\nSL: 7.613628"
+  },
+  {
     "key": "SOLUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
