@@ -210,15 +210,15 @@
       "bot_name": "ICT SMC Liquidity Hunter",
       "symbol": "UNIUSDT",
       "direction": "LONG",
-      "entry": 8.87,
-      "tp": 9.222485,
-      "sl": 8.693757,
+      "entry": 8.709,
+      "tp": 8.978805,
+      "sl": 8.574097,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-22 10:02:30",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 10:02:30\nEntry: 8.87\nTP: 9.222485\nSL: 8.693757"
+      "timestamp": "2026-09-22 16:36:16",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 16:36:16\nEntry: 8.709\nTP: 8.978805\nSL: 8.574097"
     },
     {
       "key": "FILUSDT",

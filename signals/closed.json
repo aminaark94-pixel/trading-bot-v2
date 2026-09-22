@@ -1,24 +1,5 @@
 [
   {
-    "key": "UNIUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 8.805,
-    "tp": 9.340229,
-    "sl": 8.470482,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend UP (+11.25% EMA20/50 gap) + RSI 53.29 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-18 18:23:03",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-18 18:23:03\nEntry: 8.805\nTP: 9.340229\nSL: 8.470482",
-    "result": "TP_HIT",
-    "close_price": 9.361,
-    "closed_at": "2026-09-19 13:34:28"
-  },
-  {
     "key": "ETHUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 60.42,
     "closed_at": "2026-09-22 16:21:56"
+  },
+  {
+    "key": "UNIUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 8.87,
+    "tp": 9.222485,
+    "sl": 8.693757,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 10:02:30",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 10:02:30\nEntry: 8.87\nTP: 9.222485\nSL: 8.693757",
+    "result": "SL_HIT",
+    "close_price": 8.684,
+    "closed_at": "2026-09-22 16:35:08"
   }
 ]
