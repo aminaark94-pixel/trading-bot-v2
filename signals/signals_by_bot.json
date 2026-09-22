@@ -56,15 +56,15 @@
       "bot_name": "Reversal Hunter",
       "symbol": "BCHUSDT",
       "direction": "SHORT",
-      "entry": 320.6,
-      "tp": 301.548754,
-      "sl": 334.208032,
-      "score": 85,
+      "entry": 336.4,
+      "tp": 320.924201,
+      "sl": 347.454142,
+      "score": 74,
       "provider": "Technical",
-      "reason": "RSI 90.93 extreme + price at Bollinger Band edge.",
+      "reason": "RSI 73.87 extreme + price at Bollinger Band edge.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-22 18:24:28",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-22 18:24:28\nEntry: 320.6\nTP: 301.548754\nSL: 334.208032"
+      "timestamp": "2026-09-22 23:27:30",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-22 23:27:30\nEntry: 336.4\nTP: 320.924201\nSL: 347.454142"
     }
   ],
   "bot3": [],
@@ -238,22 +238,6 @@
     }
   ],
   "bot9": [
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 11.196,
-      "tp": 11.568676,
-      "sl": 10.988957,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 67.37 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 20:23:08",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-22 20:23:08\nEntry: 11.196\nTP: 11.568676\nSL: 10.988957"
-    },
     {
       "key": "DOTUSDT",
       "bot_id": "bot9",
