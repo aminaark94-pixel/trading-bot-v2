@@ -1,5 +1,37 @@
 [
   {
+    "key": "TIAUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "TIAUSDT",
+    "direction": "LONG",
+    "entry": 0.4448,
+    "tp": 0.455813,
+    "sl": 0.439293,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 07:36:20",
+    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-22 07:36:20\nEntry: 0.4448\nTP: 0.455813\nSL: 0.439293"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 4.515,
+    "tp": 4.354062,
+    "sl": 4.629955,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 76.24 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 07:35:40",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-22 07:35:40\nEntry: 4.515\nTP: 4.354062\nSL: 4.629955"
+  },
+  {
     "key": "BNBUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
