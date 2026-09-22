@@ -288,22 +288,6 @@
       "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-22 20:35:44\nEntry: 1.0107\nTP: 1.058138\nSL: 0.98698"
     },
     {
-      "key": "STXUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.347,
-      "tp": 0.361495,
-      "sl": 0.339752,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-22 20:23:58",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 20:23:58\nEntry: 0.347\nTP: 0.361495\nSL: 0.339752"
-    },
-    {
       "key": "UNIUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -322,6 +306,38 @@
   ],
   "bot11": [],
   "bot12": [
+    {
+      "key": "LINKUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 12.92,
+      "tp": 13.084232,
+      "sl": 12.810512,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.93 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 21:24:00",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-22 21:24:00\nEntry: 12.92\nTP: 13.084232\nSL: 12.810512"
+    },
+    {
+      "key": "ETHUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2734.42,
+      "tp": 2756.318073,
+      "sl": 2719.821285,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.63 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 21:23:43",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-22 21:23:43\nEntry: 2734.42\nTP: 2756.318073\nSL: 2719.821285"
+    },
     {
       "key": "NEARUSDT",
       "bot_id": "bot12",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "BTCUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BTCUSDT",
-    "direction": "LONG",
-    "entry": 81176.01,
-    "tp": 81768.427894,
-    "sl": 80846.888947,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.67 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 06:22:02",
-    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-19 06:22:02\nEntry: 81176.01\nTP: 81768.427894\nSL: 80846.888947",
-    "result": "TP_HIT",
-    "close_price": 81811.31,
-    "closed_at": "2026-09-19 20:46:09"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.773,
     "closed_at": "2026-09-22 20:48:00"
+  },
+  {
+    "key": "STXUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.347,
+    "tp": 0.361495,
+    "sl": 0.339752,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 20:23:58",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 20:23:58\nEntry: 0.347\nTP: 0.361495\nSL: 0.339752",
+    "result": "SL_HIT",
+    "close_price": 0.3393,
+    "closed_at": "2026-09-22 21:23:14"
   }
 ]
