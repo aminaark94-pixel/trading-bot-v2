@@ -1,5 +1,21 @@
 [
   {
+    "key": "INJUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "INJUSDT",
+    "direction": "SHORT",
+    "entry": 7.512,
+    "tp": 7.199467,
+    "sl": 7.65406,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 4.5x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 08:24:19",
+    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-22 08:24:19\nEntry: 7.512\nTP: 7.199467\nSL: 7.65406"
+  },
+  {
     "key": "ICPUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -160,22 +176,6 @@
     "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-22 01:23:22\nEntry: 1.848\nTP: 1.921669\nSL: 1.814514"
   },
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 13.057,
-    "tp": 13.341036,
-    "sl": 12.899203,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 58.99).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 00:35:06",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-22 00:35:06\nEntry: 13.057\nTP: 13.341036\nSL: 12.899203"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -302,21 +302,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-21 14:49:46",
     "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 14:49:46\nEntry: 1.179\nTP: 1.215929\nSL: 1.164797"
-  },
-  {
-    "key": "INJUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "INJUSDT",
-    "direction": "SHORT",
-    "entry": 7.869,
-    "tp": 7.580236,
-    "sl": 8.109636,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 22:21:30",
-    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-20 22:21:30\nEntry: 7.869\nTP: 7.580236\nSL: 8.109636"
   }
 ]
