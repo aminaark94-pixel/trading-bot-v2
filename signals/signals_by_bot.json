@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "STXUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.3413,
+      "tp": 0.349629,
+      "sl": 0.336672,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 57.11).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-22 08:50:23",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 08:50:23\nEntry: 0.3413\nTP: 0.349629\nSL: 0.336672"
+    },
+    {
       "key": "SUIUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
