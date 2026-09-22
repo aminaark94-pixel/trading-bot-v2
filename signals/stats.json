@@ -28,9 +28,9 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 76,
-      "losses": 106,
-      "total": 182,
-      "win_rate": 41.8
+      "losses": 107,
+      "total": 183,
+      "win_rate": 41.5
     },
     {
       "bot_id": "bot5",
@@ -60,17 +60,17 @@
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
       "wins": 36,
-      "losses": 97,
-      "total": 133,
-      "win_rate": 27.1
+      "losses": 98,
+      "total": 134,
+      "win_rate": 26.9
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "wins": 67,
-      "losses": 88,
-      "total": 155,
-      "win_rate": 43.2
+      "losses": 89,
+      "total": 156,
+      "win_rate": 42.9
     },
     {
       "bot_id": "bot10",
@@ -105,7 +105,7 @@
     "total": 16,
     "win_rate": 62.5
   },
-  "last_run": "2026-09-22T19:22:39.811052+00:00",
+  "last_run": "2026-09-22T19:34:24.401343+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

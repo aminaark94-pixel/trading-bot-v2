@@ -1,5 +1,37 @@
 [
   {
+    "key": "XRPUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "XRPUSDT",
+    "direction": "LONG",
+    "entry": 1.5926,
+    "tp": 1.636371,
+    "sl": 1.568282,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 61.94 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 00:32:50",
+    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-23 00:32:50\nEntry: 1.5926\nTP: 1.636371\nSL: 1.568282"
+  },
+  {
+    "key": "SOLUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "SOLUSDT",
+    "direction": "SHORT",
+    "entry": 118.48,
+    "tp": 116.695563,
+    "sl": 119.372218,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 00:32:45",
+    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-23 00:32:45\nEntry: 118.48\nTP: 116.695563\nSL: 119.372218"
+  },
+  {
     "key": "ETHUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -94,22 +126,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 21:24:00",
     "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-22 21:24:00\nEntry: 12.92\nTP: 13.084232\nSL: 12.810512"
-  },
-  {
-    "key": "SOLUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "SOLUSDT",
-    "direction": "SHORT",
-    "entry": 117.31,
-    "tp": 115.886467,
-    "sl": 118.496277,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 21:01:30",
-    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-22 21:01:30\nEntry: 117.31\nTP: 115.886467\nSL: 118.496277"
   },
   {
     "key": "FILUSDT",
@@ -240,22 +256,6 @@
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-22 19:24:04\nEntry: 4.377\nTP: 4.53875\nSL: 4.269166"
   },
   {
-    "key": "TIAUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "TIAUSDT",
-    "direction": "SHORT",
-    "entry": 0.4528,
-    "tp": 0.434425,
-    "sl": 0.461988,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 18:24:51",
-    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-22 18:24:51\nEntry: 0.4528\nTP: 0.434425\nSL: 0.461988"
-  },
-  {
     "key": "ICPUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -286,22 +286,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 17:42:34",
     "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-22 17:42:34\nEntry: 1.856\nTP: 1.78112\nSL: 1.893441"
-  },
-  {
-    "key": "DOTUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "DOTUSDT",
-    "direction": "SHORT",
-    "entry": 1.172,
-    "tp": 1.145767,
-    "sl": 1.186574,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 47.75 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 14:34:59",
-    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-22 14:34:59\nEntry: 1.172\nTP: 1.145767\nSL: 1.186574"
   },
   {
     "key": "SUIUSDT",
