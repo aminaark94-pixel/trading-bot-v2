@@ -1,5 +1,21 @@
 [
   {
+    "key": "NEARUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 4.377,
+    "tp": 4.53875,
+    "sl": 4.269166,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.96 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 19:24:04",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-22 19:24:04\nEntry: 4.377\nTP: 4.53875\nSL: 4.269166"
+  },
+  {
     "key": "LTCUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -158,22 +174,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 17:42:34",
     "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-22 17:42:34\nEntry: 1.856\nTP: 1.78112\nSL: 1.893441"
-  },
-  {
-    "key": "UNIUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 9.181,
-    "tp": 9.690371,
-    "sl": 8.949467,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 7.8x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 17:42:22",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-22 17:42:22\nEntry: 9.181\nTP: 9.690371\nSL: 8.949467"
   },
   {
     "key": "FETUSDT",
