@@ -173,6 +173,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "APTUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "APTUSDT",
+      "direction": "SHORT",
+      "entry": 0.805,
+      "tp": 0.776417,
+      "sl": 0.819292,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 01:49:21",
+      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-23 01:49:21\nEntry: 0.805\nTP: 0.776417\nSL: 0.819292"
+    },
+    {
       "key": "SOLUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
