@@ -1,5 +1,21 @@
 [
   {
+    "key": "TIAUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "TIAUSDT",
+    "direction": "SHORT",
+    "entry": 0.5044,
+    "tp": 0.4878,
+    "sl": 0.518233,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 06:22:47",
+    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-23 06:22:47\nEntry: 0.5044\nTP: 0.4878\nSL: 0.518233"
+  },
+  {
     "key": "FETUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -334,21 +350,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-22 17:42:34",
     "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-22 17:42:34\nEntry: 1.856\nTP: 1.78112\nSL: 1.893441"
-  },
-  {
-    "key": "DOGEUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "DOGEUSDT",
-    "direction": "SHORT",
-    "entry": 0.09974,
-    "tp": 0.096923,
-    "sl": 0.102087,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 10:01:51",
-    "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-22 10:01:51\nEntry: 0.09974\nTP: 0.096923\nSL: 0.102087"
   }
 ]
