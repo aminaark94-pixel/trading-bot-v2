@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "RENDERUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 1.736,
+      "tp": 1.774962,
+      "sl": 1.714355,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 51.13).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 03:48:39",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-24 03:48:39\nEntry: 1.736\nTP: 1.774962\nSL: 1.714355"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -33,22 +49,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-23 19:24:13",
       "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-23 19:24:13\nEntry: 113.61\nTP: 116.047945\nSL: 111.868611"
-    },
-    {
-      "key": "ETHUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2649.4,
-      "tp": 2691.819487,
-      "sl": 2619.100366,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 17.2 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 19:24:09",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-23 19:24:09\nEntry: 2649.4\nTP: 2691.819487\nSL: 2619.100366"
     },
     {
       "key": "BTCUSDT",
