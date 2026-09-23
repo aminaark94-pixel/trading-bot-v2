@@ -1,24 +1,5 @@
 [
   {
-    "key": "FETUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "FETUSDT",
-    "direction": "LONG",
-    "entry": 0.1786,
-    "tp": 0.180644,
-    "sl": 0.177237,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 39.25 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 00:19:47",
-    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-20 00:19:47\nEntry: 0.1786\nTP: 0.180644\nSL: 0.177237",
-    "result": "SL_HIT",
-    "close_price": 0.1771,
-    "closed_at": "2026-09-20 01:33:41"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 7.937,
     "closed_at": "2026-09-23 04:32:27"
+  },
+  {
+    "key": "UNIUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "UNIUSDT",
+    "direction": "LONG",
+    "entry": 9.861,
+    "tp": 10.370072,
+    "sl": 9.606465,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 03:35:15",
+    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-23 03:35:15\nEntry: 9.861\nTP: 10.370072\nSL: 9.606465",
+    "result": "TP_HIT",
+    "close_price": 10.431,
+    "closed_at": "2026-09-23 05:27:30"
   }
 ]
