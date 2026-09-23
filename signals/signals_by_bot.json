@@ -86,22 +86,6 @@
   "bot3": [],
   "bot4": [
     {
-      "key": "ICPUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "ICPUSDT",
-      "direction": "SHORT",
-      "entry": 3.02,
-      "tp": 2.983523,
-      "sl": 3.050397,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 10:02:15",
-      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-23 10:02:15\nEntry: 3.02\nTP: 2.983523\nSL: 3.050397"
-    },
-    {
       "key": "INJUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -255,22 +239,6 @@
       "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-23 10:22:11\nEntry: 1.617\nTP: 1.65655\nSL: 1.595028"
     },
     {
-      "key": "SOLUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 119.7,
-      "tp": 121.146379,
-      "sl": 118.896456,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.44 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 09:23:54",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-23 09:23:54\nEntry: 119.7\nTP: 121.146379\nSL: 118.896456"
-    },
-    {
       "key": "STXUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -337,24 +305,7 @@
       "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-23 05:28:40\nEntry: 10.386\nTP: 11.053796\nSL: 10.052102"
     }
   ],
-  "bot11": [
-    {
-      "key": "POLUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "POLUSDT",
-      "direction": "LONG",
-      "entry": 0.11061,
-      "tp": 0.112966,
-      "sl": 0.109539,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 4.3x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 08:50:07",
-      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-23 08:50:07\nEntry: 0.11061\nTP: 0.112966\nSL: 0.109539"
-    }
-  ],
+  "bot11": [],
   "bot12": [
     {
       "key": "TIAUSDT",
