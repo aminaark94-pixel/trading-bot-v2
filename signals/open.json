@@ -1,5 +1,37 @@
 [
   {
+    "key": "NEARUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 4.613,
+    "tp": 4.816421,
+    "sl": 4.499989,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 60.84).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 15:36:07",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-23 15:36:07\nEntry: 4.613\nTP: 4.816421\nSL: 4.499989"
+  },
+  {
+    "key": "BTCUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 85775.28,
+    "tp": 86005.102636,
+    "sl": 85622.064909,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.57 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 15:35:44",
+    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-23 15:35:44\nEntry: 85775.28\nTP: 86005.102636\nSL: 85622.064909"
+  },
+  {
     "key": "UNIUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
