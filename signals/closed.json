@@ -1,24 +1,5 @@
 [
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 57.26,
-    "tp": 58.334756,
-    "sl": 56.722622,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 11:39:06",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-19 11:39:06\nEntry: 57.26\nTP: 58.334756\nSL: 56.722622",
-    "result": "SL_HIT",
-    "close_price": 56.67,
-    "closed_at": "2026-09-20 08:02:45"
-  },
-  {
     "key": "UNIUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.2501,
     "closed_at": "2026-09-23 16:36:30"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "ICPUSDT",
+    "direction": "SHORT",
+    "entry": 3.076,
+    "tp": 2.985862,
+    "sl": 3.121069,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 14:36:34",
+    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-23 14:36:34\nEntry: 3.076\nTP: 2.985862\nSL: 3.121069",
+    "result": "SL_HIT",
+    "close_price": 3.125,
+    "closed_at": "2026-09-23 16:49:00"
   }
 ]
