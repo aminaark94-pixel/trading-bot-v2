@@ -86,6 +86,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "INJUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "INJUSDT",
+      "direction": "SHORT",
+      "entry": 7.894,
+      "tp": 7.689423,
+      "sl": 8.064481,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 06:48:26",
+      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-23 06:48:26\nEntry: 7.894\nTP: 7.689423\nSL: 8.064481"
+    },
+    {
       "key": "TIAUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -340,6 +356,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "DOTUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "DOTUSDT",
+      "direction": "LONG",
+      "entry": 1.197,
+      "tp": 1.209265,
+      "sl": 1.188824,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 35.19 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 06:47:55",
+      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-23 06:47:55\nEntry: 1.197\nTP: 1.209265\nSL: 1.188824"
+    },
     {
       "key": "POLUSDT",
       "bot_id": "bot12",
