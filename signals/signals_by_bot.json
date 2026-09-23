@@ -155,22 +155,6 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "TIAUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "TIAUSDT",
-      "direction": "SHORT",
-      "entry": 0.5176,
-      "tp": 0.497284,
-      "sl": 0.527758,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 12:36:43",
-      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-23 12:36:43\nEntry: 0.5176\nTP: 0.497284\nSL: 0.527758"
-    },
-    {
       "key": "RENDERUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -189,6 +173,22 @@
   ],
   "bot9": [
     {
+      "key": "LINKUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "LINKUSDT",
+      "direction": "SHORT",
+      "entry": 12.993,
+      "tp": 12.793079,
+      "sl": 13.104068,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 46.17 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 13:24:59",
+      "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-23 13:24:59\nEntry: 12.993\nTP: 12.793079\nSL: 13.104068"
+    },
+    {
       "key": "BCHUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -203,22 +203,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-23 12:50:32",
       "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-23 12:50:32\nEntry: 350.1\nTP: 365.978816\nSL: 341.278436"
-    },
-    {
-      "key": "POLUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "POLUSDT",
-      "direction": "LONG",
-      "entry": 0.1105,
-      "tp": 0.112333,
-      "sl": 0.109481,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 59.65 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 11:02:37",
-      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-23 11:02:37\nEntry: 0.1105\nTP: 0.112333\nSL: 0.109481"
     },
     {
       "key": "XRPUSDT",
@@ -272,6 +256,38 @@
     }
   ],
   "bot11": [
+    {
+      "key": "TIAUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.5281,
+      "tp": 0.552896,
+      "sl": 0.516829,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.4x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 13:25:49",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-23 13:25:49\nEntry: 0.5281\nTP: 0.552896\nSL: 0.516829"
+    },
+    {
+      "key": "POLUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.11313,
+      "tp": 0.116232,
+      "sl": 0.11172,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.8x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 13:25:26",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-23 13:25:26\nEntry: 0.11313\nTP: 0.116232\nSL: 0.11172"
+    },
     {
       "key": "DOTUSDT",
       "bot_id": "bot11",
