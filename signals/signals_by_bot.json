@@ -174,6 +174,22 @@
   ],
   "bot10": [
     {
+      "key": "ICPUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 3.09,
+      "tp": 3.250825,
+      "sl": 3.009587,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 18:25:21",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-23 18:25:21\nEntry: 3.09\nTP: 3.250825\nSL: 3.009587"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
