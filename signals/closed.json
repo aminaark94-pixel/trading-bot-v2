@@ -1,24 +1,5 @@
 [
   {
-    "key": "TIAUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.4269,
-    "tp": 0.442494,
-    "sl": 0.419103,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 08:23:51",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 08:23:51\nEntry: 0.4269\nTP: 0.442494\nSL: 0.419103",
-    "result": "SL_HIT",
-    "close_price": 0.4186,
-    "closed_at": "2026-09-20 11:38:54"
-  },
-  {
     "key": "STXUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.565,
     "closed_at": "2026-09-23 17:55:32"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.251,
+    "tp": 0.253642,
+    "sl": 0.249239,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.36 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 16:49:43",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-23 16:49:43\nEntry: 0.251\nTP: 0.253642\nSL: 0.249239",
+    "result": "SL_HIT",
+    "close_price": 0.2492,
+    "closed_at": "2026-09-23 18:02:45"
   }
 ]
