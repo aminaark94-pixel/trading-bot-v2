@@ -304,22 +304,6 @@
     "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-22 19:38:06\nEntry: 60.95\nTP: 63.907583\nSL: 59.812468"
   },
   {
-    "key": "ADAUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "ADAUSDT",
-    "direction": "LONG",
-    "entry": 0.2473,
-    "tp": 0.257277,
-    "sl": 0.241757,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 47.52).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 19:37:38",
-    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-22 19:37:38\nEntry: 0.2473\nTP: 0.257277\nSL: 0.241757"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",

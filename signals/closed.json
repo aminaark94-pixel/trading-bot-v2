@@ -1,24 +1,5 @@
 [
   {
-    "key": "DOTUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "DOTUSDT",
-    "direction": "SHORT",
-    "entry": 1.099,
-    "tp": 1.069501,
-    "sl": 1.112408,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.1x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 02:21:05",
-    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-20 02:21:05\nEntry: 1.099\nTP: 1.069501\nSL: 1.112408",
-    "result": "SL_HIT",
-    "close_price": 1.114,
-    "closed_at": "2026-09-20 02:45:58"
-  },
-  {
     "key": "XRPUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.0315,
     "closed_at": "2026-09-23 08:22:59"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.2473,
+    "tp": 0.257277,
+    "sl": 0.241757,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 47.52).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-22 19:37:38",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-22 19:37:38\nEntry: 0.2473\nTP: 0.257277\nSL: 0.241757",
+    "result": "TP_HIT",
+    "close_price": 0.2574,
+    "closed_at": "2026-09-23 08:37:30"
   }
 ]
