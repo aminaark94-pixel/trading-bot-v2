@@ -28,9 +28,9 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 77,
-      "losses": 112,
-      "total": 189,
-      "win_rate": 40.7
+      "losses": 113,
+      "total": 190,
+      "win_rate": 40.5
     },
     {
       "bot_id": "bot5",
@@ -84,9 +84,9 @@
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
       "wins": 40,
-      "losses": 56,
-      "total": 96,
-      "win_rate": 41.7
+      "losses": 57,
+      "total": 97,
+      "win_rate": 41.2
     },
     {
       "bot_id": "bot12",
@@ -105,7 +105,7 @@
     "total": 16,
     "win_rate": 62.5
   },
-  "last_run": "2026-09-23T06:44:10.735516+00:00",
+  "last_run": "2026-09-23T06:55:24.039573+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
