@@ -273,22 +273,6 @@
       "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-23 13:25:49\nEntry: 0.5281\nTP: 0.552896\nSL: 0.516829"
     },
     {
-      "key": "POLUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "POLUSDT",
-      "direction": "LONG",
-      "entry": 0.11313,
-      "tp": 0.116232,
-      "sl": 0.11172,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.8x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 13:25:26",
-      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-23 13:25:26\nEntry: 0.11313\nTP: 0.116232\nSL: 0.11172"
-    },
-    {
       "key": "DOTUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
