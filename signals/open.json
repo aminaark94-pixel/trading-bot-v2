@@ -1,5 +1,21 @@
 [
   {
+    "key": "APTUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "APTUSDT",
+    "direction": "SHORT",
+    "entry": 0.8326,
+    "tp": 0.795137,
+    "sl": 0.851331,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 17:02:20",
+    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-23 17:02:20\nEntry: 0.8326\nTP: 0.795137\nSL: 0.851331"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -112,22 +128,6 @@
     "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-23 16:22:54\nEntry: 85570.4\nTP: 85061.344813\nSL: 85853.208437"
   },
   {
-    "key": "FILUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 1.0362,
-    "tp": 1.051765,
-    "sl": 1.02323,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 15:51:08",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-23 15:51:08\nEntry: 1.0362\nTP: 1.051765\nSL: 1.02323"
-  },
-  {
     "key": "NEARUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -192,22 +192,6 @@
     "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-23 13:50:20\nEntry: 2730.41\nTP: 2706.005205\nSL: 2743.96822"
   },
   {
-    "key": "TIAUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.5281,
-    "tp": 0.552896,
-    "sl": 0.516829,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.4x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 13:25:49",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-23 13:25:49\nEntry: 0.5281\nTP: 0.552896\nSL: 0.516829"
-  },
-  {
     "key": "BCHUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -238,22 +222,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-23 12:36:06",
     "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-23 12:36:06\nEntry: 1.173\nTP: 1.142426\nSL: 1.186897"
-  },
-  {
-    "key": "AVAXUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 11.136,
-    "tp": 11.369335,
-    "sl": 11.00637,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 64.58).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 03:21:53",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-23 03:21:53\nEntry: 11.136\nTP: 11.369335\nSL: 11.00637"
   },
   {
     "key": "RENDERUSDT",
