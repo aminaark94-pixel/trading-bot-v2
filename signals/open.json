@@ -1,5 +1,21 @@
 [
   {
+    "key": "SUIUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 1.032,
+    "tp": 1.046602,
+    "sl": 1.019832,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 08:23:56",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-23 08:23:56\nEntry: 1.032\nTP: 1.046602\nSL: 1.019832"
+  },
+  {
     "key": "DOTUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -46,22 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-23 07:23:12",
     "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-23 07:23:12\nEntry: 13.048\nTP: 13.283869\nSL: 12.930065"
-  },
-  {
-    "key": "SUIUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "SUIUSDT",
-    "direction": "LONG",
-    "entry": 1.0168,
-    "tp": 1.028817,
-    "sl": 1.008788,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.86 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 07:02:02",
-    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-23 07:02:02\nEntry: 1.0168\nTP: 1.028817\nSL: 1.008788"
   },
   {
     "key": "INJUSDT",
