@@ -51,24 +51,7 @@
     }
   ],
   "bot3": [],
-  "bot4": [
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.3188,
-      "tp": 0.327448,
-      "sl": 0.311592,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 20:37:07",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-23 20:37:07\nEntry: 0.3188\nTP: 0.327448\nSL: 0.311592"
-    }
-  ],
+  "bot4": [],
   "bot5": [],
   "bot6": [],
   "bot7": [],
@@ -104,22 +87,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-23 19:25:04",
       "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-23 19:25:04\nEntry: 0.10188\nTP: 0.107874\nSL: 0.098883"
-    },
-    {
-      "key": "DOGEUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "DOGEUSDT",
-      "direction": "LONG",
-      "entry": 0.0941,
-      "tp": 0.099187,
-      "sl": 0.091557,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 19:24:25",
-      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-23 19:24:25\nEntry: 0.0941\nTP: 0.099187\nSL: 0.091557"
     }
   ],
   "bot9": [
@@ -223,22 +190,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-23 19:24:56",
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-23 19:24:56\nEntry: 60.3\nTP: 62.178915\nSL: 59.04739"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 4.484,
-      "tp": 4.710974,
-      "sl": 4.332684,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.68 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 19:24:49",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-23 19:24:49\nEntry: 4.484\nTP: 4.710974\nSL: 4.332684"
     }
   ]
 }
