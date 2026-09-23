@@ -171,22 +171,6 @@
       "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-23 12:36:43\nEntry: 0.5176\nTP: 0.497284\nSL: 0.527758"
     },
     {
-      "key": "FETUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "FETUSDT",
-      "direction": "SHORT",
-      "entry": 0.2149,
-      "tp": 0.208555,
-      "sl": 0.218073,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 11:54:46",
-      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-23 11:54:46\nEntry: 0.2149\nTP: 0.208555\nSL: 0.218073"
-    },
-    {
       "key": "RENDERUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
