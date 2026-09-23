@@ -1,5 +1,37 @@
 [
   {
+    "key": "BCHUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "BCHUSDT",
+    "direction": "LONG",
+    "entry": 350.1,
+    "tp": 365.978816,
+    "sl": 341.278436,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 56.96 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 12:50:32",
+    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-23 12:50:32\nEntry: 350.1\nTP: 365.978816\nSL: 341.278436"
+  },
+  {
+    "key": "SOLUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 117.93,
+    "tp": 118.573685,
+    "sl": 117.500877,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.3 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 12:50:01",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-23 12:50:01\nEntry: 117.93\nTP: 118.573685\nSL: 117.500877"
+  },
+  {
     "key": "TIAUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -224,22 +256,6 @@
     "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-23 08:23:56\nEntry: 1.032\nTP: 1.046602\nSL: 1.019832"
   },
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 13.048,
-    "tp": 13.283869,
-    "sl": 12.930065,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 07:23:12",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-23 07:23:12\nEntry: 13.048\nTP: 13.283869\nSL: 12.930065"
-  },
-  {
     "key": "UNIUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -270,22 +286,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-23 03:21:53",
     "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-23 03:21:53\nEntry: 11.136\nTP: 11.369335\nSL: 11.00637"
-  },
-  {
-    "key": "STXUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.3372,
-    "tp": 0.329907,
-    "sl": 0.341251,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 37.23 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 23:39:59",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-22 23:39:59\nEntry: 0.3372\nTP: 0.329907\nSL: 0.341251"
   },
   {
     "key": "BTCUSDT",
