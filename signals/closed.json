@@ -1,24 +1,5 @@
 [
   {
-    "key": "BTCUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 81266.0,
-    "tp": 80842.624263,
-    "sl": 81477.687869,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 04:19:38",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-20 04:19:38\nEntry: 81266.0\nTP: 80842.624263\nSL: 81477.687869",
-    "result": "TP_HIT",
-    "close_price": 80614.07,
-    "closed_at": "2026-09-20 07:48:08"
-  },
-  {
     "key": "APTUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 3.083,
     "closed_at": "2026-09-23 14:24:46"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 4.443,
+    "tp": 4.60996,
+    "sl": 4.350244,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 51.3).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 12:36:10",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-23 12:36:10\nEntry: 4.443\nTP: 4.60996\nSL: 4.350244",
+    "result": "TP_HIT",
+    "close_price": 4.639,
+    "closed_at": "2026-09-23 14:35:11"
   }
 ]
