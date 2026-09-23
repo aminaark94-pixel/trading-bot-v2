@@ -1,5 +1,22 @@
 {
-  "bot1": [],
+  "bot1": [
+    {
+      "key": "INJUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 7.877,
+      "tp": 8.178439,
+      "sl": 7.709534,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 61.04).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 02:47:53",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-24 02:47:53\nEntry: 7.877\nTP: 8.178439\nSL: 7.709534"
+    }
+  ],
   "bot2": [
     {
       "key": "SOLUSDT",
