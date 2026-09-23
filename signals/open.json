@@ -112,22 +112,6 @@
     "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-23 04:21:01\nEntry: 4.437\nTP: 4.273867\nSL: 4.518567"
   },
   {
-    "key": "DOTUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "DOTUSDT",
-    "direction": "SHORT",
-    "entry": 1.229,
-    "tp": 1.203237,
-    "sl": 1.247402,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "RSI 72.93 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 04:20:57",
-    "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-23 04:20:57\nEntry: 1.229\nTP: 1.203237\nSL: 1.247402"
-  },
-  {
     "key": "SUIUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
