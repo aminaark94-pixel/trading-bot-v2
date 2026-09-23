@@ -118,8 +118,41 @@
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-23 22:01:43\nEntry: 12.305\nTP: 12.587344\nSL: 12.069713"
     }
   ],
-  "bot5": [],
+  "bot5": [
+    {
+      "key": "FETUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "FETUSDT",
+      "direction": "LONG",
+      "entry": 0.1967,
+      "tp": 0.204853,
+      "sl": 0.193564,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 03:22:53",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-24 03:22:53\nEntry: 0.1967\nTP: 0.204853\nSL: 0.193564"
+    }
+  ],
   "bot6": [
+    {
+      "key": "BCHUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "BCHUSDT",
+      "direction": "LONG",
+      "entry": 339.4,
+      "tp": 352.509253,
+      "sl": 331.206717,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend UP (+8.00% EMA20/50 gap) + RSI 43.91 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 03:22:40",
+      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-24 03:22:40\nEntry: 339.4\nTP: 352.509253\nSL: 331.206717"
+    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot6",
