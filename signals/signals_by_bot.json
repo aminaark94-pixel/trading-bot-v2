@@ -58,6 +58,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "LINKUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 12.748,
+      "tp": 13.082558,
+      "sl": 12.580722,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 17:28:21",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-23 17:28:21\nEntry: 12.748\nTP: 13.082558\nSL: 12.580722"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
