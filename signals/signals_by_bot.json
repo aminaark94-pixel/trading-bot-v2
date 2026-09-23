@@ -119,7 +119,24 @@
     }
   ],
   "bot5": [],
-  "bot6": [],
+  "bot6": [
+    {
+      "key": "UNIUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 9.188,
+      "tp": 9.510989,
+      "sl": 8.986131,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend UP (+2.51% EMA20/50 gap) + RSI 38.43 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 00:02:22",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-24 00:02:22\nEntry: 9.188\nTP: 9.510989\nSL: 8.986131"
+    }
+  ],
   "bot7": [],
   "bot8": [
     {
