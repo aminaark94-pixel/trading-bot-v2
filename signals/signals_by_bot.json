@@ -120,6 +120,22 @@
   ],
   "bot5": [
     {
+      "key": "LTCUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 63.8,
+      "tp": 65.748187,
+      "sl": 63.050697,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 09:36:53",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-23 09:36:53\nEntry: 63.8\nTP: 65.748187\nSL: 63.050697"
+    },
+    {
       "key": "BTCUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
