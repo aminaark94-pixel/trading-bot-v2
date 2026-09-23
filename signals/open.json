@@ -48,22 +48,6 @@
     "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-23 22:23:23\nEntry: 10.35\nTP: 10.692885\nSL: 10.064263"
   },
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 351.8,
-    "tp": 377.770891,
-    "sl": 337.371728,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 53.94).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 22:02:05",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-23 22:02:05\nEntry: 351.8\nTP: 377.770891\nSL: 337.371728"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
