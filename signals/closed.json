@@ -1,24 +1,5 @@
 [
   {
-    "key": "XRPUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.431,
-    "tp": 1.460565,
-    "sl": 1.416218,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-19 17:26:20",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-19 17:26:20\nEntry: 1.431\nTP: 1.460565\nSL: 1.416218",
-    "result": "SL_HIT",
-    "close_price": 1.4151,
-    "closed_at": "2026-09-20 02:20:10"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.81,
     "closed_at": "2026-09-23 07:34:35"
+  },
+  {
+    "key": "APTUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.811,
+    "tp": 0.821431,
+    "sl": 0.804046,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.25 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 07:35:33",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-23 07:35:33\nEntry: 0.811\nTP: 0.821431\nSL: 0.804046",
+    "result": "TP_HIT",
+    "close_price": 0.822,
+    "closed_at": "2026-09-23 07:48:50"
   }
 ]
