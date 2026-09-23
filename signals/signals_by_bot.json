@@ -51,7 +51,24 @@
     }
   ],
   "bot3": [],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "STXUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.3188,
+      "tp": 0.327448,
+      "sl": 0.311592,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 20:37:07",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-23 20:37:07\nEntry: 0.3188\nTP: 0.327448\nSL: 0.311592"
+    }
+  ],
   "bot5": [],
   "bot6": [],
   "bot7": [],
