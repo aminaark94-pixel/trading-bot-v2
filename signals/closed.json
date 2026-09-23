@@ -1,24 +1,5 @@
 [
   {
-    "key": "NEARUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "NEARUSDT",
-    "direction": "SHORT",
-    "entry": 3.576,
-    "tp": 3.512669,
-    "sl": 3.618221,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.8 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 08:23:12",
-    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-20 08:23:12\nEntry: 3.576\nTP: 3.512669\nSL: 3.618221",
-    "result": "TP_HIT",
-    "close_price": 3.5,
-    "closed_at": "2026-09-20 09:02:37"
-  },
-  {
     "key": "APTUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 10.962,
     "closed_at": "2026-09-23 17:03:01"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 3.134,
+    "tp": 3.228839,
+    "sl": 3.08658,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 16:50:18",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-23 16:50:18\nEntry: 3.134\nTP: 3.228839\nSL: 3.08658",
+    "result": "SL_HIT",
+    "close_price": 3.079,
+    "closed_at": "2026-09-23 17:43:49"
   }
 ]
