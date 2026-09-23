@@ -100,22 +100,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-23 08:23:56",
       "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-23 08:23:56\nEntry: 1.032\nTP: 1.046602\nSL: 1.019832"
-    },
-    {
-      "key": "INJUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "INJUSDT",
-      "direction": "SHORT",
-      "entry": 7.894,
-      "tp": 7.689423,
-      "sl": 8.064481,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 06:48:26",
-      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-23 06:48:26\nEntry: 7.894\nTP: 7.689423\nSL: 8.064481"
     }
   ],
   "bot5": [
