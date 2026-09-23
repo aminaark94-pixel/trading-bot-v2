@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "INJUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 8.202,
+      "tp": 8.472645,
+      "sl": 8.051642,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 65.16).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-23 14:24:28",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-23 14:24:28\nEntry: 8.202\nTP: 8.472645\nSL: 8.051642"
+    },
+    {
       "key": "NEARUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -68,38 +84,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-23 13:51:02",
       "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-09-23 13:51:02\nEntry: 0.10941\nTP: 0.107486\nSL: 0.111013"
-    },
-    {
-      "key": "INJUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "INJUSDT",
-      "direction": "SHORT",
-      "entry": 7.968,
-      "tp": 7.81468,
-      "sl": 8.095767,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 12:36:40",
-      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-23 12:36:40\nEntry: 7.968\nTP: 7.81468\nSL: 8.095767"
-    },
-    {
-      "key": "ICPUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "ICPUSDT",
-      "direction": "SHORT",
-      "entry": 3.042,
-      "tp": 2.999228,
-      "sl": 3.077643,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 12:03:21",
-      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-23 12:03:21\nEntry: 3.042\nTP: 2.999228\nSL: 3.077643"
     }
   ],
   "bot5": [
@@ -307,22 +291,6 @@
     }
   ],
   "bot12": [
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "SUIUSDT",
-      "direction": "LONG",
-      "entry": 1.0086,
-      "tp": 1.021531,
-      "sl": 0.999979,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.73 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 13:50:46",
-      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-23 13:50:46\nEntry: 1.0086\nTP: 1.021531\nSL: 0.999979"
-    },
     {
       "key": "XRPUSDT",
       "bot_id": "bot12",
