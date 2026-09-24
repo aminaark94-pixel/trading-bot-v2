@@ -6,15 +6,15 @@
       "bot_name": "Trend Rider",
       "symbol": "BNBUSDT",
       "direction": "LONG",
-      "entry": 767.97,
-      "tp": 774.360014,
-      "sl": 764.419992,
+      "entry": 777.41,
+      "tp": 783.770633,
+      "sl": 773.876315,
       "score": 80,
       "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 48.56).",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 67.98).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-24 08:49:35",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-24 08:49:35\nEntry: 767.97\nTP: 774.360014\nSL: 764.419992"
+      "timestamp": "2026-09-24 12:35:30",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-24 12:35:30\nEntry: 777.41\nTP: 783.770633\nSL: 773.876315"
     },
     {
       "key": "APTUSDT",
@@ -386,5 +386,22 @@
     }
   ],
   "bot11": [],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "ICPUSDT",
+      "direction": "SHORT",
+      "entry": 2.98,
+      "tp": 2.954647,
+      "sl": 2.996902,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.01 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 12:36:19",
+      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-24 12:36:19\nEntry: 2.98\nTP: 2.954647\nSL: 2.996902"
+    }
+  ]
 }
