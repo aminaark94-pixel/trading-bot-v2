@@ -1,5 +1,37 @@
 [
   {
+    "key": "SUIUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "SUIUSDT",
+    "direction": "SHORT",
+    "entry": 1.002,
+    "tp": 0.978077,
+    "sl": 1.017949,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.36 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 20:25:20",
+    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-24 20:25:20\nEntry: 1.002\nTP: 0.978077\nSL: 1.017949"
+  },
+  {
+    "key": "SOLUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "SOLUSDT",
+    "direction": "SHORT",
+    "entry": 115.88,
+    "tp": 114.547667,
+    "sl": 116.768222,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.05 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 20:25:02",
+    "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-24 20:25:02\nEntry: 115.88\nTP: 114.547667\nSL: 116.768222"
+  },
+  {
     "key": "FETUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
