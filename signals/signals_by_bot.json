@@ -51,22 +51,6 @@
   ],
   "bot2": [
     {
-      "key": "LINKUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "LINKUSDT",
-      "direction": "SHORT",
-      "entry": 13.423,
-      "tp": 13.132826,
-      "sl": 13.630267,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 81.4 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 23:52:04",
-      "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-24 23:52:04\nEntry: 13.423\nTP: 13.132826\nSL: 13.630267"
-    },
-    {
       "key": "AVAXUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -101,22 +85,6 @@
   ],
   "bot3": [],
   "bot4": [
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 4.767,
-      "tp": 4.950932,
-      "sl": 4.613723,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 00:33:59",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-25 00:33:59\nEntry: 4.767\nTP: 4.950932\nSL: 4.613723"
-    },
     {
       "key": "FILUSDT",
       "bot_id": "bot4",
