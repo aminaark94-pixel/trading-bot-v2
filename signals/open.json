@@ -1,5 +1,21 @@
 [
   {
+    "key": "NEARUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 4.563,
+    "tp": 4.663449,
+    "sl": 4.496033,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 34.31 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 03:23:41",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-25 03:23:41\nEntry: 4.563\nTP: 4.663449\nSL: 4.496033"
+  },
+  {
     "key": "SUIUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -94,22 +110,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-25 00:34:13",
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-25 00:34:13\nEntry: 0.10815\nTP: 0.111017\nSL: 0.106716"
-  },
-  {
-    "key": "APTUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.8107,
-    "tp": 0.823669,
-    "sl": 0.802054,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.48 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 23:39:35",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-24 23:39:35\nEntry: 0.8107\nTP: 0.823669\nSL: 0.802054"
   },
   {
     "key": "FILUSDT",
