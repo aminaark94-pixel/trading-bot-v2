@@ -176,22 +176,6 @@
     "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-24 20:51:11\nEntry: 339.4\nTP: 360.846082\nSL: 331.151507"
   },
   {
-    "key": "SUIUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "SUIUSDT",
-    "direction": "SHORT",
-    "entry": 1.002,
-    "tp": 0.978077,
-    "sl": 1.017949,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.36 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 20:25:20",
-    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-24 20:25:20\nEntry: 1.002\nTP: 0.978077\nSL: 1.017949"
-  },
-  {
     "key": "FETUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",

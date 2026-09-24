@@ -1,24 +1,5 @@
 [
   {
-    "key": "TIAUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.4196,
-    "tp": 0.435606,
-    "sl": 0.413444,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 21:35:30",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-20 21:35:30\nEntry: 0.4196\nTP: 0.435606\nSL: 0.413444",
-    "result": "TP_HIT",
-    "close_price": 0.4363,
-    "closed_at": "2026-09-21 14:23:36"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.10815,
     "closed_at": "2026-09-25 00:33:06"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "SUIUSDT",
+    "direction": "SHORT",
+    "entry": 1.002,
+    "tp": 0.978077,
+    "sl": 1.017949,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.36 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 20:25:20",
+    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-24 20:25:20\nEntry: 1.002\nTP: 0.978077\nSL: 1.017949",
+    "result": "SL_HIT",
+    "close_price": 1.0228,
+    "closed_at": "2026-09-25 01:01:28"
   }
 ]
