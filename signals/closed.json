@@ -1,24 +1,5 @@
 [
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 12.446,
-    "tp": 12.695271,
-    "sl": 12.307516,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 83.09 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 21:34:45",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-20 21:34:45\nEntry: 12.446\nTP: 12.695271\nSL: 12.307516",
-    "result": "TP_HIT",
-    "close_price": 12.731,
-    "closed_at": "2026-09-21 05:29:23"
-  },
-  {
     "key": "BTCUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.7666,
     "closed_at": "2026-09-24 16:22:48"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "LTCUSDT",
+    "direction": "LONG",
+    "entry": 67.85,
+    "tp": 70.520867,
+    "sl": 66.514567,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 09:36:47",
+    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-24 09:36:47\nEntry: 67.85\nTP: 70.520867\nSL: 66.514567",
+    "result": "SL_HIT",
+    "close_price": 66.41,
+    "closed_at": "2026-09-24 16:35:18"
   }
 ]
