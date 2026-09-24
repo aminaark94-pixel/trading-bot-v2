@@ -27,18 +27,18 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 78,
+      "wins": 79,
       "losses": 119,
-      "total": 197,
-      "win_rate": 39.6
+      "total": 198,
+      "win_rate": 39.9
     },
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "wins": 29,
+      "wins": 30,
       "losses": 57,
-      "total": 86,
-      "win_rate": 33.7
+      "total": 87,
+      "win_rate": 34.5
     },
     {
       "bot_id": "bot6",
@@ -91,9 +91,9 @@
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 166,
-      "losses": 200,
-      "total": 366,
+      "wins": 167,
+      "losses": 201,
+      "total": 368,
       "win_rate": 45.4
     }
   ],
@@ -105,7 +105,7 @@
     "total": 16,
     "win_rate": 62.5
   },
-  "last_run": "2026-09-24T04:50:57.221006+00:00",
+  "last_run": "2026-09-24T05:03:08.750069+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
