@@ -1,25 +1,6 @@
 [
   {
     "key": "FILUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "FILUSDT",
-    "direction": "SHORT",
-    "entry": 0.9681,
-    "tp": 0.885915,
-    "sl": 1.005457,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 03:02:49",
-    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-20 03:02:49\nEntry: 0.9681\nTP: 0.885915\nSL: 1.005457",
-    "result": "SL_HIT",
-    "close_price": 1.0086,
-    "closed_at": "2026-09-21 14:35:02"
-  },
-  {
-    "key": "FILUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
     "symbol": "FILUSDT",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 8.072,
     "closed_at": "2026-09-25 02:47:51"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 10.673,
+    "tp": 10.857638,
+    "sl": 10.519136,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 02:33:56",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 02:33:56\nEntry: 10.673\nTP: 10.857638\nSL: 10.519136",
+    "result": "SL_HIT",
+    "close_price": 10.515,
+    "closed_at": "2026-09-25 03:01:07"
   }
 ]

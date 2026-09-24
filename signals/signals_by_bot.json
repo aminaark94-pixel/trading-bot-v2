@@ -86,22 +86,6 @@
   "bot3": [],
   "bot4": [
     {
-      "key": "AVAXUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 10.673,
-      "tp": 10.857638,
-      "sl": 10.519136,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 02:33:56",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 02:33:56\nEntry: 10.673\nTP: 10.857638\nSL: 10.519136"
-    },
-    {
       "key": "FILUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -119,6 +103,22 @@
     }
   ],
   "bot5": [
+    {
+      "key": "AVAXUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 10.493,
+      "tp": 10.928382,
+      "sl": 10.325545,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 03:01:46",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 03:01:46\nEntry: 10.493\nTP: 10.928382\nSL: 10.325545"
+    },
     {
       "key": "DOTUSDT",
       "bot_id": "bot5",
@@ -323,6 +323,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "SUIUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 1.0095,
+      "tp": 1.022216,
+      "sl": 1.001023,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.33 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 03:01:58",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 03:01:58\nEntry: 1.0095\nTP: 1.022216\nSL: 1.001023"
+    },
     {
       "key": "APTUSDT",
       "bot_id": "bot12",
