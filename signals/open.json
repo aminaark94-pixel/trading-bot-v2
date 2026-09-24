@@ -1,5 +1,21 @@
 [
   {
+    "key": "LINKUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "LINKUSDT",
+    "direction": "SHORT",
+    "entry": 13.423,
+    "tp": 13.132826,
+    "sl": 13.630267,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 81.4 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 23:52:04",
+    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-24 23:52:04\nEntry: 13.423\nTP: 13.132826\nSL: 13.630267"
+  },
+  {
     "key": "APTUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -94,22 +110,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-24 21:50:34",
     "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-24 21:50:34\nEntry: 1.5323\nTP: 1.507565\nSL: 1.54879"
-  },
-  {
-    "key": "LINKUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 12.899,
-    "tp": 13.36588,
-    "sl": 12.686781,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 3.2x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 21:25:19",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-24 21:25:19\nEntry: 12.899\nTP: 13.36588\nSL: 12.686781"
   },
   {
     "key": "SOLUSDT",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 257.9,
-    "tp": 251.280212,
-    "sl": 261.209894,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 06:35:34",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-21 06:35:34\nEntry: 257.9\nTP: 251.280212\nSL: 261.209894",
-    "result": "SL_HIT",
-    "close_price": 261.6,
-    "closed_at": "2026-09-21 13:51:21"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.8086,
     "closed_at": "2026-09-24 23:03:01"
+  },
+  {
+    "key": "LINKUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "LINKUSDT",
+    "direction": "LONG",
+    "entry": 12.899,
+    "tp": 13.36588,
+    "sl": 12.686781,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 3.2x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 21:25:19",
+    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-24 21:25:19\nEntry: 12.899\nTP: 13.36588\nSL: 12.686781",
+    "result": "TP_HIT",
+    "close_price": 13.425,
+    "closed_at": "2026-09-24 23:51:15"
   }
 ]
