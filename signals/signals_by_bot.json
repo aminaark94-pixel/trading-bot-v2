@@ -31,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-24 07:23:28",
       "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-24 07:23:28\nEntry: 0.7683\nTP: 0.786476\nSL: 0.758202"
-    },
-    {
-      "key": "INJUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "INJUSDT",
-      "direction": "LONG",
-      "entry": 7.877,
-      "tp": 8.178439,
-      "sl": 7.709534,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 61.04).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 02:47:53",
-      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-24 02:47:53\nEntry: 7.877\nTP: 8.178439\nSL: 7.709534"
     }
   ],
   "bot2": [
@@ -335,22 +319,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-24 10:36:20",
       "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-24 10:36:20\nEntry: 0.9764\nTP: 1.004297\nSL: 0.962452"
-    },
-    {
-      "key": "DOTUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "DOTUSDT",
-      "direction": "LONG",
-      "entry": 1.135,
-      "tp": 1.158397,
-      "sl": 1.123301,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 10:22:49",
-      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-24 10:22:49\nEntry: 1.135\nTP: 1.158397\nSL: 1.123301"
     },
     {
       "key": "LTCUSDT",
