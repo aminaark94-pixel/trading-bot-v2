@@ -1,35 +1,19 @@
 [
   {
-    "key": "ICPUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "ICPUSDT",
-    "direction": "SHORT",
-    "entry": 2.997,
-    "tp": 2.971258,
-    "sl": 3.014161,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 66.1 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 13:02:45",
-    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-24 13:02:45\nEntry: 2.997\nTP: 2.971258\nSL: 3.014161"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
     "symbol": "BNBUSDT",
     "direction": "LONG",
-    "entry": 777.41,
-    "tp": 783.770633,
-    "sl": 773.876315,
+    "entry": 773.27,
+    "tp": 779.582759,
+    "sl": 769.762911,
     "score": 80,
     "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 67.98).",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 54.69).",
     "status": "waiting_entry",
-    "timestamp": "2026-09-24 12:35:30",
-    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-24 12:35:30\nEntry: 777.41\nTP: 783.770633\nSL: 773.876315"
+    "timestamp": "2026-09-24 13:25:27",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-24 13:25:27\nEntry: 773.27\nTP: 779.582759\nSL: 769.762911"
   },
   {
     "key": "NEARUSDT",
@@ -62,22 +46,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-24 10:36:20",
     "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-24 10:36:20\nEntry: 0.9764\nTP: 1.004297\nSL: 0.962452"
-  },
-  {
-    "key": "ETHUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2688.85,
-    "tp": 2721.107711,
-    "sl": 2676.443188,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 10:35:03",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-24 10:35:03\nEntry: 2688.85\nTP: 2721.107711\nSL: 2676.443188"
   },
   {
     "key": "DOTUSDT",
