@@ -1,24 +1,5 @@
 [
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 12.611,
-    "tp": 12.890431,
-    "sl": 12.455761,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.68 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 07:23:31",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-21 07:23:31\nEntry: 12.611\nTP: 12.890431\nSL: 12.455761",
-    "result": "TP_HIT",
-    "close_price": 13.024,
-    "closed_at": "2026-09-21 14:35:02"
-  },
-  {
     "key": "FILUSDT",
     "bot_id": "bot3",
     "bot_name": "Breakout Sniper",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 10.657,
     "closed_at": "2026-09-25 02:33:13"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "INJUSDT",
+    "direction": "SHORT",
+    "entry": 8.418,
+    "tp": 8.078463,
+    "sl": 8.700947,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 22:48:51",
+    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-24 22:48:51\nEntry: 8.418\nTP: 8.078463\nSL: 8.700947",
+    "result": "TP_HIT",
+    "close_price": 8.072,
+    "closed_at": "2026-09-25 02:47:51"
   }
 ]
