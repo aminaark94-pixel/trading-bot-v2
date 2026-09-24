@@ -1,5 +1,21 @@
 [
   {
+    "key": "BNBUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 766.3,
+    "tp": 759.229378,
+    "sl": 770.228123,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 37.21 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 14:49:55",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-24 14:49:55\nEntry: 766.3\nTP: 759.229378\nSL: 770.228123"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -128,22 +144,6 @@
     "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-24 11:02:27\nEntry: 4.264\nTP: 4.125661\nSL: 4.379283"
   },
   {
-    "key": "FILUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9764,
-    "tp": 1.004297,
-    "sl": 0.962452,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 10:36:20",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-24 10:36:20\nEntry: 0.9764\nTP: 1.004297\nSL: 0.962452"
-  },
-  {
     "key": "LTCUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -238,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-23 19:24:28",
     "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-23 19:24:28\nEntry: 0.2382\nTP: 0.227104\nSL: 0.244364"
-  },
-  {
-    "key": "XRPUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "XRPUSDT",
-    "direction": "SHORT",
-    "entry": 1.5204,
-    "tp": 1.458442,
-    "sl": 1.554821,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 24.19 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 19:24:23",
-    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-23 19:24:23\nEntry: 1.5204\nTP: 1.458442\nSL: 1.554821"
   },
   {
     "key": "SOLUSDT",
