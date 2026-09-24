@@ -1,24 +1,5 @@
 [
   {
-    "key": "ICPUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "ICPUSDT",
-    "direction": "SHORT",
-    "entry": 2.893,
-    "tp": 2.837188,
-    "sl": 2.930207,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.17 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 22:33:48",
-    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-20 22:33:48\nEntry: 2.893\nTP: 2.837188\nSL: 2.930207",
-    "result": "SL_HIT",
-    "close_price": 2.932,
-    "closed_at": "2026-09-21 06:21:36"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.813,
     "closed_at": "2026-09-24 17:27:53"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 2.904,
+    "tp": 2.97783,
+    "sl": 2.867085,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 14:25:22",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-24 14:25:22\nEntry: 2.904\nTP: 2.97783\nSL: 2.867085",
+    "result": "TP_HIT",
+    "close_price": 2.989,
+    "closed_at": "2026-09-24 17:43:01"
   }
 ]
