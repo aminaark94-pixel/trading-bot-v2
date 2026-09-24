@@ -1,5 +1,21 @@
 [
   {
+    "key": "SUIUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 0.9607,
+    "tp": 0.988737,
+    "sl": 0.949917,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 09:23:52",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-24 09:23:52\nEntry: 0.9607\nTP: 0.988737\nSL: 0.949917"
+  },
+  {
     "key": "RENDERUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
