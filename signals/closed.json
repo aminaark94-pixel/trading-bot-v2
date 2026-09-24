@@ -1,24 +1,5 @@
 [
   {
-    "key": "DOTUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "DOTUSDT",
-    "direction": "LONG",
-    "entry": 1.139,
-    "tp": 1.155488,
-    "sl": 1.128008,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.68 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 02:02:08",
-    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-21 02:02:08\nEntry: 1.139\nTP: 1.155488\nSL: 1.128008",
-    "result": "TP_HIT",
-    "close_price": 1.156,
-    "closed_at": "2026-09-21 06:23:29"
-  },
-  {
     "key": "LTCUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 2.989,
     "closed_at": "2026-09-24 17:43:01"
+  },
+  {
+    "key": "FETUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "FETUSDT",
+    "direction": "SHORT",
+    "entry": 0.1981,
+    "tp": 0.195978,
+    "sl": 0.199515,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.0 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 16:02:38",
+    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-24 16:02:38\nEntry: 0.1981\nTP: 0.195978\nSL: 0.199515",
+    "result": "SL_HIT",
+    "close_price": 0.1996,
+    "closed_at": "2026-09-24 17:54:25"
   }
 ]
