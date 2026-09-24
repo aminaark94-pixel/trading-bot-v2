@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "ETHUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2656.26,
+      "tp": 2706.224144,
+      "sl": 2628.502142,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 46.44).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 20:02:41",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-24 20:02:41\nEntry: 2656.26\nTP: 2706.224144\nSL: 2628.502142"
+    },
+    {
       "key": "BTCUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -222,6 +238,22 @@
     }
   ],
   "bot10": [
+    {
+      "key": "FETUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "FETUSDT",
+      "direction": "LONG",
+      "entry": 0.2173,
+      "tp": 0.231151,
+      "sl": 0.210374,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 20:03:39",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-24 20:03:39\nEntry: 0.2173\nTP: 0.231151\nSL: 0.210374"
+    },
     {
       "key": "APTUSDT",
       "bot_id": "bot10",
