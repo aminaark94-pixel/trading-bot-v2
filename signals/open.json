@@ -256,22 +256,6 @@
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-24 18:25:34\nEntry: 1.492\nTP: 1.533951\nSL: 1.475865"
   },
   {
-    "key": "INJUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 8.008,
-    "tp": 8.517926,
-    "sl": 7.811875,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 17:29:20",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-24 17:29:20\nEntry: 8.008\nTP: 8.517926\nSL: 7.811875"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "SOLUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "SOLUSDT",
-    "direction": "LONG",
-    "entry": 111.17,
-    "tp": 113.538951,
-    "sl": 110.258865,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 04:46:33",
-    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-21 04:46:33\nEntry: 111.17\nTP: 113.538951\nSL: 110.258865",
-    "result": "TP_HIT",
-    "close_price": 113.96,
-    "closed_at": "2026-09-21 13:35:54"
-  },
-  {
     "key": "FETUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 2656.53,
     "closed_at": "2026-09-24 19:53:44"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 8.008,
+    "tp": 8.517926,
+    "sl": 7.811875,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 17:29:20",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-24 17:29:20\nEntry: 8.008\nTP: 8.517926\nSL: 7.811875",
+    "result": "TP_HIT",
+    "close_price": 8.558,
+    "closed_at": "2026-09-24 20:37:36"
   }
 ]
