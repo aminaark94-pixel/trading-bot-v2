@@ -69,22 +69,6 @@
       "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-24 11:02:27\nEntry: 4.264\nTP: 4.125661\nSL: 4.379283"
     },
     {
-      "key": "AVAXUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 10.35,
-      "tp": 10.692885,
-      "sl": 10.064263,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 22:23:23",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-23 22:23:23\nEntry: 10.35\nTP: 10.692885\nSL: 10.064263"
-    },
-    {
       "key": "LINKUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -101,24 +85,7 @@
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-23 22:01:43\nEntry: 12.305\nTP: 12.587344\nSL: 12.069713"
     }
   ],
-  "bot5": [
-    {
-      "key": "DOGEUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "DOGEUSDT",
-      "direction": "LONG",
-      "entry": 0.09292,
-      "tp": 0.095288,
-      "sl": 0.092009,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 05:44:16",
-      "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-24 05:44:16\nEntry: 0.09292\nTP: 0.095288\nSL: 0.092009"
-    }
-  ],
+  "bot5": [],
   "bot6": [],
   "bot7": [],
   "bot8": [

@@ -28,17 +28,17 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 79,
-      "losses": 119,
-      "total": 198,
-      "win_rate": 39.9
+      "losses": 120,
+      "total": 199,
+      "win_rate": 39.7
     },
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
       "wins": 30,
-      "losses": 59,
-      "total": 89,
-      "win_rate": 33.7
+      "losses": 60,
+      "total": 90,
+      "win_rate": 33.3
     },
     {
       "bot_id": "bot6",
@@ -105,7 +105,7 @@
     "total": 16,
     "win_rate": 62.5
   },
-  "last_run": "2026-09-24T09:26:00.568007+00:00",
+  "last_run": "2026-09-24T09:37:39.817933+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
