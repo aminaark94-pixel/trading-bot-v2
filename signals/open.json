@@ -1,5 +1,21 @@
 [
   {
+    "key": "FILUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.9405,
+    "tp": 0.972016,
+    "sl": 0.928379,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 05:30:48",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-24 05:30:48\nEntry: 0.9405\nTP: 0.972016\nSL: 0.928379"
+  },
+  {
     "key": "ICPUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -46,22 +62,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-24 03:48:39",
     "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-24 03:48:39\nEntry: 1.736\nTP: 1.774962\nSL: 1.714355"
-  },
-  {
-    "key": "FETUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "FETUSDT",
-    "direction": "LONG",
-    "entry": 0.1967,
-    "tp": 0.204853,
-    "sl": 0.193564,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 03:22:53",
-    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-24 03:22:53\nEntry: 0.1967\nTP: 0.204853\nSL: 0.193564"
   },
   {
     "key": "BCHUSDT",
@@ -238,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-23 19:25:04",
     "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-23 19:25:04\nEntry: 0.10188\nTP: 0.107874\nSL: 0.098883"
-  },
-  {
-    "key": "LTCUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 60.3,
-    "tp": 62.178915,
-    "sl": 59.04739,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.55 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-23 19:24:56",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-23 19:24:56\nEntry: 60.3\nTP: 62.178915\nSL: 59.04739"
   },
   {
     "key": "ADAUSDT",
