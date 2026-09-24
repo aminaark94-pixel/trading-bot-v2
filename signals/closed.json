@@ -1,24 +1,5 @@
 [
   {
-    "key": "ADAUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "ADAUSDT",
-    "direction": "LONG",
-    "entry": 0.2407,
-    "tp": 0.246081,
-    "sl": 0.23771,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 74.22).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 14:35:40",
-    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-21 14:35:40\nEntry: 0.2407\nTP: 0.246081\nSL: 0.23771",
-    "result": "SL_HIT",
-    "close_price": 0.2373,
-    "closed_at": "2026-09-21 15:01:01"
-  },
-  {
     "key": "UNIUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.8012,
     "closed_at": "2026-09-25 03:22:36"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 10.493,
+    "tp": 10.928382,
+    "sl": 10.325545,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 03:01:46",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 03:01:46\nEntry: 10.493\nTP: 10.928382\nSL: 10.325545",
+    "result": "SL_HIT",
+    "close_price": 10.308,
+    "closed_at": "2026-09-25 03:35:35"
   }
 ]

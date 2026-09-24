@@ -104,22 +104,6 @@
   ],
   "bot5": [
     {
-      "key": "AVAXUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 10.493,
-      "tp": 10.928382,
-      "sl": 10.325545,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 03:01:46",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 03:01:46\nEntry: 10.493\nTP: 10.928382\nSL: 10.325545"
-    },
-    {
       "key": "DOTUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
