@@ -102,6 +102,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "NEARUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "NEARUSDT",
+      "direction": "SHORT",
+      "entry": 4.264,
+      "tp": 4.125661,
+      "sl": 4.379283,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 11:02:27",
+      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-24 11:02:27\nEntry: 4.264\nTP: 4.125661\nSL: 4.379283"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
