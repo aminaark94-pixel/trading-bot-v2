@@ -339,22 +339,6 @@
       "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-24 07:50:06\nEntry: 0.9703\nTP: 0.961586\nSL: 0.97611"
     },
     {
-      "key": "FETUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "FETUSDT",
-      "direction": "SHORT",
-      "entry": 0.195,
-      "tp": 0.1928,
-      "sl": 0.196467,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.52 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 07:23:49",
-      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-24 07:23:49\nEntry: 0.195\nTP: 0.1928\nSL: 0.196467"
-    },
-    {
       "key": "NEARUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
