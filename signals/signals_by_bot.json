@@ -1,22 +1,6 @@
 {
   "bot1": [
     {
-      "key": "ETHUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2678.56,
-      "tp": 2716.971626,
-      "sl": 2657.220207,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 64.98).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 19:24:34",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-24 19:24:34\nEntry: 2678.56\nTP: 2716.971626\nSL: 2657.220207"
-    },
-    {
       "key": "BTCUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -67,22 +51,6 @@
       "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-24 19:37:26\nEntry: 10.432\nTP: 10.205249\nSL: 10.593966"
     },
     {
-      "key": "SOLUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "SOLUSDT",
-      "direction": "SHORT",
-      "entry": 116.22,
-      "tp": 114.580707,
-      "sl": 117.390924,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 76.6 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 19:37:08",
-      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-24 19:37:08\nEntry: 116.22\nTP: 114.580707\nSL: 117.390924"
-    },
-    {
       "key": "BNBUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -99,24 +67,7 @@
       "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-24 19:24:41\nEntry: 779.58\nTP: 772.709927\nSL: 784.487195"
     }
   ],
-  "bot3": [
-    {
-      "key": "FETUSDT",
-      "bot_id": "bot3",
-      "bot_name": "Breakout Sniper",
-      "symbol": "FETUSDT",
-      "direction": "LONG",
-      "entry": 0.22,
-      "tp": 0.233169,
-      "sl": 0.214014,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "Price broke recent range high/low with ATR volatility expansion.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 19:38:05",
-      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-24 19:38:05\nEntry: 0.22\nTP: 0.233169\nSL: 0.214014"
-    }
-  ],
+  "bot3": [],
   "bot4": [],
   "bot5": [
     {
@@ -222,20 +173,20 @@
   ],
   "bot9": [
     {
-      "key": "SUIUSDT",
+      "key": "LINKUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "SUIUSDT",
+      "symbol": "LINKUSDT",
       "direction": "LONG",
-      "entry": 1.0205,
-      "tp": 1.055233,
-      "sl": 1.001204,
+      "entry": 12.447,
+      "tp": 12.769491,
+      "sl": 12.267837,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 87.05 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 54.18 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-24 19:37:33",
-      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-24 19:37:33\nEntry: 1.0205\nTP: 1.055233\nSL: 1.001204"
+      "timestamp": "2026-09-24 19:52:43",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-24 19:52:43\nEntry: 12.447\nTP: 12.769491\nSL: 12.267837"
     },
     {
       "key": "DOGEUSDT",
@@ -288,22 +239,6 @@
       "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-24 19:25:17\nEntry: 0.8299\nTP: 0.869574\nSL: 0.810063"
     },
     {
-      "key": "DOTUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "DOTUSDT",
-      "direction": "LONG",
-      "entry": 1.169,
-      "tp": 1.208269,
-      "sl": 1.149366,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 19:25:10",
-      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-24 19:25:10\nEntry: 1.169\nTP: 1.208269\nSL: 1.149366"
-    },
-    {
       "key": "ADAUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -352,22 +287,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-24 19:25:22",
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-24 19:25:22\nEntry: 73.45\nTP: 78.742077\nSL: 71.044511"
-    },
-    {
-      "key": "LINKUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "LINKUSDT",
-      "direction": "LONG",
-      "entry": 12.643,
-      "tp": 12.955001,
-      "sl": 12.501181,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.9x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 19:25:02",
-      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-24 19:25:02\nEntry: 12.643\nTP: 12.955001\nSL: 12.501181"
     }
   ],
   "bot12": []
