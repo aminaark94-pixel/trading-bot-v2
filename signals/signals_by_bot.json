@@ -136,6 +136,22 @@
   ],
   "bot5": [
     {
+      "key": "ETHUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry": 2688.85,
+      "tp": 2721.107711,
+      "sl": 2676.443188,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 10:35:03",
+      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-24 10:35:03\nEntry: 2688.85\nTP: 2721.107711\nSL: 2676.443188"
+    },
+    {
       "key": "SUIUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
@@ -305,6 +321,22 @@
   ],
   "bot10": [
     {
+      "key": "FILUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "FILUSDT",
+      "direction": "LONG",
+      "entry": 0.9764,
+      "tp": 1.004297,
+      "sl": 0.962452,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 10:36:20",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-24 10:36:20\nEntry: 0.9764\nTP: 1.004297\nSL: 0.962452"
+    },
+    {
       "key": "DOTUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -354,22 +386,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-24 10:02:31",
       "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-24 10:02:31\nEntry: 2.981\nTP: 2.952758\nSL: 2.999828"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "NEARUSDT",
-      "direction": "SHORT",
-      "entry": 4.501,
-      "tp": 4.410431,
-      "sl": 4.56138,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 69.51 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 10:02:12",
-      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-24 10:02:12\nEntry: 4.501\nTP: 4.410431\nSL: 4.56138"
     }
   ]
 }

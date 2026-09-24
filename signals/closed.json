@@ -1,24 +1,5 @@
 [
   {
-    "key": "RENDERUSDT",
-    "bot_id": "bot3",
-    "bot_name": "Breakout Sniper",
-    "symbol": "RENDERUSDT",
-    "direction": "LONG",
-    "entry": 1.649,
-    "tp": 1.721099,
-    "sl": 1.616227,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "Price broke recent range high/low with ATR volatility expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 21:23:15",
-    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-20 21:23:15\nEntry: 1.649\nTP: 1.721099\nSL: 1.616227",
-    "result": "TP_HIT",
-    "close_price": 1.726,
-    "closed_at": "2026-09-20 21:48:46"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 2693.47,
     "closed_at": "2026-09-24 10:23:46"
+  },
+  {
+    "key": "NEARUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "NEARUSDT",
+    "direction": "SHORT",
+    "entry": 4.501,
+    "tp": 4.410431,
+    "sl": 4.56138,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 69.51 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 10:02:12",
+    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-24 10:02:12\nEntry: 4.501\nTP: 4.410431\nSL: 4.56138",
+    "result": "TP_HIT",
+    "close_price": 4.404,
+    "closed_at": "2026-09-24 10:34:42"
   }
 ]
