@@ -240,22 +240,6 @@
     "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-24 19:25:22\nEntry: 73.45\nTP: 78.742077\nSL: 71.044511"
   },
   {
-    "key": "APTUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.8299,
-    "tp": 0.869574,
-    "sl": 0.810063,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 19:25:17",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-24 19:25:17\nEntry: 0.8299\nTP: 0.869574\nSL: 0.810063"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
