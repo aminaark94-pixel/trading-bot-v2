@@ -4,9 +4,9 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 60,
-      "losses": 85,
-      "total": 145,
-      "win_rate": 41.4
+      "losses": 86,
+      "total": 146,
+      "win_rate": 41.1
     },
     {
       "bot_id": "bot2",
@@ -36,9 +36,9 @@
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
       "wins": 29,
-      "losses": 55,
-      "total": 84,
-      "win_rate": 34.5
+      "losses": 56,
+      "total": 85,
+      "win_rate": 34.1
     },
     {
       "bot_id": "bot6",
@@ -105,7 +105,7 @@
     "total": 16,
     "win_rate": 62.5
   },
-  "last_run": "2026-09-24T01:50:46.306263+00:00",
+  "last_run": "2026-09-24T02:02:51.506027+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

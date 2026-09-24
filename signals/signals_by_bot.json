@@ -1,22 +1,6 @@
 {
   "bot1": [
     {
-      "key": "ETHUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "ETHUSDT",
-      "direction": "LONG",
-      "entry": 2687.62,
-      "tp": 2713.754403,
-      "sl": 2673.100887,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 56.74).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 04:01:20",
-      "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-24 04:01:20\nEntry: 2687.62\nTP: 2713.754403\nSL: 2673.100887"
-    },
-    {
       "key": "RENDERUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -150,22 +134,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-24 05:44:16",
       "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-24 05:44:16\nEntry: 0.09292\nTP: 0.095288\nSL: 0.092009"
-    },
-    {
-      "key": "FILUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "FILUSDT",
-      "direction": "LONG",
-      "entry": 0.9405,
-      "tp": 0.972016,
-      "sl": 0.928379,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 05:30:48",
-      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-24 05:30:48\nEntry: 0.9405\nTP: 0.972016\nSL: 0.928379"
     }
   ],
   "bot6": [
