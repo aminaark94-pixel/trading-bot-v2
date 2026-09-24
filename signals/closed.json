@@ -1,24 +1,5 @@
 [
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 252.9,
-    "tp": 256.480171,
-    "sl": 249.916525,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 04:32:51",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-21 04:32:51\nEntry: 252.9\nTP: 256.480171\nSL: 249.916525",
-    "result": "TP_HIT",
-    "close_price": 257.9,
-    "closed_at": "2026-09-21 05:29:23"
-  },
-  {
     "key": "SUIUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.457,
     "closed_at": "2026-09-24 14:49:26"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BCHUSDT",
+    "direction": "LONG",
+    "entry": 327.1,
+    "tp": 332.36106,
+    "sl": 323.592627,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.35 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 14:25:12",
+    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-24 14:25:12\nEntry: 327.1\nTP: 332.36106\nSL: 323.592627",
+    "result": "TP_HIT",
+    "close_price": 332.8,
+    "closed_at": "2026-09-24 16:01:11"
   }
 ]

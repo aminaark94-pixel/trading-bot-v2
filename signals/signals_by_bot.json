@@ -274,20 +274,52 @@
   ],
   "bot12": [
     {
+      "key": "FETUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "FETUSDT",
+      "direction": "SHORT",
+      "entry": 0.1981,
+      "tp": 0.195978,
+      "sl": 0.199515,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 63.0 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 16:02:38",
+      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-24 16:02:38\nEntry: 0.1981\nTP: 0.195978\nSL: 0.199515"
+    },
+    {
       "key": "BCHUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "symbol": "BCHUSDT",
-      "direction": "LONG",
-      "entry": 327.1,
-      "tp": 332.36106,
-      "sl": 323.592627,
+      "direction": "SHORT",
+      "entry": 333.5,
+      "tp": 329.073706,
+      "sl": 336.450863,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.35 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.33 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-24 14:25:12",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-24 14:25:12\nEntry: 327.1\nTP: 332.36106\nSL: 323.592627"
+      "timestamp": "2026-09-24 16:02:22",
+      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-24 16:02:22\nEntry: 333.5\nTP: 329.073706\nSL: 336.450863"
+    },
+    {
+      "key": "DOTUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "DOTUSDT",
+      "direction": "SHORT",
+      "entry": 1.118,
+      "tp": 1.109308,
+      "sl": 1.123795,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.39 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 16:02:06",
+      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-09-24 16:02:06\nEntry: 1.118\nTP: 1.109308\nSL: 1.123795"
     }
   ]
 }
