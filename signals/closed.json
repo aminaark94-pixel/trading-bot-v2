@@ -1,24 +1,5 @@
 [
   {
-    "key": "ICPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.769,
-    "tp": 2.806415,
-    "sl": 2.73782,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 20:02:15",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-20 20:02:15\nEntry: 2.769\nTP: 2.806415\nSL: 2.73782",
-    "result": "TP_HIT",
-    "close_price": 2.81,
-    "closed_at": "2026-09-20 21:01:04"
-  },
-  {
     "key": "NEARUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 62.3,
     "closed_at": "2026-09-24 05:30:52"
+  },
+  {
+    "key": "APTUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.7651,
+    "tp": 0.78738,
+    "sl": 0.750246,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.52 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-23 20:50:28",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-23 20:50:28\nEntry: 0.7651\nTP: 0.78738\nSL: 0.750246",
+    "result": "SL_HIT",
+    "close_price": 0.7489,
+    "closed_at": "2026-09-24 06:03:29"
   }
 ]
