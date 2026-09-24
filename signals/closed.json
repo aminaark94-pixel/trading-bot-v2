@@ -1,24 +1,5 @@
 [
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 12.186,
-    "tp": 12.397804,
-    "sl": 12.068331,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 68.37).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 20:01:43",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-20 20:01:43\nEntry: 12.186\nTP: 12.397804\nSL: 12.068331",
-    "result": "TP_HIT",
-    "close_price": 12.426,
-    "closed_at": "2026-09-20 21:34:04"
-  },
-  {
     "key": "TIAUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 66.9,
     "closed_at": "2026-09-24 08:22:36"
+  },
+  {
+    "key": "RENDERUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "RENDERUSDT",
+    "direction": "LONG",
+    "entry": 1.781,
+    "tp": 1.822386,
+    "sl": 1.758008,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.53).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 07:23:52",
+    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-24 07:23:52\nEntry: 1.781\nTP: 1.822386\nSL: 1.758008",
+    "result": "SL_HIT",
+    "close_price": 1.758,
+    "closed_at": "2026-09-24 08:37:34"
   }
 ]

@@ -1,22 +1,6 @@
 {
   "bot1": [
     {
-      "key": "RENDERUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "RENDERUSDT",
-      "direction": "LONG",
-      "entry": 1.781,
-      "tp": 1.822386,
-      "sl": 1.758008,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 71.53).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 07:23:52",
-      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-24 07:23:52\nEntry: 1.781\nTP: 1.822386\nSL: 1.758008"
-    },
-    {
       "key": "APTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
