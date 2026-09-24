@@ -51,6 +51,22 @@
   ],
   "bot2": [
     {
+      "key": "SUIUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "SUIUSDT",
+      "direction": "SHORT",
+      "entry": 0.9919,
+      "tp": 0.97049,
+      "sl": 1.007193,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 79.66 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 19:02:25",
+      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-24 19:02:25\nEntry: 0.9919\nTP: 0.97049\nSL: 1.007193"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -65,22 +81,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-24 18:37:47",
       "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-24 18:37:47\nEntry: 0.7947\nTP: 0.772482\nSL: 0.810569"
-    },
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "SUIUSDT",
-      "direction": "SHORT",
-      "entry": 0.9744,
-      "tp": 0.954915,
-      "sl": 0.988318,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 70.98 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 18:25:53",
-      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-24 18:25:53\nEntry: 0.9744\nTP: 0.954915\nSL: 0.988318"
     },
     {
       "key": "SOLUSDT",
@@ -238,6 +238,22 @@
   ],
   "bot9": [
     {
+      "key": "ICPUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 3.102,
+      "tp": 3.213501,
+      "sl": 3.040055,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 74.43 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 19:02:57",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-24 19:02:57\nEntry: 3.102\nTP: 3.213501\nSL: 3.040055"
+    },
+    {
       "key": "FILUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -302,22 +318,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-24 17:55:40",
       "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-24 17:55:40\nEntry: 0.2\nTP: 0.207456\nSL: 0.196273"
-    },
-    {
-      "key": "ICPUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 2.987,
-      "tp": 3.085694,
-      "sl": 2.937652,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 17:44:19",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-24 17:44:19\nEntry: 2.987\nTP: 3.085694\nSL: 2.937652"
     }
   ],
   "bot11": [
