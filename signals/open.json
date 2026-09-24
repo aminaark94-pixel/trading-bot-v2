@@ -1,5 +1,21 @@
 [
   {
+    "key": "ICPUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 2.93,
+    "tp": 3.030715,
+    "sl": 2.891263,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 05:02:28",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-24 05:02:28\nEntry: 2.93\nTP: 3.030715\nSL: 2.891263"
+  },
+  {
     "key": "ETHUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
