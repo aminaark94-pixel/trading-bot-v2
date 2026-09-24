@@ -1,24 +1,5 @@
 [
   {
-    "key": "LTCUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "LTCUSDT",
-    "direction": "LONG",
-    "entry": 59.8,
-    "tp": 60.996765,
-    "sl": 59.256016,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.8x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 06:22:45",
-    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-21 06:22:45\nEntry: 59.8\nTP: 60.996765\nSL: 59.256016",
-    "result": "SL_HIT",
-    "close_price": 59.25,
-    "closed_at": "2026-09-21 06:36:09"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.1996,
     "closed_at": "2026-09-24 17:54:25"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 333.5,
+    "tp": 329.073706,
+    "sl": 336.450863,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.33 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 16:02:22",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-24 16:02:22\nEntry: 333.5\nTP: 329.073706\nSL: 336.450863",
+    "result": "SL_HIT",
+    "close_price": 336.6,
+    "closed_at": "2026-09-24 18:04:06"
   }
 ]

@@ -341,20 +341,20 @@
   ],
   "bot12": [
     {
-      "key": "BCHUSDT",
+      "key": "STXUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "BCHUSDT",
+      "symbol": "STXUSDT",
       "direction": "SHORT",
-      "entry": 333.5,
-      "tp": 329.073706,
-      "sl": 336.450863,
+      "entry": 0.308,
+      "tp": 0.304097,
+      "sl": 0.310603,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.33 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 66.18 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-24 16:02:22",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-24 16:02:22\nEntry: 333.5\nTP: 329.073706\nSL: 336.450863"
+      "timestamp": "2026-09-24 18:03:58",
+      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-24 18:03:58\nEntry: 0.308\nTP: 0.304097\nSL: 0.310603"
     },
     {
       "key": "DOTUSDT",
