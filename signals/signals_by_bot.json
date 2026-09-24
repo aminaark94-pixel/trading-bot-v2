@@ -51,22 +51,6 @@
   ],
   "bot2": [
     {
-      "key": "LTCUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "LTCUSDT",
-      "direction": "SHORT",
-      "entry": 66.84,
-      "tp": 65.317716,
-      "sl": 67.927346,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 84.54 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 08:23:35",
-      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-24 08:23:35\nEntry: 66.84\nTP: 65.317716\nSL: 67.927346"
-    },
-    {
       "key": "SOLUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -335,9 +319,42 @@
       "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-23 19:24:23\nEntry: 1.5204\nTP: 1.458442\nSL: 1.554821"
     }
   ],
-  "bot10": [],
+  "bot10": [
+    {
+      "key": "LTCUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 67.85,
+      "tp": 70.520867,
+      "sl": 66.514567,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 09:36:47",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-24 09:36:47\nEntry: 67.85\nTP: 70.520867\nSL: 66.514567"
+    }
+  ],
   "bot11": [],
   "bot12": [
+    {
+      "key": "FETUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "FETUSDT",
+      "direction": "SHORT",
+      "entry": 0.1972,
+      "tp": 0.195119,
+      "sl": 0.198588,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.64 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 09:37:04",
+      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-24 09:37:04\nEntry: 0.1972\nTP: 0.195119\nSL: 0.198588"
+    },
     {
       "key": "NEARUSDT",
       "bot_id": "bot12",

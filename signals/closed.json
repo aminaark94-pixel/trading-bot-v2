@@ -1,24 +1,5 @@
 [
   {
-    "key": "ICPUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.85,
-    "tp": 2.934293,
-    "sl": 2.811686,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.6x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 21:23:08",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-20 21:23:08\nEntry: 2.85\nTP: 2.934293\nSL: 2.811686",
-    "result": "TP_HIT",
-    "close_price": 2.937,
-    "closed_at": "2026-09-20 21:35:42"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 2673.49,
     "closed_at": "2026-09-24 09:02:45"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 66.84,
+    "tp": 65.317716,
+    "sl": 67.927346,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 84.54 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 08:23:35",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-24 08:23:35\nEntry: 66.84\nTP: 65.317716\nSL: 67.927346",
+    "result": "SL_HIT",
+    "close_price": 68.02,
+    "closed_at": "2026-09-24 09:35:47"
   }
 ]
