@@ -1,19 +1,35 @@
 [
   {
+    "key": "ICPUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "ICPUSDT",
+    "direction": "SHORT",
+    "entry": 2.963,
+    "tp": 2.926939,
+    "sl": 2.98704,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.85 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 08:23:50",
+    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-24 08:23:50\nEntry: 2.963\nTP: 2.926939\nSL: 2.98704"
+  },
+  {
     "key": "LTCUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
     "symbol": "LTCUSDT",
     "direction": "SHORT",
-    "entry": 65.87,
-    "tp": 64.439656,
-    "sl": 66.891674,
+    "entry": 66.84,
+    "tp": 65.317716,
+    "sl": 67.927346,
     "score": 85,
     "provider": "Technical",
-    "reason": "RSI 81.81 extreme + price at Bollinger Band edge.",
+    "reason": "RSI 84.54 extreme + price at Bollinger Band edge.",
     "status": "waiting_entry",
-    "timestamp": "2026-09-24 07:50:14",
-    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-24 07:50:14\nEntry: 65.87\nTP: 64.439656\nSL: 66.891674"
+    "timestamp": "2026-09-24 08:23:35",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-24 08:23:35\nEntry: 66.84\nTP: 65.317716\nSL: 67.927346"
   },
   {
     "key": "SUIUSDT",

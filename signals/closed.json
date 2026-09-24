@@ -1,24 +1,5 @@
 [
   {
-    "key": "UNIUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "UNIUSDT",
-    "direction": "LONG",
-    "entry": 8.679,
-    "tp": 8.861405,
-    "sl": 8.526995,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 20:02:12",
-    "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-20 20:02:12\nEntry: 8.679\nTP: 8.861405\nSL: 8.526995",
-    "result": "TP_HIT",
-    "close_price": 8.873,
-    "closed_at": "2026-09-20 21:34:04"
-  },
-  {
     "key": "LINKUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.1968,
     "closed_at": "2026-09-24 08:02:50"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 65.87,
+    "tp": 64.439656,
+    "sl": 66.891674,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 81.81 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 07:50:14",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-24 07:50:14\nEntry: 65.87\nTP: 64.439656\nSL: 66.891674",
+    "result": "SL_HIT",
+    "close_price": 66.9,
+    "closed_at": "2026-09-24 08:22:36"
   }
 ]
