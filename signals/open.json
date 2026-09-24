@@ -5,15 +5,15 @@
     "bot_name": "Pullback Pro V3",
     "symbol": "ICPUSDT",
     "direction": "SHORT",
-    "entry": 2.98,
-    "tp": 2.954647,
-    "sl": 2.996902,
+    "entry": 2.997,
+    "tp": 2.971258,
+    "sl": 3.014161,
     "score": 74,
     "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.01 aggressive pullback zone.",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 66.1 aggressive pullback zone.",
     "status": "waiting_entry",
-    "timestamp": "2026-09-24 12:36:19",
-    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-24 12:36:19\nEntry: 2.98\nTP: 2.954647\nSL: 2.996902"
+    "timestamp": "2026-09-24 13:02:45",
+    "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-24 13:02:45\nEntry: 2.997\nTP: 2.971258\nSL: 3.014161"
   },
   {
     "key": "BNBUSDT",
