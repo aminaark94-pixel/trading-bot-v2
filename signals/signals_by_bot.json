@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "BNBUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "BNBUSDT",
+      "direction": "LONG",
+      "entry": 767.97,
+      "tp": 774.360014,
+      "sl": 764.419992,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 48.56).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 08:49:35",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-24 08:49:35\nEntry: 767.97\nTP: 774.360014\nSL: 764.419992"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -270,6 +286,22 @@
     }
   ],
   "bot9": [
+    {
+      "key": "RENDERUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 1.758,
+      "tp": 1.799483,
+      "sl": 1.734954,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 52.37 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-24 08:50:35",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-24 08:50:35\nEntry: 1.758\nTP: 1.799483\nSL: 1.734954"
+    },
     {
       "key": "ADAUSDT",
       "bot_id": "bot9",
