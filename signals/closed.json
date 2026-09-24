@@ -1,24 +1,5 @@
 [
   {
-    "key": "NEARUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "NEARUSDT",
-    "direction": "LONG",
-    "entry": 3.704,
-    "tp": 3.904038,
-    "sl": 3.603981,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-20 17:51:23",
-    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-20 17:51:23\nEntry: 3.704\nTP: 3.904038\nSL: 3.603981",
-    "result": "TP_HIT",
-    "close_price": 3.929,
-    "closed_at": "2026-09-20 21:02:50"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.7489,
     "closed_at": "2026-09-24 06:03:29"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 2.93,
+    "tp": 3.030715,
+    "sl": 2.891263,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 05:02:28",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-24 05:02:28\nEntry: 2.93\nTP: 3.030715\nSL: 2.891263",
+    "result": "SL_HIT",
+    "close_price": 2.891,
+    "closed_at": "2026-09-24 06:22:52"
   }
 ]
