@@ -81,22 +81,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 15:02:44",
       "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-09-25 15:02:44\nEntry: 1.968\nTP: 1.926884\nSL: 1.997368"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "NEARUSDT",
-      "direction": "SHORT",
-      "entry": 4.943,
-      "tp": 4.79265,
-      "sl": 5.050392,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 76.48 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 14:50:35",
-      "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-09-25 14:50:35\nEntry: 4.943\nTP: 4.79265\nSL: 5.050392"
     }
   ],
   "bot3": [],
@@ -334,22 +318,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 16:23:28",
       "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 16:23:28\nEntry: 1.1289\nTP: 1.169109\nSL: 1.108796"
-    },
-    {
-      "key": "ADAUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "ADAUSDT",
-      "direction": "LONG",
-      "entry": 0.252,
-      "tp": 0.257487,
-      "sl": 0.249256,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 15:23:47",
-      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-25 15:23:47\nEntry: 0.252\nTP: 0.257487\nSL: 0.249256"
     }
   ],
   "bot11": [
