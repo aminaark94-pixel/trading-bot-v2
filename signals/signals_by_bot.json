@@ -51,6 +51,22 @@
   ],
   "bot2": [
     {
+      "key": "XRPUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "XRPUSDT",
+      "direction": "SHORT",
+      "entry": 1.553,
+      "tp": 1.531526,
+      "sl": 1.568339,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 71.27 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 05:31:07",
+      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-25 05:31:07\nEntry: 1.553\nTP: 1.531526\nSL: 1.568339"
+    },
+    {
       "key": "FETUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -103,6 +119,22 @@
     }
   ],
   "bot5": [
+    {
+      "key": "SUIUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 1.0264,
+      "tp": 1.064433,
+      "sl": 1.011772,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 05:31:23",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 05:31:23\nEntry: 1.0264\nTP: 1.064433\nSL: 1.011772"
+    },
     {
       "key": "DOTUSDT",
       "bot_id": "bot5",
@@ -308,6 +340,22 @@
   ],
   "bot12": [
     {
+      "key": "INJUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 7.939,
+      "tp": 8.04362,
+      "sl": 7.869252,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 30.74 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 05:32:00",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-25 05:32:00\nEntry: 7.939\nTP: 8.04362\nSL: 7.869252"
+    },
+    {
       "key": "NEARUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -322,38 +370,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 03:23:41",
       "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-25 03:23:41\nEntry: 4.563\nTP: 4.663449\nSL: 4.496033"
-    },
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "SUIUSDT",
-      "direction": "LONG",
-      "entry": 1.0095,
-      "tp": 1.022216,
-      "sl": 1.001023,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.33 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 03:01:58",
-      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 03:01:58\nEntry: 1.0095\nTP: 1.022216\nSL: 1.001023"
-    },
-    {
-      "key": "XRPUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "XRPUSDT",
-      "direction": "SHORT",
-      "entry": 1.5323,
-      "tp": 1.507565,
-      "sl": 1.54879,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 64.99 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 21:50:34",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-24 21:50:34\nEntry: 1.5323\nTP: 1.507565\nSL: 1.54879"
     }
   ]
 }
