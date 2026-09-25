@@ -1,5 +1,21 @@
 [
   {
+    "key": "AVAXUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "AVAXUSDT",
+    "direction": "SHORT",
+    "entry": 10.207,
+    "tp": 10.063106,
+    "sl": 10.326912,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 08:01:39",
+    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-09-25 08:01:39\nEntry: 10.207\nTP: 10.063106\nSL: 10.326912"
+  },
+  {
     "key": "SUIUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
