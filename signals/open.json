@@ -160,22 +160,6 @@
     "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-25 17:28:38\nEntry: 1.186\nTP: 1.221753\nSL: 1.166136"
   },
   {
-    "key": "ETHUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2707.82,
-    "tp": 2677.435997,
-    "sl": 2733.140003,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-25 17:28:09",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-09-25 17:28:09\nEntry: 2707.82\nTP: 2677.435997\nSL: 2733.140003"
-  },
-  {
     "key": "APTUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
