@@ -208,22 +208,6 @@
     "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-24 21:25:04\nEntry: 117.06\nTP: 119.703635\nSL: 115.591315"
   },
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 339.4,
-    "tp": 360.846082,
-    "sl": 331.151507,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 20:51:11",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-24 20:51:11\nEntry: 339.4\nTP: 360.846082\nSL: 331.151507"
-  },
-  {
     "key": "ETHUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",

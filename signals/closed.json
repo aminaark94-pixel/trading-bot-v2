@@ -1,24 +1,5 @@
 [
   {
-    "key": "DOGEUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "DOGEUSDT",
-    "direction": "LONG",
-    "entry": 0.09244,
-    "tp": 0.094862,
-    "sl": 0.091339,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.6x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 13:50:05",
-    "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-21 13:50:05\nEntry: 0.09244\nTP: 0.094862\nSL: 0.091339",
-    "result": "TP_HIT",
-    "close_price": 0.09518,
-    "closed_at": "2026-09-21 20:01:15"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.0011,
     "closed_at": "2026-09-25 12:23:53"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "BCHUSDT",
+    "direction": "LONG",
+    "entry": 339.4,
+    "tp": 360.846082,
+    "sl": 331.151507,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 20:51:11",
+    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-24 20:51:11\nEntry: 339.4\nTP: 360.846082\nSL: 331.151507",
+    "result": "SL_HIT",
+    "close_price": 331.0,
+    "closed_at": "2026-09-25 12:35:35"
   }
 ]

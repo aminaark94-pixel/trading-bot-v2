@@ -117,22 +117,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 11:28:53",
       "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-25 11:28:53\nEntry: 1.156\nTP: 1.18555\nSL: 1.144634"
-    },
-    {
-      "key": "BCHUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "BCHUSDT",
-      "direction": "LONG",
-      "entry": 339.4,
-      "tp": 360.846082,
-      "sl": 331.151507,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-24 20:51:11",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-24 20:51:11\nEntry: 339.4\nTP: 360.846082\nSL: 331.151507"
     }
   ],
   "bot6": [
