@@ -1,5 +1,21 @@
 [
   {
+    "key": "ADAUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "ADAUSDT",
+    "direction": "SHORT",
+    "entry": 0.2549,
+    "tp": 0.248271,
+    "sl": 0.260424,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 21:51:35",
+    "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-25 21:51:35\nEntry: 0.2549\nTP: 0.248271\nSL: 0.260424"
+  },
+  {
     "key": "TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
