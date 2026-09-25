@@ -1,5 +1,21 @@
 [
   {
+    "key": "STXUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.3259,
+    "tp": 0.336531,
+    "sl": 0.321811,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 23:52:07",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-25 23:52:07\nEntry: 0.3259\nTP: 0.336531\nSL: 0.321811"
+  },
+  {
     "key": "LTCUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -254,22 +270,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-25 17:28:38",
     "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-25 17:28:38\nEntry: 1.186\nTP: 1.221753\nSL: 1.166136"
-  },
-  {
-    "key": "APTUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "APTUSDT",
-    "direction": "SHORT",
-    "entry": 0.8448,
-    "tp": 0.822957,
-    "sl": 0.855722,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-25 16:50:39",
-    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-25 16:50:39\nEntry: 0.8448\nTP: 0.822957\nSL: 0.855722"
   },
   {
     "key": "DOGEUSDT",

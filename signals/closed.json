@@ -1,24 +1,5 @@
 [
   {
-    "key": "BNBUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BNBUSDT",
-    "direction": "LONG",
-    "entry": 788.78,
-    "tp": 794.895984,
-    "sl": 784.702677,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 32.31 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 06:47:36",
-    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-22 06:47:36\nEntry: 788.78\nTP: 794.895984\nSL: 784.702677",
-    "result": "SL_HIT",
-    "close_price": 784.46,
-    "closed_at": "2026-09-22 10:34:36"
-  },
-  {
     "key": "SUIUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 7.982,
     "closed_at": "2026-09-25 22:34:44"
+  },
+  {
+    "key": "APTUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "APTUSDT",
+    "direction": "SHORT",
+    "entry": 0.8448,
+    "tp": 0.822957,
+    "sl": 0.855722,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 16:50:39",
+    "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-25 16:50:39\nEntry: 0.8448\nTP: 0.822957\nSL: 0.855722",
+    "result": "SL_HIT",
+    "close_price": 0.8578,
+    "closed_at": "2026-09-25 23:52:15"
   }
 ]
