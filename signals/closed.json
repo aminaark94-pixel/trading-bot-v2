@@ -1,24 +1,5 @@
 [
   {
-    "key": "SUIUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "SUIUSDT",
-    "direction": "LONG",
-    "entry": 1.0349,
-    "tp": 1.072492,
-    "sl": 1.014015,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 50.97).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 06:20:50",
-    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-22 06:20:50\nEntry: 1.0349\nTP: 1.072492\nSL: 1.014015",
-    "result": "SL_HIT",
-    "close_price": 1.0032,
-    "closed_at": "2026-09-22 10:34:36"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.8578,
     "closed_at": "2026-09-25 23:52:15"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "INJUSDT",
+    "direction": "SHORT",
+    "entry": 8.0,
+    "tp": 7.503299,
+    "sl": 8.225774,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 3.1x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 22:36:21",
+    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-25 22:36:21\nEntry: 8.0\nTP: 7.503299\nSL: 8.225774",
+    "result": "SL_HIT",
+    "close_price": 8.232,
+    "closed_at": "2026-09-26 00:48:15"
   }
 ]
