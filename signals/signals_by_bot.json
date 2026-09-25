@@ -288,24 +288,7 @@
       "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-24 19:24:54\nEntry: 0.2468\nTP: 0.254135\nSL: 0.243132"
     }
   ],
-  "bot11": [
-    {
-      "key": "BNBUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 771.82,
-      "tp": 765.14374,
-      "sl": 774.854664,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 1.8x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 08:22:39",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-25 08:22:39\nEntry: 771.82\nTP: 765.14374\nSL: 774.854664"
-    }
-  ],
+  "bot11": [],
   "bot12": [
     {
       "key": "INJUSDT",

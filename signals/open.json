@@ -80,22 +80,6 @@
     "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-25 09:24:38\nEntry: 1.837\nTP: 1.870278\nSL: 1.816201"
   },
   {
-    "key": "BNBUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 771.82,
-    "tp": 765.14374,
-    "sl": 774.854664,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.8x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-25 08:22:39",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-25 08:22:39\nEntry: 771.82\nTP: 765.14374\nSL: 774.854664"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",

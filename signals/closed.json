@@ -1,24 +1,5 @@
 [
   {
-    "key": "FETUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "FETUSDT",
-    "direction": "LONG",
-    "entry": 0.189,
-    "tp": 0.198972,
-    "sl": 0.185165,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 14:50:18",
-    "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-21 14:50:18\nEntry: 0.189\nTP: 0.198972\nSL: 0.185165",
-    "result": "TP_HIT",
-    "close_price": 0.1998,
-    "closed_at": "2026-09-21 18:51:10"
-  },
-  {
     "key": "BTCUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 8.055,
     "closed_at": "2026-09-25 09:38:35"
+  },
+  {
+    "key": "BNBUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 771.82,
+    "tp": 765.14374,
+    "sl": 774.854664,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 1.8x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 08:22:39",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-25 08:22:39\nEntry: 771.82\nTP: 765.14374\nSL: 774.854664",
+    "result": "SL_HIT",
+    "close_price": 775.06,
+    "closed_at": "2026-09-25 10:49:14"
   }
 ]
