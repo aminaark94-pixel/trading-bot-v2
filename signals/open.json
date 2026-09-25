@@ -1,19 +1,19 @@
 [
   {
-    "key": "INJUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "INJUSDT",
-    "direction": "SHORT",
-    "entry": 8.036,
-    "tp": 7.956827,
-    "sl": 8.088782,
-    "score": 74,
+    "key": "DOTUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "DOTUSDT",
+    "direction": "LONG",
+    "entry": 1.156,
+    "tp": 1.18555,
+    "sl": 1.144634,
+    "score": 87,
     "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.84 aggressive pullback zone.",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
     "status": "waiting_entry",
-    "timestamp": "2026-09-25 09:51:38",
-    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-25 09:51:38\nEntry: 8.036\nTP: 7.956827\nSL: 8.088782"
+    "timestamp": "2026-09-25 11:28:53",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-25 11:28:53\nEntry: 1.156\nTP: 1.18555\nSL: 1.144634"
   },
   {
     "key": "FETUSDT",
