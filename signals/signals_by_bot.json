@@ -133,22 +133,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 14:37:41",
       "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-25 14:37:41\nEntry: 0.2343\nTP: 0.246565\nSL: 0.229583"
-    },
-    {
-      "key": "DOTUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "DOTUSDT",
-      "direction": "LONG",
-      "entry": 1.156,
-      "tp": 1.18555,
-      "sl": 1.144634,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 11:28:53",
-      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-09-25 11:28:53\nEntry: 1.156\nTP: 1.18555\nSL: 1.144634"
     }
   ],
   "bot6": [],
@@ -185,40 +169,24 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 02:34:19",
       "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-25 02:34:19\nEntry: 72.1\nTP: 69.272094\nSL: 73.513953"
-    },
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.4665,
-      "tp": 0.50568,
-      "sl": 0.44691,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-23 20:50:55",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-23 20:50:55\nEntry: 0.4665\nTP: 0.50568\nSL: 0.44691"
     }
   ],
   "bot9": [
     {
-      "key": "UNIUSDT",
+      "key": "AVAXUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "UNIUSDT",
+      "symbol": "AVAXUSDT",
       "direction": "LONG",
-      "entry": 9.483,
-      "tp": 9.758962,
-      "sl": 9.329688,
+      "entry": 10.637,
+      "tp": 10.863733,
+      "sl": 10.511038,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 63.3 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 71.86 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-25 16:23:54",
-      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-25 16:23:54\nEntry: 9.483\nTP: 9.758962\nSL: 9.329688"
+      "timestamp": "2026-09-25 16:36:17",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 16:36:17\nEntry: 10.637\nTP: 10.863733\nSL: 10.511038"
     },
     {
       "key": "XRPUSDT",
@@ -305,36 +273,20 @@
   ],
   "bot11": [
     {
-      "key": "APTUSDT",
+      "key": "UNIUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "symbol": "APTUSDT",
+      "symbol": "UNIUSDT",
       "direction": "LONG",
-      "entry": 0.8225,
-      "tp": 0.845484,
-      "sl": 0.812052,
+      "entry": 9.821,
+      "tp": 10.20908,
+      "sl": 9.6446,
       "score": 78,
       "provider": "Technical",
-      "reason": "20-period range breakout with 2.6x volume spike.",
+      "reason": "20-period range breakout with 4.7x volume spike.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-25 13:25:48",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-25 13:25:48\nEntry: 0.8225\nTP: 0.845484\nSL: 0.812052"
-    },
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 10.365,
-      "tp": 10.611418,
-      "sl": 10.252992,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 2.1x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 13:25:30",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 13:25:30\nEntry: 10.365\nTP: 10.611418\nSL: 10.252992"
+      "timestamp": "2026-09-25 16:36:48",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-25 16:36:48\nEntry: 9.821\nTP: 10.20908\nSL: 9.6446"
     }
   ],
   "bot12": [
