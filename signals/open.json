@@ -1,5 +1,37 @@
 [
   {
+    "key": "SUIUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "SUIUSDT",
+    "direction": "SHORT",
+    "entry": 1.0696,
+    "tp": 1.048573,
+    "sl": 1.08462,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 75.89 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 15:50:34",
+    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-09-25 15:50:34\nEntry: 1.0696\nTP: 1.048573\nSL: 1.08462"
+  },
+  {
+    "key": "LINKUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "LINKUSDT",
+    "direction": "LONG",
+    "entry": 13.878,
+    "tp": 14.222817,
+    "sl": 13.686435,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 60.27 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 15:50:30",
+    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-25 15:50:30\nEntry: 13.878\nTP: 14.222817\nSL: 13.686435"
+  },
+  {
     "key": "BCHUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -142,22 +174,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-25 14:36:42",
     "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-25 14:36:42\nEntry: 777.77\nTP: 782.980978\nSL: 774.875012"
-  },
-  {
-    "key": "SUIUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "SUIUSDT",
-    "direction": "LONG",
-    "entry": 1.0323,
-    "tp": 1.054732,
-    "sl": 1.019838,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 62.46 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-25 14:02:32",
-    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 14:02:32\nEntry: 1.0323\nTP: 1.054732\nSL: 1.019838"
   },
   {
     "key": "APTUSDT",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "APTUSDT",
-    "bot_id": "bot6",
-    "bot_name": "Pullback Hunter (Bot C)",
-    "symbol": "APTUSDT",
-    "direction": "LONG",
-    "entry": 0.762,
-    "tp": 0.782914,
-    "sl": 0.748929,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "1H trend UP (+2.01% EMA20/50 gap) + RSI 45.67 pullback zone, confirmed by 15m volume contraction->expansion.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 23:52:53",
-    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-21 23:52:53\nEntry: 0.762\nTP: 0.782914\nSL: 0.748929",
-    "result": "TP_HIT",
-    "close_price": 0.783,
-    "closed_at": "2026-09-22 02:33:46"
-  },
-  {
     "key": "XRPUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 339.3,
     "closed_at": "2026-09-25 15:35:37"
+  },
+  {
+    "key": "SUIUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 1.0323,
+    "tp": 1.054732,
+    "sl": 1.019838,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 62.46 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 14:02:32",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 14:02:32\nEntry: 1.0323\nTP: 1.054732\nSL: 1.019838",
+    "result": "TP_HIT",
+    "close_price": 1.0685,
+    "closed_at": "2026-09-25 15:49:37"
   }
 ]
