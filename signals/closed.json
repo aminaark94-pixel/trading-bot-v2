@@ -1,24 +1,5 @@
 [
   {
-    "key": "SOLUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "SOLUSDT",
-    "direction": "LONG",
-    "entry": 116.46,
-    "tp": 117.505105,
-    "sl": 115.763263,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 29.44 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 08:01:51",
-    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-22 08:01:51\nEntry: 116.46\nTP: 117.505105\nSL: 115.763263",
-    "result": "SL_HIT",
-    "close_price": 115.71,
-    "closed_at": "2026-09-22 10:34:36"
-  },
-  {
     "key": "BNBUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 120.97,
     "closed_at": "2026-09-25 21:24:24"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 8.177,
+    "tp": 8.476692,
+    "sl": 8.061734,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 16:24:09",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-25 16:24:09\nEntry: 8.177\nTP: 8.476692\nSL: 8.061734",
+    "result": "SL_HIT",
+    "close_price": 7.982,
+    "closed_at": "2026-09-25 22:34:44"
   }
 ]

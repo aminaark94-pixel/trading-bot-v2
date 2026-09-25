@@ -1,5 +1,21 @@
 [
   {
+    "key": "INJUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "INJUSDT",
+    "direction": "SHORT",
+    "entry": 8.0,
+    "tp": 7.503299,
+    "sl": 8.225774,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 3.1x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 22:36:21",
+    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-25 22:36:21\nEntry: 8.0\nTP: 7.503299\nSL: 8.225774"
+  },
+  {
     "key": "ADAUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -222,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-25 16:50:39",
     "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-25 16:50:39\nEntry: 0.8448\nTP: 0.822957\nSL: 0.855722"
-  },
-  {
-    "key": "INJUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 8.177,
-    "tp": 8.476692,
-    "sl": 8.061734,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-25 16:24:09",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-09-25 16:24:09\nEntry: 8.177\nTP: 8.476692\nSL: 8.061734"
   },
   {
     "key": "DOGEUSDT",
