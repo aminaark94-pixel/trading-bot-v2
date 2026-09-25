@@ -1,5 +1,21 @@
 [
   {
+    "key": "ADAUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.2575,
+    "tp": 0.26686,
+    "sl": 0.252821,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 18:03:57",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-25 18:03:57\nEntry: 0.2575\nTP: 0.26686\nSL: 0.252821"
+  },
+  {
     "key": "FILUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
