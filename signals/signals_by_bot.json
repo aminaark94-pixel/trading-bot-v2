@@ -67,22 +67,6 @@
       "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-09-25 05:31:07\nEntry: 1.553\nTP: 1.531526\nSL: 1.568339"
     },
     {
-      "key": "FETUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "FETUSDT",
-      "direction": "SHORT",
-      "entry": 0.2322,
-      "tp": 0.224204,
-      "sl": 0.237912,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 71.73 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 02:34:37",
-      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-25 02:34:37\nEntry: 0.2322\nTP: 0.224204\nSL: 0.237912"
-    },
-    {
       "key": "BNBUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
@@ -101,22 +85,6 @@
   ],
   "bot3": [],
   "bot4": [
-    {
-      "key": "APTUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "APTUSDT",
-      "direction": "LONG",
-      "entry": 0.8168,
-      "tp": 0.828925,
-      "sl": 0.806696,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 06:03:07",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-25 06:03:07\nEntry: 0.8168\nTP: 0.828925\nSL: 0.806696"
-    },
     {
       "key": "FILUSDT",
       "bot_id": "bot4",
@@ -355,6 +323,22 @@
     }
   ],
   "bot12": [
+    {
+      "key": "APTUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "APTUSDT",
+      "direction": "LONG",
+      "entry": 0.8026,
+      "tp": 0.810441,
+      "sl": 0.797372,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 37.66 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 06:33:53",
+      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-25 06:33:53\nEntry: 0.8026\nTP: 0.810441\nSL: 0.797372"
+    },
     {
       "key": "INJUSDT",
       "bot_id": "bot12",
