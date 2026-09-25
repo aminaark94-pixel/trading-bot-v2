@@ -224,22 +224,6 @@
     "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-25 13:25:21\nEntry: 1.5478\nTP: 1.576267\nSL: 1.533567"
   },
   {
-    "key": "FILUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9992,
-    "tp": 1.027799,
-    "sl": 0.9882,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-25 12:25:29",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-25 12:25:29\nEntry: 0.9992\nTP: 1.027799\nSL: 0.9882"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",

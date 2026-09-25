@@ -1,24 +1,5 @@
 [
   {
-    "key": "XRPUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.5181,
-    "tp": 1.554118,
-    "sl": 1.500091,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 01:22:31",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-22 01:22:31\nEntry: 1.5181\nTP: 1.554118\nSL: 1.500091",
-    "result": "TP_HIT",
-    "close_price": 1.5568,
-    "closed_at": "2026-09-22 03:03:19"
-  },
-  {
     "key": "BCHUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 1.0685,
     "closed_at": "2026-09-25 15:49:37"
+  },
+  {
+    "key": "FILUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.9992,
+    "tp": 1.027799,
+    "sl": 0.9882,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 12:25:29",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-25 12:25:29\nEntry: 0.9992\nTP: 1.027799\nSL: 0.9882",
+    "result": "TP_HIT",
+    "close_price": 1.0285,
+    "closed_at": "2026-09-25 16:03:13"
   }
 ]
