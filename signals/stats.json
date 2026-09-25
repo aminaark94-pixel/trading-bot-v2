@@ -3,18 +3,18 @@
     {
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "wins": 65,
+      "wins": 66,
       "losses": 93,
-      "total": 158,
-      "win_rate": 41.1
+      "total": 159,
+      "win_rate": 41.5
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "wins": 81,
-      "losses": 120,
-      "total": 201,
-      "win_rate": 40.3
+      "losses": 121,
+      "total": 202,
+      "win_rate": 40.1
     },
     {
       "bot_id": "bot3",
@@ -83,10 +83,10 @@
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 43,
+      "wins": 44,
       "losses": 67,
-      "total": 110,
-      "win_rate": 39.1
+      "total": 111,
+      "win_rate": 39.6
     },
     {
       "bot_id": "bot12",
@@ -105,7 +105,7 @@
     "total": 17,
     "win_rate": 58.8
   },
-  "last_run": "2026-09-25T09:03:46.442969+00:00",
+  "last_run": "2026-09-25T09:26:25.526178+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
