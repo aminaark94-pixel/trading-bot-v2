@@ -100,7 +100,24 @@
     }
   ],
   "bot3": [],
-  "bot4": [],
+  "bot4": [
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "ICPUSDT",
+      "direction": "SHORT",
+      "entry": 3.242,
+      "tp": 3.169173,
+      "sl": 3.302689,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 17:02:42",
+      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-09-25 17:02:42\nEntry: 3.242\nTP: 3.169173\nSL: 3.302689"
+    }
+  ],
   "bot5": [
     {
       "key": "TIAUSDT",
@@ -221,22 +238,6 @@
       "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 16:36:17\nEntry: 10.637\nTP: 10.863733\nSL: 10.511038"
     },
     {
-      "key": "XRPUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "XRPUSDT",
-      "direction": "LONG",
-      "entry": 1.5841,
-      "tp": 1.614537,
-      "sl": 1.567191,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 74.65 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 16:23:12",
-      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-09-25 16:23:12\nEntry: 1.5841\nTP: 1.614537\nSL: 1.567191"
-    },
-    {
       "key": "LINKUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -304,6 +305,22 @@
     }
   ],
   "bot11": [
+    {
+      "key": "STXUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "STXUSDT",
+      "direction": "LONG",
+      "entry": 0.3296,
+      "tp": 0.34215,
+      "sl": 0.323896,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 6.5x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 17:03:00",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-25 17:03:00\nEntry: 0.3296\nTP: 0.34215\nSL: 0.323896"
+    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot11",
