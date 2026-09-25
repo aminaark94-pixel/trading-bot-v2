@@ -144,22 +144,6 @@
     "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-24 22:49:01\nEntry: 1.0024\nTP: 0.976137\nSL: 1.024286"
   },
   {
-    "key": "RENDERUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "RENDERUSDT",
-    "direction": "LONG",
-    "entry": 1.881,
-    "tp": 1.952522,
-    "sl": 1.841265,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 69.63).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 22:02:36",
-    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-24 22:02:36\nEntry: 1.881\nTP: 1.952522\nSL: 1.841265"
-  },
-  {
     "key": "DOTUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
