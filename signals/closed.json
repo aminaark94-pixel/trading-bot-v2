@@ -1,24 +1,5 @@
 [
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 271.5,
-    "tp": 282.054025,
-    "sl": 266.702717,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.5x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 17:26:56",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-21 17:26:56\nEntry: 271.5\nTP: 282.054025\nSL: 266.702717",
-    "result": "SL_HIT",
-    "close_price": 265.2,
-    "closed_at": "2026-09-21 20:01:15"
-  },
-  {
     "key": "DOGEUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 7.876,
     "closed_at": "2026-09-25 11:27:59"
+  },
+  {
+    "key": "FILUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.9872,
+    "tp": 1.000263,
+    "sl": 0.976314,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 09:24:52",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-25 09:24:52\nEntry: 0.9872\nTP: 1.000263\nSL: 0.976314",
+    "result": "TP_HIT",
+    "close_price": 1.0011,
+    "closed_at": "2026-09-25 12:23:53"
   }
 ]

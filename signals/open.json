@@ -1,5 +1,37 @@
 [
   {
+    "key": "FILUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "FILUSDT",
+    "direction": "LONG",
+    "entry": 0.9992,
+    "tp": 1.027799,
+    "sl": 0.9882,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 12:25:29",
+    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-25 12:25:29\nEntry: 0.9992\nTP: 1.027799\nSL: 0.9882"
+  },
+  {
+    "key": "STXUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "STXUSDT",
+    "direction": "SHORT",
+    "entry": 0.3112,
+    "tp": 0.309512,
+    "sl": 0.312325,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.55 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 12:25:27",
+    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-25 12:25:27\nEntry: 0.3112\nTP: 0.309512\nSL: 0.312325"
+  },
+  {
     "key": "DOTUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -46,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-25 09:37:50",
     "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-25 09:37:50\nEntry: 0.8034\nTP: 0.814675\nSL: 0.794004"
-  },
-  {
-    "key": "FILUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "FILUSDT",
-    "direction": "LONG",
-    "entry": 0.9872,
-    "tp": 1.000263,
-    "sl": 0.976314,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-25 09:24:52",
-    "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-25 09:24:52\nEntry: 0.9872\nTP: 1.000263\nSL: 0.976314"
   },
   {
     "key": "RENDERUSDT",
