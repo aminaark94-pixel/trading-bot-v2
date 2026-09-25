@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 10.457,
+      "tp": 10.716592,
+      "sl": 10.312783,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 54.06).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 23:01:52",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-25 23:01:52\nEntry: 10.457\nTP: 10.716592\nSL: 10.312783"
+    },
+    {
       "key": "DOTUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
