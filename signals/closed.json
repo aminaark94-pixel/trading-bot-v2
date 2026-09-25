@@ -1,24 +1,5 @@
 [
   {
-    "key": "STXUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.3397,
-    "tp": 0.34427,
-    "sl": 0.336654,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.34 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 04:48:19",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 04:48:19\nEntry: 0.3397\nTP: 0.34427\nSL: 0.336654",
-    "result": "SL_HIT",
-    "close_price": 0.3343,
-    "closed_at": "2026-09-22 06:03:07"
-  },
-  {
     "key": "XRPUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.5058,
     "closed_at": "2026-09-25 16:37:18"
+  },
+  {
+    "key": "BTCUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "BTCUSDT",
+    "direction": "LONG",
+    "entry": 85027.92,
+    "tp": 85639.068267,
+    "sl": 84688.393185,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 63.06).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 16:22:54",
+    "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-09-25 16:22:54\nEntry: 85027.92\nTP: 85639.068267\nSL: 84688.393185",
+    "result": "SL_HIT",
+    "close_price": 84659.79,
+    "closed_at": "2026-09-25 16:49:37"
   }
 ]
