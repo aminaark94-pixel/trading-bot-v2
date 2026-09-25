@@ -1,5 +1,21 @@
 [
   {
+    "key": "TIAUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "TIAUSDT",
+    "direction": "SHORT",
+    "entry": 0.4985,
+    "tp": 0.482323,
+    "sl": 0.506588,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-26 01:37:00",
+    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-09-26 01:37:00\nEntry: 0.4985\nTP: 0.482323\nSL: 0.506588"
+  },
+  {
     "key": "ICPUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -94,22 +110,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-25 21:51:35",
     "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-25 21:51:35\nEntry: 0.2549\nTP: 0.248271\nSL: 0.260424"
-  },
-  {
-    "key": "TIAUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.4824,
-    "tp": 0.498059,
-    "sl": 0.471962,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 33.97 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-25 21:25:48",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-25 21:25:48\nEntry: 0.4824\nTP: 0.498059\nSL: 0.471962"
   },
   {
     "key": "SOLUSDT",
