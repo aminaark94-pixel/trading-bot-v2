@@ -1,5 +1,21 @@
 [
   {
+    "key": "APTUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "APTUSDT",
+    "direction": "LONG",
+    "entry": 0.8598,
+    "tp": 0.902242,
+    "sl": 0.843477,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-26 00:02:12",
+    "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-26 00:02:12\nEntry: 0.8598\nTP: 0.902242\nSL: 0.843477"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
