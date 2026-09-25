@@ -1,24 +1,5 @@
 [
   {
-    "key": "STXUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.3345,
-    "tp": 0.346605,
-    "sl": 0.329845,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 01:02:42",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-22 01:02:42\nEntry: 0.3345\nTP: 0.346605\nSL: 0.329845",
-    "result": "TP_HIT",
-    "close_price": 0.3472,
-    "closed_at": "2026-09-22 02:01:15"
-  },
-  {
     "key": "ICPUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 2695.89,
     "closed_at": "2026-09-25 15:03:02"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "ADAUSDT",
+    "direction": "LONG",
+    "entry": 0.2544,
+    "tp": 0.25989,
+    "sl": 0.251655,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 14:50:17",
+    "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-25 14:50:17\nEntry: 0.2544\nTP: 0.25989\nSL: 0.251655",
+    "result": "SL_HIT",
+    "close_price": 0.2515,
+    "closed_at": "2026-09-25 15:23:10"
   }
 ]
