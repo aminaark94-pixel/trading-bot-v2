@@ -1,20 +1,20 @@
 {
   "bot1": [
     {
-      "key": "LTCUSDT",
+      "key": "BNBUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "symbol": "LTCUSDT",
+      "symbol": "BNBUSDT",
       "direction": "LONG",
-      "entry": 70.69,
-      "tp": 72.240586,
-      "sl": 69.828564,
+      "entry": 777.0,
+      "tp": 781.443165,
+      "sl": 774.531576,
       "score": 80,
       "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 59.38).",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 59.14).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-25 23:25:20",
-      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-25 23:25:20\nEntry: 70.69\nTP: 72.240586\nSL: 69.828564"
+      "timestamp": "2026-09-26 04:56:39",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-26 04:56:39\nEntry: 777.0\nTP: 781.443165\nSL: 774.531576"
     },
     {
       "key": "AVAXUSDT",
@@ -83,22 +83,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 21:51:35",
       "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-09-25 21:51:35\nEntry: 0.2549\nTP: 0.248271\nSL: 0.260424"
-    },
-    {
-      "key": "BCHUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "BCHUSDT",
-      "direction": "LONG",
-      "entry": 334.7,
-      "tp": 341.933241,
-      "sl": 328.6723,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 21:02:30",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-25 21:02:30\nEntry: 334.7\nTP: 341.933241\nSL: 328.6723"
     }
   ],
   "bot5": [
@@ -272,6 +256,22 @@
   ],
   "bot10": [
     {
+      "key": "SUIUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 1.1922,
+      "tp": 1.245206,
+      "sl": 1.165697,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-26 04:57:02",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-26 04:57:02\nEntry: 1.1922\nTP: 1.245206\nSL: 1.165697"
+    },
+    {
       "key": "UNIUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -286,22 +286,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 19:37:43",
       "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-25 19:37:43\nEntry: 9.72\nTP: 10.300596\nSL: 9.429701"
-    },
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "SUIUSDT",
-      "direction": "LONG",
-      "entry": 1.1198,
-      "tp": 1.191501,
-      "sl": 1.083949,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 19:37:19",
-      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 19:37:19\nEntry: 1.1198\nTP: 1.191501\nSL: 1.083949"
     },
     {
       "key": "POLUSDT",
