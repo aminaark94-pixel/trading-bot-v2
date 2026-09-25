@@ -102,6 +102,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "FILUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 1.0255,
+      "tp": 1.002497,
+      "sl": 1.044669,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 17:44:28",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-25 17:44:28\nEntry: 1.0255\nTP: 1.002497\nSL: 1.044669"
+    },
+    {
       "key": "ETHUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -293,15 +309,15 @@
       "bot_name": "Triple Supertrend",
       "symbol": "POLUSDT",
       "direction": "LONG",
-      "entry": 0.11131,
-      "tp": 0.113464,
-      "sl": 0.110233,
+      "entry": 0.11326,
+      "tp": 0.117355,
+      "sl": 0.111212,
       "score": 82,
       "provider": "Technical",
       "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-25 16:23:51",
-      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-25 16:23:51\nEntry: 0.11131\nTP: 0.113464\nSL: 0.110233"
+      "timestamp": "2026-09-25 17:43:57",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-25 17:43:57\nEntry: 0.11326\nTP: 0.117355\nSL: 0.111212"
     },
     {
       "key": "SUIUSDT",
