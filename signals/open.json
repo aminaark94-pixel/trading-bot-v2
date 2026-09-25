@@ -1,5 +1,21 @@
 [
   {
+    "key": "SUIUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "SUIUSDT",
+    "direction": "LONG",
+    "entry": 1.0323,
+    "tp": 1.054732,
+    "sl": 1.019838,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 62.46 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 14:02:32",
+    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 14:02:32\nEntry: 1.0323\nTP: 1.054732\nSL: 1.019838"
+  },
+  {
     "key": "INJUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -302,22 +318,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-24 19:24:50",
     "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-24 19:24:50\nEntry: 0.09511\nTP: 0.097239\nSL: 0.093927"
-  },
-  {
-    "key": "ICPUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 3.102,
-    "tp": 3.213501,
-    "sl": 3.040055,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 74.43 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 19:02:57",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-24 19:02:57\nEntry: 3.102\nTP: 3.213501\nSL: 3.040055"
   },
   {
     "key": "BTCUSDT",

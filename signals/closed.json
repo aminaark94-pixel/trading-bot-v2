@@ -1,24 +1,5 @@
 [
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "LINKUSDT",
-    "direction": "LONG",
-    "entry": 13.007,
-    "tp": 13.293918,
-    "sl": 12.847601,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.98).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 15:01:49",
-    "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-09-21 15:01:49\nEntry: 13.007\nTP: 13.293918\nSL: 12.847601",
-    "result": "SL_HIT",
-    "close_price": 12.823,
-    "closed_at": "2026-09-21 22:47:28"
-  },
-  {
     "key": "NEARUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 13.773,
     "closed_at": "2026-09-25 13:24:47"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 3.102,
+    "tp": 3.213501,
+    "sl": 3.040055,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 74.43 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 19:02:57",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-24 19:02:57\nEntry: 3.102\nTP: 3.213501\nSL: 3.040055",
+    "result": "TP_HIT",
+    "close_price": 3.215,
+    "closed_at": "2026-09-25 14:01:37"
   }
 ]
