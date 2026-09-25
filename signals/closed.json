@@ -1,25 +1,6 @@
 [
   {
     "key": "AVAXUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 10.999,
-    "tp": 11.430819,
-    "sl": 10.78309,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 22:20:36",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-21 22:20:36\nEntry: 10.999\nTP: 11.430819\nSL: 10.78309",
-    "result": "SL_HIT",
-    "close_price": 10.725,
-    "closed_at": "2026-09-22 10:01:19"
-  },
-  {
-    "key": "AVAXUSDT",
     "bot_id": "bot2",
     "bot_name": "Reversal Hunter",
     "symbol": "AVAXUSDT",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.1044,
     "closed_at": "2026-09-25 19:03:18"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 72.1,
+    "tp": 69.272094,
+    "sl": 73.513953,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 02:34:19",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-25 02:34:19\nEntry: 72.1\nTP: 69.272094\nSL: 73.513953",
+    "result": "TP_HIT",
+    "close_price": 69.06,
+    "closed_at": "2026-09-25 19:52:50"
   }
 ]

@@ -121,22 +121,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 16:23:14",
       "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-09-25 16:23:14\nEntry: 0.09822\nTP: 0.096402\nSL: 0.099129"
-    },
-    {
-      "key": "LTCUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "LTCUSDT",
-      "direction": "SHORT",
-      "entry": 72.1,
-      "tp": 69.272094,
-      "sl": 73.513953,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 02:34:19",
-      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-09-25 02:34:19\nEntry: 72.1\nTP: 69.272094\nSL: 73.513953"
     }
   ],
   "bot9": [
