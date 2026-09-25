@@ -1,5 +1,21 @@
 [
   {
+    "key": "BNBUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 771.82,
+    "tp": 765.14374,
+    "sl": 774.854664,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 1.8x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 08:22:39",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-25 08:22:39\nEntry: 771.82\nTP: 765.14374\nSL: 774.854664"
+  },
+  {
     "key": "AVAXUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -222,22 +238,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-24 19:24:50",
     "copy_payload": "Coin: DOGEUSDT\nSide: LONG\nTime: 2026-09-24 19:24:50\nEntry: 0.09511\nTP: 0.097239\nSL: 0.093927"
-  },
-  {
-    "key": "BNBUSDT",
-    "bot_id": "bot2",
-    "bot_name": "Reversal Hunter",
-    "symbol": "BNBUSDT",
-    "direction": "SHORT",
-    "entry": 779.58,
-    "tp": 772.709927,
-    "sl": 784.487195,
-    "score": 85,
-    "provider": "Technical",
-    "reason": "RSI 75.72 extreme + price at Bollinger Band edge.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-24 19:24:41",
-    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-24 19:24:41\nEntry: 779.58\nTP: 772.709927\nSL: 784.487195"
   },
   {
     "key": "ICPUSDT",

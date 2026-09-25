@@ -1,24 +1,5 @@
 [
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 266.4,
-    "tp": 259.704948,
-    "sl": 269.747526,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 15:49:18",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-09-21 15:49:18\nEntry: 266.4\nTP: 259.704948\nSL: 269.747526",
-    "result": "SL_HIT",
-    "close_price": 271.4,
-    "closed_at": "2026-09-21 17:25:44"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.137,
     "closed_at": "2026-09-25 07:48:40"
+  },
+  {
+    "key": "BNBUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 779.58,
+    "tp": 772.709927,
+    "sl": 784.487195,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 75.72 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-24 19:24:41",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-24 19:24:41\nEntry: 779.58\nTP: 772.709927\nSL: 784.487195",
+    "result": "TP_HIT",
+    "close_price": 771.82,
+    "closed_at": "2026-09-25 08:22:06"
   }
 ]
