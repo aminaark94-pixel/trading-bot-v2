@@ -1,5 +1,21 @@
 [
   {
+    "key": "LTCUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "LTCUSDT",
+    "direction": "LONG",
+    "entry": 70.69,
+    "tp": 72.240586,
+    "sl": 69.828564,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 59.38).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 23:25:20",
+    "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-25 23:25:20\nEntry: 70.69\nTP: 72.240586\nSL: 69.828564"
+  },
+  {
     "key": "AVAXUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
