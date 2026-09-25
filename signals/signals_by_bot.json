@@ -91,6 +91,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "SOLUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "SOLUSDT",
+      "direction": "SHORT",
+      "entry": 121.0,
+      "tp": 116.757362,
+      "sl": 123.12132,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 21:24:47",
+      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-25 21:24:47\nEntry: 121.0\nTP: 116.757362\nSL: 123.12132"
+    },
+    {
       "key": "APTUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -226,6 +242,22 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "TIAUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.4824,
+      "tp": 0.498059,
+      "sl": 0.471962,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 33.97 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 21:25:48",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-09-25 21:25:48\nEntry: 0.4824\nTP: 0.498059\nSL: 0.471962"
+    },
+    {
       "key": "XRPUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
@@ -256,22 +288,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-25 18:52:00",
       "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-25 18:52:00\nEntry: 1.922\nTP: 1.96554\nSL: 1.892974"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 119.05,
-      "tp": 120.950085,
-      "sl": 117.783277,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.59 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 18:51:14",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-25 18:51:14\nEntry: 119.05\nTP: 120.950085\nSL: 117.783277"
     }
   ]
 }

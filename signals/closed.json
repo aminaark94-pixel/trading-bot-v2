@@ -1,24 +1,5 @@
 [
   {
-    "key": "ETHUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "ETHUSDT",
-    "direction": "LONG",
-    "entry": 2755.37,
-    "tp": 2840.368234,
-    "sl": 2722.678372,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-21 21:01:24",
-    "copy_payload": "Coin: ETHUSDT\nSide: LONG\nTime: 2026-09-21 21:01:24\nEntry: 2755.37\nTP: 2840.368234\nSL: 2722.678372",
-    "result": "SL_HIT",
-    "close_price": 2721.43,
-    "closed_at": "2026-09-22 10:21:26"
-  },
-  {
     "key": "SOLUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 2673.75,
     "closed_at": "2026-09-25 20:48:58"
+  },
+  {
+    "key": "SOLUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "SOLUSDT",
+    "direction": "LONG",
+    "entry": 119.05,
+    "tp": 120.950085,
+    "sl": 117.783277,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.59 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 18:51:14",
+    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-25 18:51:14\nEntry: 119.05\nTP: 120.950085\nSL: 117.783277",
+    "result": "TP_HIT",
+    "close_price": 120.97,
+    "closed_at": "2026-09-25 21:24:24"
   }
 ]

@@ -91,10 +91,10 @@
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 178,
+      "wins": 179,
       "losses": 225,
-      "total": 403,
-      "win_rate": 44.2
+      "total": 404,
+      "win_rate": 44.3
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 17,
     "win_rate": 58.8
   },
-  "last_run": "2026-09-25T16:03:15.237155+00:00",
+  "last_run": "2026-09-25T16:26:06.675880+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
