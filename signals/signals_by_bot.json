@@ -191,6 +191,38 @@
   ],
   "bot10": [
     {
+      "key": "UNIUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 9.72,
+      "tp": 10.300596,
+      "sl": 9.429701,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 19:37:43",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-09-25 19:37:43\nEntry: 9.72\nTP: 10.300596\nSL: 9.429701"
+    },
+    {
+      "key": "SUIUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 1.1198,
+      "tp": 1.191501,
+      "sl": 1.083949,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-25 19:37:19",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-25 19:37:19\nEntry: 1.1198\nTP: 1.191501\nSL: 1.083949"
+    },
+    {
       "key": "POLUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
