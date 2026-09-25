@@ -1,24 +1,5 @@
 [
   {
-    "key": "ICPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 2.937,
-    "tp": 2.984097,
-    "sl": 2.897753,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-22 00:35:38",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-22 00:35:38\nEntry: 2.937\nTP: 2.984097\nSL: 2.897753",
-    "result": "TP_HIT",
-    "close_price": 2.99,
-    "closed_at": "2026-09-22 02:33:46"
-  },
-  {
     "key": "APTUSDT",
     "bot_id": "bot6",
     "bot_name": "Pullback Hunter (Bot C)",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.2515,
     "closed_at": "2026-09-25 15:23:10"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "BCHUSDT",
+    "direction": "LONG",
+    "entry": 335.1,
+    "tp": 339.225847,
+    "sl": 331.661795,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-09-25 13:25:56",
+    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-25 13:25:56\nEntry: 335.1\nTP: 339.225847\nSL: 331.661795",
+    "result": "TP_HIT",
+    "close_price": 339.3,
+    "closed_at": "2026-09-25 15:35:37"
   }
 ]
