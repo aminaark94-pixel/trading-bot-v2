@@ -1,41 +1,90 @@
 {
   "bot1": [
     {
-      "key": "ADAUSDT",
+      "key": "FILUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "symbol": "ADAUSDT",
+      "symbol": "FILUSDT",
       "direction": "LONG",
-      "entry": 0.2617,
-      "tp": 0.267497,
-      "sl": 0.258479,
+      "entry": 1.0809,
+      "tp": 1.107187,
+      "sl": 1.066296,
       "score": 80,
       "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 65.66).",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 67.25).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-26 07:25:55",
-      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-26 07:25:55\nEntry: 0.2617\nTP: 0.267497\nSL: 0.258479"
+      "timestamp": "2026-09-26 12:54:14",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-26 12:54:14\nEntry: 1.0809\nTP: 1.107187\nSL: 1.066296"
     },
     {
-      "key": "BNBUSDT",
+      "key": "AVAXUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "symbol": "BNBUSDT",
+      "symbol": "AVAXUSDT",
       "direction": "LONG",
-      "entry": 777.0,
-      "tp": 781.443165,
-      "sl": 774.531576,
+      "entry": 10.697,
+      "tp": 10.878,
+      "sl": 10.596444,
       "score": 80,
       "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 59.14).",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 53.9).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-26 04:56:39",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-26 04:56:39\nEntry: 777.0\nTP: 781.443165\nSL: 774.531576"
+      "timestamp": "2026-09-26 12:53:13",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-26 12:53:13\nEntry: 10.697\nTP: 10.878\nSL: 10.596444"
     }
   ],
-  "bot2": [],
+  "bot2": [
+    {
+      "key": "STXUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "STXUSDT",
+      "direction": "SHORT",
+      "entry": 0.3457,
+      "tp": 0.338358,
+      "sl": 0.350944,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 76.1 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-26 12:54:10",
+      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-09-26 12:54:10\nEntry: 0.3457\nTP: 0.338358\nSL: 0.350944"
+    }
+  ],
   "bot3": [],
   "bot4": [
+    {
+      "key": "SUIUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 1.161,
+      "tp": 1.174993,
+      "sl": 1.149339,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-26 12:53:20",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-26 12:53:20\nEntry: 1.161\nTP: 1.174993\nSL: 1.149339"
+    },
+    {
+      "key": "ADAUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "ADAUSDT",
+      "direction": "LONG",
+      "entry": 0.2559,
+      "tp": 0.258272,
+      "sl": 0.253923,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-26 12:53:09",
+      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-09-26 12:53:09\nEntry: 0.2559\nTP: 0.258272\nSL: 0.253923"
+    },
     {
       "key": "ETHUSDT",
       "bot_id": "bot4",
@@ -69,22 +118,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-26 00:02:12",
       "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-09-26 00:02:12\nEntry: 0.8598\nTP: 0.902242\nSL: 0.843477"
-    },
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.3259,
-      "tp": 0.336531,
-      "sl": 0.321811,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-25 23:52:07",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-25 23:52:07\nEntry: 0.3259\nTP: 0.336531\nSL: 0.321811"
     },
     {
       "key": "FETUSDT",
@@ -174,20 +207,20 @@
   ],
   "bot9": [
     {
-      "key": "AVAXUSDT",
+      "key": "BNBUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 10.908,
-      "tp": 11.173596,
-      "sl": 10.760446,
+      "symbol": "BNBUSDT",
+      "direction": "SHORT",
+      "entry": 773.38,
+      "tp": 771.006919,
+      "sl": 774.698378,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 67.95 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 45.74 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-26 07:25:59",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-26 07:25:59\nEntry: 10.908\nTP: 11.173596\nSL: 10.760446"
+      "timestamp": "2026-09-26 12:53:02",
+      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-09-26 12:53:02\nEntry: 773.38\nTP: 771.006919\nSL: 774.698378"
     },
     {
       "key": "BTCUSDT",
@@ -224,6 +257,22 @@
   ],
   "bot10": [
     {
+      "key": "POLUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "POLUSDT",
+      "direction": "LONG",
+      "entry": 0.1192,
+      "tp": 0.121774,
+      "sl": 0.117913,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-26 12:53:43",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-26 12:53:43\nEntry: 0.1192\nTP: 0.121774\nSL: 0.117913"
+    },
+    {
       "key": "LTCUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -238,22 +287,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-26 07:26:23",
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-26 07:26:23\nEntry: 73.03\nTP: 74.78107\nSL: 72.154465"
-    },
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "SUIUSDT",
-      "direction": "LONG",
-      "entry": 1.1922,
-      "tp": 1.245206,
-      "sl": 1.165697,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-26 04:57:02",
-      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-26 04:57:02\nEntry: 1.1922\nTP: 1.245206\nSL: 1.165697"
     },
     {
       "key": "UNIUSDT",
@@ -275,20 +308,20 @@
   "bot11": [],
   "bot12": [
     {
-      "key": "FILUSDT",
+      "key": "NEARUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "FILUSDT",
+      "symbol": "NEARUSDT",
       "direction": "LONG",
-      "entry": 1.0408,
-      "tp": 1.050628,
-      "sl": 1.034248,
+      "entry": 4.855,
+      "tp": 4.906413,
+      "sl": 4.820725,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.92 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 29.91 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-26 07:27:05",
-      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-09-26 07:27:05\nEntry: 1.0408\nTP: 1.050628\nSL: 1.034248"
+      "timestamp": "2026-09-26 12:53:30",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-09-26 12:53:30\nEntry: 4.855\nTP: 4.906413\nSL: 4.820725"
     },
     {
       "key": "XRPUSDT",
