@@ -1,6 +1,38 @@
 {
   "bot1": [
     {
+      "key": "SUIUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "SUIUSDT",
+      "direction": "LONG",
+      "entry": 1.1664,
+      "tp": 1.187669,
+      "sl": 1.154584,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 55.1).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-27 05:32:25",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-09-27 05:32:25\nEntry: 1.1664\nTP: 1.187669\nSL: 1.154584"
+    },
+    {
+      "key": "AVAXUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "AVAXUSDT",
+      "direction": "LONG",
+      "entry": 10.916,
+      "tp": 11.129494,
+      "sl": 10.797392,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 60.36).",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-27 05:32:19",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-27 05:32:19\nEntry: 10.916\nTP: 11.129494\nSL: 10.797392"
+    },
+    {
       "key": "NEARUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -21,22 +53,6 @@
   "bot3": [],
   "bot4": [
     {
-      "key": "AVAXUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 10.757,
-      "tp": 10.911658,
-      "sl": 10.628118,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-27 03:01:39",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-27 03:01:39\nEntry: 10.757\nTP: 10.911658\nSL: 10.628118"
-    },
-    {
       "key": "ETHUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -55,20 +71,36 @@
   ],
   "bot5": [
     {
-      "key": "BCHUSDT",
+      "key": "STXUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "symbol": "BCHUSDT",
+      "symbol": "STXUSDT",
       "direction": "LONG",
-      "entry": 337.4,
-      "tp": 343.500366,
-      "sl": 335.053705,
+      "entry": 0.3413,
+      "tp": 0.351153,
+      "sl": 0.33751,
       "score": 87,
       "provider": "Technical",
       "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-26 21:45:55",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-09-26 21:45:55\nEntry: 337.4\nTP: 343.500366\nSL: 335.053705"
+      "timestamp": "2026-09-27 05:33:08",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-09-27 05:33:08\nEntry: 0.3413\nTP: 0.351153\nSL: 0.33751"
+    },
+    {
+      "key": "LTCUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry": 72.36,
+      "tp": 73.949417,
+      "sl": 71.748686,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-27 05:32:39",
+      "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-09-27 05:32:39\nEntry: 72.36\nTP: 73.949417\nSL: 71.748686"
     }
   ],
   "bot6": [],
@@ -174,6 +206,22 @@
     }
   ],
   "bot10": [
+    {
+      "key": "RENDERUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 2.001,
+      "tp": 2.047917,
+      "sl": 1.977541,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-27 05:32:59",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-27 05:32:59\nEntry: 2.001\nTP: 2.047917\nSL: 1.977541"
+    },
     {
       "key": "POLUSDT",
       "bot_id": "bot10",
