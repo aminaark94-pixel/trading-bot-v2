@@ -15,43 +15,11 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-30 07:24:26",
       "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-09-30 07:24:26\nEntry: 1.935\nTP: 1.975546\nSL: 1.912475"
-    },
-    {
-      "key": "ICPUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "ICPUSDT",
-      "direction": "LONG",
-      "entry": 3.453,
-      "tp": 3.568239,
-      "sl": 3.388978,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 66.72).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-30 01:15:07",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-30 01:15:07\nEntry: 3.453\nTP: 3.568239\nSL: 3.388978"
     }
   ],
   "bot2": [],
   "bot3": [],
   "bot4": [
-    {
-      "key": "FETUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "FETUSDT",
-      "direction": "LONG",
-      "entry": 0.2186,
-      "tp": 0.222506,
-      "sl": 0.215345,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-30 13:47:01",
-      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-30 13:47:01\nEntry: 0.2186\nTP: 0.222506\nSL: 0.215345"
-    },
     {
       "key": "BCHUSDT",
       "bot_id": "bot4",
@@ -224,6 +192,22 @@
   ],
   "bot11": [],
   "bot12": [
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 3.381,
+      "tp": 3.429707,
+      "sl": 3.348529,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.43 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-01 01:10:31",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-10-01 01:10:31\nEntry: 3.381\nTP: 3.429707\nSL: 3.348529"
+    },
     {
       "key": "ADAUSDT",
       "bot_id": "bot12",
