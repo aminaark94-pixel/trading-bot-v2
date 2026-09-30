@@ -31,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-30 01:15:07",
       "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-09-30 01:15:07\nEntry: 3.453\nTP: 3.568239\nSL: 3.388978"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "SOLUSDT",
-      "direction": "LONG",
-      "entry": 118.99,
-      "tp": 120.369659,
-      "sl": 118.223523,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 54.25).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-29 14:09:04",
-      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-09-29 14:09:04\nEntry: 118.99\nTP: 120.369659\nSL: 118.223523"
     }
   ],
   "bot2": [],
@@ -57,16 +41,16 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "symbol": "FETUSDT",
-      "direction": "SHORT",
-      "entry": 0.2219,
-      "tp": 0.218442,
-      "sl": 0.224781,
+      "direction": "LONG",
+      "entry": 0.2186,
+      "tp": 0.222506,
+      "sl": 0.215345,
       "score": 72,
       "provider": "Technical",
       "reason": "MACD line just crossed its signal line (fast momentum flip).",
       "status": "waiting_entry",
-      "timestamp": "2026-09-30 07:24:25",
-      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-09-30 07:24:25\nEntry: 0.2219\nTP: 0.218442\nSL: 0.224781"
+      "timestamp": "2026-09-30 13:47:01",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-09-30 13:47:01\nEntry: 0.2186\nTP: 0.222506\nSL: 0.215345"
     },
     {
       "key": "BCHUSDT",
@@ -137,25 +121,24 @@
   ],
   "bot6": [],
   "bot7": [],
-  "bot8": [
-    {
-      "key": "LINKUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "LINKUSDT",
-      "direction": "SHORT",
-      "entry": 14.664,
-      "tp": 14.298517,
-      "sl": 14.846741,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-30 01:14:36",
-      "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-09-30 01:14:36\nEntry: 14.664\nTP: 14.298517\nSL: 14.846741"
-    }
-  ],
+  "bot8": [],
   "bot9": [
+    {
+      "key": "SOLUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "SOLUSDT",
+      "direction": "SHORT",
+      "entry": 117.95,
+      "tp": 116.656489,
+      "sl": 118.668617,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 39.81 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-30 13:46:10",
+      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-09-30 13:46:10\nEntry: 117.95\nTP: 116.656489\nSL: 118.668617"
+    },
     {
       "key": "XRPUSDT",
       "bot_id": "bot9",
@@ -187,25 +170,25 @@
       "status": "waiting_entry",
       "timestamp": "2026-09-29 20:45:36",
       "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-09-29 20:45:36\nEntry: 83229.94\nTP: 82297.113879\nSL: 83748.176734"
-    },
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 11.337,
-      "tp": 11.712092,
-      "sl": 11.128616,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 70.69 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-29 14:09:23",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-29 14:09:23\nEntry: 11.337\nTP: 11.712092\nSL: 11.128616"
     }
   ],
   "bot10": [
+    {
+      "key": "APTUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "APTUSDT",
+      "direction": "SHORT",
+      "entry": 0.7866,
+      "tp": 0.769425,
+      "sl": 0.795187,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-09-30 13:46:39",
+      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-30 13:46:39\nEntry: 0.7866\nTP: 0.769425\nSL: 0.795187"
+    },
     {
       "key": "BNBUSDT",
       "bot_id": "bot10",
@@ -241,22 +224,6 @@
   ],
   "bot11": [
     {
-      "key": "FILUSDT",
-      "bot_id": "bot11",
-      "bot_name": "Trendline Breakout",
-      "symbol": "FILUSDT",
-      "direction": "SHORT",
-      "entry": 1.0525,
-      "tp": 1.019658,
-      "sl": 1.067428,
-      "score": 78,
-      "provider": "Technical",
-      "reason": "20-period range breakout with 5.6x volume spike.",
-      "status": "waiting_entry",
-      "timestamp": "2026-09-30 04:44:35",
-      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-09-30 04:44:35\nEntry: 1.0525\nTP: 1.019658\nSL: 1.067428"
-    },
-    {
       "key": "INJUSDT",
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
@@ -275,20 +242,20 @@
   ],
   "bot12": [
     {
-      "key": "POLUSDT",
+      "key": "AVAXUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "POLUSDT",
+      "symbol": "AVAXUSDT",
       "direction": "LONG",
-      "entry": 0.11698,
-      "tp": 0.117865,
-      "sl": 0.11639,
+      "entry": 11.065,
+      "tp": 11.163611,
+      "sl": 10.999259,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 31.84 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.11 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-09-30 04:44:04",
-      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-09-30 04:44:04\nEntry: 0.11698\nTP: 0.117865\nSL: 0.11639"
+      "timestamp": "2026-09-30 13:46:29",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-30 13:46:29\nEntry: 11.065\nTP: 11.163611\nSL: 10.999259"
     },
     {
       "key": "ADAUSDT",
