@@ -83,18 +83,18 @@
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 47,
+      "wins": 48,
       "losses": 74,
-      "total": 121,
-      "win_rate": 38.8
+      "total": 122,
+      "win_rate": 39.3
     },
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 193,
-      "losses": 240,
-      "total": 433,
-      "win_rate": 44.6
+      "losses": 241,
+      "total": 434,
+      "win_rate": 44.5
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 17,
     "win_rate": 58.8
   },
-  "last_run": "2026-09-30T08:47:32.768089+00:00",
+  "last_run": "2026-09-30T15:26:47.473601+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }

@@ -32,22 +32,6 @@
     "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-09-30 13:46:39\nEntry: 0.7866\nTP: 0.769425\nSL: 0.795187"
   },
   {
-    "key": "AVAXUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 11.065,
-    "tp": 11.163611,
-    "sl": 10.999259,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 40.11 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-30 13:46:29",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-09-30 13:46:29\nEntry: 11.065\nTP: 11.163611\nSL: 10.999259"
-  },
-  {
     "key": "SOLUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -94,22 +78,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-09-30 07:23:39",
     "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-09-30 07:23:39\nEntry: 762.06\nTP: 767.50209\nSL: 759.338955"
-  },
-  {
-    "key": "INJUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "INJUSDT",
-    "direction": "SHORT",
-    "entry": 7.586,
-    "tp": 7.304726,
-    "sl": 7.713852,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 1.5x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-09-30 04:44:23",
-    "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-09-30 04:44:23\nEntry: 7.586\nTP: 7.304726\nSL: 7.713852"
   },
   {
     "key": "BCHUSDT",
