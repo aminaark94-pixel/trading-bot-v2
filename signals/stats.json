@@ -28,17 +28,17 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 110,
-      "losses": 148,
-      "total": 258,
-      "win_rate": 42.6
+      "losses": 149,
+      "total": 259,
+      "win_rate": 42.5
     },
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "wins": 45,
+      "wins": 46,
       "losses": 86,
-      "total": 131,
-      "win_rate": 34.4
+      "total": 132,
+      "win_rate": 34.8
     },
     {
       "bot_id": "bot6",
@@ -60,9 +60,9 @@
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
       "wins": 56,
-      "losses": 128,
-      "total": 184,
-      "win_rate": 30.4
+      "losses": 129,
+      "total": 185,
+      "win_rate": 30.3
     },
     {
       "bot_id": "bot9",
@@ -91,10 +91,10 @@
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 202,
+      "wins": 203,
       "losses": 251,
-      "total": 453,
-      "win_rate": 44.6
+      "total": 454,
+      "win_rate": 44.7
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 17,
     "win_rate": 58.8
   },
-  "last_run": "2026-10-04T15:54:08.195476+00:00",
+  "last_run": "2026-10-04T18:52:18.167875+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
