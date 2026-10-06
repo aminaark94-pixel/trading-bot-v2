@@ -1,36 +1,20 @@
 {
   "bot1": [
     {
-      "key": "NEARUSDT",
+      "key": "AVAXUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "symbol": "NEARUSDT",
+      "symbol": "AVAXUSDT",
       "direction": "LONG",
-      "entry": 5.172,
-      "tp": 5.289353,
-      "sl": 5.106804,
+      "entry": 11.631,
+      "tp": 11.843201,
+      "sl": 11.51311,
       "score": 80,
       "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 62.29).",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 60.37).",
       "status": "waiting_entry",
-      "timestamp": "2026-10-07 01:29:01",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-10-07 01:29:01\nEntry: 5.172\nTP: 5.289353\nSL: 5.106804"
-    },
-    {
-      "key": "XRPUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "XRPUSDT",
-      "direction": "LONG",
-      "entry": 1.5153,
-      "tp": 1.535264,
-      "sl": 1.50421,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 54.3).",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-06 20:30:23",
-      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-10-06 20:30:23\nEntry: 1.5153\nTP: 1.535264\nSL: 1.50421"
+      "timestamp": "2026-10-07 04:57:08",
+      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-10-07 04:57:08\nEntry: 11.631\nTP: 11.843201\nSL: 11.51311"
     },
     {
       "key": "SOLUSDT",
@@ -49,24 +33,7 @@
       "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-10-06 02:59:04\nEntry: 120.77\nTP: 121.615656\nSL: 120.30019"
     }
   ],
-  "bot2": [
-    {
-      "key": "FETUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "FETUSDT",
-      "direction": "LONG",
-      "entry": 0.2488,
-      "tp": 0.257926,
-      "sl": 0.242281,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 29.58 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-05 20:02:03",
-      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-10-05 20:02:03\nEntry: 0.2488\nTP: 0.257926\nSL: 0.242281"
-    }
-  ],
+  "bot2": [],
   "bot3": [],
   "bot4": [
     {
@@ -141,6 +108,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "DOGEUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "DOGEUSDT",
+      "direction": "SHORT",
+      "entry": 0.09372,
+      "tp": 0.092768,
+      "sl": 0.094196,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-07 04:57:02",
+      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-10-07 04:57:02\nEntry: 0.09372\nTP: 0.092768\nSL: 0.094196"
+    },
+    {
       "key": "POLUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -214,47 +197,15 @@
       "bot_name": "Triple Supertrend",
       "symbol": "UNIUSDT",
       "direction": "SHORT",
-      "entry": 8.774,
-      "tp": 8.589223,
-      "sl": 8.866389,
+      "entry": 8.559,
+      "tp": 8.427796,
+      "sl": 8.624602,
       "score": 82,
       "provider": "Technical",
       "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
       "status": "waiting_entry",
-      "timestamp": "2026-10-06 20:31:04",
-      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-10-06 20:31:04\nEntry: 8.774\nTP: 8.589223\nSL: 8.866389"
-    },
-    {
-      "key": "APTUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "APTUSDT",
-      "direction": "LONG",
-      "entry": 0.841,
-      "tp": 0.867961,
-      "sl": 0.827519,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-06 20:30:50",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-10-06 20:30:50\nEntry: 0.841\nTP: 0.867961\nSL: 0.827519"
-    },
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 11.331,
-      "tp": 11.559201,
-      "sl": 11.2169,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-06 13:55:15",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-10-06 13:55:15\nEntry: 11.331\nTP: 11.559201\nSL: 11.2169"
+      "timestamp": "2026-10-07 04:57:41",
+      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-10-07 04:57:41\nEntry: 8.559\nTP: 8.427796\nSL: 8.624602"
     }
   ],
   "bot11": [
@@ -277,20 +228,52 @@
   ],
   "bot12": [
     {
-      "key": "SUIUSDT",
+      "key": "FILUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "symbol": "SUIUSDT",
-      "direction": "SHORT",
-      "entry": 1.1906,
-      "tp": 1.182943,
-      "sl": 1.195705,
+      "symbol": "FILUSDT",
+      "direction": "LONG",
+      "entry": 1.1532,
+      "tp": 1.158807,
+      "sl": 1.149461,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.69 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.49 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-10-07 01:29:02",
-      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-10-07 01:29:02\nEntry: 1.1906\nTP: 1.182943\nSL: 1.195705"
+      "timestamp": "2026-10-07 04:58:07",
+      "copy_payload": "Coin: FILUSDT\nSide: LONG\nTime: 2026-10-07 04:58:07\nEntry: 1.1532\nTP: 1.158807\nSL: 1.149461"
+    },
+    {
+      "key": "APTUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "APTUSDT",
+      "direction": "LONG",
+      "entry": 0.8268,
+      "tp": 0.832656,
+      "sl": 0.822897,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.38 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-07 04:57:29",
+      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-10-07 04:57:29\nEntry: 0.8268\nTP: 0.832656\nSL: 0.822897"
+    },
+    {
+      "key": "ADAUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "ADAUSDT",
+      "direction": "LONG",
+      "entry": 0.2675,
+      "tp": 0.268758,
+      "sl": 0.266662,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.82 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-07 04:57:14",
+      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-10-07 04:57:14\nEntry: 0.2675\nTP: 0.268758\nSL: 0.266662"
     }
   ]
 }
