@@ -1,5 +1,53 @@
 [
   {
+    "key": "BCHUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 274.8,
+    "tp": 266.631942,
+    "sl": 278.884029,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-09 05:44:30",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-10-09 05:44:30\nEntry: 274.8\nTP: 266.631942\nSL: 278.884029"
+  },
+  {
+    "key": "DOTUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "DOTUSDT",
+    "direction": "LONG",
+    "entry": 1.126,
+    "tp": 1.16494,
+    "sl": 1.104366,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 69.98 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-09 05:44:14",
+    "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-10-09 05:44:14\nEntry: 1.126\nTP: 1.16494\nSL: 1.104366"
+  },
+  {
+    "key": "XRPUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "XRPUSDT",
+    "direction": "SHORT",
+    "entry": 1.3887,
+    "tp": 1.381613,
+    "sl": 1.393425,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.1 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-09 05:44:00",
+    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-10-09 05:44:00\nEntry: 1.3887\nTP: 1.381613\nSL: 1.393425"
+  },
+  {
     "key": "FILUSDT",
     "bot_id": "bot5",
     "bot_name": "Conservative Swing",
@@ -46,22 +94,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-10-09 01:49:42",
     "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-10-09 01:49:42\nEntry: 0.5143\nTP: 0.567837\nSL: 0.493708"
-  },
-  {
-    "key": "BCHUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BCHUSDT",
-    "direction": "SHORT",
-    "entry": 283.5,
-    "tp": 281.425076,
-    "sl": 284.883283,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 65.41 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-09 01:49:18",
-    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-10-09 01:49:18\nEntry: 283.5\nTP: 281.425076\nSL: 284.883283"
   },
   {
     "key": "LTCUSDT",
@@ -128,22 +160,6 @@
     "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-10-08 20:33:42\nEntry: 1.0402\nTP: 0.982334\nSL: 1.069133"
   },
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "LINKUSDT",
-    "direction": "SHORT",
-    "entry": 12.507,
-    "tp": 12.082349,
-    "sl": 12.719325,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-08 20:33:38",
-    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-10-08 20:33:38\nEntry: 12.507\nTP: 12.082349\nSL: 12.719325"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -190,22 +206,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-10-08 20:33:27",
     "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-10-08 20:33:27\nEntry: 0.08389\nTP: 0.081152\nSL: 0.085411"
-  },
-  {
-    "key": "XRPUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "XRPUSDT",
-    "direction": "SHORT",
-    "entry": 1.3582,
-    "tp": 1.319235,
-    "sl": 1.379847,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 26.54 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-08 20:33:25",
-    "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-10-08 20:33:25\nEntry: 1.3582\nTP: 1.319235\nSL: 1.379847"
   },
   {
     "key": "BNBUSDT",
