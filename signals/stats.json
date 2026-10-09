@@ -60,25 +60,25 @@
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
       "wins": 63,
-      "losses": 131,
-      "total": 194,
-      "win_rate": 32.5
+      "losses": 132,
+      "total": 195,
+      "win_rate": 32.3
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "wins": 107,
-      "losses": 151,
-      "total": 258,
+      "wins": 108,
+      "losses": 152,
+      "total": 260,
       "win_rate": 41.5
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
       "wins": 93,
-      "losses": 137,
-      "total": 230,
-      "win_rate": 40.4
+      "losses": 140,
+      "total": 233,
+      "win_rate": 39.9
     },
     {
       "bot_id": "bot11",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 213,
-      "losses": 261,
-      "total": 474,
-      "win_rate": 44.9
+      "losses": 264,
+      "total": 477,
+      "win_rate": 44.7
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 17,
     "win_rate": 58.8
   },
-  "last_run": "2026-10-09T00:45:24.332570+00:00",
+  "last_run": "2026-10-09T06:44:55.977546+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
