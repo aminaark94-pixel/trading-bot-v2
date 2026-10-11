@@ -31,22 +31,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-10-11 05:58:01",
       "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-10-11 05:58:01\nEntry: 2504.73\nTP: 2495.072491\nSL: 2510.095284"
-    },
-    {
-      "key": "DOGEUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "DOGEUSDT",
-      "direction": "SHORT",
-      "entry": 0.08587,
-      "tp": 0.08545,
-      "sl": 0.086102,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 37.54).",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-11 03:04:21",
-      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-10-11 03:04:21\nEntry: 0.08587\nTP: 0.08545\nSL: 0.086102"
     }
   ],
   "bot2": [
@@ -102,6 +86,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "LINKUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 12.908,
+      "tp": 12.962808,
+      "sl": 12.862326,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-11 11:43:27",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-10-11 11:43:27\nEntry: 12.908\nTP: 12.962808\nSL: 12.862326"
+    },
+    {
       "key": "BTCUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -138,40 +138,24 @@
   ],
   "bot6": [
     {
-      "key": "DOTUSDT",
+      "key": "NEARUSDT",
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
-      "symbol": "DOTUSDT",
+      "symbol": "NEARUSDT",
       "direction": "LONG",
-      "entry": 1.251,
-      "tp": 1.272,
-      "sl": 1.237875,
+      "entry": 5.254,
+      "tp": 5.342481,
+      "sl": 5.198699,
       "score": 76,
       "provider": "Technical",
-      "reason": "1H trend UP (+4.88% EMA20/50 gap) + RSI 46.94 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "reason": "1H trend UP (+4.03% EMA20/50 gap) + RSI 47.73 pullback zone, confirmed by 15m volume contraction->expansion.",
       "status": "waiting_entry",
-      "timestamp": "2026-10-10 13:41:44",
-      "copy_payload": "Coin: DOTUSDT\nSide: LONG\nTime: 2026-10-10 13:41:44\nEntry: 1.251\nTP: 1.272\nSL: 1.237875"
+      "timestamp": "2026-10-11 11:43:37",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-10-11 11:43:37\nEntry: 5.254\nTP: 5.342481\nSL: 5.198699"
     }
   ],
   "bot7": [],
   "bot8": [
-    {
-      "key": "LINKUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "LINKUSDT",
-      "direction": "LONG",
-      "entry": 12.991,
-      "tp": 13.086403,
-      "sl": 12.943299,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-11 05:58:27",
-      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-10-11 05:58:27\nEntry: 12.991\nTP: 13.086403\nSL: 12.943299"
-    },
     {
       "key": "FETUSDT",
       "bot_id": "bot8",
