@@ -3,18 +3,18 @@
     {
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "wins": 96,
-      "losses": 145,
-      "total": 241,
+      "wins": 97,
+      "losses": 147,
+      "total": 244,
       "win_rate": 39.8
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 99,
-      "losses": 128,
-      "total": 227,
-      "win_rate": 43.6
+      "wins": 101,
+      "losses": 129,
+      "total": 230,
+      "win_rate": 43.9
     },
     {
       "bot_id": "bot3",
@@ -27,10 +27,10 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 120,
+      "wins": 121,
       "losses": 159,
-      "total": 279,
-      "win_rate": 43.0
+      "total": 280,
+      "win_rate": 43.2
     },
     {
       "bot_id": "bot5",
@@ -59,42 +59,42 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 66,
-      "losses": 135,
-      "total": 201,
-      "win_rate": 32.8
+      "wins": 67,
+      "losses": 136,
+      "total": 203,
+      "win_rate": 33.0
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "wins": 111,
-      "losses": 162,
-      "total": 273,
-      "win_rate": 40.7
+      "wins": 112,
+      "losses": 164,
+      "total": 276,
+      "win_rate": 40.6
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "wins": 97,
-      "losses": 150,
-      "total": 247,
-      "win_rate": 39.3
+      "wins": 99,
+      "losses": 151,
+      "total": 250,
+      "win_rate": 39.6
     },
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 50,
-      "losses": 79,
-      "total": 129,
-      "win_rate": 38.8
+      "wins": 51,
+      "losses": 81,
+      "total": 132,
+      "win_rate": 38.6
     },
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 221,
-      "losses": 272,
-      "total": 493,
-      "win_rate": 44.8
+      "wins": 223,
+      "losses": 273,
+      "total": 496,
+      "win_rate": 45.0
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 17,
     "win_rate": 58.8
   },
-  "last_run": "2026-10-11T13:34:14.811333+00:00",
+  "last_run": "2026-10-11T18:28:29.777337+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
