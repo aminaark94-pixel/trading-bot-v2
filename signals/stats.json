@@ -4,17 +4,17 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 100,
-      "losses": 157,
-      "total": 257,
-      "win_rate": 38.9
+      "losses": 158,
+      "total": 258,
+      "win_rate": 38.8
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 105,
+      "wins": 106,
       "losses": 133,
-      "total": 238,
-      "win_rate": 44.1
+      "total": 239,
+      "win_rate": 44.4
     },
     {
       "bot_id": "bot3",
@@ -59,10 +59,10 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 69,
+      "wins": 70,
       "losses": 141,
-      "total": 210,
-      "win_rate": 32.9
+      "total": 211,
+      "win_rate": 33.2
     },
     {
       "bot_id": "bot9",
@@ -91,10 +91,10 @@
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 228,
+      "wins": 229,
       "losses": 279,
-      "total": 507,
-      "win_rate": 45.0
+      "total": 508,
+      "win_rate": 45.1
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 17,
     "win_rate": 58.8
   },
-  "last_run": "2026-10-14T06:18:51.400559+00:00",
+  "last_run": "2026-10-14T12:11:49.613125+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
