@@ -48,22 +48,6 @@
     "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-10-15 04:26:17\nEntry: 1.154\nTP: 1.144749\nSL: 1.160166"
   },
   {
-    "key": "AVAXUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "AVAXUSDT",
-    "direction": "SHORT",
-    "entry": 10.041,
-    "tp": 9.970548,
-    "sl": 10.087968,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.66 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-15 04:26:09",
-    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-10-15 04:26:09\nEntry: 10.041\nTP: 9.970548\nSL: 10.087968"
-  },
-  {
     "key": "TIAUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -222,22 +206,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-10-14 22:06:27",
     "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-10-14 22:06:27\nEntry: 4.912\nTP: 4.659824\nSL: 5.052098"
-  },
-  {
-    "key": "ADAUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "ADAUSDT",
-    "direction": "SHORT",
-    "entry": 0.2307,
-    "tp": 0.228054,
-    "sl": 0.232463,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.73 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-14 22:06:13",
-    "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-10-14 22:06:13\nEntry: 0.2307\nTP: 0.228054\nSL: 0.232463"
   },
   {
     "key": "DOGEUSDT",
