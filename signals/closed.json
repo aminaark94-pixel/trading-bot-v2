@@ -1,24 +1,5 @@
 [
   {
-    "key": "RENDERUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "RENDERUSDT",
-    "direction": "LONG",
-    "entry": 1.979,
-    "tp": 2.0191,
-    "sl": 1.963577,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-04 05:10:53",
-    "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-10-04 05:10:53\nEntry: 1.979\nTP: 2.0191\nSL: 1.963577",
-    "result": "SL_HIT",
-    "close_price": 1.95,
-    "closed_at": "2026-10-04 10:45:15"
-  },
-  {
     "key": "ICPUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.129,
     "closed_at": "2026-10-16 00:30:05"
+  },
+  {
+    "key": "STXUSDT",
+    "bot_id": "bot4",
+    "bot_name": "Scalper Precision",
+    "symbol": "STXUSDT",
+    "direction": "LONG",
+    "entry": 0.4008,
+    "tp": 0.411425,
+    "sl": 0.391946,
+    "score": 72,
+    "provider": "Technical",
+    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-15 16:47:24",
+    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-10-15 16:47:24\nEntry: 0.4008\nTP: 0.411425\nSL: 0.391946",
+    "result": "TP_HIT",
+    "close_price": 0.4294,
+    "closed_at": "2026-10-16 03:34:33"
   }
 ]
