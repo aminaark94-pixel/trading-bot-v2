@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "TIAUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.6819,
+      "tp": 0.721512,
+      "sl": 0.659893,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 73.9).",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-16 14:31:33",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-10-16 14:31:33\nEntry: 0.6819\nTP: 0.721512\nSL: 0.659893"
+    },
+    {
       "key": "INJUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -31,22 +47,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-10-16 10:01:20",
       "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-10-16 10:01:20\nEntry: 7.487\nTP: 7.330567\nSL: 7.573907"
-    },
-    {
-      "key": "BCHUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "BCHUSDT",
-      "direction": "SHORT",
-      "entry": 278.5,
-      "tp": 275.465748,
-      "sl": 280.185696,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 54.39).",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-16 10:01:13",
-      "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-10-16 10:01:13\nEntry: 278.5\nTP: 275.465748\nSL: 280.185696"
     }
   ],
   "bot2": [
@@ -120,20 +120,52 @@
   ],
   "bot5": [
     {
-      "key": "TIAUSDT",
+      "key": "STXUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "symbol": "TIAUSDT",
+      "symbol": "STXUSDT",
       "direction": "LONG",
-      "entry": 0.6102,
-      "tp": 0.640402,
-      "sl": 0.598584,
+      "entry": 0.4156,
+      "tp": 0.428794,
+      "sl": 0.410526,
       "score": 87,
       "provider": "Technical",
       "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
       "status": "waiting_entry",
-      "timestamp": "2026-10-16 10:01:38",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-10-16 10:01:38\nEntry: 0.6102\nTP: 0.640402\nSL: 0.598584"
+      "timestamp": "2026-10-16 14:31:37",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-10-16 14:31:37\nEntry: 0.4156\nTP: 0.428794\nSL: 0.410526"
+    },
+    {
+      "key": "POLUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "POLUSDT",
+      "direction": "SHORT",
+      "entry": 0.09591,
+      "tp": 0.094245,
+      "sl": 0.09655,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-16 14:31:13",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-10-16 14:31:13\nEntry: 0.09591\nTP: 0.094245\nSL: 0.09655"
+    },
+    {
+      "key": "APTUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "APTUSDT",
+      "direction": "LONG",
+      "entry": 0.8719,
+      "tp": 0.901025,
+      "sl": 0.860698,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-16 14:31:02",
+      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-10-16 14:31:02\nEntry: 0.8719\nTP: 0.901025\nSL: 0.860698"
     }
   ],
   "bot6": [],
