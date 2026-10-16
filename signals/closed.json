@@ -1,24 +1,5 @@
 [
   {
-    "key": "ICPUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 3.349,
-    "tp": 3.390324,
-    "sl": 3.326043,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 69.67).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-04 02:47:09",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-10-04 02:47:09\nEntry: 3.349\nTP: 3.390324\nSL: 3.326043",
-    "result": "TP_HIT",
-    "close_price": 3.421,
-    "closed_at": "2026-10-04 10:45:15"
-  },
-  {
     "key": "TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.4294,
     "closed_at": "2026-10-16 03:34:33"
+  },
+  {
+    "key": "BCHUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "BCHUSDT",
+    "direction": "SHORT",
+    "entry": 275.8,
+    "tp": 271.378819,
+    "sl": 278.747454,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 64.8 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-15 20:50:05",
+    "copy_payload": "Coin: BCHUSDT\nSide: SHORT\nTime: 2026-10-15 20:50:05\nEntry: 275.8\nTP: 271.378819\nSL: 278.747454",
+    "result": "SL_HIT",
+    "close_price": 279.1,
+    "closed_at": "2026-10-16 05:43:29"
   }
 ]
