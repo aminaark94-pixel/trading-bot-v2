@@ -1,24 +1,5 @@
 [
   {
-    "key": "ICPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "ICPUSDT",
-    "direction": "LONG",
-    "entry": 3.286,
-    "tp": 3.315468,
-    "sl": 3.261443,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-05 11:22:03",
-    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-10-05 11:22:03\nEntry: 3.286\nTP: 3.315468\nSL: 3.261443",
-    "result": "TP_HIT",
-    "close_price": 3.416,
-    "closed_at": "2026-10-05 20:00:53"
-  },
-  {
     "key": "DOGEUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 2.934,
     "closed_at": "2026-10-17 21:23:36"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "ADAUSDT",
+    "direction": "SHORT",
+    "entry": 0.2206,
+    "tp": 0.218096,
+    "sl": 0.221991,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 19.4 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-17 18:11:26",
+    "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-10-17 18:11:26\nEntry: 0.2206\nTP: 0.218096\nSL: 0.221991",
+    "result": "SL_HIT",
+    "close_price": 0.2222,
+    "closed_at": "2026-10-17 23:36:52"
   }
 ]
