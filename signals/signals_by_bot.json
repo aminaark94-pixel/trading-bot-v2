@@ -174,6 +174,22 @@
   ],
   "bot10": [
     {
+      "key": "DOTUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "DOTUSDT",
+      "direction": "SHORT",
+      "entry": 1.073,
+      "tp": 1.056137,
+      "sl": 1.081431,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-18 23:55:09",
+      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-10-18 23:55:09\nEntry: 1.073\nTP: 1.056137\nSL: 1.081431"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
