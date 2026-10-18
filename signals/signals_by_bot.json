@@ -86,6 +86,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "BTCUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "BTCUSDT",
+      "direction": "SHORT",
+      "entry": 81791.83,
+      "tp": 81562.937523,
+      "sl": 81982.573731,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-18 09:53:31",
+      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-10-18 09:53:31\nEntry: 81791.83\nTP: 81562.937523\nSL: 81982.573731"
+    },
+    {
       "key": "UNIUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -100,22 +116,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-10-18 03:46:41",
       "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-10-18 03:46:41\nEntry: 7.148\nTP: 7.232365\nSL: 7.077696"
-    },
-    {
-      "key": "BNBUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "BNBUSDT",
-      "direction": "LONG",
-      "entry": 716.43,
-      "tp": 720.205043,
-      "sl": 713.284131,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-18 03:45:48",
-      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-10-18 03:45:48\nEntry: 716.43\nTP: 720.205043\nSL: 713.284131"
     },
     {
       "key": "INJUSDT",
@@ -188,22 +188,6 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "STXUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "STXUSDT",
-      "direction": "SHORT",
-      "entry": 0.3702,
-      "tp": 0.361344,
-      "sl": 0.374628,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-18 05:29:25",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-10-18 05:29:25\nEntry: 0.3702\nTP: 0.361344\nSL: 0.374628"
-    },
-    {
       "key": "FETUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -238,6 +222,22 @@
   ],
   "bot9": [
     {
+      "key": "BNBUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "BNBUSDT",
+      "direction": "LONG",
+      "entry": 720.61,
+      "tp": 724.269588,
+      "sl": 718.576895,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 53.95 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-18 09:53:45",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-10-18 09:53:45\nEntry: 720.61\nTP: 724.269588\nSL: 718.576895"
+    },
+    {
       "key": "DOTUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -268,22 +268,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-10-18 03:46:37",
       "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-10-18 03:46:37\nEntry: 0.0925\nTP: 0.091097\nSL: 0.09328"
-    },
-    {
-      "key": "BTCUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BTCUSDT",
-      "direction": "SHORT",
-      "entry": 81563.87,
-      "tp": 81198.052141,
-      "sl": 81767.102144,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 45.25 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-17 06:06:40",
-      "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-10-17 06:06:40\nEntry: 81563.87\nTP: 81198.052141\nSL: 81767.102144"
     }
   ],
   "bot10": [
