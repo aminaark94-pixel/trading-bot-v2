@@ -1,19 +1,19 @@
 [
   {
-    "key": "STXUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.3707,
-    "tp": 0.374901,
-    "sl": 0.367199,
-    "score": 72,
+    "key": "AVAXUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "AVAXUSDT",
+    "direction": "SHORT",
+    "entry": 9.759,
+    "tp": 9.615156,
+    "sl": 9.830923,
+    "score": 82,
     "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
     "status": "waiting_entry",
-    "timestamp": "2026-10-18 14:12:58",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-10-18 14:12:58\nEntry: 0.3707\nTP: 0.374901\nSL: 0.367199"
+    "timestamp": "2026-10-18 18:14:41",
+    "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-10-18 18:14:41\nEntry: 9.759\nTP: 9.615156\nSL: 9.830923"
   },
   {
     "key": "UNIUSDT",
@@ -192,22 +192,6 @@
     "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-10-18 03:45:56\nEntry: 0.07903\nTP: 0.077698\nSL: 0.079771"
   },
   {
-    "key": "INJUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "INJUSDT",
-    "direction": "LONG",
-    "entry": 8.542,
-    "tp": 8.690017,
-    "sl": 8.418653,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-17 21:23:21",
-    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-10-17 21:23:21\nEntry: 8.542\nTP: 8.690017\nSL: 8.418653"
-  },
-  {
     "key": "FETUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -222,22 +206,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-10-17 21:23:14",
     "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-10-17 21:23:14\nEntry: 0.1899\nTP: 0.194679\nSL: 0.18751"
-  },
-  {
-    "key": "TIAUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "TIAUSDT",
-    "direction": "SHORT",
-    "entry": 0.667,
-    "tp": 0.626715,
-    "sl": 0.687143,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-17 18:12:26",
-    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-10-17 18:12:26\nEntry: 0.667\nTP: 0.626715\nSL: 0.687143"
   },
   {
     "key": "XRPUSDT",
