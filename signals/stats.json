@@ -4,9 +4,9 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 109,
-      "losses": 175,
-      "total": 284,
-      "win_rate": 38.4
+      "losses": 178,
+      "total": 287,
+      "win_rate": 38.0
     },
     {
       "bot_id": "bot2",
@@ -27,18 +27,18 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 141,
+      "wins": 142,
       "losses": 172,
-      "total": 313,
-      "win_rate": 45.0
+      "total": 314,
+      "win_rate": 45.2
     },
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
       "wins": 61,
-      "losses": 116,
-      "total": 177,
-      "win_rate": 34.5
+      "losses": 117,
+      "total": 178,
+      "win_rate": 34.3
     },
     {
       "bot_id": "bot6",
@@ -59,26 +59,26 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 79,
-      "losses": 149,
-      "total": 228,
-      "win_rate": 34.6
+      "wins": 81,
+      "losses": 150,
+      "total": 231,
+      "win_rate": 35.1
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "wins": 127,
-      "losses": 191,
-      "total": 318,
+      "wins": 128,
+      "losses": 193,
+      "total": 321,
       "win_rate": 39.9
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "wins": 113,
-      "losses": 171,
-      "total": 284,
-      "win_rate": 39.8
+      "wins": 114,
+      "losses": 172,
+      "total": 286,
+      "win_rate": 39.9
     },
     {
       "bot_id": "bot11",
@@ -91,10 +91,10 @@
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 251,
-      "losses": 299,
-      "total": 550,
-      "win_rate": 45.6
+      "wins": 252,
+      "losses": 300,
+      "total": 552,
+      "win_rate": 45.7
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 18,
     "win_rate": 55.6
   },
-  "last_run": "2026-10-20T11:30:25.871297+00:00",
+  "last_run": "2026-10-20T15:45:34.779257+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
