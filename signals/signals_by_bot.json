@@ -190,7 +190,40 @@
       "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-10-21 00:36:08\nEntry: 0.8274\nTP: 0.860506\nSL: 0.810847"
     }
   ],
-  "bot11": [],
+  "bot11": [
+    {
+      "key": "UNIUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 7.677,
+      "tp": 7.899489,
+      "sl": 7.575868,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 1.7x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-21 05:54:59",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-10-21 05:54:59\nEntry: 7.677\nTP: 7.899489\nSL: 7.575868"
+    },
+    {
+      "key": "LINKUSDT",
+      "bot_id": "bot11",
+      "bot_name": "Trendline Breakout",
+      "symbol": "LINKUSDT",
+      "direction": "LONG",
+      "entry": 12.404,
+      "tp": 12.569314,
+      "sl": 12.328857,
+      "score": 78,
+      "provider": "Technical",
+      "reason": "20-period range breakout with 2.1x volume spike.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-21 05:54:29",
+      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-10-21 05:54:29\nEntry: 12.404\nTP: 12.569314\nSL: 12.328857"
+    }
+  ],
   "bot12": [
     {
       "key": "STXUSDT",
@@ -198,15 +231,15 @@
       "bot_name": "Pullback Pro V3",
       "symbol": "STXUSDT",
       "direction": "SHORT",
-      "entry": 0.3551,
-      "tp": 0.351235,
-      "sl": 0.357677,
+      "entry": 0.3581,
+      "tp": 0.354273,
+      "sl": 0.360651,
       "score": 74,
       "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.06 aggressive pullback zone.",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 59.74 aggressive pullback zone.",
       "status": "waiting_entry",
-      "timestamp": "2026-10-21 03:39:54",
-      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-10-21 03:39:54\nEntry: 0.3551\nTP: 0.351235\nSL: 0.357677"
+      "timestamp": "2026-10-21 05:55:23",
+      "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-10-21 05:55:23\nEntry: 0.3581\nTP: 0.354273\nSL: 0.360651"
     },
     {
       "key": "TIAUSDT",
