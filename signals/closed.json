@@ -1,24 +1,5 @@
 [
   {
-    "key": "SUIUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "SUIUSDT",
-    "direction": "LONG",
-    "entry": 1.0876,
-    "tp": 1.105915,
-    "sl": 1.078442,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-10 07:19:25",
-    "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-10-10 07:19:25\nEntry: 1.0876\nTP: 1.105915\nSL: 1.078442",
-    "result": "TP_HIT",
-    "close_price": 1.1268,
-    "closed_at": "2026-10-10 13:40:59"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 108.7,
     "closed_at": "2026-10-21 20:26:29"
+  },
+  {
+    "key": "POLUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "POLUSDT",
+    "direction": "LONG",
+    "entry": 0.09708,
+    "tp": 0.099178,
+    "sl": 0.096127,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 2.1x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-21 20:25:53",
+    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-10-21 20:25:53\nEntry: 0.09708\nTP: 0.099178\nSL: 0.096127",
+    "result": "SL_HIT",
+    "close_price": 0.09599,
+    "closed_at": "2026-10-22 00:23:57"
   }
 ]
