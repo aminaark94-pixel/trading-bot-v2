@@ -1,5 +1,37 @@
 [
   {
+    "key": "INJUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 7.886,
+    "tp": 8.060798,
+    "sl": 7.798601,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-23 03:35:11",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-10-23 03:35:11\nEntry: 7.886\nTP: 8.060798\nSL: 7.798601"
+  },
+  {
+    "key": "ETHUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "ETHUSDT",
+    "direction": "SHORT",
+    "entry": 2386.25,
+    "tp": 2363.391353,
+    "sl": 2398.949248,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 45.62 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-23 03:34:02",
+    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-10-23 03:34:02\nEntry: 2386.25\nTP: 2363.391353\nSL: 2398.949248"
+  },
+  {
     "key": "STXUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -48,22 +80,6 @@
     "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-10-23 00:29:02\nEntry: 0.1847\nTP: 0.183049\nSL: 0.185801"
   },
   {
-    "key": "POLUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "POLUSDT",
-    "direction": "SHORT",
-    "entry": 0.09084,
-    "tp": 0.090331,
-    "sl": 0.09118,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 62.88 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-23 00:28:50",
-    "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-10-23 00:28:50\nEntry: 0.09084\nTP: 0.090331\nSL: 0.09118"
-  },
-  {
     "key": "NEARUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -110,22 +126,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-10-23 00:28:03",
     "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-10-23 00:28:03\nEntry: 103.68\nTP: 102.229806\nSL: 104.485664"
-  },
-  {
-    "key": "TIAUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "TIAUSDT",
-    "direction": "LONG",
-    "entry": 0.5714,
-    "tp": 0.591281,
-    "sl": 0.56146,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-22 20:39:32",
-    "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-10-22 20:39:32\nEntry: 0.5714\nTP: 0.591281\nSL: 0.56146"
   },
   {
     "key": "ICPUSDT",
@@ -256,22 +256,6 @@
     "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-10-22 20:38:25\nEntry: 731.56\nTP: 723.918015\nSL: 735.380993"
   },
   {
-    "key": "XRPUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "XRPUSDT",
-    "direction": "LONG",
-    "entry": 1.3227,
-    "tp": 1.336748,
-    "sl": 1.310994,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-22 20:38:24",
-    "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-10-22 20:38:24\nEntry: 1.3227\nTP: 1.336748\nSL: 1.310994"
-  },
-  {
     "key": "BTCUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -302,21 +286,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-10-22 15:37:54",
     "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-10-22 15:37:54\nEntry: 1.119\nTP: 1.100424\nSL: 1.128288"
-  },
-  {
-    "key": "ETHUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "ETHUSDT",
-    "direction": "SHORT",
-    "entry": 2409.09,
-    "tp": 2389.426691,
-    "sl": 2420.014061,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 32.78 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-22 15:37:26",
-    "copy_payload": "Coin: ETHUSDT\nSide: SHORT\nTime: 2026-10-22 15:37:26\nEntry: 2409.09\nTP: 2389.426691\nSL: 2420.014061"
   }
 ]
