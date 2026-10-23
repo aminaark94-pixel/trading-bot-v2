@@ -290,6 +290,38 @@
   "bot11": [],
   "bot12": [
     {
+      "key": "POLUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "POLUSDT",
+      "direction": "SHORT",
+      "entry": 0.0906,
+      "tp": 0.090207,
+      "sl": 0.090862,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.23 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-23 05:56:21",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-10-23 05:56:21\nEntry: 0.0906\nTP: 0.090207\nSL: 0.090862"
+    },
+    {
+      "key": "XRPUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "XRPUSDT",
+      "direction": "SHORT",
+      "entry": 1.3143,
+      "tp": 1.309881,
+      "sl": 1.317246,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 70.24 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-23 05:55:49",
+      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-10-23 05:55:49\nEntry: 1.3143\nTP: 1.309881\nSL: 1.317246"
+    },
+    {
       "key": "FETUSDT",
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
