@@ -4,9 +4,9 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 113,
-      "losses": 186,
-      "total": 299,
-      "win_rate": 37.8
+      "losses": 188,
+      "total": 301,
+      "win_rate": 37.5
     },
     {
       "bot_id": "bot2",
@@ -28,17 +28,17 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 142,
-      "losses": 176,
-      "total": 318,
-      "win_rate": 44.7
+      "losses": 177,
+      "total": 319,
+      "win_rate": 44.5
     },
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
       "wins": 64,
-      "losses": 121,
-      "total": 185,
-      "win_rate": 34.6
+      "losses": 123,
+      "total": 187,
+      "win_rate": 34.2
     },
     {
       "bot_id": "bot6",
@@ -59,26 +59,26 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 83,
-      "losses": 153,
-      "total": 236,
-      "win_rate": 35.2
+      "wins": 84,
+      "losses": 155,
+      "total": 239,
+      "win_rate": 35.1
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "wins": 137,
-      "losses": 196,
-      "total": 333,
-      "win_rate": 41.1
+      "losses": 197,
+      "total": 334,
+      "win_rate": 41.0
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
       "wins": 120,
-      "losses": 178,
-      "total": 298,
-      "win_rate": 40.3
+      "losses": 179,
+      "total": 299,
+      "win_rate": 40.1
     },
     {
       "bot_id": "bot11",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 257,
-      "losses": 309,
-      "total": 566,
-      "win_rate": 45.4
+      "losses": 312,
+      "total": 569,
+      "win_rate": 45.2
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 18,
     "win_rate": 55.6
   },
-  "last_run": "2026-10-23T00:57:04.067176+00:00",
+  "last_run": "2026-10-23T05:31:35.492420+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
