@@ -49,40 +49,7 @@
       "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-10-24 05:36:52\nEntry: 80698.01\nTP: 80072.401267\nSL: 81045.570407"
     }
   ],
-  "bot2": [
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.3055,
-      "tp": 0.308663,
-      "sl": 0.303241,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "RSI 26.5 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-24 14:20:26",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-10-24 14:20:26\nEntry: 0.3055\nTP: 0.308663\nSL: 0.303241"
-    },
-    {
-      "key": "NEARUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "NEARUSDT",
-      "direction": "LONG",
-      "entry": 4.485,
-      "tp": 4.548151,
-      "sl": 4.439892,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 19.18 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-24 14:19:48",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-10-24 14:19:48\nEntry: 4.485\nTP: 4.548151\nSL: 4.439892"
-    }
-  ],
+  "bot2": [],
   "bot3": [],
   "bot4": [],
   "bot5": [
@@ -106,6 +73,22 @@
   "bot6": [],
   "bot7": [],
   "bot8": [
+    {
+      "key": "RENDERUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "RENDERUSDT",
+      "direction": "LONG",
+      "entry": 1.694,
+      "tp": 1.722893,
+      "sl": 1.679554,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-24 18:26:42",
+      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-10-24 18:26:42\nEntry: 1.694\nTP: 1.722893\nSL: 1.679554"
+    },
     {
       "key": "TIAUSDT",
       "bot_id": "bot8",
