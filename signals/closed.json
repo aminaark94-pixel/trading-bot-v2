@@ -1,24 +1,5 @@
 [
   {
-    "key": "SUIUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "SUIUSDT",
-    "direction": "SHORT",
-    "entry": 1.0682,
-    "tp": 1.032231,
-    "sl": 1.08455,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.8x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-12 21:59:59",
-    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-10-12 21:59:59\nEntry: 1.0682\nTP: 1.032231\nSL: 1.08455",
-    "result": "TP_HIT",
-    "close_price": 1.0189,
-    "closed_at": "2026-10-15 01:39:40"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 11.443,
     "closed_at": "2026-10-26 02:24:56"
+  },
+  {
+    "key": "BTCUSDT",
+    "bot_id": "bot1",
+    "bot_name": "Trend Rider",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "entry": 80557.27,
+    "tp": 80310.252343,
+    "sl": 80694.502032,
+    "score": 80,
+    "provider": "Technical",
+    "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 37.98).",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-25 11:48:48",
+    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-10-25 11:48:48\nEntry: 80557.27\nTP: 80310.252343\nSL: 80694.502032",
+    "result": "TP_HIT",
+    "close_price": 80309.49,
+    "closed_at": "2026-10-26 04:23:36"
   }
 ]
