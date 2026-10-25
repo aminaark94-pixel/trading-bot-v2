@@ -156,6 +156,22 @@
   "bot7": [],
   "bot8": [
     {
+      "key": "LTCUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "LTCUSDT",
+      "direction": "SHORT",
+      "entry": 56.38,
+      "tp": 55.727148,
+      "sl": 56.706426,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-25 17:10:15",
+      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-10-25 17:10:15\nEntry: 56.38\nTP: 55.727148\nSL: 56.706426"
+    },
+    {
       "key": "TIAUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
@@ -256,22 +272,6 @@
       "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-10-25 11:49:14\nEntry: 8.85\nTP: 8.778015\nSL: 8.885993"
     },
     {
-      "key": "INJUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "INJUSDT",
-      "direction": "LONG",
-      "entry": 7.729,
-      "tp": 7.852099,
-      "sl": 7.667451,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-25 06:38:24",
-      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-10-25 06:38:24\nEntry: 7.729\nTP: 7.852099\nSL: 7.667451"
-    },
-    {
       "key": "BNBUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -289,5 +289,38 @@
     }
   ],
   "bot11": [],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "INJUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "INJUSDT",
+      "direction": "SHORT",
+      "entry": 7.636,
+      "tp": 7.552423,
+      "sl": 7.691717,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 60.0 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-25 17:10:44",
+      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-10-25 17:10:44\nEntry: 7.636\nTP: 7.552423\nSL: 7.691717"
+    },
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "ICPUSDT",
+      "direction": "SHORT",
+      "entry": 2.616,
+      "tp": 2.600491,
+      "sl": 2.62634,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 66.62 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-25 17:10:32",
+      "copy_payload": "Coin: ICPUSDT\nSide: SHORT\nTime: 2026-10-25 17:10:32\nEntry: 2.616\nTP: 2.600491\nSL: 2.62634"
+    }
+  ]
 }

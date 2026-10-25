@@ -1,24 +1,5 @@
 [
   {
-    "key": "UNIUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "UNIUSDT",
-    "direction": "SHORT",
-    "entry": 7.388,
-    "tp": 7.32428,
-    "sl": 7.43048,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 58.51 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-14 17:11:05",
-    "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-10-14 17:11:05\nEntry: 7.388\nTP: 7.32428\nSL: 7.43048",
-    "result": "TP_HIT",
-    "close_price": 7.271,
-    "closed_at": "2026-10-14 22:05:25"
-  },
-  {
     "key": "POLUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 56.28,
     "closed_at": "2026-10-25 11:48:36"
+  },
+  {
+    "key": "INJUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 7.729,
+    "tp": 7.852099,
+    "sl": 7.667451,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-25 06:38:24",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-10-25 06:38:24\nEntry: 7.729\nTP: 7.852099\nSL: 7.667451",
+    "result": "SL_HIT",
+    "close_price": 7.636,
+    "closed_at": "2026-10-25 17:09:05"
   }
 ]
