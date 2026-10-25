@@ -32,22 +32,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-10-25 04:42:12",
       "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-10-25 04:42:12\nEntry: 6.882\nTP: 6.801534\nSL: 6.939475"
-    },
-    {
-      "key": "BNBUSDT",
-      "bot_id": "bot2",
-      "bot_name": "Reversal Hunter",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 738.92,
-      "tp": 735.170476,
-      "sl": 741.598232,
-      "score": 85,
-      "provider": "Technical",
-      "reason": "RSI 77.96 extreme + price at Bollinger Band edge.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-25 04:41:24",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-10-25 04:41:24\nEntry: 738.92\nTP: 735.170476\nSL: 741.598232"
     }
   ],
   "bot3": [
@@ -157,7 +141,56 @@
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-10-25 02:35:20\nEntry: 56.76\nTP: 57.414574\nSL: 56.396347"
     }
   ],
-  "bot10": [],
+  "bot10": [
+    {
+      "key": "TIAUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "TIAUSDT",
+      "direction": "LONG",
+      "entry": 0.5395,
+      "tp": 0.548716,
+      "sl": 0.534892,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-25 06:38:28",
+      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-10-25 06:38:28\nEntry: 0.5395\nTP: 0.548716\nSL: 0.534892"
+    },
+    {
+      "key": "INJUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 7.729,
+      "tp": 7.852099,
+      "sl": 7.667451,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-25 06:38:24",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-10-25 06:38:24\nEntry: 7.729\nTP: 7.852099\nSL: 7.667451"
+    },
+    {
+      "key": "BNBUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "BNBUSDT",
+      "direction": "LONG",
+      "entry": 743.15,
+      "tp": 747.775385,
+      "sl": 740.837307,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-25 06:37:35",
+      "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-10-25 06:37:35\nEntry: 743.15\nTP: 747.775385\nSL: 740.837307"
+    }
+  ],
   "bot11": [
     {
       "key": "AVAXUSDT",

@@ -1,24 +1,5 @@
 [
   {
-    "key": "STXUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "STXUSDT",
-    "direction": "SHORT",
-    "entry": 0.4158,
-    "tp": 0.403681,
-    "sl": 0.425899,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-13 23:14:40",
-    "copy_payload": "Coin: STXUSDT\nSide: SHORT\nTime: 2026-10-13 23:14:40\nEntry: 0.4158\nTP: 0.403681\nSL: 0.425899",
-    "result": "SL_HIT",
-    "close_price": 0.4313,
-    "closed_at": "2026-10-14 03:42:36"
-  },
-  {
     "key": "POLUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1.3006,
     "closed_at": "2026-10-25 04:41:04"
+  },
+  {
+    "key": "BNBUSDT",
+    "bot_id": "bot2",
+    "bot_name": "Reversal Hunter",
+    "symbol": "BNBUSDT",
+    "direction": "SHORT",
+    "entry": 738.92,
+    "tp": 735.170476,
+    "sl": 741.598232,
+    "score": 85,
+    "provider": "Technical",
+    "reason": "RSI 77.96 extreme + price at Bollinger Band edge.",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-25 04:41:24",
+    "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-10-25 04:41:24\nEntry: 738.92\nTP: 735.170476\nSL: 741.598232",
+    "result": "SL_HIT",
+    "close_price": 743.02,
+    "closed_at": "2026-10-25 06:37:09"
   }
 ]
