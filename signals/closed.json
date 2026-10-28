@@ -1,24 +1,5 @@
 [
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot1",
-    "bot_name": "Trend Rider",
-    "symbol": "LINKUSDT",
-    "direction": "SHORT",
-    "entry": 12.287,
-    "tp": 12.181568,
-    "sl": 12.345574,
-    "score": 80,
-    "provider": "Technical",
-    "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 43.64).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-17 10:34:13",
-    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-10-17 10:34:13\nEntry: 12.287\nTP: 12.181568\nSL: 12.345574",
-    "result": "TP_HIT",
-    "close_price": 12.028,
-    "closed_at": "2026-10-17 18:10:45"
-  },
-  {
     "key": "RENDERUSDT",
     "bot_id": "bot4",
     "bot_name": "Scalper Precision",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.5496,
     "closed_at": "2026-10-29 00:43:30"
+  },
+  {
+    "key": "BNBUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "BNBUSDT",
+    "direction": "LONG",
+    "entry": 748.19,
+    "tp": 757.925098,
+    "sl": 743.322451,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-10-28 19:29:31",
+    "copy_payload": "Coin: BNBUSDT\nSide: LONG\nTime: 2026-10-28 19:29:31\nEntry: 748.19\nTP: 757.925098\nSL: 743.322451",
+    "result": "TP_HIT",
+    "close_price": 758.5,
+    "closed_at": "2026-10-29 04:33:25"
   }
 ]
