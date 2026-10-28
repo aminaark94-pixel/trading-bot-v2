@@ -38,6 +38,22 @@
   "bot3": [],
   "bot4": [
     {
+      "key": "FETUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "FETUSDT",
+      "direction": "LONG",
+      "entry": 0.1829,
+      "tp": 0.184801,
+      "sl": 0.181316,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-28 06:51:31",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-10-28 06:51:31\nEntry: 0.1829\nTP: 0.184801\nSL: 0.181316"
+    },
+    {
       "key": "STXUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -70,22 +86,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-10-27 00:26:56",
       "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-10-27 00:26:56\nEntry: 1.012\nTP: 0.981762\nSL: 1.02363"
-    },
-    {
-      "key": "SUIUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "SUIUSDT",
-      "direction": "SHORT",
-      "entry": 0.9231,
-      "tp": 0.902092,
-      "sl": 0.93118,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-26 04:22:44",
-      "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-10-26 04:22:44\nEntry: 0.9231\nTP: 0.902092\nSL: 0.93118"
     }
   ],
   "bot6": [
@@ -114,15 +114,15 @@
       "bot_name": "ICT SMC Liquidity Hunter",
       "symbol": "XRPUSDT",
       "direction": "SHORT",
-      "entry": 1.3239,
-      "tp": 1.311012,
-      "sl": 1.330344,
+      "entry": 1.3359,
+      "tp": 1.32315,
+      "sl": 1.342275,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-10-27 23:57:47",
-      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-10-27 23:57:47\nEntry: 1.3239\nTP: 1.311012\nSL: 1.330344"
+      "timestamp": "2026-10-28 06:50:44",
+      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-10-28 06:50:44\nEntry: 1.3359\nTP: 1.32315\nSL: 1.342275"
     },
     {
       "key": "TIAUSDT",
@@ -159,6 +159,22 @@
   ],
   "bot9": [
     {
+      "key": "SOLUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "SOLUSDT",
+      "direction": "LONG",
+      "entry": 101.66,
+      "tp": 102.342225,
+      "sl": 101.280986,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 65.34 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-10-28 06:50:41",
+      "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-10-28 06:50:41\nEntry: 101.66\nTP: 102.342225\nSL: 101.280986"
+    },
+    {
       "key": "ETHUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
@@ -189,22 +205,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-10-27 23:57:40",
       "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-10-27 23:57:40\nEntry: 80648.0\nTP: 81129.027588\nSL: 80380.762451"
-    },
-    {
-      "key": "SOLUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "SOLUSDT",
-      "direction": "SHORT",
-      "entry": 100.76,
-      "tp": 99.572702,
-      "sl": 101.41961,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 43.45 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-26 11:29:12",
-      "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-10-26 11:29:12\nEntry: 100.76\nTP: 99.572702\nSL: 101.41961"
     }
   ],
   "bot10": [
@@ -276,22 +276,6 @@
     }
   ],
   "bot12": [
-    {
-      "key": "INJUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "INJUSDT",
-      "direction": "LONG",
-      "entry": 7.926,
-      "tp": 8.023321,
-      "sl": 7.861119,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 33.88 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-10-28 03:48:02",
-      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-10-28 03:48:02\nEntry: 7.926\nTP: 8.023321\nSL: 7.861119"
-    },
     {
       "key": "BNBUSDT",
       "bot_id": "bot12",
