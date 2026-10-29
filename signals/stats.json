@@ -11,10 +11,10 @@
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 117,
+      "wins": 119,
       "losses": 143,
-      "total": 260,
-      "win_rate": 45.0
+      "total": 262,
+      "win_rate": 45.4
     },
     {
       "bot_id": "bot3",
@@ -59,42 +59,42 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 98,
+      "wins": 101,
       "losses": 165,
-      "total": 263,
-      "win_rate": 37.3
+      "total": 266,
+      "win_rate": 38.0
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "wins": 147,
-      "losses": 227,
-      "total": 374,
-      "win_rate": 39.3
+      "losses": 230,
+      "total": 377,
+      "win_rate": 39.0
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
       "wins": 134,
-      "losses": 200,
-      "total": 334,
-      "win_rate": 40.1
+      "losses": 203,
+      "total": 337,
+      "win_rate": 39.8
     },
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
       "wins": 58,
-      "losses": 93,
-      "total": 151,
-      "win_rate": 38.4
+      "losses": 94,
+      "total": 152,
+      "win_rate": 38.2
     },
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 280,
+      "wins": 283,
       "losses": 327,
-      "total": 607,
-      "win_rate": 46.1
+      "total": 610,
+      "win_rate": 46.4
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 19,
     "win_rate": 52.6
   },
-  "last_run": "2026-10-29T15:54:50.972507+00:00",
+  "last_run": "2026-10-29T20:43:53.559210+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
