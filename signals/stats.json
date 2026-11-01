@@ -3,18 +3,18 @@
     {
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "wins": 128,
+      "wins": 130,
       "losses": 209,
-      "total": 337,
-      "win_rate": 38.0
+      "total": 339,
+      "win_rate": 38.3
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 122,
+      "wins": 123,
       "losses": 146,
-      "total": 268,
-      "win_rate": 45.5
+      "total": 269,
+      "win_rate": 45.7
     },
     {
       "bot_id": "bot3",
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-01T12:08:18.569359+00:00",
+  "last_run": "2026-11-01T17:56:36.039855+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
