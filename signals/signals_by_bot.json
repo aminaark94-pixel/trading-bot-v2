@@ -53,20 +53,20 @@
   "bot3": [],
   "bot4": [
     {
-      "key": "BTCUSDT",
+      "key": "POLUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "symbol": "BTCUSDT",
-      "direction": "LONG",
-      "entry": 77895.23,
-      "tp": 78079.527016,
-      "sl": 77741.649153,
+      "symbol": "POLUSDT",
+      "direction": "SHORT",
+      "entry": 0.09045,
+      "tp": 0.0898,
+      "sl": 0.090992,
       "score": 72,
       "provider": "Technical",
       "reason": "MACD line just crossed its signal line (fast momentum flip).",
       "status": "waiting_entry",
-      "timestamp": "2026-11-02 02:24:10",
-      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-11-02 02:24:10\nEntry: 77895.23\nTP: 78079.527016\nSL: 77741.649153"
+      "timestamp": "2026-11-02 05:55:36",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-11-02 05:55:36\nEntry: 0.09045\nTP: 0.0898\nSL: 0.090992"
     },
     {
       "key": "ICPUSDT",
@@ -151,7 +151,24 @@
       "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-10-30 17:46:21\nEntry: 1.2468\nTP: 1.216274\nSL: 1.258541"
     }
   ],
-  "bot6": [],
+  "bot6": [
+    {
+      "key": "FETUSDT",
+      "bot_id": "bot6",
+      "bot_name": "Pullback Hunter (Bot C)",
+      "symbol": "FETUSDT",
+      "direction": "SHORT",
+      "entry": 0.161,
+      "tp": 0.158725,
+      "sl": 0.162421,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "1H trend DOWN (-0.51% EMA20/50 gap) + RSI 46.92 pullback zone, confirmed by 15m volume contraction->expansion.",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-02 05:55:47",
+      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-11-02 05:55:47\nEntry: 0.161\nTP: 0.158725\nSL: 0.162421"
+    }
+  ],
   "bot7": [],
   "bot8": [
     {
@@ -189,20 +206,20 @@
   ],
   "bot9": [
     {
-      "key": "BNBUSDT",
+      "key": "BTCUSDT",
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "BNBUSDT",
-      "direction": "SHORT",
-      "entry": 708.2,
-      "tp": 704.650358,
-      "sl": 710.172023,
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry": 78122.01,
+      "tp": 78587.406313,
+      "sl": 77863.456492,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 38.05 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 55.03 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-11-02 02:24:23",
-      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-11-02 02:24:23\nEntry: 708.2\nTP: 704.650358\nSL: 710.172023"
+      "timestamp": "2026-11-02 05:54:49",
+      "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-11-02 05:54:49\nEntry: 78122.01\nTP: 78587.406313\nSL: 77863.456492"
     },
     {
       "key": "DOTUSDT",
