@@ -4,9 +4,9 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 134,
-      "losses": 210,
-      "total": 344,
-      "win_rate": 39.0
+      "losses": 211,
+      "total": 345,
+      "win_rate": 38.8
     },
     {
       "bot_id": "bot2",
@@ -27,10 +27,10 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 156,
+      "wins": 158,
       "losses": 191,
-      "total": 347,
-      "win_rate": 45.0
+      "total": 349,
+      "win_rate": 45.3
     },
     {
       "bot_id": "bot5",
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-03T04:02:24.002488+00:00",
+  "last_run": "2026-11-03T11:53:59.983077+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
