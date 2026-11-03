@@ -1,6 +1,22 @@
 {
   "bot1": [
     {
+      "key": "AVAXUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "AVAXUSDT",
+      "direction": "SHORT",
+      "entry": 8.341,
+      "tp": 8.240546,
+      "sl": 8.396807,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 44.08).",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-03 09:01:09",
+      "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-11-03 09:01:09\nEntry: 8.341\nTP: 8.240546\nSL: 8.396807"
+    },
+    {
       "key": "SOLUSDT",
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
@@ -36,6 +52,38 @@
   "bot2": [],
   "bot3": [],
   "bot4": [
+    {
+      "key": "INJUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 6.953,
+      "tp": 7.050479,
+      "sl": 6.871768,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-03 09:01:57",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-11-03 09:01:57\nEntry: 6.953\nTP: 7.050479\nSL: 6.871768"
+    },
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot4",
+      "bot_name": "Scalper Precision",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.43,
+      "tp": 2.449899,
+      "sl": 2.413417,
+      "score": 72,
+      "provider": "Technical",
+      "reason": "MACD line just crossed its signal line (fast momentum flip).",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-03 09:01:46",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-11-03 09:01:46\nEntry: 2.43\nTP: 2.449899\nSL: 2.413417"
+    },
     {
       "key": "STXUSDT",
       "bot_id": "bot4",
@@ -137,22 +185,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-02 21:40:27",
       "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-11-02 21:40:27\nEntry: 11.202\nTP: 11.500258\nSL: 11.052871"
-    },
-    {
-      "key": "AVAXUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "AVAXUSDT",
-      "direction": "LONG",
-      "entry": 8.463,
-      "tp": 8.664828,
-      "sl": 8.362086,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-02 21:40:23",
-      "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-11-02 21:40:23\nEntry: 8.463\nTP: 8.664828\nSL: 8.362086"
     }
   ],
   "bot9": [

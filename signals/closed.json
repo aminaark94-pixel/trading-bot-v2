@@ -1,24 +1,5 @@
 [
   {
-    "key": "SOLUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "SOLUSDT",
-    "direction": "LONG",
-    "entry": 107.82,
-    "tp": 108.6196,
-    "sl": 107.286934,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 36.48 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-22 00:24:30",
-    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-10-22 00:24:30\nEntry: 107.82\nTP: 108.6196\nSL: 107.286934",
-    "result": "SL_HIT",
-    "close_price": 105.08,
-    "closed_at": "2026-10-22 10:31:48"
-  },
-  {
     "key": "FILUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 7.101,
     "closed_at": "2026-11-03 04:40:32"
+  },
+  {
+    "key": "AVAXUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "AVAXUSDT",
+    "direction": "LONG",
+    "entry": 8.463,
+    "tp": 8.664828,
+    "sl": 8.362086,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-02 21:40:23",
+    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-11-02 21:40:23\nEntry: 8.463\nTP: 8.664828\nSL: 8.362086",
+    "result": "SL_HIT",
+    "close_price": 8.347,
+    "closed_at": "2026-11-03 09:00:32"
   }
 ]
