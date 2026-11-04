@@ -4,17 +4,17 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 137,
-      "losses": 211,
-      "total": 348,
-      "win_rate": 39.4
+      "losses": 214,
+      "total": 351,
+      "win_rate": 39.0
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
-      "wins": 124,
+      "wins": 127,
       "losses": 149,
-      "total": 273,
-      "win_rate": 45.4
+      "total": 276,
+      "win_rate": 46.0
     },
     {
       "bot_id": "bot3",
@@ -36,9 +36,9 @@
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
       "wins": 78,
-      "losses": 140,
-      "total": 218,
-      "win_rate": 35.8
+      "losses": 141,
+      "total": 219,
+      "win_rate": 35.6
     },
     {
       "bot_id": "bot6",
@@ -59,42 +59,42 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 106,
+      "wins": 108,
       "losses": 171,
-      "total": 277,
-      "win_rate": 38.3
+      "total": 279,
+      "win_rate": 38.7
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "wins": 156,
-      "losses": 242,
-      "total": 398,
-      "win_rate": 39.2
+      "losses": 245,
+      "total": 401,
+      "win_rate": 38.9
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
       "wins": 145,
-      "losses": 214,
-      "total": 359,
-      "win_rate": 40.4
+      "losses": 217,
+      "total": 362,
+      "win_rate": 40.1
     },
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
       "wins": 61,
-      "losses": 97,
-      "total": 158,
-      "win_rate": 38.6
+      "losses": 100,
+      "total": 161,
+      "win_rate": 37.9
     },
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 293,
+      "wins": 294,
       "losses": 343,
-      "total": 636,
-      "win_rate": 46.1
+      "total": 637,
+      "win_rate": 46.2
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-04T03:15:19.262694+00:00",
+  "last_run": "2026-11-04T10:54:24.841608+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
