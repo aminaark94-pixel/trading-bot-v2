@@ -1,5 +1,21 @@
 [
   {
+    "key": "NEARUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "NEARUSDT",
+    "direction": "LONG",
+    "entry": 4.025,
+    "tp": 4.063285,
+    "sl": 3.999477,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 41.77 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-05 04:49:09",
+    "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-11-05 04:49:09\nEntry: 4.025\nTP: 4.063285\nSL: 3.999477"
+  },
+  {
     "key": "UNIUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -96,22 +112,6 @@
     "copy_payload": "Coin: BTCUSDT\nSide: LONG\nTime: 2026-11-04 23:16:25\nEntry: 80634.01\nTP: 81507.655952\nSL: 80148.651137"
   },
   {
-    "key": "STXUSDT",
-    "bot_id": "bot10",
-    "bot_name": "Triple Supertrend",
-    "symbol": "STXUSDT",
-    "direction": "LONG",
-    "entry": 0.3476,
-    "tp": 0.357422,
-    "sl": 0.342689,
-    "score": 82,
-    "provider": "Technical",
-    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-    "status": "waiting_entry",
-    "timestamp": "2026-11-04 15:54:09",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-11-04 15:54:09\nEntry: 0.3476\nTP: 0.357422\nSL: 0.342689"
-  },
-  {
     "key": "TIAUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -126,22 +126,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-11-04 15:54:05",
     "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-11-04 15:54:05\nEntry: 0.4531\nTP: 0.438667\nSL: 0.460317"
-  },
-  {
-    "key": "NEARUSDT",
-    "bot_id": "bot4",
-    "bot_name": "Scalper Precision",
-    "symbol": "NEARUSDT",
-    "direction": "SHORT",
-    "entry": 4.097,
-    "tp": 4.031305,
-    "sl": 4.151746,
-    "score": 72,
-    "provider": "Technical",
-    "reason": "MACD line just crossed its signal line (fast momentum flip).",
-    "status": "waiting_entry",
-    "timestamp": "2026-11-04 15:53:29",
-    "copy_payload": "Coin: NEARUSDT\nSide: SHORT\nTime: 2026-11-04 15:53:29\nEntry: 4.097\nTP: 4.031305\nSL: 4.151746"
   },
   {
     "key": "DOTUSDT",
