@@ -1,5 +1,22 @@
 {
-  "bot1": [],
+  "bot1": [
+    {
+      "key": "BNBUSDT",
+      "bot_id": "bot1",
+      "bot_name": "Trend Rider",
+      "symbol": "BNBUSDT",
+      "direction": "SHORT",
+      "entry": 715.48,
+      "tp": 710.324517,
+      "sl": 718.344157,
+      "score": 80,
+      "provider": "Technical",
+      "reason": "Trend DOWN confirmed by EMA9/21 + MACD alignment (RSI 42.33).",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-05 08:51:01",
+      "copy_payload": "Coin: BNBUSDT\nSide: SHORT\nTime: 2026-11-05 08:51:01\nEntry: 715.48\nTP: 710.324517\nSL: 718.344157"
+    }
+  ],
   "bot2": [
     {
       "key": "DOTUSDT",
@@ -40,24 +57,7 @@
   "bot5": [],
   "bot6": [],
   "bot7": [],
-  "bot8": [
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "TIAUSDT",
-      "direction": "SHORT",
-      "entry": 0.4531,
-      "tp": 0.438667,
-      "sl": 0.460317,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-04 15:54:05",
-      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-11-04 15:54:05\nEntry: 0.4531\nTP: 0.438667\nSL: 0.460317"
-    }
-  ],
+  "bot8": [],
   "bot9": [
     {
       "key": "SOLUSDT",
@@ -109,6 +109,22 @@
     }
   ],
   "bot10": [
+    {
+      "key": "XRPUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "XRPUSDT",
+      "direction": "LONG",
+      "entry": 1.3105,
+      "tp": 1.323931,
+      "sl": 1.303784,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-05 08:51:10",
+      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-11-05 08:51:10\nEntry: 1.3105\nTP: 1.323931\nSL: 1.303784"
+    },
     {
       "key": "UNIUSDT",
       "bot_id": "bot10",

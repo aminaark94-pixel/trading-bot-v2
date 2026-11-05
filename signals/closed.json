@@ -1,24 +1,5 @@
 [
   {
-    "key": "FILUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "FILUSDT",
-    "direction": "SHORT",
-    "entry": 0.9755,
-    "tp": 0.958312,
-    "sl": 0.984094,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-24 03:07:44",
-    "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-10-24 03:07:44\nEntry: 0.9755\nTP: 0.958312\nSL: 0.984094",
-    "result": "TP_HIT",
-    "close_price": 0.9514,
-    "closed_at": "2026-10-24 05:36:39"
-  },
-  {
     "key": "TIAUSDT",
     "bot_id": "bot12",
     "bot_name": "Pullback Pro V3",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.3577,
     "closed_at": "2026-11-05 04:49:50"
+  },
+  {
+    "key": "TIAUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "TIAUSDT",
+    "direction": "SHORT",
+    "entry": 0.4531,
+    "tp": 0.438667,
+    "sl": 0.460317,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-04 15:54:05",
+    "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-11-04 15:54:05\nEntry: 0.4531\nTP: 0.438667\nSL: 0.460317",
+    "result": "SL_HIT",
+    "close_price": 0.4648,
+    "closed_at": "2026-11-05 08:50:43"
   }
 ]
