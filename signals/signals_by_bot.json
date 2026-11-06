@@ -53,38 +53,6 @@
   "bot3": [],
   "bot4": [
     {
-      "key": "TIAUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "TIAUSDT",
-      "direction": "LONG",
-      "entry": 0.4112,
-      "tp": 0.420178,
-      "sl": 0.403719,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-06 04:56:11",
-      "copy_payload": "Coin: TIAUSDT\nSide: LONG\nTime: 2026-11-06 04:56:11\nEntry: 0.4112\nTP: 0.420178\nSL: 0.403719"
-    },
-    {
-      "key": "ADAUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "ADAUSDT",
-      "direction": "LONG",
-      "entry": 0.1806,
-      "tp": 0.18373,
-      "sl": 0.177992,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-06 04:55:11",
-      "copy_payload": "Coin: ADAUSDT\nSide: LONG\nTime: 2026-11-06 04:55:11\nEntry: 0.1806\nTP: 0.18373\nSL: 0.177992"
-    },
-    {
       "key": "SOLUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
@@ -101,56 +69,7 @@
       "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-11-05 23:57:50\nEntry: 89.8\nTP: 91.132684\nSL: 88.68943"
     }
   ],
-  "bot5": [
-    {
-      "key": "RENDERUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "RENDERUSDT",
-      "direction": "SHORT",
-      "entry": 1.499,
-      "tp": 1.432967,
-      "sl": 1.524398,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-06 04:56:03",
-      "copy_payload": "Coin: RENDERUSDT\nSide: SHORT\nTime: 2026-11-06 04:56:03\nEntry: 1.499\nTP: 1.432967\nSL: 1.524398"
-    },
-    {
-      "key": "APTUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "APTUSDT",
-      "direction": "SHORT",
-      "entry": 0.5829,
-      "tp": 0.558067,
-      "sl": 0.592451,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-06 04:55:35",
-      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-11-06 04:55:35\nEntry: 0.5829\nTP: 0.558067\nSL: 0.592451"
-    },
-    {
-      "key": "DOTUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "DOTUSDT",
-      "direction": "SHORT",
-      "entry": 0.906,
-      "tp": 0.872905,
-      "sl": 0.918729,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-06 04:55:27",
-      "copy_payload": "Coin: DOTUSDT\nSide: SHORT\nTime: 2026-11-06 04:55:27\nEntry: 0.906\nTP: 0.872905\nSL: 0.918729"
-    }
-  ],
+  "bot5": [],
   "bot6": [
     {
       "key": "POLUSDT",
@@ -223,20 +142,20 @@
   ],
   "bot10": [
     {
-      "key": "UNIUSDT",
+      "key": "XRPUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "symbol": "UNIUSDT",
+      "symbol": "XRPUSDT",
       "direction": "SHORT",
-      "entry": 6.821,
-      "tp": 6.57767,
-      "sl": 6.942665,
+      "entry": 1.2054,
+      "tp": 1.186641,
+      "sl": 1.21478,
       "score": 82,
       "provider": "Technical",
       "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
       "status": "waiting_entry",
-      "timestamp": "2026-11-05 23:58:37",
-      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-11-05 23:58:37\nEntry: 6.821\nTP: 6.57767\nSL: 6.942665"
+      "timestamp": "2026-11-06 08:48:39",
+      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-11-06 08:48:39\nEntry: 1.2054\nTP: 1.186641\nSL: 1.21478"
     },
     {
       "key": "SUIUSDT",
