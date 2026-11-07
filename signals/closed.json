@@ -1,24 +1,5 @@
 [
   {
-    "key": "LINKUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "LINKUSDT",
-    "direction": "SHORT",
-    "entry": 11.623,
-    "tp": 11.572704,
-    "sl": 11.656531,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 66.87 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-25 04:41:48",
-    "copy_payload": "Coin: LINKUSDT\nSide: SHORT\nTime: 2026-10-25 04:41:48\nEntry: 11.623\nTP: 11.572704\nSL: 11.656531",
-    "result": "TP_HIT",
-    "close_price": 11.374,
-    "closed_at": "2026-10-25 11:48:36"
-  },
-  {
     "key": "AVAXUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.08999,
     "closed_at": "2026-11-08 00:41:36"
+  },
+  {
+    "key": "FETUSDT",
+    "bot_id": "bot11",
+    "bot_name": "Trendline Breakout",
+    "symbol": "FETUSDT",
+    "direction": "SHORT",
+    "entry": 0.1461,
+    "tp": 0.144311,
+    "sl": 0.146913,
+    "score": 78,
+    "provider": "Technical",
+    "reason": "20-period range breakout with 2.0x volume spike.",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-07 07:58:03",
+    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-11-07 07:58:03\nEntry: 0.1461\nTP: 0.144311\nSL: 0.146913",
+    "result": "TP_HIT",
+    "close_price": 0.144,
+    "closed_at": "2026-11-08 03:59:15"
   }
 ]

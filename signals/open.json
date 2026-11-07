@@ -1,5 +1,21 @@
 [
   {
+    "key": "INJUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "INJUSDT",
+    "direction": "LONG",
+    "entry": 8.196,
+    "tp": 8.384038,
+    "sl": 8.123678,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-08 04:00:49",
+    "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-11-08 04:00:49\nEntry: 8.196\nTP: 8.384038\nSL: 8.123678"
+  },
+  {
     "key": "FILUSDT",
     "bot_id": "bot1",
     "bot_name": "Trend Rider",
@@ -126,22 +142,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-11-07 20:48:58",
     "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-11-07 20:48:58\nEntry: 8.2\nTP: 8.266895\nSL: 8.152218"
-  },
-  {
-    "key": "FETUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "FETUSDT",
-    "direction": "SHORT",
-    "entry": 0.1461,
-    "tp": 0.144311,
-    "sl": 0.146913,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.0x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-11-07 07:58:03",
-    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-11-07 07:58:03\nEntry: 0.1461\nTP: 0.144311\nSL: 0.146913"
   },
   {
     "key": "ICPUSDT",
