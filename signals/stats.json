@@ -27,18 +27,18 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 162,
+      "wins": 163,
       "losses": 194,
-      "total": 356,
-      "win_rate": 45.5
+      "total": 357,
+      "win_rate": 45.7
     },
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
       "wins": 81,
-      "losses": 144,
-      "total": 225,
-      "win_rate": 36.0
+      "losses": 145,
+      "total": 226,
+      "win_rate": 35.8
     },
     {
       "bot_id": "bot6",
@@ -76,9 +76,9 @@
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
       "wins": 148,
-      "losses": 225,
-      "total": 373,
-      "win_rate": 39.7
+      "losses": 226,
+      "total": 374,
+      "win_rate": 39.6
     },
     {
       "bot_id": "bot11",
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-07T02:58:33.459069+00:00",
+  "last_run": "2026-11-07T09:28:29.041603+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
