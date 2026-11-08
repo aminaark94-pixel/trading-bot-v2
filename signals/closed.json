@@ -1,24 +1,5 @@
 [
   {
-    "key": "AVAXUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "AVAXUSDT",
-    "direction": "LONG",
-    "entry": 8.989,
-    "tp": 9.117373,
-    "sl": 8.930649,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 2.0x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-25 04:41:40",
-    "copy_payload": "Coin: AVAXUSDT\nSide: LONG\nTime: 2026-10-25 04:41:40\nEntry: 8.989\nTP: 9.117373\nSL: 8.930649",
-    "result": "SL_HIT",
-    "close_price": 8.849,
-    "closed_at": "2026-10-25 11:48:36"
-  },
-  {
     "key": "ADAUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 0.144,
     "closed_at": "2026-11-08 03:59:15"
+  },
+  {
+    "key": "DOGEUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "DOGEUSDT",
+    "direction": "SHORT",
+    "entry": 0.0723,
+    "tp": 0.071264,
+    "sl": 0.072699,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-07 04:19:47",
+    "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-11-07 04:19:47\nEntry: 0.0723\nTP: 0.071264\nSL: 0.072699",
+    "result": "TP_HIT",
+    "close_price": 0.07125,
+    "closed_at": "2026-11-08 07:03:47"
   }
 ]

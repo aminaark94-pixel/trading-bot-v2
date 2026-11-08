@@ -166,22 +166,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-07 20:49:44",
       "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-11-07 20:49:44\nEntry: 0.4419\nTP: 0.426447\nSL: 0.447843"
-    },
-    {
-      "key": "DOGEUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "DOGEUSDT",
-      "direction": "SHORT",
-      "entry": 0.0723,
-      "tp": 0.071264,
-      "sl": 0.072699,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-07 04:19:47",
-      "copy_payload": "Coin: DOGEUSDT\nSide: SHORT\nTime: 2026-11-07 04:19:47\nEntry: 0.0723\nTP: 0.071264\nSL: 0.072699"
     }
   ],
   "bot6": [],
@@ -322,5 +306,22 @@
       "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-11-07 07:57:43\nEntry: 0.6014\nTP: 0.594173\nSL: 0.604685"
     }
   ],
-  "bot12": []
+  "bot12": [
+    {
+      "key": "UNIUSDT",
+      "bot_id": "bot12",
+      "bot_name": "Pullback Pro V3",
+      "symbol": "UNIUSDT",
+      "direction": "LONG",
+      "entry": 7.103,
+      "tp": 7.142775,
+      "sl": 7.076483,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "1h EMA12/26 trend confirmed + 5m RSI 33.24 aggressive pullback zone.",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-08 07:03:17",
+      "copy_payload": "Coin: UNIUSDT\nSide: LONG\nTime: 2026-11-08 07:03:17\nEntry: 7.103\nTP: 7.142775\nSL: 7.076483"
+    }
+  ]
 }
