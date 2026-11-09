@@ -31,43 +31,11 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-09 04:16:48",
       "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-11-09 04:16:48\nEntry: 75487.0\nTP: 74476.118061\nSL: 76048.601077"
-    },
-    {
-      "key": "INJUSDT",
-      "bot_id": "bot1",
-      "bot_name": "Trend Rider",
-      "symbol": "INJUSDT",
-      "direction": "LONG",
-      "entry": 8.124,
-      "tp": 8.265898,
-      "sl": 8.045167,
-      "score": 80,
-      "provider": "Technical",
-      "reason": "Trend UP confirmed by EMA9/21 + MACD alignment (RSI 52.93).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-09 00:57:52",
-      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-11-09 00:57:52\nEntry: 8.124\nTP: 8.265898\nSL: 8.045167"
     }
   ],
   "bot2": [],
   "bot3": [],
   "bot4": [
-    {
-      "key": "RENDERUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "RENDERUSDT",
-      "direction": "LONG",
-      "entry": 1.553,
-      "tp": 1.583998,
-      "sl": 1.527168,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-09 04:17:52",
-      "copy_payload": "Coin: RENDERUSDT\nSide: LONG\nTime: 2026-11-09 04:17:52\nEntry: 1.553\nTP: 1.583998\nSL: 1.527168"
-    },
     {
       "key": "NEARUSDT",
       "bot_id": "bot4",
@@ -117,27 +85,44 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-09 04:16:56",
       "copy_payload": "Coin: SOLUSDT\nSide: SHORT\nTime: 2026-11-09 04:16:56\nEntry: 87.9\nTP: 84.911932\nSL: 89.049257"
-    },
-    {
-      "key": "FETUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "FETUSDT",
-      "direction": "SHORT",
-      "entry": 0.1422,
-      "tp": 0.13882,
-      "sl": 0.1435,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-08 20:39:22",
-      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-11-08 20:39:22\nEntry: 0.1422\nTP: 0.13882\nSL: 0.1435"
     }
   ],
   "bot6": [],
   "bot7": [],
-  "bot8": [],
+  "bot8": [
+    {
+      "key": "FILUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "FILUSDT",
+      "direction": "SHORT",
+      "entry": 0.7612,
+      "tp": 0.742792,
+      "sl": 0.770404,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-09 07:48:18",
+      "copy_payload": "Coin: FILUSDT\nSide: SHORT\nTime: 2026-11-09 07:48:18\nEntry: 0.7612\nTP: 0.742792\nSL: 0.770404"
+    },
+    {
+      "key": "POLUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "POLUSDT",
+      "direction": "SHORT",
+      "entry": 0.08843,
+      "tp": 0.086957,
+      "sl": 0.089166,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-09 07:47:52",
+      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-11-09 07:47:52\nEntry: 0.08843\nTP: 0.086957\nSL: 0.089166"
+    }
+  ],
   "bot9": [
     {
       "key": "ADAUSDT",
