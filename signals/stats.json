@@ -3,10 +3,10 @@
     {
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "wins": 166,
+      "wins": 167,
       "losses": 221,
-      "total": 387,
-      "win_rate": 42.9
+      "total": 388,
+      "win_rate": 43.0
     },
     {
       "bot_id": "bot2",
@@ -67,26 +67,26 @@
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
-      "wins": 174,
+      "wins": 175,
       "losses": 257,
-      "total": 431,
-      "win_rate": 40.4
+      "total": 432,
+      "win_rate": 40.5
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "wins": 161,
+      "wins": 162,
       "losses": 237,
-      "total": 398,
-      "win_rate": 40.5
+      "total": 399,
+      "win_rate": 40.6
     },
     {
       "bot_id": "bot11",
       "bot_name": "Trendline Breakout",
-      "wins": 69,
+      "wins": 70,
       "losses": 101,
-      "total": 170,
-      "win_rate": 40.6
+      "total": 171,
+      "win_rate": 40.9
     },
     {
       "bot_id": "bot12",
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-14T15:47:29.839091+00:00",
+  "last_run": "2026-11-14T20:13:10.144743+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
