@@ -1,24 +1,5 @@
 [
   {
-    "key": "BCHUSDT",
-    "bot_id": "bot12",
-    "bot_name": "Pullback Pro V3",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 289.8,
-    "tp": 291.737697,
-    "sl": 288.508203,
-    "score": 74,
-    "provider": "Technical",
-    "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.28 aggressive pullback zone.",
-    "status": "waiting_entry",
-    "timestamp": "2026-10-31 18:53:10",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-10-31 18:53:10\nEntry: 289.8\nTP: 291.737697\nSL: 288.508203",
-    "result": "SL_HIT",
-    "close_price": 286.4,
-    "closed_at": "2026-11-01 02:00:30"
-  },
-  {
     "key": "FETUSDT",
     "bot_id": "bot10",
     "bot_name": "Triple Supertrend",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 0.9549,
     "closed_at": "2026-11-16 13:50:57"
+  },
+  {
+    "key": "FETUSDT",
+    "bot_id": "bot10",
+    "bot_name": "Triple Supertrend",
+    "symbol": "FETUSDT",
+    "direction": "SHORT",
+    "entry": 0.1302,
+    "tp": 0.127479,
+    "sl": 0.13156,
+    "score": 82,
+    "provider": "Technical",
+    "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-16 06:58:44",
+    "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-11-16 06:58:44\nEntry: 0.1302\nTP: 0.127479\nSL: 0.13156",
+    "result": "SL_HIT",
+    "close_price": 0.1327,
+    "closed_at": "2026-11-16 23:58:26"
   }
 ]
