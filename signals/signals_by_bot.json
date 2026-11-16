@@ -53,20 +53,20 @@
   "bot3": [],
   "bot4": [
     {
-      "key": "BCHUSDT",
+      "key": "SUIUSDT",
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "symbol": "BCHUSDT",
+      "symbol": "SUIUSDT",
       "direction": "LONG",
-      "entry": 209.2,
-      "tp": 211.224499,
-      "sl": 207.512917,
+      "entry": 0.721,
+      "tp": 0.72885,
+      "sl": 0.714458,
       "score": 72,
       "provider": "Technical",
       "reason": "MACD line just crossed its signal line (fast momentum flip).",
       "status": "waiting_entry",
-      "timestamp": "2026-11-16 03:09:58",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-11-16 03:09:58\nEntry: 209.2\nTP: 211.224499\nSL: 207.512917"
+      "timestamp": "2026-11-16 13:51:44",
+      "copy_payload": "Coin: SUIUSDT\nSide: LONG\nTime: 2026-11-16 13:51:44\nEntry: 0.721\nTP: 0.72885\nSL: 0.714458"
     },
     {
       "key": "RENDERUSDT",
@@ -177,16 +177,16 @@
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "symbol": "XRPUSDT",
-      "direction": "LONG",
-      "entry": 0.9661,
-      "tp": 0.981622,
-      "sl": 0.957476,
+      "direction": "SHORT",
+      "entry": 0.9544,
+      "tp": 0.940887,
+      "sl": 0.961908,
       "score": 75,
       "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 61.51 confirming momentum.",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 45.54 confirming momentum.",
       "status": "waiting_entry",
-      "timestamp": "2026-11-16 03:09:20",
-      "copy_payload": "Coin: XRPUSDT\nSide: LONG\nTime: 2026-11-16 03:09:20\nEntry: 0.9661\nTP: 0.981622\nSL: 0.957476"
+      "timestamp": "2026-11-16 13:51:26",
+      "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-11-16 13:51:26\nEntry: 0.9544\nTP: 0.940887\nSL: 0.961908"
     },
     {
       "key": "LINKUSDT",
@@ -223,6 +223,22 @@
   ],
   "bot10": [
     {
+      "key": "ADAUSDT",
+      "bot_id": "bot10",
+      "bot_name": "Triple Supertrend",
+      "symbol": "ADAUSDT",
+      "direction": "SHORT",
+      "entry": 0.1526,
+      "tp": 0.149741,
+      "sl": 0.15403,
+      "score": 82,
+      "provider": "Technical",
+      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-16 13:51:33",
+      "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-11-16 13:51:33\nEntry: 0.1526\nTP: 0.149741\nSL: 0.15403"
+    },
+    {
       "key": "FETUSDT",
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
@@ -253,22 +269,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-16 06:58:34",
       "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-11-16 06:58:34\nEntry: 0.07996\nTP: 0.078712\nSL: 0.080584"
-    },
-    {
-      "key": "APTUSDT",
-      "bot_id": "bot10",
-      "bot_name": "Triple Supertrend",
-      "symbol": "APTUSDT",
-      "direction": "SHORT",
-      "entry": 0.4495,
-      "tp": 0.440305,
-      "sl": 0.454097,
-      "score": 82,
-      "provider": "Technical",
-      "reason": "Price + EMA9 + EMA21 + EMA50 all aligned \u2014 triple trend confluence.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-16 06:58:24",
-      "copy_payload": "Coin: APTUSDT\nSide: SHORT\nTime: 2026-11-16 06:58:24\nEntry: 0.4495\nTP: 0.440305\nSL: 0.454097"
     }
   ],
   "bot11": [],

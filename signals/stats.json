@@ -28,9 +28,9 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 180,
-      "losses": 199,
-      "total": 379,
-      "win_rate": 47.5
+      "losses": 200,
+      "total": 380,
+      "win_rate": 47.4
     },
     {
       "bot_id": "bot5",
@@ -68,17 +68,17 @@
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "wins": 177,
-      "losses": 262,
-      "total": 439,
-      "win_rate": 40.3
+      "losses": 263,
+      "total": 440,
+      "win_rate": 40.2
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
       "wins": 164,
-      "losses": 241,
-      "total": 405,
-      "win_rate": 40.5
+      "losses": 242,
+      "total": 406,
+      "win_rate": 40.4
     },
     {
       "bot_id": "bot11",
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-16T01:59:12.875978+00:00",
+  "last_run": "2026-11-16T08:52:52.558073+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
