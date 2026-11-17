@@ -169,25 +169,25 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-16 06:58:27",
       "copy_payload": "Coin: LTCUSDT\nSide: LONG\nTime: 2026-11-16 06:58:27\nEntry: 44.72\nTP: 45.453755\nSL: 44.353122"
-    },
-    {
-      "key": "STXUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "STXUSDT",
-      "direction": "LONG",
-      "entry": 0.2664,
-      "tp": 0.27371,
-      "sl": 0.262746,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-15 22:54:21",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-11-15 22:54:21\nEntry: 0.2664\nTP: 0.27371\nSL: 0.262746"
     }
   ],
   "bot9": [
+    {
+      "key": "AVAXUSDT",
+      "bot_id": "bot9",
+      "bot_name": "Supertrend + Kumo Cloud",
+      "symbol": "AVAXUSDT",
+      "direction": "SHORT",
+      "entry": 7.098,
+      "tp": 6.999339,
+      "sl": 7.152811,
+      "score": 75,
+      "provider": "Technical",
+      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 45.43 confirming momentum.",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-17 07:15:42",
+      "copy_payload": "Coin: AVAXUSDT\nSide: SHORT\nTime: 2026-11-17 07:15:42\nEntry: 7.098\nTP: 6.999339\nSL: 7.152811"
+    },
     {
       "key": "XRPUSDT",
       "bot_id": "bot9",
@@ -203,22 +203,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-16 13:51:26",
       "copy_payload": "Coin: XRPUSDT\nSide: SHORT\nTime: 2026-11-16 13:51:26\nEntry: 0.9544\nTP: 0.940887\nSL: 0.961908"
-    },
-    {
-      "key": "LINKUSDT",
-      "bot_id": "bot9",
-      "bot_name": "Supertrend + Kumo Cloud",
-      "symbol": "LINKUSDT",
-      "direction": "LONG",
-      "entry": 9.224,
-      "tp": 9.429936,
-      "sl": 9.109592,
-      "score": 75,
-      "provider": "Technical",
-      "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 50.6 confirming momentum.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-15 22:53:29",
-      "copy_payload": "Coin: LINKUSDT\nSide: LONG\nTime: 2026-11-15 22:53:29\nEntry: 9.224\nTP: 9.429936\nSL: 9.109592"
     },
     {
       "key": "DOGEUSDT",
@@ -288,38 +272,5 @@
     }
   ],
   "bot11": [],
-  "bot12": [
-    {
-      "key": "INJUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "INJUSDT",
-      "direction": "SHORT",
-      "entry": 6.907,
-      "tp": 6.821275,
-      "sl": 6.96415,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 70.14 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-16 23:59:45",
-      "copy_payload": "Coin: INJUSDT\nSide: SHORT\nTime: 2026-11-16 23:59:45\nEntry: 6.907\nTP: 6.821275\nSL: 6.96415"
-    },
-    {
-      "key": "FETUSDT",
-      "bot_id": "bot12",
-      "bot_name": "Pullback Pro V3",
-      "symbol": "FETUSDT",
-      "direction": "SHORT",
-      "entry": 0.1326,
-      "tp": 0.131405,
-      "sl": 0.133397,
-      "score": 74,
-      "provider": "Technical",
-      "reason": "1h EMA12/26 trend confirmed + 5m RSI 61.83 aggressive pullback zone.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-16 23:59:38",
-      "copy_payload": "Coin: FETUSDT\nSide: SHORT\nTime: 2026-11-16 23:59:38\nEntry: 0.1326\nTP: 0.131405\nSL: 0.133397"
-    }
-  ]
+  "bot12": []
 }
