@@ -103,6 +103,22 @@
   "bot4": [],
   "bot5": [
     {
+      "key": "LTCUSDT",
+      "bot_id": "bot5",
+      "bot_name": "Conservative Swing",
+      "symbol": "LTCUSDT",
+      "direction": "SHORT",
+      "entry": 41.54,
+      "tp": 40.724487,
+      "sl": 41.853659,
+      "score": 87,
+      "provider": "Technical",
+      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-20 15:29:45",
+      "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-11-20 15:29:45\nEntry: 41.54\nTP: 40.724487\nSL: 41.853659"
+    },
+    {
       "key": "AVAXUSDT",
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
@@ -133,42 +149,26 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-20 02:53:23",
       "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-11-20 02:53:23\nEntry: 0.1506\nTP: 0.146101\nSL: 0.152331"
-    },
-    {
-      "key": "POLUSDT",
-      "bot_id": "bot5",
-      "bot_name": "Conservative Swing",
-      "symbol": "POLUSDT",
-      "direction": "SHORT",
-      "entry": 0.08147,
-      "tp": 0.078492,
-      "sl": 0.082615,
-      "score": 87,
-      "provider": "Technical",
-      "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-18 00:25:39",
-      "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-11-18 00:25:39\nEntry: 0.08147\nTP: 0.078492\nSL: 0.082615"
     }
   ],
   "bot6": [],
   "bot7": [],
   "bot8": [
     {
-      "key": "STXUSDT",
+      "key": "POLUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "STXUSDT",
+      "symbol": "POLUSDT",
       "direction": "LONG",
-      "entry": 0.2588,
-      "tp": 0.264854,
-      "sl": 0.255773,
+      "entry": 0.07823,
+      "tp": 0.079445,
+      "sl": 0.077622,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-11-20 07:43:18",
-      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-11-20 07:43:18\nEntry: 0.2588\nTP: 0.264854\nSL: 0.255773"
+      "timestamp": "2026-11-20 15:29:52",
+      "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-11-20 15:29:52\nEntry: 0.07823\nTP: 0.079445\nSL: 0.077622"
     },
     {
       "key": "FETUSDT",
@@ -185,22 +185,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-20 07:43:05",
       "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-11-20 07:43:05\nEntry: 0.1223\nTP: 0.125738\nSL: 0.120581"
-    },
-    {
-      "key": "BCHUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "BCHUSDT",
-      "direction": "LONG",
-      "entry": 204.2,
-      "tp": 208.372302,
-      "sl": 202.113848,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-20 02:53:49",
-      "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-11-20 02:53:49\nEntry: 204.2\nTP: 208.372302\nSL: 202.113848"
     }
   ],
   "bot9": [

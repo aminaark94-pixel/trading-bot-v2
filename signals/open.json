@@ -1,19 +1,35 @@
 [
   {
-    "key": "STXUSDT",
+    "key": "POLUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "STXUSDT",
+    "symbol": "POLUSDT",
     "direction": "LONG",
-    "entry": 0.2588,
-    "tp": 0.264854,
-    "sl": 0.255773,
+    "entry": 0.07823,
+    "tp": 0.079445,
+    "sl": 0.077622,
     "score": 76,
     "provider": "Technical",
     "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
     "status": "waiting_entry",
-    "timestamp": "2026-11-20 07:43:18",
-    "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-11-20 07:43:18\nEntry: 0.2588\nTP: 0.264854\nSL: 0.255773"
+    "timestamp": "2026-11-20 15:29:52",
+    "copy_payload": "Coin: POLUSDT\nSide: LONG\nTime: 2026-11-20 15:29:52\nEntry: 0.07823\nTP: 0.079445\nSL: 0.077622"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot5",
+    "bot_name": "Conservative Swing",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 41.54,
+    "tp": 40.724487,
+    "sl": 41.853659,
+    "score": 87,
+    "provider": "Technical",
+    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-20 15:29:45",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-11-20 15:29:45\nEntry: 41.54\nTP: 40.724487\nSL: 41.853659"
   },
   {
     "key": "INJUSDT",
@@ -78,22 +94,6 @@
     "status": "waiting_entry",
     "timestamp": "2026-11-20 07:42:42",
     "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-11-20 07:42:42\nEntry: 3.038\nTP: 3.109461\nSL: 2.986956"
-  },
-  {
-    "key": "BCHUSDT",
-    "bot_id": "bot8",
-    "bot_name": "ICT SMC Liquidity Hunter",
-    "symbol": "BCHUSDT",
-    "direction": "LONG",
-    "entry": 204.2,
-    "tp": 208.372302,
-    "sl": 202.113848,
-    "score": 76,
-    "provider": "Technical",
-    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-    "status": "waiting_entry",
-    "timestamp": "2026-11-20 02:53:49",
-    "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-11-20 02:53:49\nEntry: 204.2\nTP: 208.372302\nSL: 202.113848"
   },
   {
     "key": "DOTUSDT",
@@ -270,21 +270,5 @@
     "status": "waiting_entry",
     "timestamp": "2026-11-20 02:53:03",
     "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-11-20 02:53:03\nEntry: 61682.21\nTP: 60621.731197\nSL: 62271.36489"
-  },
-  {
-    "key": "POLUSDT",
-    "bot_id": "bot5",
-    "bot_name": "Conservative Swing",
-    "symbol": "POLUSDT",
-    "direction": "SHORT",
-    "entry": 0.08147,
-    "tp": 0.078492,
-    "sl": 0.082615,
-    "score": 87,
-    "provider": "Technical",
-    "reason": "Trend + EMA + MACD + RSI all confluent \u2014 high-conviction swing setup.",
-    "status": "waiting_entry",
-    "timestamp": "2026-11-18 00:25:39",
-    "copy_payload": "Coin: POLUSDT\nSide: SHORT\nTime: 2026-11-18 00:25:39\nEntry: 0.08147\nTP: 0.078492\nSL: 0.082615"
   }
 ]
