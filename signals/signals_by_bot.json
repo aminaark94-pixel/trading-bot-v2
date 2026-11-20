@@ -51,57 +51,56 @@
   ],
   "bot2": [
     {
+      "key": "INJUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "INJUSDT",
+      "direction": "LONG",
+      "entry": 6.686,
+      "tp": 6.85598,
+      "sl": 6.564585,
+      "score": 85,
+      "provider": "Technical",
+      "reason": "RSI 21.2 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-20 07:43:11",
+      "copy_payload": "Coin: INJUSDT\nSide: LONG\nTime: 2026-11-20 07:43:11\nEntry: 6.686\nTP: 6.85598\nSL: 6.564585"
+    },
+    {
+      "key": "ICPUSDT",
+      "bot_id": "bot2",
+      "bot_name": "Reversal Hunter",
+      "symbol": "ICPUSDT",
+      "direction": "LONG",
+      "entry": 2.125,
+      "tp": 2.160963,
+      "sl": 2.099312,
+      "score": 74,
+      "provider": "Technical",
+      "reason": "RSI 28.55 extreme + price at Bollinger Band edge.",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-20 07:43:01",
+      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-11-20 07:43:01\nEntry: 2.125\nTP: 2.160963\nSL: 2.099312"
+    },
+    {
       "key": "NEARUSDT",
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "symbol": "NEARUSDT",
       "direction": "LONG",
-      "entry": 3.175,
-      "tp": 3.242506,
-      "sl": 3.126781,
+      "entry": 3.038,
+      "tp": 3.109461,
+      "sl": 2.986956,
       "score": 85,
       "provider": "Technical",
-      "reason": "RSI 24.88 extreme + price at Bollinger Band edge.",
+      "reason": "RSI 18.32 extreme + price at Bollinger Band edge.",
       "status": "waiting_entry",
-      "timestamp": "2026-11-20 02:53:39",
-      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-11-20 02:53:39\nEntry: 3.175\nTP: 3.242506\nSL: 3.126781"
+      "timestamp": "2026-11-20 07:42:42",
+      "copy_payload": "Coin: NEARUSDT\nSide: LONG\nTime: 2026-11-20 07:42:42\nEntry: 3.038\nTP: 3.109461\nSL: 2.986956"
     }
   ],
   "bot3": [],
-  "bot4": [
-    {
-      "key": "TIAUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "TIAUSDT",
-      "direction": "SHORT",
-      "entry": 0.3413,
-      "tp": 0.335781,
-      "sl": 0.345899,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-20 02:54:13",
-      "copy_payload": "Coin: TIAUSDT\nSide: SHORT\nTime: 2026-11-20 02:54:13\nEntry: 0.3413\nTP: 0.335781\nSL: 0.345899"
-    },
-    {
-      "key": "UNIUSDT",
-      "bot_id": "bot4",
-      "bot_name": "Scalper Precision",
-      "symbol": "UNIUSDT",
-      "direction": "SHORT",
-      "entry": 4.936,
-      "tp": 4.858039,
-      "sl": 5.000967,
-      "score": 72,
-      "provider": "Technical",
-      "reason": "MACD line just crossed its signal line (fast momentum flip).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-20 02:53:56",
-      "copy_payload": "Coin: UNIUSDT\nSide: SHORT\nTime: 2026-11-20 02:53:56\nEntry: 4.936\nTP: 4.858039\nSL: 5.000967"
-    }
-  ],
+  "bot4": [],
   "bot5": [
     {
       "key": "AVAXUSDT",
@@ -156,20 +155,36 @@
   "bot7": [],
   "bot8": [
     {
-      "key": "ICPUSDT",
+      "key": "STXUSDT",
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "ICPUSDT",
+      "symbol": "STXUSDT",
       "direction": "LONG",
-      "entry": 2.166,
-      "tp": 2.214642,
-      "sl": 2.14168,
+      "entry": 0.2588,
+      "tp": 0.264854,
+      "sl": 0.255773,
       "score": 76,
       "provider": "Technical",
       "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
       "status": "waiting_entry",
-      "timestamp": "2026-11-20 02:53:59",
-      "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-11-20 02:53:59\nEntry: 2.166\nTP: 2.214642\nSL: 2.14168"
+      "timestamp": "2026-11-20 07:43:18",
+      "copy_payload": "Coin: STXUSDT\nSide: LONG\nTime: 2026-11-20 07:43:18\nEntry: 0.2588\nTP: 0.264854\nSL: 0.255773"
+    },
+    {
+      "key": "FETUSDT",
+      "bot_id": "bot8",
+      "bot_name": "ICT SMC Liquidity Hunter",
+      "symbol": "FETUSDT",
+      "direction": "LONG",
+      "entry": 0.1223,
+      "tp": 0.125738,
+      "sl": 0.120581,
+      "score": 76,
+      "provider": "Technical",
+      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+      "status": "waiting_entry",
+      "timestamp": "2026-11-20 07:43:05",
+      "copy_payload": "Coin: FETUSDT\nSide: LONG\nTime: 2026-11-20 07:43:05\nEntry: 0.1223\nTP: 0.125738\nSL: 0.120581"
     },
     {
       "key": "BCHUSDT",
@@ -186,22 +201,6 @@
       "status": "waiting_entry",
       "timestamp": "2026-11-20 02:53:49",
       "copy_payload": "Coin: BCHUSDT\nSide: LONG\nTime: 2026-11-20 02:53:49\nEntry: 204.2\nTP: 208.372302\nSL: 202.113848"
-    },
-    {
-      "key": "APTUSDT",
-      "bot_id": "bot8",
-      "bot_name": "ICT SMC Liquidity Hunter",
-      "symbol": "APTUSDT",
-      "direction": "LONG",
-      "entry": 0.4095,
-      "tp": 0.42172,
-      "sl": 0.40339,
-      "score": 76,
-      "provider": "Technical",
-      "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
-      "status": "waiting_entry",
-      "timestamp": "2026-11-20 02:53:43",
-      "copy_payload": "Coin: APTUSDT\nSide: LONG\nTime: 2026-11-20 02:53:43\nEntry: 0.4095\nTP: 0.42172\nSL: 0.40339"
     }
   ],
   "bot9": [

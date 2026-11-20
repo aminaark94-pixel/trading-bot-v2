@@ -12,9 +12,9 @@
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "wins": 132,
-      "losses": 162,
-      "total": 294,
-      "win_rate": 44.9
+      "losses": 163,
+      "total": 295,
+      "win_rate": 44.7
     },
     {
       "bot_id": "bot3",
@@ -27,10 +27,10 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 184,
+      "wins": 186,
       "losses": 202,
-      "total": 386,
-      "win_rate": 47.7
+      "total": 388,
+      "win_rate": 47.9
     },
     {
       "bot_id": "bot5",
@@ -60,9 +60,9 @@
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
       "wins": 115,
-      "losses": 196,
-      "total": 311,
-      "win_rate": 37.0
+      "losses": 198,
+      "total": 313,
+      "win_rate": 36.7
     },
     {
       "bot_id": "bot9",
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-19T21:54:32.215552+00:00",
+  "last_run": "2026-11-20T02:43:33.928877+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
