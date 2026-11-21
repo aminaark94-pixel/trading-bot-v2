@@ -1,24 +1,5 @@
 [
   {
-    "key": "SUIUSDT",
-    "bot_id": "bot11",
-    "bot_name": "Trendline Breakout",
-    "symbol": "SUIUSDT",
-    "direction": "SHORT",
-    "entry": 0.8632,
-    "tp": 0.843327,
-    "sl": 0.872233,
-    "score": 78,
-    "provider": "Technical",
-    "reason": "20-period range breakout with 5.1x volume spike.",
-    "status": "waiting_entry",
-    "timestamp": "2026-11-04 08:14:11",
-    "copy_payload": "Coin: SUIUSDT\nSide: SHORT\nTime: 2026-11-04 08:14:11\nEntry: 0.8632\nTP: 0.843327\nSL: 0.872233",
-    "result": "SL_HIT",
-    "close_price": 0.9152,
-    "closed_at": "2026-11-04 15:52:35"
-  },
-  {
     "key": "LINKUSDT",
     "bot_id": "bot11",
     "bot_name": "Trendline Breakout",
@@ -7598,5 +7579,24 @@
     "result": "TP_HIT",
     "close_price": 58836.63,
     "closed_at": "2026-11-20 23:42:08"
+  },
+  {
+    "key": "ADAUSDT",
+    "bot_id": "bot9",
+    "bot_name": "Supertrend + Kumo Cloud",
+    "symbol": "ADAUSDT",
+    "direction": "SHORT",
+    "entry": 0.1409,
+    "tp": 0.137317,
+    "sl": 0.142891,
+    "score": 75,
+    "provider": "Technical",
+    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 39.6 confirming momentum.",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-20 23:42:44",
+    "copy_payload": "Coin: ADAUSDT\nSide: SHORT\nTime: 2026-11-20 23:42:44\nEntry: 0.1409\nTP: 0.137317\nSL: 0.142891",
+    "result": "SL_HIT",
+    "close_price": 0.1429,
+    "closed_at": "2026-11-21 05:13:23"
   }
 ]
