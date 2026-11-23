@@ -1,24 +1,5 @@
 [
   {
-    "key": "SOLUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "SOLUSDT",
-    "direction": "LONG",
-    "entry": 96.04,
-    "tp": 97.724544,
-    "sl": 95.104143,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 58.42 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-11-04 23:16:29",
-    "copy_payload": "Coin: SOLUSDT\nSide: LONG\nTime: 2026-11-04 23:16:29\nEntry: 96.04\nTP: 97.724544\nSL: 95.104143",
-    "result": "SL_HIT",
-    "close_price": 89.83,
-    "closed_at": "2026-11-05 23:57:32"
-  },
-  {
     "key": "ETHUSDT",
     "bot_id": "bot9",
     "bot_name": "Supertrend + Kumo Cloud",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 1716.65,
     "closed_at": "2026-11-22 20:39:45"
+  },
+  {
+    "key": "ICPUSDT",
+    "bot_id": "bot12",
+    "bot_name": "Pullback Pro V3",
+    "symbol": "ICPUSDT",
+    "direction": "LONG",
+    "entry": 1.961,
+    "tp": 1.973058,
+    "sl": 1.952962,
+    "score": 74,
+    "provider": "Technical",
+    "reason": "1h EMA12/26 trend confirmed + 5m RSI 38.91 aggressive pullback zone.",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-23 02:15:39",
+    "copy_payload": "Coin: ICPUSDT\nSide: LONG\nTime: 2026-11-23 02:15:39\nEntry: 1.961\nTP: 1.973058\nSL: 1.952962",
+    "result": "SL_HIT",
+    "close_price": 1.952,
+    "closed_at": "2026-11-23 06:43:36"
   }
 ]
