@@ -3,10 +3,10 @@
     {
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
-      "wins": 181,
+      "wins": 182,
       "losses": 239,
-      "total": 420,
-      "win_rate": 43.1
+      "total": 421,
+      "win_rate": 43.2
     },
     {
       "bot_id": "bot2",
@@ -27,18 +27,18 @@
     {
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
-      "wins": 190,
+      "wins": 191,
       "losses": 206,
-      "total": 396,
-      "win_rate": 48.0
+      "total": 397,
+      "win_rate": 48.1
     },
     {
       "bot_id": "bot5",
       "bot_name": "Conservative Swing",
-      "wins": 105,
+      "wins": 106,
       "losses": 158,
-      "total": 263,
-      "win_rate": 39.9
+      "total": 264,
+      "win_rate": 40.2
     },
     {
       "bot_id": "bot6",
@@ -59,26 +59,26 @@
     {
       "bot_id": "bot8",
       "bot_name": "ICT SMC Liquidity Hunter",
-      "wins": 118,
+      "wins": 119,
       "losses": 204,
-      "total": 322,
-      "win_rate": 36.6
+      "total": 323,
+      "win_rate": 36.8
     },
     {
       "bot_id": "bot9",
       "bot_name": "Supertrend + Kumo Cloud",
       "wins": 185,
-      "losses": 279,
-      "total": 464,
-      "win_rate": 39.9
+      "losses": 282,
+      "total": 467,
+      "win_rate": 39.6
     },
     {
       "bot_id": "bot10",
       "bot_name": "Triple Supertrend",
-      "wins": 171,
+      "wins": 172,
       "losses": 257,
-      "total": 428,
-      "win_rate": 40.0
+      "total": 429,
+      "win_rate": 40.1
     },
     {
       "bot_id": "bot11",
@@ -91,10 +91,10 @@
     {
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
-      "wins": 319,
+      "wins": 322,
       "losses": 385,
-      "total": 704,
-      "win_rate": 45.3
+      "total": 707,
+      "win_rate": 45.5
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-24T05:38:56.737241+00:00",
+  "last_run": "2026-11-24T16:23:21.923861+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
