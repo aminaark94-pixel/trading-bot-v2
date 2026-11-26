@@ -4,17 +4,17 @@
       "bot_id": "bot1",
       "bot_name": "Trend Rider",
       "wins": 182,
-      "losses": 242,
-      "total": 424,
-      "win_rate": 42.9
+      "losses": 244,
+      "total": 426,
+      "win_rate": 42.7
     },
     {
       "bot_id": "bot2",
       "bot_name": "Reversal Hunter",
       "wins": 132,
-      "losses": 167,
-      "total": 299,
-      "win_rate": 44.1
+      "losses": 168,
+      "total": 300,
+      "win_rate": 44.0
     },
     {
       "bot_id": "bot3",
@@ -28,9 +28,9 @@
       "bot_id": "bot4",
       "bot_name": "Scalper Precision",
       "wins": 192,
-      "losses": 206,
-      "total": 398,
-      "win_rate": 48.2
+      "losses": 207,
+      "total": 399,
+      "win_rate": 48.1
     },
     {
       "bot_id": "bot5",
@@ -43,10 +43,10 @@
     {
       "bot_id": "bot6",
       "bot_name": "Pullback Hunter (Bot C)",
-      "wins": 49,
+      "wins": 50,
       "losses": 63,
-      "total": 112,
-      "win_rate": 43.8
+      "total": 113,
+      "win_rate": 44.2
     },
     {
       "bot_id": "bot7",
@@ -92,9 +92,9 @@
       "bot_id": "bot12",
       "bot_name": "Pullback Pro V3",
       "wins": 323,
-      "losses": 387,
-      "total": 710,
-      "win_rate": 45.5
+      "losses": 388,
+      "total": 711,
+      "win_rate": 45.4
     }
   ],
   "winner": {
@@ -105,7 +105,7 @@
     "total": 24,
     "win_rate": 54.2
   },
-  "last_run": "2026-11-26T11:11:14.569106+00:00",
+  "last_run": "2026-11-26T20:09:32.792094+00:00",
   "ai_enabled": false,
   "engine": "github-actions"
 }
