@@ -1,24 +1,5 @@
 [
   {
-    "key": "BTCUSDT",
-    "bot_id": "bot9",
-    "bot_name": "Supertrend + Kumo Cloud",
-    "symbol": "BTCUSDT",
-    "direction": "SHORT",
-    "entry": 74264.01,
-    "tp": 73523.709628,
-    "sl": 74675.287984,
-    "score": 75,
-    "provider": "Technical",
-    "reason": "Price/EMA20/EMA50 aligned (Supertrend-style flip) with RSI 45.56 confirming momentum.",
-    "status": "waiting_entry",
-    "timestamp": "2026-11-09 15:28:37",
-    "copy_payload": "Coin: BTCUSDT\nSide: SHORT\nTime: 2026-11-09 15:28:37\nEntry: 74264.01\nTP: 73523.709628\nSL: 74675.287984",
-    "result": "SL_HIT",
-    "close_price": 74869.97,
-    "closed_at": "2026-11-10 01:54:57"
-  },
-  {
     "key": "FILUSDT",
     "bot_id": "bot8",
     "bot_name": "ICT SMC Liquidity Hunter",
@@ -7598,5 +7579,24 @@
     "result": "SL_HIT",
     "close_price": 59836.86,
     "closed_at": "2026-11-28 01:09:12"
+  },
+  {
+    "key": "LTCUSDT",
+    "bot_id": "bot8",
+    "bot_name": "ICT SMC Liquidity Hunter",
+    "symbol": "LTCUSDT",
+    "direction": "SHORT",
+    "entry": 44.03,
+    "tp": 43.288181,
+    "sl": 44.40091,
+    "score": 76,
+    "provider": "Technical",
+    "reason": "Liquidity sweep beyond recent swing high/low with rejection back into range (ICT/SMC).",
+    "status": "waiting_entry",
+    "timestamp": "2026-11-28 01:10:13",
+    "copy_payload": "Coin: LTCUSDT\nSide: SHORT\nTime: 2026-11-28 01:10:13\nEntry: 44.03\nTP: 43.288181\nSL: 44.40091",
+    "result": "SL_HIT",
+    "close_price": 44.88,
+    "closed_at": "2026-11-28 07:38:29"
   }
 ]
